@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Malegado · Lesson Viewer</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0e0f13;
+    --surface: #16181f;
+    --surface2: #1e2029;
+    --border: #2a2d3a;
+    --accent: #6c63ff;
+    --accent2: #ff6584;
+    --accent3: #43e8b0;
+    --text: #e8eaf2;
+    --muted: #6b7080;
+    --correct: #43e8b0;
+    --wrong: #ff6584;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* BG grain */
+  body::before {
+    content: '';
+    position: fixed; inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none; z-index: 0;
+  }
+
+  .app { position: relative; z-index: 1; display: flex; min-height: 100vh; }
+
+  /* SIDEBAR */
+  .sidebar {
+    width: 260px; flex-shrink: 0;
+    background: var(--surface);
+    border-right: 1px solid var(--border);
+    display: flex; flex-direction: column;
+    position: sticky; top: 0; height: 100vh; overflow-y: auto;
+  }
+
+  .sidebar-logo {
+    padding: 28px 24px 20px;
+    border-bottom: 1px solid var(--border);
+  }
+  .logo-text {
+    font-family: 'Syne', sans-serif;
+    font-size: 22px; font-weight: 800;
+    letter-spacing: -0.5px;
+    background: linear-gradient(135deg, var(--accent), var(--accent3));
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  }
+  .logo-sub { font-size: 11px; color: var(--muted); letter-spacing: 1px; text-transform: uppercase; margin-top: 2px; }
+
+  .module-nav { padding: 16px 12px; flex: 1; }
+  .module-nav-title { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: 1.2px; padding: 0 8px 10px; }
+
+  .nav-item {
+    display: flex; align-items: center; gap: 10px;
+    padding: 10px 12px; border-radius: 10px;
+    cursor: pointer; transition: all 0.18s;
+    margin-bottom: 3px; border: 1px solid transparent;
+    font-size: 13px; font-weight: 500; color: var(--muted);
+    position: relative;
+  }
+  .nav-item:hover { background: var(--surface2); color: var(--text); }
+  .nav-item.active {
+    background: rgba(108,99,255,0.12);
+    border-color: rgba(108,99,255,0.3);
+    color: var(--accent);
+  }
+  .nav-number {
+    width: 24px; height: 24px; border-radius: 6px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 11px; font-weight: 700; flex-shrink: 0;
+    background: var(--surface2); color: var(--muted);
+    transition: all 0.18s;
+  }
+  .nav-item.active .nav-number { background: var(--accent); color: #fff; }
+  .nav-item.done .nav-number { background: var(--correct); color: var(--bg); }
+  .nav-item.done { color: var(--correct); }
+
+  .nav-check { margin-left: auto; font-size: 11px; opacity: 0; transition: opacity 0.2s; }
+  .nav-item.done .nav-check { opacity: 1; }
+
+  /* MAIN */
+  .main { flex: 1; padding: 40px 48px; max-width: 900px; }
+
+  .page-header {
+    margin-bottom: 36px;
+    animation: fadeUp 0.5s ease both;
+  }
+  .breadcrumb { font-size: 12px; color: var(--muted); margin-bottom: 8px; }
+  .breadcrumb span { color: var(--accent); }
+  .page-title {
+    font-family: 'Syne', sans-serif;
+    font-size: 32px; font-weight: 800;
+    letter-spacing: -0.5px; line-height: 1.1;
+  }
+  .page-subtitle { color: var(--muted); margin-top: 6px; font-size: 14px; }
+
+  /* MODULE PANEL */
+  .module-panel {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    overflow: hidden;
+    animation: fadeUp 0.4s ease both;
+  }
+
+  .module-header {
+    padding: 24px 28px;
+    border-bottom: 1px solid var(--border);
+    display: flex; align-items: center; gap: 14px;
+  }
+  .module-icon {
+    width: 44px; height: 44px; border-radius: 12px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 20px; flex-shrink: 0;
+  }
+  .module-header-text { flex: 1; }
+  .module-name {
+    font-family: 'Syne', sans-serif;
+    font-size: 18px; font-weight: 700;
+  }
+  .module-meta { font-size: 12px; color: var(--muted); margin-top: 2px; }
+
+  .module-badge {
+    padding: 4px 12px; border-radius: 20px;
+    font-size: 11px; font-weight: 600; letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+
+  /* VOCAB */
+  .vocab-grid { padding: 20px 24px; display: flex; flex-direction: column; gap: 12px; }
+
+  .vocab-card {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 18px 20px;
+    transition: all 0.2s;
+    cursor: pointer;
+  }
+  .vocab-card:hover { border-color: rgba(108,99,255,0.4); transform: translateY(-1px); }
+  .vocab-card.expanded { border-color: rgba(108,99,255,0.5); }
+
+  .vocab-top { display: flex; align-items: center; gap: 12px; }
+  .vocab-phrase {
+    font-family: 'Syne', sans-serif;
+    font-size: 18px; font-weight: 700; flex: 1;
+  }
+  .vocab-pos {
+    padding: 2px 10px; border-radius: 20px;
+    font-size: 11px; background: rgba(108,99,255,0.15); color: var(--accent);
+    font-weight: 500; text-transform: uppercase; letter-spacing: 0.5px;
+  }
+  .vocab-chevron { color: var(--muted); transition: transform 0.2s; font-size: 12px; }
+  .vocab-card.expanded .vocab-chevron { transform: rotate(180deg); }
+
+  .vocab-details {
+    display: none; margin-top: 14px; padding-top: 14px;
+    border-top: 1px solid var(--border);
+  }
+  .vocab-card.expanded .vocab-details { display: block; }
+
+  .vocab-tooltip { color: var(--muted); font-size: 13px; font-style: italic; margin-bottom: 12px; }
+  .vocab-translate {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: rgba(67,232,176,0.1); color: var(--accent3);
+    padding: 4px 12px; border-radius: 8px; font-size: 12px;
+    font-weight: 500; margin-bottom: 14px;
+  }
+
+  .exercises-title {
+    font-size: 11px; text-transform: uppercase; letter-spacing: 1px;
+    color: var(--muted); margin-bottom: 10px;
+  }
+  .exercise-pill {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 6px 14px; border-radius: 8px; font-size: 12px;
+    background: var(--surface); border: 1px solid var(--border);
+    margin: 0 6px 6px 0; color: var(--text); font-weight: 500;
+    cursor: pointer; transition: all 0.15s;
+  }
+  .exercise-pill:hover { border-color: var(--accent); color: var(--accent); }
+  .exercise-pill.active-ex { background: rgba(108,99,255,0.15); border-color: var(--accent); color: var(--accent); }
+
+  /* Exercise display */
+  .exercise-display {
+    margin-top: 14px; padding: 16px;
+    background: var(--bg); border-radius: 12px;
+    border: 1px solid var(--border);
+    animation: fadeUp 0.25s ease both;
+  }
+  .ex-prompt {
+    font-size: 13px; color: var(--muted); margin-bottom: 12px;
+    font-style: italic;
+  }
+
+  .mc-options { display: flex; flex-direction: column; gap: 8px; }
+  .mc-option {
+    padding: 10px 14px; border-radius: 10px;
+    border: 1px solid var(--border); background: var(--surface);
+    cursor: pointer; transition: all 0.15s; font-size: 13px;
+    display: flex; align-items: center; gap: 10px;
+  }
+  .mc-option:hover { border-color: var(--accent); color: var(--accent); }
+  .mc-option.correct-opt { border-color: var(--correct); background: rgba(67,232,176,0.1); color: var(--correct); }
+  .mc-option.wrong-opt { border-color: var(--wrong); background: rgba(255,101,132,0.1); color: var(--wrong); }
+  .mc-indicator { width: 20px; height: 20px; border-radius: 50%; border: 2px solid var(--border); flex-shrink: 0; transition: all 0.15s; }
+  .mc-option.correct-opt .mc-indicator { background: var(--correct); border-color: var(--correct); }
+  .mc-option.wrong-opt .mc-indicator { background: var(--wrong); border-color: var(--wrong); }
+
+  .fitb-area { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 15px; margin-bottom: 10px; }
+  .fitb-blank {
+    border-bottom: 2px solid var(--accent); min-width: 80px; padding: 2px 6px;
+    text-align: center; color: var(--accent); font-weight: 600;
+    background: rgba(108,99,255,0.08); border-radius: 4px 4px 0 0;
+  }
+  .fitb-options { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+  .fitb-opt {
+    padding: 6px 14px; border-radius: 8px; font-size: 13px;
+    border: 1px solid var(--border); background: var(--surface);
+    cursor: pointer; transition: all 0.15s; font-weight: 500;
+  }
+  .fitb-opt:hover { border-color: var(--accent); color: var(--accent); }
+  .fitb-opt.selected { background: rgba(108,99,255,0.15); border-color: var(--accent); color: var(--accent); }
+
+  /* GRAMMAR */
+  .grammar-list { padding: 20px 24px; display: flex; flex-direction: column; gap: 16px; }
+  .grammar-card {
+    background: var(--surface2); border: 1px solid var(--border);
+    border-radius: 14px; padding: 20px; transition: border-color 0.2s;
+  }
+  .grammar-card:hover { border-color: rgba(108,99,255,0.3); }
+  .grammar-concept {
+    font-family: 'Syne', sans-serif; font-size: 15px; font-weight: 700;
+    color: var(--accent); margin-bottom: 8px;
+  }
+  .grammar-explanation { color: var(--muted); font-size: 13px; line-height: 1.6; margin-bottom: 14px; }
+  .grammar-examples-title { font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); margin-bottom: 8px; }
+  .grammar-example {
+    padding: 10px 14px; border-radius: 10px;
+    background: var(--bg); border-left: 3px solid var(--accent);
+    font-size: 13px; margin-bottom: 8px; font-style: italic;
+  }
+  .grammar-rules { margin-top: 10px; }
+  .grammar-rule {
+    display: flex; gap: 8px; align-items: flex-start;
+    font-size: 12px; color: var(--muted); margin-bottom: 6px;
+  }
+  .rule-bullet { color: var(--accent3); flex-shrink: 0; margin-top: 2px; }
+
+  /* DIALOGUE */
+  .dialogue-list { padding: 20px 24px; display: flex; flex-direction: column; gap: 12px; }
+  .dialogue-turn { display: flex; gap: 12px; animation: fadeUp 0.3s ease both; }
+  .dialogue-turn.ledo { flex-direction: row-reverse; }
+  .speaker-avatar {
+    width: 36px; height: 36px; border-radius: 50%; flex-shrink: 0;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Syne', sans-serif; font-size: 13px; font-weight: 700;
+  }
+  .ado-avatar { background: linear-gradient(135deg, var(--accent), #9b8fff); color: #fff; }
+  .ledo-avatar { background: linear-gradient(135deg, var(--accent2), #ff9eb5); color: #fff; }
+
+  .turn-bubble {
+    background: var(--surface2); border: 1px solid var(--border);
+    border-radius: 14px; padding: 12px 16px; max-width: 70%;
+  }
+  .ledo .turn-bubble { background: rgba(255,101,132,0.08); border-color: rgba(255,101,132,0.2); }
+  .turn-speaker { font-size: 11px; font-weight: 600; margin-bottom: 4px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; }
+  .turn-text { font-size: 15px; font-weight: 500; }
+  .turn-translate {
+    font-size: 12px; color: var(--muted); margin-top: 4px; font-style: italic;
+    padding: 3px 8px; background: rgba(255,255,255,0.03); border-radius: 6px; display: inline-block;
+  }
+  .turn-function {
+    font-size: 10px; margin-top: 6px;
+    padding: 2px 8px; border-radius: 4px; display: inline-block;
+    background: rgba(108,99,255,0.1); color: var(--accent);
+    text-transform: uppercase; letter-spacing: 0.5px;
+  }
+  .practice-badge {
+    font-size: 10px; margin-top: 4px;
+    padding: 2px 8px; border-radius: 4px; display: inline-block;
+    background: rgba(67,232,176,0.1); color: var(--correct);
+    text-transform: uppercase; letter-spacing: 0.5px; margin-left: 4px;
+  }
+
+  /* REGIONAL */
+  .regional-content { padding: 20px 24px; }
+  .region-card {
+    background: var(--surface2); border: 1px solid var(--border);
+    border-radius: 14px; padding: 20px; margin-bottom: 12px;
+    position: relative; overflow: hidden;
+    transition: border-color 0.2s;
+  }
+  .region-card:hover { border-color: rgba(67,232,176,0.3); }
+  .region-accent {
+    position: absolute; left: 0; top: 0; bottom: 0; width: 4px;
+    background: linear-gradient(180deg, var(--accent3), rgba(67,232,176,0.2));
+  }
+  .region-name {
+    font-family: 'Syne', sans-serif; font-size: 14px; font-weight: 700;
+    text-transform: capitalize; margin-bottom: 8px; padding-left: 14px;
+    color: var(--accent3);
+  }
+  .region-note { font-size: 13px; line-height: 1.7; color: var(--text); padding-left: 14px; }
+
+  /* COMPLETION SECTION */
+  .complete-panel {
+    padding: 32px 28px; text-align: center;
+  }
+  .complete-icon { font-size: 48px; margin-bottom: 16px; }
+  .complete-title {
+    font-family: 'Syne', sans-serif; font-size: 24px; font-weight: 800;
+    margin-bottom: 8px;
+  }
+  .complete-sub { color: var(--muted); font-size: 14px; margin-bottom: 24px; }
+  .xp-row { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 24px; }
+  .xp-chip {
+    padding: 8px 20px; border-radius: 12px; font-size: 13px; font-weight: 600;
+    background: rgba(108,99,255,0.15); border: 1px solid rgba(108,99,255,0.3); color: var(--accent);
+  }
+
+  /* NAV FOOTER */
+  .module-footer {
+    padding: 16px 24px; border-top: 1px solid var(--border);
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  .btn {
+    padding: 10px 22px; border-radius: 10px; font-size: 13px;
+    font-weight: 600; cursor: pointer; border: none; transition: all 0.18s;
+    font-family: 'DM Sans', sans-serif; letter-spacing: 0.2px;
+  }
+  .btn-ghost {
+    background: transparent; border: 1px solid var(--border); color: var(--muted);
+  }
+  .btn-ghost:hover { border-color: var(--accent); color: var(--accent); }
+  .btn-primary {
+    background: linear-gradient(135deg, var(--accent), #9b8fff);
+    color: #fff; box-shadow: 0 4px 20px rgba(108,99,255,0.3);
+  }
+  .btn-primary:hover { transform: translateY(-1px); box-shadow: 0 6px 24px rgba(108,99,255,0.45); }
+
+  .progress-bar-wrap {
+    flex: 1; height: 4px; background: var(--surface2);
+    border-radius: 4px; margin: 0 16px; overflow: hidden;
+  }
+  .progress-bar { height: 100%; border-radius: 4px; transition: width 0.4s ease;
+    background: linear-gradient(90deg, var(--accent), var(--accent3)); }
+
+  /* LESSON TABS (top) */
+  .lesson-tabs {
+    display: flex; gap: 6px; margin-bottom: 24px;
+    animation: fadeUp 0.3s ease both;
+  }
+  .lesson-tab {
+    padding: 8px 18px; border-radius: 20px; font-size: 12px; font-weight: 600;
+    cursor: pointer; border: 1px solid var(--border);
+    color: var(--muted); background: var(--surface);
+    transition: all 0.15s; text-transform: uppercase; letter-spacing: 0.5px;
+  }
+  .lesson-tab:hover { border-color: var(--accent); color: var(--accent); }
+  .lesson-tab.active-tab { background: rgba(108,99,255,0.15); border-color: var(--accent); color: var(--accent); }
+
+  /* Stats bar */
+  .stats-strip {
+    display: flex; gap: 12px; margin-bottom: 28px;
+    animation: fadeUp 0.4s ease both;
+  }
+  .stat-chip {
+    display: flex; align-items: center; gap: 6px;
+    padding: 8px 14px; border-radius: 10px;
+    background: var(--surface); border: 1px solid var(--border);
+    font-size: 12px; color: var(--muted);
+  }
+  .stat-chip strong { color: var(--text); }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* Section header */
+  .section-header {
+    padding: 20px 24px 0;
+    font-size: 11px; text-transform: uppercase; letter-spacing: 1.2px; color: var(--muted);
+  }
+
+  /* Phase 1: Core phrase card (Listen & Repeat) */
+  .core-phrase-card {
+    background: linear-gradient(135deg, rgba(108,99,255,0.15), rgba(67,232,176,0.08));
+    border: 1px solid rgba(108,99,255,0.35);
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .core-phrase-text {
+    font-family: 'Syne', sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 8px;
+  }
+  .core-phrase-sub {
+    font-size: 12px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .listen-repeat-btn {
+    margin-top: 16px;
+    padding: 12px 24px;
+    border-radius: 12px;
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .related-words-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 10px;
+    margin-top: 16px;
+  }
+  .related-word-pill {
+    padding: 10px 14px;
+    border-radius: 10px;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .related-word-pill:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+  .quick-match-area {
+    margin-top: 20px;
+    padding: 16px;
+    background: var(--bg);
+    border-radius: 12px;
+    border: 1px solid var(--border);
+  }
+
+  /* Phase 2: Pro-tip card */
+  .pro-tip-card {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--accent);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .pro-tip-concept {
+    font-family: 'Syne', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--accent);
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .pro-tip-explanation {
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--text);
+  }
+  .sentence-building-area {
+    margin-top: 16px;
+  }
+  .word-tiles-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 12px 0;
+  }
+  .word-tile {
+    padding: 10px 16px;
+    border-radius: 10px;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    font-weight: 600;
+    cursor: grab;
+    user-select: none;
+  }
+  .drop-zone {
+    min-height: 48px;
+    border: 2px dashed var(--border);
+    border-radius: 12px;
+    padding: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 8px;
+  }
+  .drop-zone.filled {
+    border-style: solid;
+    border-color: var(--accent);
+    background: rgba(108,99,255,0.06);
+  }
+
+  /* Phase 3: Did you know / Localization toggle */
+  .dyk-card {
+    background: linear-gradient(135deg, rgba(67,232,176,0.1), rgba(108,99,255,0.06));
+    border: 1px solid rgba(67,232,176,0.3);
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 12px;
+  }
+  .dyk-prompt {
+    font-size: 13px;
+    color: var(--muted);
+    margin-bottom: 16px;
+    font-style: italic;
+  }
+  .toggle-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+  .toggle-btn {
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid var(--border);
+    background: var(--surface2);
+    color: var(--muted);
+    transition: all 0.2s;
+  }
+  .toggle-btn.active {
+    background: var(--accent3);
+    color: var(--bg);
+    border-color: var(--accent3);
+  }
+  .local-term-display {
+    font-family: 'Syne', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--accent3);
+    margin: 8px 0;
+  }
+  .local-context {
+    font-size: 12px;
+    color: var(--muted);
+  }
+
+  /* Phase 4: Dialogue turn interaction badges */
+  .interaction-badge {
+    font-size: 10px;
+    padding: 3px 8px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 6px;
+    display: inline-block;
+  }
+  .interaction-select { background: rgba(108,99,255,0.2); color: var(--accent); }
+  .interaction-record { background: rgba(255,101,132,0.2); color: var(--accent2); }
+  .interaction-type { background: rgba(67,232,176,0.2); color: var(--accent3); }
+  .response-options {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .response-opt {
+    padding: 10px 14px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    cursor: pointer;
+    font-size: 13px;
+    transition: all 0.15s;
+  }
+  .response-opt:hover { border-color: var(--accent); color: var(--accent); }
+  .response-opt.correct-opt { border-color: var(--correct); background: rgba(67,232,176,0.1); color: var(--correct); }
+  .response-opt.wrong-opt { border-color: var(--wrong); background: rgba(255,101,132,0.1); color: var(--wrong); }
+
+  /* Phase 5: Sprint exercise types */
+  .sprint-ex-list { display: flex; flex-direction: column; gap: 16px; }
+  .sprint-ex-card {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px;
+  }
+  .sprint-type-badge {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+  @media(max-width: 768px) {
+    .sidebar { display: none; }
+    .main { padding: 24px 20px; }
+  }
+</style>
+</head>
+<body>
+<div class="app">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="sidebar-logo">
+      <div class="logo-text">Malegado</div>
+      <div class="logo-sub">Language Learning Platform</div>
+    </div>
+    <nav class="module-nav">
+      <div class="module-nav-title">5-Phase Micro-Flow</div>
+      <div id="navItems"></div>
+    </nav>
+  </aside>
+
+  <!-- MAIN -->
+  <main class="main">
+    <div class="page-header">
+      <div class="breadcrumb" id="breadcrumb">Greeting · <span>A0 · Essentials</span></div>
+      <div class="page-title" id="pageTitle">Micro Lesson</div>
+      <div class="page-subtitle" id="pageSubtitle">~2–5 min · 5 phases</div>
+    </div>
+
+    <!-- Stats -->
+    <div class="stats-strip">
+      <div class="stat-chip">📌 <strong>5</strong>&nbsp;phases</div>
+      <div class="stat-chip">📖 <strong>1</strong>&nbsp;core + <strong>5</strong>&nbsp;words</div>
+      <div class="stat-chip">💬 <strong>4</strong>&nbsp;dialogue turns</div>
+      <div class="stat-chip">⚡ <strong>5</strong>&nbsp;sprint exercises</div>
+      <div class="stat-chip">⭐ <strong id="statXP">0</strong>&nbsp;XP</div>
+    </div>
+
+    <!-- Phase content -->
+    <div id="moduleContent"></div>
+  </main>
+</div>
+
+<script>
+// 5-Phase Micro-Flow: payload matches new_structure.json (content only).
+// In production: fetch('new_structure.json').then(r=>r.json()).then(j=>{ PAYLOAD = j.content; init(); });
+let PAYLOAD = null;
+const PHASE_LABELS = {
+  phase_1_vocabulary_anchor:    { label: 'Vocabulary Anchor', icon: '📖', color: '#6c63ff' },
+  phase_2_grammar_engine:       { label: 'Grammar Engine', icon: '📐', color: '#ff6584' },
+  phase_3_localization_layer:   { label: 'Localization', icon: '🌍', color: '#43e8b0' },
+  phase_4_dialogue:             { label: 'The Dialogue', icon: '💬', color: '#ffd166' },
+  phase_5_sprint_exercises:     { label: 'Sprint', icon: '⚡', color: '#9b8fff' },
+};
+let PHASES = [];
+let currentPhaseIdx = 0;
+let completedPhases = new Set();
+let xpEarned = 0;
+let selectedAnswers = {};
+let localizationView = 'global';
+
+function loadPayload() {
+  if (PAYLOAD) return Promise.resolve(PAYLOAD);
+  return fetch('new_structure.json')
+    .then(r => r.json())
+    .then(j => { PAYLOAD = j.content; return PAYLOAD; })
+    .catch(() => {
+      PAYLOAD = getEmbeddedPayload();
+      return PAYLOAD;
+    });
+}
+
+function getEmbeddedPayload() {
+  return {
+    lesson_metadata: {
+      lesson_id: 'A0-ESS-1.1a-L3',
+      lesson_config: {
+        lesson_name: 'Greetings Micro Lesson',
+        estimated_duration_minutes: 3,
+        learning_objectives: ['Use the core greeting phrase', 'Apply grammar', 'Recognize local terms', 'Complete 4-turn dialogue', 'Sprint exercises']
+      },
+      level_config: { level_code: 'A0', level_name: 'Absolute Beginner' },
+      theme_config: { theme_name: 'Essentials' },
+      unit_config: { unit_name: 'Greetings and Introductions' }
+    },
+    lesson_structure: {
+      phase_order_config: { selected_order: ['phase_1_vocabulary_anchor','phase_2_grammar_engine','phase_3_localization_layer','phase_4_dialogue','phase_5_sprint_exercises'] },
+      phases: {
+        phase_1_vocabulary_anchor: {
+          phase_id: 'phase_1', phase_name: 'Vocabulary Anchor', phase_code: 'VOCAB_ANCHOR', position_in_lesson: 1, enabled: true, required: true, estimated_duration_seconds: 40,
+          core_phrase: { source_text: 'Hello!', target_text: '[TRANSLATE]', linguistic_info: { tooltip_source: 'A general greeting used in many contexts.' } },
+          related_words: [
+            { word_id: 'rel_001', source_text: 'Greet', meaning_source: 'To say hello or welcome.' },
+            { word_id: 'rel_002', source_text: 'Formal', meaning_source: 'Polite, suitable for official situations.' },
+            { word_id: 'rel_003', source_text: 'Meeting', meaning_source: 'An occasion when people come together.' },
+            { word_id: 'rel_004', source_text: 'Polite', meaning_source: 'Showing good manners and respect.' },
+            { word_id: 'rel_005', source_text: 'Name', meaning_source: 'What someone is called.' }
+          ],
+          listen_repeat: { prompt_source: 'Listen and repeat the core phrase.' },
+          quick_match: { prompt_source: 'Connect each word to its meaning or image.' }
+        },
+        phase_2_grammar_engine: {
+          phase_id: 'phase_2', phase_code: 'GRAMMAR', position_in_lesson: 2, required: true, estimated_duration_seconds: 50,
+          pro_tip: {
+            concept_source: 'Greeting variations',
+            explanation_source: 'Use "Hello!" in formal or neutral situations. For informal use "Hi!" or "Hey!". Greetings can be followed by a comma and then the rest of the sentence.',
+            examples_source: ['Hello, sir.', 'Hi! Nice to meet you.']
+          },
+          sentence_building: [
+            { exercise_id: 'sb_001', prompt_source: 'Put the words in the correct order:', target_sentence_source: 'Hello! How are you?', word_tiles: [
+              { word_id: 'w1', word_source: 'Hello', correct_position: 1 }, { word_id: 'w2', word_source: '!', correct_position: 2 },
+              { word_id: 'w3', word_source: 'How', correct_position: 3 }, { word_id: 'w4', word_source: 'are', correct_position: 4 },
+              { word_id: 'w5', word_source: 'you', correct_position: 5 }, { word_id: 'w6', word_source: '?', correct_position: 6 }
+            ]},
+            { exercise_id: 'sb_002', prompt_source: 'Arrange the words to form a greeting:', target_sentence_source: 'My name is Alex.', word_tiles: [
+              { word_id: 'w7', word_source: 'My', correct_position: 1 }, { word_id: 'w8', word_source: 'name', correct_position: 2 },
+              { word_id: 'w9', word_source: 'is', correct_position: 3 }, { word_id: 'w10', word_source: 'Alex', correct_position: 4 }, { word_id: 'w11', word_source: '.', correct_position: 5 }
+            ]}
+          ]
+        },
+        phase_3_localization_layer: {
+          phase_id: 'phase_3', phase_code: 'LOCALIZATION', position_in_lesson: 3, required: true, estimated_duration_seconds: 15,
+          did_you_know: {
+            prompt_source: 'Did you know? In your region, this might be said differently:',
+            global_term: { source_text: 'Hello', context_source: 'Standard greeting used globally.' },
+            local_terms: {
+              lagos: { source_text: 'Kedu', context_source: 'Common greeting in Igbo (Nigeria).', locale_label: 'Lagos / Nigeria' },
+              cameroon: { source_text: 'Mbote', context_source: 'Greeting in Lingala used in parts of Cameroon.', locale_label: 'Cameroon' },
+              senegal: { source_text: 'Salaam aleikum', context_source: 'Common greeting in Senegal (Wolof/Arabic influence).', locale_label: 'Senegal' }
+            }
+          }
+        },
+        phase_4_dialogue: {
+          phase_id: 'phase_4', phase_code: 'DIALOGUE', position_in_lesson: 4, required: true, estimated_duration_seconds: 60, setting: 'Street – First Meeting',
+          dialogue: [
+            { turn_id: 'turn_1', turn_number: 1, speaker: 'PARTNER', text_source: 'Hello!', text_target: '[TRANSLATE]', interaction_type: 'select_response', function: 'greeting',
+              user_response_options: [ { option_id: 'r1a', text_source: 'Hello!', correct: true }, { option_id: 'r1b', text_source: 'Goodbye!', correct: false }, { option_id: 'r1c', text_source: 'Thank you.', correct: false } ] },
+            { turn_id: 'turn_2', turn_number: 2, speaker: 'PARTNER', text_source: "What's your name?", text_target: '[TRANSLATE]', interaction_type: 'select_response', function: 'asking_name',
+              user_response_options: [ { option_id: 'r2a', text_source: 'My name is Alex.', correct: true }, { option_id: 'r2b', text_source: 'I am fine.', correct: false }, { option_id: 'r2c', text_source: 'Hello!', correct: false } ] },
+            { turn_id: 'turn_3', turn_number: 3, speaker: 'PARTNER', text_source: 'Nice to meet you, Alex.', text_target: '[TRANSLATE]', interaction_type: 'record_pronunciation', expected_user_phrase_source: 'Nice to meet you too.', function: 'responding_to_introduction' },
+            { turn_id: 'turn_4', turn_number: 4, speaker: 'PARTNER', text_source: 'Have a good day!', text_target: '[TRANSLATE]', interaction_type: 'type_response', expected_user_phrase_source: 'You too. Goodbye!', function: 'farewell' }
+          ]
+        },
+        phase_5_sprint_exercises: {
+          phase_id: 'phase_5', phase_code: 'SPRINT', position_in_lesson: 5, required: true, estimated_duration_seconds: 60, randomize_order: true,
+          exercises: [
+            { exercise_id: 'sprint_01', exercise_type: 'multiple_choice_listening', prompt_source: 'Select the phrase you hear:', text_options: ['Hello!', 'Goodbye!', 'Thank you!', 'My name is Alex.'], correct_answer: 'Hello!' },
+            { exercise_id: 'sprint_02', exercise_type: 'translate_sentence', prompt_source: 'Translate this sentence:', sentence_source: 'My name is Alex.' },
+            { exercise_id: 'sprint_03', exercise_type: 'fill_in_blank', prompt_source: 'Complete the sentence:', sentence_template: 'Hello! ___ are you?', options: ['How', 'What', 'Where', 'When'], blanks: [{ position: 2, correct_answer: 'How' }] },
+            { exercise_id: 'sprint_04', exercise_type: 'text_to_image_match', prompt_source: 'Match the phrase to the correct image:', phrase_source: 'Hello!' },
+            { exercise_id: 'sprint_05', exercise_type: 'pronunciation_localized', prompt_source: 'Say the localized word for your region:' }
+          ]
+        }
+      }
+    }
+  };
+}
+
+function buildPhases() {
+  const order = PAYLOAD.lesson_structure.phase_order_config.selected_order;
+  const phases = PAYLOAD.lesson_structure.phases;
+  PHASES = order.map(key => ({
+    key,
+    ...PHASE_LABELS[key],
+    data: phases[key] || null
+  }));
+}
+
+function init() {
+  loadPayload().then(() => {
+    buildPhases();
+    if (PAYLOAD.lesson_metadata) {
+      const m = PAYLOAD.lesson_metadata;
+      const lc = m.lesson_config || {};
+      const level = (m.level_config && m.level_config.level_code) || 'A0';
+      const theme = (m.theme_config && m.theme_config.theme_name) || 'Essentials';
+      document.getElementById('breadcrumb').innerHTML = (m.unit_config && m.unit_config.unit_name) + ' · <span>' + level + ' · ' + theme + '</span>';
+      document.getElementById('pageTitle').textContent = lc.lesson_name || 'Micro Lesson';
+      document.getElementById('pageSubtitle').textContent = '~' + (lc.estimated_duration_minutes || 3) + ' min · 5 phases';
+    }
+    renderNav();
+    renderPhase();
+  });
+}
+
+function renderNav() {
+  const container = document.getElementById('navItems');
+  container.innerHTML = PHASES.map((p, i) => {
+    const done = completedPhases.has(i);
+    const active = i === currentPhaseIdx;
+    return `<div class="nav-item ${active?'active':''} ${done?'done':''}" onclick="goPhase(${i})">
+      <div class="nav-number">${done ? '✓' : i+1}</div>
+      <span>${p.label}</span>
+      <span class="nav-check">✓</span>
+    </div>`;
+  }).join('');
+}
+
+function goPhase(idx) {
+  currentPhaseIdx = idx;
+  renderNav();
+  renderPhase();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function renderPhase() {
+  const p = PHASES[currentPhaseIdx];
+  const d = p.data;
+  const content = document.getElementById('moduleContent');
+  const progress = (currentPhaseIdx / PHASES.length) * 100;
+  const nextLabel = currentPhaseIdx < PHASES.length - 1 ? 'Next Phase →' : 'Complete Lesson ✓';
+
+  let inner = '';
+  if (p.key === 'phase_1_vocabulary_anchor' && d) inner = renderPhase1(d);
+  else if (p.key === 'phase_2_grammar_engine' && d) inner = renderPhase2(d);
+  else if (p.key === 'phase_3_localization_layer' && d) inner = renderPhase3(d);
+  else if (p.key === 'phase_4_dialogue' && d) inner = renderPhase4(d);
+  else if (p.key === 'phase_5_sprint_exercises' && d) inner = renderPhase5(d);
+  else inner = '<div class="section-header">Phase data not loaded. Use new_structure.json.</div>';
+
+  const meta = d ? (d.phase_code + ' · ~' + Math.round((d.estimated_duration_seconds||0)/60) + ' min') : '';
+
+  content.innerHTML = `
+    <div class="module-panel">
+      <div class="module-header">
+        <div class="module-icon" style="background:${p.color}22">${p.icon}</div>
+        <div class="module-header-text">
+          <div class="module-name">${p.label}</div>
+          <div class="module-meta">${meta}</div>
+        </div>
+        <div class="module-badge" style="background:${p.color}22;color:${p.color};border:1px solid ${p.color}44">
+          ${d && d.required !== false ? 'Required' : 'Optional'}
+        </div>
+      </div>
+      ${inner}
+      <div class="module-footer">
+        <button class="btn btn-ghost" onclick="prevPhase()" ${currentPhaseIdx===0?'disabled style="opacity:0.3;cursor:not-allowed"':''}>← Back</button>
+        <div class="progress-bar-wrap">
+          <div class="progress-bar" style="width:${progress}%"></div>
+        </div>
+        <button class="btn btn-primary" onclick="nextPhase()">${nextLabel}</button>
+      </div>
+    </div>`;
+}
+
+function renderPhase1(data) {
+  const core = data.core_phrase || {};
+  const words = data.related_words || [];
+  const listen = data.listen_repeat || {};
+  const match = data.quick_match || {};
+  let html = '<div class="section-header">Phase 1: The Core Turn</div>';
+  html += '<div class="core-phrase-card">';
+  html += '<div class="core-phrase-sub">Core phrase</div>';
+  html += '<div class="core-phrase-text">' + (core.source_text || 'Hello!') + '</div>';
+  html += '<div class="vocab-translate">' + (core.target_text || '[TRANSLATE]') + '</div>';
+  html += '<button type="button" class="listen-repeat-btn">🔊 Listen & Repeat</button>';
+  html += '</div>';
+  html += '<div class="section-header">Related words (Quick-Match)</div>';
+  html += '<div class="related-words-grid">';
+  words.forEach(w => {
+    html += '<div class="related-word-pill">' + (w.source_text || '') + '</div>';
+  });
+  html += '</div>';
+  html += '<div class="quick-match-area"><div class="ex-prompt">' + (match.prompt_source || 'Connect each word to its meaning or image.') + '</div><p style="color:var(--muted);font-size:12px">Match the 5 words above to meanings/images (UI: drag or tap to connect).</p></div>';
+  return html;
+}
+
+function renderPhase2(data) {
+  const tip = data.pro_tip || {};
+  const builds = data.sentence_building || [];
+  let html = '<div class="section-header">Pro-tip: The Logic</div>';
+  html += '<div class="pro-tip-card">';
+  html += '<div class="pro-tip-concept">' + (tip.concept_source || 'Grammar') + '</div>';
+  html += '<div class="pro-tip-explanation">' + (tip.explanation_source || '') + '</div>';
+  if (tip.examples_source && tip.examples_source.length) {
+    html += '<div class="grammar-examples-title">Examples</div>';
+    tip.examples_source.forEach(ex => { html += '<div class="grammar-example">' + ex + '</div>'; });
+  }
+  html += '</div>';
+  html += '<div class="section-header">Sentence building (1–2)</div>';
+  builds.forEach((sb, i) => {
+    const sid = 'sb_' + (sb.exercise_id || i);
+    const filled = selectedAnswers[sid];
+    html += '<div class="sprint-ex-card"><div class="ex-prompt">' + (sb.prompt_source || '') + '</div>';
+    html += '<div class="word-tiles-row">';
+    (sb.word_tiles || []).sort((a,b)=> (a.correct_position||0) - (b.correct_position||0)).forEach(w => {
+      html += '<span class="word-tile">' + (w.word_source || '') + '</span>';
+    });
+    html += '</div>';
+    html += '<div class="drop-zone filled"><span class="fitb-blank">' + (filled || 'Drag words here') + '</span></div></div>';
+  });
+  return html;
+}
+
+function renderPhase3(data) {
+  const dyk = data.did_you_know || {};
+  const globalTerm = dyk.global_term || {};
+  const localTerms = dyk.local_terms || {};
+  const locales = Object.keys(localTerms).filter(k => k !== 'default');
+  let html = '<div class="section-header">Did you know? Regional swap</div>';
+  html += '<div class="dyk-card">';
+  html += '<div class="dyk-prompt">' + (dyk.prompt_source || 'In your region this might be said differently:') + '</div>';
+  html += '<div class="toggle-row">';
+  html += '<button type="button" class="toggle-btn ' + (localizationView==='global'?'active':'') + '" onclick="setLocalizationView(\'global\'); renderPhase();">Global</button>';
+  locales.forEach(loc => {
+    html += '<button type="button" class="toggle-btn ' + (localizationView===loc?'active':'') + '" onclick="setLocalizationView(\'' + loc + '\'); renderPhase();">' + (localTerms[loc].locale_label || loc) + '</button>';
+  });
+  html += '</div>';
+  if (localizationView === 'global') {
+    html += '<div class="local-term-display">' + (globalTerm.source_text || 'Hello') + '</div>';
+    html += '<div class="local-context">' + (globalTerm.context_source || 'Standard greeting.') + '</div>';
+  } else if (localTerms[localizationView]) {
+    const t = localTerms[localizationView];
+    html += '<div class="local-term-display">' + (t.source_text || '') + '</div>';
+    html += '<div class="local-context">' + (t.context_source || '') + '</div>';
+  }
+  html += '</div>';
+  return html;
+}
+
+function setLocalizationView(v) { localizationView = v; }
+
+function renderPhase4(data) {
+  const turns = data.dialogue || [];
+  let html = '<div class="section-header">4-Turn Dialogue: ' + (data.setting || 'Context') + '</div>';
+  html += '<div class="dialogue-list">';
+  turns.forEach((t, i) => {
+    const isPartner = (t.speaker || '').toUpperCase() === 'PARTNER';
+    const it = t.interaction_type || '';
+    let badge = '';
+    if (it === 'select_response') badge = '<span class="interaction-badge interaction-select">Select response</span>';
+    else if (it === 'record_pronunciation') badge = '<span class="interaction-badge interaction-record">Record pronunciation</span>';
+    else if (it === 'type_response') badge = '<span class="interaction-badge interaction-type">Type response</span>';
+    html += '<div class="dialogue-turn ' + (isPartner ? 'ledo' : '') + '">';
+    html += '<div class="speaker-avatar ' + (isPartner ? 'ledo-avatar' : 'ado-avatar') + '">' + (t.speaker || '?')[0] + '</div>';
+    html += '<div class="turn-bubble">';
+    html += '<div class="turn-speaker">' + (t.speaker || '') + '</div>';
+    html += '<div class="turn-text">' + (t.text_source || '') + '</div>';
+    html += '<div class="turn-translate">' + (t.text_target || '') + '</div>';
+    html += '<div>' + badge + '</div>';
+    if (it === 'select_response' && t.user_response_options) {
+      const optId = 'dial_' + (t.turn_id || i);
+      html += '<div class="response-options">';
+      t.user_response_options.forEach(o => {
+        const sel = selectedAnswers[optId] === o.option_id;
+        const cls = sel ? (o.correct ? 'correct-opt' : 'wrong-opt') : '';
+        html += '<div class="response-opt ' + cls + '" onclick="selectDialogueOption(\'' + optId + '\',\'' + o.option_id + '\',' + (o.correct||false) + ',event)">' + (o.text_source || '') + '</div>';
+      });
+      html += '</div>';
+    }
+    if (it === 'record_pronunciation') html += '<p style="margin-top:8px;font-size:12px;color:var(--muted)">Expected: ' + (t.expected_user_phrase_source || '') + '</p>';
+    if (it === 'type_response') html += '<p style="margin-top:8px;font-size:12px;color:var(--muted)">Type: ' + (t.expected_user_phrase_source || '') + '</p>';
+    html += '</div></div>';
+  });
+  html += '</div>';
+  return html;
+}
+
+function selectDialogueOption(optId, optionId, correct, e) {
+  e.stopPropagation();
+  if (selectedAnswers[optId]) return;
+  selectedAnswers[optId] = optionId;
+  if (correct) { xpEarned += 10; document.getElementById('statXP').textContent = xpEarned; }
+  renderPhase();
+}
+
+function renderPhase5(data) {
+  const exs = data.exercises || [];
+  let html = '<div class="section-header">Sprint: 4 high-speed exercises (randomized)</div>';
+  html += '<div class="sprint-ex-list">';
+  exs.forEach((ex, i) => {
+    const typeLabels = {
+      multiple_choice_listening: '👂 Multiple choice (listening)',
+      translate_sentence: 'Translate this sentence',
+      fill_in_blank: '✏️ Fill in the blank',
+      text_to_image_match: '🖼 Text to image',
+      pronunciation_localized: '🎙 Pronounce localized word'
+    };
+    html += '<div class="sprint-ex-card">';
+    html += '<div class="sprint-type-badge">' + (typeLabels[ex.exercise_type] || ex.exercise_type) + '</div>';
+    html += '<div class="ex-prompt">' + (ex.prompt_source || '') + '</div>';
+    if (ex.exercise_type === 'multiple_choice_listening' && ex.text_options) {
+      const sid = 'sprint_' + (ex.exercise_id || i);
+      ex.text_options.forEach(t => {
+        const sel = selectedAnswers[sid];
+        const cls = sel === t ? (t === ex.correct_answer ? 'correct-opt' : 'wrong-opt') : '';
+        html += '<div class="mc-option ' + cls + '" onclick="selectSprintMC(\'' + sid + '\',\'' + t.replace(/'/g,"\\'") + '\',\'' + (ex.correct_answer||'').replace(/'/g,"\\'") + '\',event)">' + t + '</div>';
+      });
+    }
+    if (ex.exercise_type === 'fill_in_blank' && ex.options) {
+      const sid = 'sprint_fitb_' + (ex.exercise_id || i);
+      const filled = selectedAnswers[sid];
+      html += '<div class="fitb-area">' + (ex.sentence_template || '').replace('___', '<span class="fitb-blank">' + (filled||'___') + '</span>') + '</div>';
+      html += '<div class="fitb-options">' + (ex.options || []).map(o => '<span class="fitb-opt ' + (filled===o?'selected':'') + '" onclick="selectSprintFITB(\'' + sid + '\',\'' + o + '\',\'' + (ex.blanks && ex.blanks[0] && ex.blanks[0].correct_answer || '') + '\',event)">' + o + '</span>').join('') + '</div>';
+    }
+    html += '</div>';
+  });
+  html += '</div>';
+  return html;
+}
+
+function selectSprintMC(sid, val, correct, e) {
+  e.stopPropagation();
+  if (selectedAnswers[sid]) return;
+  selectedAnswers[sid] = val;
+  if (val === correct) { xpEarned += 10; document.getElementById('statXP').textContent = xpEarned; }
+  renderPhase();
+}
+function selectSprintFITB(sid, val, correct, e) {
+  e.stopPropagation();
+  selectedAnswers[sid] = val;
+  if (val === correct) { xpEarned += 10; document.getElementById('statXP').textContent = xpEarned; }
+  renderPhase();
+}
+
+function prevPhase() {
+  if (currentPhaseIdx > 0) { currentPhaseIdx--; renderNav(); renderPhase(); window.scrollTo({top:0,behavior:'smooth'}); }
+}
+
+function nextPhase() {
+  completedPhases.add(currentPhaseIdx);
+  xpEarned += 30;
+  document.getElementById('statXP').textContent = xpEarned;
+  if (currentPhaseIdx < PHASES.length - 1) {
+    currentPhaseIdx++;
+    renderNav();
+    renderPhase();
+    window.scrollTo({top:0,behavior:'smooth'});
+  } else {
+    renderNav();
+    showComplete();
+  }
+}
+
+function showComplete() {
+  document.getElementById('moduleContent').innerHTML = `
+    <div class="module-panel">
+      <div class="complete-panel">
+        <div class="complete-icon">🏆</div>
+        <div class="complete-title">Micro Lesson Complete!</div>
+        <div class="complete-sub">You finished all 5 phases · ~2–5 min</div>
+        <div class="xp-row">
+          <div class="xp-chip">⭐ ${xpEarned} XP Earned</div>
+          <div class="xp-chip">✅ 5 Phases Done</div>
+          <div class="xp-chip">🎯 Vocabulary → Grammar → Localization → Dialogue → Sprint</div>
+        </div>
+        <button class="btn btn-primary" onclick="location.reload()">↩ Restart Lesson</button>
+      </div>
+    </div>`;
+}
+
+init();
+</script>
+</body>
+</html>

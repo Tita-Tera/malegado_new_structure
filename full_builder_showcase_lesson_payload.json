@@ -1,0 +1,777 @@
+{
+  "title": "Full Builder Showcase – Greetings, Names, and Introductions",
+  "description": "A comprehensive lesson payload that includes every section type supported by the Malegado Lesson Builder (Vocabulary, Grammar, Sentence Building, Modifiers, Regional Context, Dialogue Practice, Review, Completion).",
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 12,
+  "status": "DRAFT",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "A0-ESS-1.1a-L3",
+      "generation_timestamp": "2026-01-12T00:00:00Z",
+      "version": "1.0.0",
+      "created_by": "admin",
+      "level_config": {
+        "level_code": "A0",
+        "level_name": "Absolute Beginner",
+        "level_description": "No prior knowledge required",
+        "cefr_equivalent": "Pre-A1",
+        "available_levels": ["A0", "A1", "A2", "B1", "B2", "C1", "C2"]
+      },
+      "theme_config": {
+        "theme_id": "ESS",
+        "theme_code": "ESS",
+        "theme_name": "Essentials",
+        "theme_description": "Core survival phrases and basic interactions",
+        "available_themes": [
+          { "code": "ESS", "name": "Essentials" },
+          { "code": "TRV", "name": "Travel" },
+          { "code": "WRK", "name": "Work" },
+          { "code": "SOC", "name": "Social" },
+          { "code": "MED", "name": "Medical" },
+          { "code": "SHP", "name": "Shopping" },
+          { "code": "FOD", "name": "Food & Dining" },
+          { "code": "EMG", "name": "Emergency" }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "1.1a",
+        "unit_number": 1,
+        "subunit_number": 1,
+        "variant": "a",
+        "unit_name": "Greetings and Introductions",
+        "unit_description": "Learn to greet people and introduce yourself",
+        "total_lessons_in_unit": 9,
+        "unit_difficulty": 1,
+        "estimated_completion_time_minutes": 45,
+        "master_dialogue": {
+          "dialogue_id": "A0-ESS-1.1a-L3-DIALOGUE",
+          "total_turns": 10,
+          "speakers": ["PERSON A", "PERSON B"],
+          "setting": "Street – First Meeting",
+          "context": "Two strangers meet and exchange names",
+          "dialogue_type": "conversational",
+          "complete_dialogue": [
+            {
+              "turn_number": 1,
+              "speaker": "PERSON A",
+              "text_source": "Hello!",
+              "text_target": "[TRANSLATE]",
+              "function": "greeting",
+              "formality": "formal",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "image_url": "",
+              "translatable": true
+            },
+            {
+              "turn_number": 2,
+              "speaker": "PERSON B",
+              "text_source": "Hello!",
+              "text_target": "[TRANSLATE]",
+              "function": "greeting_response",
+              "formality": "formal",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "image_url": "",
+              "translatable": true
+            },
+            {
+              "turn_number": 3,
+              "speaker": "PERSON A",
+              "text_source": "What’s your name?",
+              "text_target": "[TRANSLATE]",
+              "function": "asking_name",
+              "formality": "neutral",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "image_url": "",
+              "translatable": true
+            },
+            {
+              "turn_number": 4,
+              "speaker": "PERSON B",
+              "text_source": "My name is Alex.",
+              "text_target": "[TRANSLATE]",
+              "function": "introducing_self",
+              "formality": "neutral",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "image_url": "",
+              "translatable": true
+            },
+            {
+              "turn_number": 5,
+              "speaker": "PERSON A",
+              "text_source": "Nice to meet you, Alex.",
+              "text_target": "[TRANSLATE]",
+              "function": "greeting",
+              "formality": "neutral",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "image_url": "",
+              "translatable": true
+            },
+            {
+              "turn_number": 6,
+              "speaker": "PERSON B",
+              "text_source": "Nice to meet you too.",
+              "text_target": "[TRANSLATE]",
+              "function": "responding_to_introduction",
+              "formality": "neutral",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "image_url": "",
+              "translatable": true
+            },
+            {
+              "turn_number": 7,
+              "speaker": "PERSON A",
+              "text_source": "Where are you from?",
+              "text_target": "[TRANSLATE]",
+              "function": "asking_origin",
+              "formality": "neutral",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "image_url": "",
+              "translatable": true
+            },
+            {
+              "turn_number": 8,
+              "speaker": "PERSON B",
+              "text_source": "I’m American.",
+              "text_target": "[TRANSLATE]",
+              "function": "stating_origin",
+              "formality": "neutral",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "image_url": "",
+              "translatable": true
+            },
+            {
+              "turn_number": 9,
+              "speaker": "PERSON A",
+              "text_source": "Great. Have a good day!",
+              "text_target": "[TRANSLATE]",
+              "function": "farewell",
+              "formality": "neutral",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "image_url": "",
+              "translatable": true
+            },
+            {
+              "turn_number": 10,
+              "speaker": "PERSON B",
+              "text_source": "You too. Goodbye!",
+              "text_target": "[TRANSLATE]",
+              "function": "farewell",
+              "formality": "neutral",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "image_url": "",
+              "translatable": true
+            }
+          ]
+        }
+      },
+      "lesson_config": {
+        "lesson_number": 3,
+        "lesson_type": "teaching",
+        "lesson_name": "Full Builder Showcase",
+        "lesson_description": "Includes all module/section types supported by the builder.",
+        "dialogue_turns_covered": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "estimated_duration_minutes": 12,
+        "difficulty_within_unit": 1,
+        "prerequisites": [],
+        "learning_objectives": [
+          "Greet someone politely",
+          "Ask and state a name",
+          "Ask and state where someone is from",
+          "Practice short dialogues"
+        ]
+      }
+    },
+    "lesson_structure": {
+      "module_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "module_1_core_vocabulary",
+          "module_2_functional_grammar",
+          "module_3_sentence_building",
+          "module_4_modifiers",
+          "module_5_regional_context",
+          "module_6_simple_dialogue_practice",
+          "module_7_section_review",
+          "module_8_completion"
+        ],
+        "available_orderings": {
+          "standard": [
+            "module_1_core_vocabulary",
+            "module_2_functional_grammar",
+            "module_3_sentence_building",
+            "module_4_modifiers",
+            "module_5_regional_context",
+            "module_6_simple_dialogue_practice",
+            "module_7_section_review",
+            "module_8_completion"
+          ],
+          "immersion": [
+            "module_6_simple_dialogue_practice",
+            "module_1_core_vocabulary",
+            "module_2_functional_grammar",
+            "module_3_sentence_building",
+            "module_5_regional_context",
+            "module_4_modifiers",
+            "module_7_section_review",
+            "module_8_completion"
+          ],
+          "grammar_first": [
+            "module_2_functional_grammar",
+            "module_1_core_vocabulary",
+            "module_3_sentence_building",
+            "module_4_modifiers",
+            "module_6_simple_dialogue_practice",
+            "module_5_regional_context",
+            "module_7_section_review",
+            "module_8_completion"
+          ]
+        }
+      },
+      "modules": {
+        "module_1_core_vocabulary": {
+          "module_id": "module_1",
+          "module_name": "Core Vocabulary",
+          "module_code": "VOCAB",
+          "position_in_lesson": 1,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 210,
+          "title_source": "Core Phrases",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Vocabulary",
+          "vocabulary_items": [
+            {
+              "vocab_id": "vocab_001",
+              "phrase_id": 1,
+              "translatable": true,
+              "source_text": "Hello!",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "interjection",
+              "frequency_rank": 1,
+              "difficulty": 1,
+              "context": {
+                "usage_context": "greeting",
+                "formality_level": "formal",
+                "time_of_day": "any",
+                "relationship": "any"
+              },
+              "linguistic_info": {
+                "tooltip_source": "A general greeting used in many contexts.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "adaptive",
+                "selected_exercises": [
+                  {
+                    "exercise_id": "ex_vocab_001_01",
+                    "exercise_type": "Audio-to-Image Matching",
+                    "prompt_source": "Tap the image that matches what you hear:",
+                    "prompt_target": "[TRANSLATE]",
+                    "audio_stimulus": {
+                      "audio_file": "[GENERATE]",
+                      "play_on_load": true
+                    },
+                    "image_options": [
+                      {
+                        "option_id": "opt_01",
+                        "image_url": "",
+                        "correct": true
+                      },
+                      {
+                        "option_id": "opt_02",
+                        "image_url": "",
+                        "correct": false
+                      },
+                      {
+                        "option_id": "opt_03",
+                        "image_url": "",
+                        "correct": false
+                      }
+                    ]
+                  },
+                  {
+                    "exercise_id": "ex_vocab_001_02",
+                    "exercise_type": "Audio-to-Text Matching",
+                    "prompt_source": "Select the text that matches what you hear:",
+                    "prompt_target": "[TRANSLATE]",
+                    "audio_stimulus": {
+                      "audio_file": "[GENERATE]",
+                      "play_on_load": false
+                    },
+                    "text_options": [
+                      "Hello!",
+                      "Goodbye!",
+                      "Thank you!",
+                      "Sorry!"
+                    ],
+                    "correct_answer": "Hello!"
+                  }
+                ]
+              }
+            },
+            {
+              "vocab_id": "vocab_002",
+              "phrase_id": 2,
+              "translatable": true,
+              "source_text": "What’s your name?",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "phrase",
+              "frequency_rank": 2,
+              "difficulty": 1,
+              "context": {
+                "usage_context": "asking_name",
+                "formality_level": "neutral",
+                "time_of_day": "any",
+                "relationship": "any"
+              },
+              "linguistic_info": {
+                "tooltip_source": "A common way to ask someone their name.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "adaptive",
+                "selected_exercises": [
+                  {
+                    "exercise_id": "ex_vocab_002_01",
+                    "exercise_type": "Listen and Sequence",
+                    "prompt_source": "Listen and put the items in order:",
+                    "prompt_target": "[TRANSLATE]",
+                    "audio_stimulus": {
+                      "audio_file": "[GENERATE]",
+                      "play_on_load": true
+                    },
+                    "sequence_items": [
+                      "Hello",
+                      "What’s your name?",
+                      "My name is…"
+                    ],
+                    "correct_order": [1, 2, 3]
+                  }
+                ]
+              }
+            },
+            {
+              "vocab_id": "vocab_003",
+              "phrase_id": 3,
+              "translatable": true,
+              "source_text": "My name is Alex.",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "phrase",
+              "frequency_rank": 3,
+              "difficulty": 1,
+              "context": {
+                "usage_context": "introducing_self",
+                "formality_level": "neutral",
+                "time_of_day": "any",
+                "relationship": "any"
+              },
+              "linguistic_info": {
+                "tooltip_source": "Use this to introduce yourself.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "adaptive",
+                "selected_exercises": [
+                  {
+                    "exercise_id": "ex_vocab_003_01",
+                    "exercise_type": "Audio True/False",
+                    "prompt_source": "True or False: the audio says “My name is Alex.”",
+                    "prompt_target": "[TRANSLATE]",
+                    "audio_stimulus": {
+                      "audio_file": "[GENERATE]",
+                      "play_on_load": true
+                    },
+                    "statement": "The speaker says: My name is Alex.",
+                    "correct_answer": "true"
+                  }
+                ]
+              }
+            },
+            {
+              "vocab_id": "vocab_004",
+              "phrase_id": 4,
+              "translatable": true,
+              "source_text": "Where are you from?",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "phrase",
+              "frequency_rank": 4,
+              "difficulty": 1,
+              "context": {
+                "usage_context": "asking_origin",
+                "formality_level": "neutral",
+                "time_of_day": "any",
+                "relationship": "any"
+              },
+              "linguistic_info": {
+                "tooltip_source": "Use this to ask someone their origin.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "adaptive",
+                "selected_exercises": [
+                  {
+                    "exercise_id": "ex_vocab_004_01",
+                    "exercise_type": "Audio Fill-in-the-Blank",
+                    "prompt_source": "Listen and complete the sentence:",
+                    "prompt_target": "[TRANSLATE]",
+                    "audio_stimulus": {
+                      "audio_file": "[GENERATE]",
+                      "play_on_load": true
+                    },
+                    "sentence": "Where are you ____?",
+                    "blanks": [3]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "module_2_functional_grammar": {
+          "module_id": "module_2",
+          "module_name": "Functional Grammar",
+          "module_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": "Grammar",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Grammar",
+          "grammar_points": [
+            {
+              "grammar_id": "gram_001",
+              "translatable": true,
+              "concept_source": "Asking Names",
+              "concept_target": "[TRANSLATE]",
+              "explanation_source": "Use “What’s your name?” to ask. Reply with “My name is …”.",
+              "explanation_target": "[TRANSLATE]"
+            },
+            {
+              "grammar_id": "gram_002",
+              "translatable": true,
+              "concept_source": "Asking Origin",
+              "concept_target": "[TRANSLATE]",
+              "explanation_source": "Use “Where are you from?” to ask. Reply with “I’m …”.",
+              "explanation_target": "[TRANSLATE]"
+            }
+          ]
+        },
+        "module_3_sentence_building": {
+          "module_id": "module_3",
+          "module_name": "Sentence Building",
+          "module_code": "SENTENCE",
+          "position_in_lesson": 3,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 150,
+          "title_source": "Build Sentences",
+          "title_target": "[TRANSLATE]",
+          "module_type": "SentenceBuilding",
+          "exercises": [
+            {
+              "exercise_id": "ex_sentence_001",
+              "exercise_type": "Drag-and-Drop Sentence Builder",
+              "prompt_source": "Put the words in the correct order:",
+              "prompt_target": "[TRANSLATE]",
+              "target_sentence_source": "What’s your name?",
+              "word_tiles": [
+                {
+                  "word_id": "word_01",
+                  "word_source": "What’s",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "word_02",
+                  "word_source": "your",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "word_03",
+                  "word_source": "name",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "word_04",
+                  "word_source": "?",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4
+                }
+              ]
+            }
+          ]
+        },
+        "module_4_modifiers": {
+          "module_id": "module_4",
+          "module_name": "Modifiers and Variations",
+          "module_code": "MODIFIERS",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": false,
+          "estimated_duration_seconds": 120,
+          "title_source": "Variations",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Modifiers",
+          "variations": [
+            {
+              "base_phrase_source": "Hello!",
+              "variants": [
+                { "text_source": "Hi!", "context_source": "Informal" },
+                {
+                  "text_source": "Good morning!",
+                  "context_source": "Before noon"
+                },
+                {
+                  "text_source": "Good evening!",
+                  "context_source": "Later in the day"
+                }
+              ]
+            },
+            {
+              "base_phrase_source": "My name is …",
+              "variants": [
+                { "text_source": "I’m …", "context_source": "Short / casual" },
+                {
+                  "text_source": "My name’s …",
+                  "context_source": "Spoken contraction"
+                }
+              ]
+            }
+          ]
+        },
+        "module_5_regional_context": {
+          "module_id": "module_5",
+          "module_name": "Regional Context",
+          "module_code": "REGIONAL",
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": false,
+          "estimated_duration_seconds": 90,
+          "title_source": "Cultural Notes",
+          "title_target": "[TRANSLATE]",
+          "module_type": "RegionalContext",
+          "cultural_content": {
+            "general": {
+              "note_source": "In many places, introductions start with a greeting and then exchanging names.",
+              "note_target": "[TRANSLATE]"
+            },
+            "location_specific": {
+              "france": {
+                "note_source": "In France, it’s common to greet first (Bonjour/Bonsoir) before asking someone’s name.",
+                "note_target": "[TRANSLATE]"
+              },
+              "cameroon": {
+                "note_source": "In Cameroon, greetings can be warm and extended; asking names may be followed by more questions.",
+                "note_target": "[TRANSLATE]"
+              }
+            }
+          }
+        },
+        "module_6_simple_dialogue_practice": {
+          "module_id": "module_6",
+          "module_name": "Dialogue Practice",
+          "module_code": "DIALOGUE",
+          "position_in_lesson": 6,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 210,
+          "title_source": "Practice",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Conversations",
+          "dialogue": [
+            {
+              "turn_id": "turn_001",
+              "turn": 1,
+              "speaker": "YOU",
+              "text_source": "Hello!",
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "translatable": true
+            },
+            {
+              "turn_id": "turn_002",
+              "turn": 2,
+              "speaker": "PARTNER",
+              "text_source": "Hello!",
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "translatable": true
+            },
+            {
+              "turn_id": "turn_003",
+              "turn": 3,
+              "speaker": "YOU",
+              "text_source": "What’s your name?",
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "translatable": true
+            },
+            {
+              "turn_id": "turn_004",
+              "turn": 4,
+              "speaker": "PARTNER",
+              "text_source": "My name is Alex.",
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "listen_and_respond",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "translatable": true
+            }
+          ]
+        },
+        "module_7_section_review": {
+          "module_id": "module_7",
+          "module_name": "Section Review",
+          "module_code": "REVIEW",
+          "position_in_lesson": 7,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 180,
+          "title_source": "Review",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Review",
+          "exercises": [
+            {
+              "exercise_id": "ex_review_001",
+              "exercise_type": "Audio-to-Text Matching",
+              "prompt_source": "Select the phrase you hear:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": false
+              },
+              "text_options": [
+                "Hello!",
+                "My name is Alex.",
+                "Where are you from?"
+              ],
+              "correct_answer": "Where are you from?"
+            },
+            {
+              "exercise_id": "ex_review_002",
+              "exercise_type": "Audio True/False",
+              "prompt_source": "True or False: the audio says “Hello!”",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true
+              },
+              "statement": "The audio says: Hello!",
+              "correct_answer": "true"
+            },
+            {
+              "exercise_id": "ex_review_003",
+              "exercise_type": "Listen and Sequence",
+              "prompt_source": "Put the conversation steps in order:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": false
+              },
+              "sequence_items": ["Greeting", "Ask name", "Say name"],
+              "correct_order": [1, 2, 3]
+            },
+            {
+              "exercise_id": "ex_review_004",
+              "exercise_type": "Audio-to-Image Matching",
+              "prompt_source": "Tap the image that matches what you hear:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": false
+              },
+              "image_options": [
+                { "option_id": "opt_01", "image_url": "", "correct": false },
+                { "option_id": "opt_02", "image_url": "", "correct": true },
+                { "option_id": "opt_03", "image_url": "", "correct": false }
+              ]
+            }
+          ]
+        },
+        "module_8_completion": {
+          "module_id": "module_8",
+          "module_name": "Completion",
+          "module_code": "COMPLETION",
+          "position_in_lesson": 8,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 30,
+          "title_source": "Complete!",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Completion",
+          "summary": {
+            "learned_source": "You practiced greetings, names, and short introductions.",
+            "learned_target": "[TRANSLATE]",
+            "xp_earned": 220,
+            "stars_earned": 3
+          },
+          "next_lesson_preview": {
+            "title_source": "Next: Saying Where You Live",
+            "title_target": "[TRANSLATE]",
+            "teaser_source": "Learn to say where you live and ask others.",
+            "teaser_target": "[TRANSLATE]"
+          }
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": ["**_target"],
+      "audio_generation_patterns": ["[GENERATE]", "[GENERATE_FOR_TARGET]"]
+    }
+  }
+}
