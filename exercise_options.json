@@ -1,0 +1,148 @@
+{
+  "sprint_exercise_combinations": {
+    "description": "Recommended 3-exercise sprint combinations per CEFR level for phase_4_sprint_exercises",
+    "version": "1.0.0",
+    "levels": {
+      "A0": {
+        "exercises": [
+          {
+            "position": 1,
+            "exercise_type": "Audio-to-Image Matching",
+            "skill": "listening"
+          },
+          {
+            "position": 2,
+            "exercise_type": "Text-to-Image Matching",
+            "skill": "reading"
+          },
+          {
+            "position": 3,
+            "exercise_type": "Digital Flashcards",
+            "skill": "recall"
+          }
+        ],
+        "rationale": "Pure recognition — no production required. Images scaffold meaning for zero-knowledge learners; flashcards close the loop with a review pass."
+      },
+      "A1": {
+        "exercises": [
+          {
+            "position": 1,
+            "exercise_type": "Audio-to-Image Matching",
+            "skill": "listening"
+          },
+          {
+            "position": 2,
+            "exercise_type": "Drag-and-Drop Sentence Builder",
+            "skill": "writing"
+          },
+          {
+            "position": 3,
+            "exercise_type": "Flashcard Matching Game",
+            "skill": "recall"
+          }
+        ],
+        "rationale": "Listening → first production attempt via drag (no typing) → paired recall game. Gradual challenge ramp without demanding free recall too early."
+      },
+      "A2": {
+        "exercises": [
+          {
+            "position": 1,
+            "exercise_type": "Audio-to-Text Matching",
+            "skill": "listening"
+          },
+          {
+            "position": 2,
+            "exercise_type": "Fill-in-the-Blank Typing",
+            "skill": "writing"
+          },
+          {
+            "position": 3,
+            "exercise_type": "Sentence Completion (Open)",
+            "skill": "production"
+          }
+        ],
+        "rationale": "Listening → constrained writing → first open-ended response. A2 is the first level where open production is appropriate; this combo bridges that step."
+      },
+      "B1": {
+        "exercises": [
+          {
+            "position": 1,
+            "exercise_type": "Listen and Respond (Quick Fire)",
+            "skill": "speaking"
+          },
+          {
+            "position": 2,
+            "exercise_type": "Fill-in-the-Blank Typing",
+            "skill": "writing"
+          },
+          {
+            "position": 3,
+            "exercise_type": "Translation Typing (L2→L1)",
+            "skill": "translation"
+          }
+        ],
+        "rationale": "Real-time speaking pressure → constrained writing → full-sentence translation. Three distinct modalities testing comprehension, production, and cross-language mapping."
+      },
+      "B2": {
+        "exercises": [
+          {
+            "position": 1,
+            "exercise_type": "Fill-in-the-Dialogue (Speaking)",
+            "skill": "speaking"
+          },
+          {
+            "position": 2,
+            "exercise_type": "Audio Fill-in-the-Blank",
+            "skill": "listening_writing"
+          },
+          {
+            "position": 3,
+            "exercise_type": "Sentence Completion (Open)",
+            "skill": "production"
+          }
+        ],
+        "rationale": "Contextual speaking in a real exchange → combined listening/writing challenge → extended free production. All three demand meaningful output, not just recognition."
+      },
+      "C1": {
+        "exercises": [
+          {
+            "position": 1,
+            "exercise_type": "Fill-in-the-Dialogue (Speaking)",
+            "skill": "speaking"
+          },
+          {
+            "position": 2,
+            "exercise_type": "Translation Typing (L2→L1)",
+            "skill": "translation"
+          },
+          {
+            "position": 3,
+            "exercise_type": "Sentence Completion (Open)",
+            "skill": "production"
+          }
+        ],
+        "rationale": "Only production-level exercises remain eligible. Spoken dialogue → precision translation → open-ended writing covers the three hardest skills at near-fluency level."
+      },
+      "C2": {
+        "exercises": [
+          {
+            "position": 1,
+            "exercise_type": "Listen and Respond (Quick Fire)",
+            "skill": "speaking"
+          },
+          {
+            "position": 2,
+            "exercise_type": "Translation Typing (L2→L1)",
+            "skill": "translation"
+          },
+          {
+            "position": 3,
+            "exercise_type": "Sentence Completion (Open)",
+            "skill": "production"
+          }
+        ],
+        "rationale": "Quick Fire replaces dialogue vs C1 — at mastery level, spontaneous real-time response under time pressure is a stronger challenge than scripted dialogue turns."
+      }
+    }
+  }
+}

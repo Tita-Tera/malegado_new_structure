@@ -1,0 +1,1476 @@
+{
+  "title": "ordering at a restaurant 869",
+  "description": "ordering at a restaurant 869",
+  "languageId": "en",
+  "difficultyLevel": "ELEMENTARY",
+  "estimatedDuration": 10,
+  "status": "PUBLISHED",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "A2-FOD-4.3c",
+      "generation_timestamp": "2025-01-20T12:00:00Z",
+      "version": "1.0.0",
+      "created_by": "admin",
+      "level_config": {
+        "level_code": "A2",
+        "level_name": "Elementary",
+        "level_description": "",
+        "cefr_equivalent": "",
+        "available_levels": ["A0", "A1", "A2", "B1", "B2", "C1", "C2"]
+      },
+      "theme_config": {
+        "theme_id": "FOD",
+        "theme_code": "FOD",
+        "theme_name": "Food and Dining",
+        "theme_description": "",
+        "available_themes": [
+          {
+            "code": "ESS",
+            "name": "Essentials"
+          },
+          {
+            "code": "TRV",
+            "name": "Travel"
+          },
+          {
+            "code": "WRK",
+            "name": "Work"
+          },
+          {
+            "code": "SOC",
+            "name": "Social"
+          },
+          {
+            "code": "MED",
+            "name": "Medical"
+          },
+          {
+            "code": "SHP",
+            "name": "Shopping"
+          },
+          {
+            "code": "FOD",
+            "name": "Food & Dining"
+          },
+          {
+            "code": "EMG",
+            "name": "Emergency"
+          }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "4.3c",
+        "unit_number": 4,
+        "subunit_number": 3,
+        "variant": "c",
+        "unit_name": "ordering at a restaurant",
+        "unit_description": "",
+        "unit_difficulty": 1,
+        "total_lessons_in_unit": 12,
+        "estimated_completion_time_minutes": 0,
+        "master_dialogue": {
+          "dialogue_id": "A2-FOD-4.3a-DIALOGUE",
+          "total_turns": 12,
+          "speakers": ["ADO", "LEDO"],
+          "setting": "In a restaurant.",
+          "context": "In a restaurant.",
+          "dialogue_type": "conversational",
+          "complete_dialogue": [
+            {
+              "turn_number": 1,
+              "speaker": "PERSON A",
+              "text_source": "Good afternoon, can I order please?",
+              "text_target": "[TRANSLATE]",
+              "text_to_speak_target": "¡Buenos días!",
+              "function": "greeting",
+              "formality": "neutral",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "image_url": "https://cdn.example.com/images/greeting-morning.jpg"
+            },
+            {
+              "turn_number": 2,
+              "speaker": "PERSON B",
+              "text_source": "Yes, here is the menu.",
+              "text_target": "[TRANSLATE]",
+              "function": "greeting",
+              "formality": "neutral",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]",
+              "audio_normal": "audio_lib_12345",
+              "audio_slow": "audio_lib_12346",
+              "image_url": ""
+            },
+            {
+              "turn_number": 3,
+              "speaker": "PERSON A",
+              "text_source": "What do you recommend?",
+              "text_target": "[TRANSLATE]",
+              "text_to_speak_target": "Estoy bien, gracias. ¿Cómo te llamas?",
+              "function": "greeting",
+              "formality": "neutral",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "image_url": "https://cdn.example.com/images/asking-name.jpg"
+            },
+            {
+              "turn_number": 4,
+              "speaker": "PERSON B",
+              "text_source": "I recommend the chicken dish.",
+              "text_target": "[TRANSLATE]",
+              "function": "greeting",
+              "formality": "neutral",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]",
+              "audio_normal": "audio_lib_12347",
+              "audio_slow": "audio_lib_12348",
+              "image_url": ""
+            },
+            {
+              "turn_number": 5,
+              "speaker": "PERSON A",
+              "text_source": "I will take the chicken.",
+              "text_target": "[TRANSLATE]",
+              "text_to_speak_target": "Encantado de conocerte también, Sarah. Soy John.",
+              "function": "greeting",
+              "formality": "neutral",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "image_url": ""
+            },
+            {
+              "turn_number": 6,
+              "speaker": "PERSON B",
+              "text_source": "Would you like a drink?",
+              "text_target": "[TRANSLATE]",
+              "function": "greeting",
+              "formality": "neutral",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]",
+              "audio_normal": "audio_lib_12349",
+              "audio_slow": "audio_lib_12350",
+              "image_url": "https://cdn.example.com/images/asking-origin.jpg"
+            },
+            {
+              "turn_number": 7,
+              "speaker": "PERSON A",
+              "text_source": "Yes, I would like water.",
+              "text_target": "[TRANSLATE]",
+              "text_to_speak_target": "Soy de Canadá. ¿Y tú?",
+              "function": "greeting",
+              "formality": "neutral",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "image_url": ""
+            },
+            {
+              "turn_number": 8,
+              "speaker": "PERSON A",
+              "text_source": "Anything else?",
+              "text_target": "[TRANSLATE]",
+              "text_to_speak_target": "[TRANSLATE]",
+              "function": "greeting",
+              "formality": "neutral",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "image_url": ""
+            },
+            {
+              "turn_number": 9,
+              "speaker": "PERSON A",
+              "text_source": "No, that is all.",
+              "text_target": "[TRANSLATE]",
+              "text_to_speak_target": "[TRANSLATE]",
+              "function": "greeting",
+              "formality": "neutral",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "image_url": ""
+            },
+            {
+              "turn_number": 10,
+              "speaker": "PERSON A",
+              "text_source": "Your order will be ready soon.",
+              "text_target": "[TRANSLATE]",
+              "text_to_speak_target": "[TRANSLATE]",
+              "function": "greeting",
+              "formality": "neutral",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "image_url": ""
+            },
+            {
+              "turn_number": 11,
+              "speaker": "PERSON A",
+              "text_source": "Thank you.",
+              "text_target": "[TRANSLATE]",
+              "text_to_speak_target": "[TRANSLATE]",
+              "function": "greeting",
+              "formality": "neutral",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "image_url": ""
+            },
+            {
+              "turn_number": 12,
+              "speaker": "PERSON A",
+              "text_source": "You are welcome.",
+              "text_target": "[TRANSLATE]",
+              "text_to_speak_target": "[TRANSLATE]",
+              "function": "greeting",
+              "formality": "neutral",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "image_url": ""
+            }
+          ]
+        }
+      },
+      "lesson_config": {
+        "lesson_number": 869,
+        "lesson_type": "",
+        "lesson_name": "",
+        "lesson_description": "",
+        "dialogue_turns_covered": [1, 2, 3],
+        "estimated_duration_minutes": 25,
+        "difficulty_within_unit": 1,
+        "prerequisites": [],
+        "learning_objectives": []
+      }
+    },
+    "translation_metadata": {
+      "order": 869,
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": ["**_target", "**target", "target_*"],
+      "audio_generation_patterns": ["[GENERATE]", "[GENERATE_FOR_TARGET]"]
+    },
+    "lesson_structure": {
+      "module_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "module_1_core_vocabulary",
+          "module_2_functional_grammar",
+          "module_3_sentence_building",
+          "module_4_modifiers",
+          "module_5_regional_context",
+          "module_6_simple_dialogue_practice",
+          "module_7_section_review",
+          "module_8_completion"
+        ],
+        "available_orderings": {
+          "standard": [
+            "module_1_core_vocabulary",
+            "module_2_functional_grammar",
+            "module_3_sentence_building",
+            "module_4_modifiers",
+            "module_5_regional_context",
+            "module_6_simple_dialogue_practice",
+            "module_7_section_review",
+            "module_8_completion"
+          ]
+        }
+      },
+      "modules": {
+        "module_1_core_vocabulary": {
+          "module_id": "module_1",
+          "module_name": "Core Vocabulary",
+          "module_code": "VOCAB",
+          "position_in_lesson": 1,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 600,
+          "title_source": "Essential Phrases",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Vocabulary",
+          "vocabulary_items": [
+            {
+              "vocab_id": "vocab_869_001",
+              "phrase_id": 1,
+              "source_text": "what",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "pronoun",
+              "frequency_rank": 1,
+              "difficulty": 1,
+              "context": {
+                "usage_context": "asking_question",
+                "formality_level": "neutral",
+                "time_of_day": "any",
+                "relationship": "any"
+              },
+              "linguistic_info": {
+                "tooltip_source": "Used to ask about something or request information.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]",
+                "text_to_speak_target": "what"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "adaptive",
+                "selected_exercises": [
+                  {
+                    "exercise_id": "ex_vocab_869_001_01",
+                    "exercise_type": "Audio-to-Text Matching",
+                    "prompt_source": "Select the text that matches what you hear:",
+                    "prompt_target": "[TRANSLATE]",
+                    "scoring": {
+                      "points_correct": 10,
+                      "points_incorrect": 0
+                    },
+                    "ui_pattern": "AUDIO_TEXT_MATCHING",
+                    "category": "LISTENING",
+                    "input_method": "Tap",
+                    "ui_components": [
+                      "AudioPlayer",
+                      "TextList",
+                      "SelectionIndicator"
+                    ],
+                    "audio_stimulus": {
+                      "audio_file": "[GENERATE]",
+                      "play_on_load": true,
+                      "text_to_speak_target": "what"
+                    },
+                    "text_options": ["what", "where", "who", "when"],
+                    "correct_answer": "what"
+                  },
+                  {
+                    "exercise_id": "ex_vocab_869_001_02",
+                    "exercise_type": "Text-to-Image Matching",
+                    "prompt_source": "Match the text to the correct image:",
+                    "prompt_target": "[TRANSLATE]",
+                    "scoring": {
+                      "points_correct": 10,
+                      "points_incorrect": 0
+                    },
+                    "ui_pattern": "TEXT_IMAGE_MATCHING",
+                    "category": "MATCHING",
+                    "input_method": "Tap",
+                    "ui_components": [
+                      "TextDisplay",
+                      "ImageGrid",
+                      "SelectionIndicator"
+                    ],
+                    "text_stimulus": "what",
+                    "image_options": [
+                      {
+                        "option_id": "opt_01",
+                        "image_url": "https://cdn.example.com/images/what-alt.jpg",
+                        "correct": true
+                      },
+                      {
+                        "option_id": "opt_02",
+                        "image_url": "https://cdn.example.com/images/distractor-d-869-1.jpg",
+                        "correct": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "vocab_id": "vocab_869_002",
+              "phrase_id": 2,
+              "source_text": "do",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "auxiliary verb",
+              "frequency_rank": 2,
+              "difficulty": 1,
+              "context": {
+                "usage_context": "question_formation",
+                "formality_level": "neutral",
+                "time_of_day": "any",
+                "relationship": "any"
+              },
+              "linguistic_info": {
+                "tooltip_source": "An auxiliary verb used to form questions and negatives.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]",
+                "text_to_speak_target": "do"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "adaptive",
+                "selected_exercises": [
+                  {
+                    "exercise_id": "ex_vocab_869_002_01",
+                    "exercise_type": "Multiple Choice",
+                    "prompt_source": "What does 'do' mean?",
+                    "prompt_target": "[TRANSLATE]",
+                    "scoring": {
+                      "points_correct": 10,
+                      "points_incorrect": 0
+                    },
+                    "ui_pattern": "MULTIPLE_CHOICE",
+                    "category": "MULTIPLE_CHOICE",
+                    "input_method": "Tap",
+                    "ui_components": [
+                      "QuestionText",
+                      "OptionsList",
+                      "SelectionIndicator"
+                    ],
+                    "options": [
+                      {
+                        "option_id": "opt_01",
+                        "text_source": "A noun meaning 'door'",
+                        "text_target": "[TRANSLATE]",
+                        "correct": false
+                      },
+                      {
+                        "option_id": "opt_02",
+                        "text_source": "An auxiliary verb for questions",
+                        "text_target": "[TRANSLATE]",
+                        "correct": true
+                      },
+                      {
+                        "option_id": "opt_03",
+                        "text_source": "A type of dance",
+                        "text_target": "[TRANSLATE]",
+                        "correct": false
+                      },
+                      {
+                        "option_id": "opt_04",
+                        "text_source": "A color",
+                        "text_target": "[TRANSLATE]",
+                        "correct": false
+                      }
+                    ]
+                  },
+                  {
+                    "exercise_id": "ex_vocab_869_002_02",
+                    "exercise_type": "Audio-to-Image Matching",
+                    "prompt_source": "Tap the image that matches what you hear:",
+                    "prompt_target": "[TRANSLATE]",
+                    "scoring": {
+                      "points_correct": 10,
+                      "points_incorrect": 0,
+                      "max_attempts": 3
+                    },
+                    "ui_pattern": "AUDIO_IMAGE_MATCHING",
+                    "category": "LISTENING",
+                    "input_method": "Tap",
+                    "ui_components": [
+                      "AudioPlayer",
+                      "ImageGrid",
+                      "SelectionIndicator"
+                    ],
+                    "audio_stimulus": {
+                      "audio_file": "[GENERATE]",
+                      "play_on_load": true,
+                      "text_to_speak_target": "do"
+                    },
+                    "image_options": [
+                      {
+                        "option_id": "opt_01",
+                        "image_url": "https://cdn.example.com/images/do-v2.jpg",
+                        "correct": true
+                      },
+                      {
+                        "option_id": "opt_02",
+                        "image_url": "https://cdn.example.com/images/distractor-e-869-2.jpg",
+                        "correct": false
+                      },
+                      {
+                        "option_id": "opt_03",
+                        "image_url": "https://cdn.example.com/images/distractor-f-869-2.jpg",
+                        "correct": false
+                      },
+                      {
+                        "option_id": "opt_04",
+                        "image_url": "https://cdn.example.com/images/distractor-g-869-2.jpg",
+                        "correct": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "vocab_id": "vocab_869_003",
+              "phrase_id": 3,
+              "source_text": "you",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "pronoun",
+              "frequency_rank": 3,
+              "difficulty": 1,
+              "context": {
+                "usage_context": "addressing_someone",
+                "formality_level": "neutral",
+                "time_of_day": "any",
+                "relationship": "any"
+              },
+              "linguistic_info": {
+                "tooltip_source": "Used to refer to the person b spoken to.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]",
+                "text_to_speak_target": "you"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "adaptive",
+                "selected_exercises": [
+                  {
+                    "exercise_id": "ex_vocab_869_003_01",
+                    "exercise_type": "Fill-in-the-Blank",
+                    "prompt_source": "Complete the sentence:",
+                    "prompt_target": "[TRANSLATE]",
+                    "scoring": {
+                      "points_correct": 10,
+                      "points_incorrect": 0
+                    },
+                    "ui_pattern": "FILL_IN_BLANK",
+                    "category": "FILL_IN_BLANK",
+                    "input_method": "Tap/Type",
+                    "ui_components": [
+                      "SentenceWithBlanks",
+                      "InputFields",
+                      "OptionsList"
+                    ],
+                    "sentence": "What do ___ recommend?",
+                    "blanks": [2],
+                    "correct_answer": "you",
+                    "options": ["you", "he", "she", "they"]
+                  },
+                  {
+                    "exercise_id": "ex_vocab_869_003_02",
+                    "exercise_type": "Audio True/False",
+                    "prompt_source": "True or False: The audio says 'you'",
+                    "prompt_target": "[TRANSLATE]",
+                    "scoring": {
+                      "points_correct": 10,
+                      "points_incorrect": 0
+                    },
+                    "ui_pattern": "AUDIO_TRUE_FALSE",
+                    "category": "LISTENING",
+                    "input_method": "Tap",
+                    "ui_components": [
+                      "AudioPlayer",
+                      "StatementDisplay",
+                      "TrueFalseButtons"
+                    ],
+                    "audio_stimulus": {
+                      "audio_file": "[GENERATE]",
+                      "play_on_load": true,
+                      "text_to_speak_target": "you"
+                    },
+                    "statement": "The audio says: you",
+                    "correct_answer": "true"
+                  }
+                ]
+              }
+            },
+            {
+              "vocab_id": "vocab_869_004",
+              "phrase_id": 4,
+              "source_text": "recommend",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "verb",
+              "frequency_rank": 4,
+              "difficulty": 1,
+              "context": {
+                "usage_context": "asking_recommendation",
+                "formality_level": "neutral",
+                "time_of_day": "any",
+                "relationship": "service"
+              },
+              "linguistic_info": {
+                "tooltip_source": "To suggest something as good or suitable.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "https://cdn.example.com/images/recommend.jpg",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]",
+                "text_to_speak_target": "recommend"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "adaptive",
+                "selected_exercises": [
+                  {
+                    "exercise_id": "ex_vocab_869_004_01",
+                    "exercise_type": "Text-to-Image Matching",
+                    "prompt_source": "Match the text to the correct image:",
+                    "prompt_target": "[TRANSLATE]",
+                    "scoring": {
+                      "points_correct": 10,
+                      "points_incorrect": 0
+                    },
+                    "ui_pattern": "TEXT_IMAGE_MATCHING",
+                    "category": "MATCHING",
+                    "input_method": "Tap",
+                    "ui_components": [
+                      "TextDisplay",
+                      "ImageGrid",
+                      "SelectionIndicator"
+                    ],
+                    "text_stimulus": "recommend",
+                    "image_options": [
+                      {
+                        "option_id": "opt_01",
+                        "image_url": "https://cdn.example.com/images/recommend.jpg",
+                        "correct": true
+                      },
+                      {
+                        "option_id": "opt_02",
+                        "image_url": "https://cdn.example.com/images/distractor-869-4.jpg",
+                        "correct": false
+                      }
+                    ]
+                  },
+                  {
+                    "exercise_id": "ex_vocab_869_004_02",
+                    "exercise_type": "Audio-to-Text Matching",
+                    "prompt_source": "Select the text that matches what you hear:",
+                    "prompt_target": "[TRANSLATE]",
+                    "scoring": {
+                      "points_correct": 10,
+                      "points_incorrect": 0
+                    },
+                    "ui_pattern": "AUDIO_TEXT_MATCHING",
+                    "category": "LISTENING",
+                    "input_method": "Tap",
+                    "ui_components": [
+                      "AudioPlayer",
+                      "TextList",
+                      "SelectionIndicator"
+                    ],
+                    "audio_stimulus": {
+                      "audio_file": "[GENERATE]",
+                      "play_on_load": false,
+                      "text_to_speak_target": "recommend"
+                    },
+                    "text_options": [
+                      "recommend",
+                      "Good morning",
+                      "Good evening",
+                      "Good night"
+                    ],
+                    "correct_answer": "recommend"
+                  }
+                ]
+              }
+            },
+            {
+              "vocab_id": "vocab_869_005",
+              "phrase_id": 5,
+              "source_text": "What do you recommend?",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "phrase",
+              "frequency_rank": 5,
+              "difficulty": 1,
+              "context": {
+                "usage_context": "asking_recommendation",
+                "formality_level": "neutral",
+                "time_of_day": "any",
+                "relationship": "service"
+              },
+              "linguistic_info": {
+                "tooltip_source": "A common question to ask for a suggestion at a restaurant.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "https://cdn.example.com/images/asking-waiter.jpg",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]",
+                "text_to_speak_target": "What do you recommend?"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "adaptive",
+                "selected_exercises": [
+                  {
+                    "exercise_id": "ex_vocab_869_005_01",
+                    "exercise_type": "Audio-to-Image Matching",
+                    "prompt_source": "Tap the image that matches what you hear:",
+                    "prompt_target": "[TRANSLATE]",
+                    "scoring": {
+                      "points_correct": 10,
+                      "points_incorrect": 0,
+                      "max_attempts": 3
+                    },
+                    "ui_pattern": "AUDIO_IMAGE_MATCHING",
+                    "category": "LISTENING",
+                    "input_method": "Tap",
+                    "ui_components": [
+                      "AudioPlayer",
+                      "ImageGrid",
+                      "SelectionIndicator"
+                    ],
+                    "audio_stimulus": {
+                      "audio_file": "[GENERATE]",
+                      "play_on_load": true,
+                      "text_to_speak_target": "What do you recommend?"
+                    },
+                    "image_options": [
+                      {
+                        "option_id": "opt_01",
+                        "image_url": "https://cdn.example.com/images/what-do-you-recommend?.jpg",
+                        "correct": true
+                      },
+                      {
+                        "option_id": "opt_02",
+                        "image_url": "https://cdn.example.com/images/distractor-a-869-5.jpg",
+                        "correct": false
+                      },
+                      {
+                        "option_id": "opt_03",
+                        "image_url": "https://cdn.example.com/images/distractor-b-869-5.jpg",
+                        "correct": false
+                      },
+                      {
+                        "option_id": "opt_04",
+                        "image_url": "https://cdn.example.com/images/distractor-c-869-5.jpg",
+                        "correct": false
+                      }
+                    ]
+                  },
+                  {
+                    "exercise_id": "ex_vocab_869_005_02",
+                    "exercise_type": "Multiple Choice",
+                    "prompt_source": "Which is the correct meaning of 'What do you recommend?'?",
+                    "prompt_target": "[TRANSLATE]",
+                    "scoring": {
+                      "points_correct": 10,
+                      "points_incorrect": 0
+                    },
+                    "ui_pattern": "MULTIPLE_CHOICE",
+                    "category": "MULTIPLE_CHOICE",
+                    "input_method": "Tap",
+                    "ui_components": [
+                      "QuestionText",
+                      "OptionsList",
+                      "SelectionIndicator"
+                    ],
+                    "options": [
+                      {
+                        "option_id": "opt_01",
+                        "text_source": "How much does it cost?",
+                        "text_target": "[TRANSLATE]",
+                        "correct": false
+                      },
+                      {
+                        "option_id": "opt_02",
+                        "text_source": "A question asking for a suggestion",
+                        "text_target": "[TRANSLATE]",
+                        "correct": true
+                      },
+                      {
+                        "option_id": "opt_03",
+                        "text_source": "Where is the restaurant?",
+                        "text_target": "[TRANSLATE]",
+                        "correct": false
+                      },
+                      {
+                        "option_id": "opt_04",
+                        "text_source": "What is your name?",
+                        "text_target": "[TRANSLATE]",
+                        "correct": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "module_2_functional_grammar": {
+          "module_id": "module_2",
+          "module_name": "Functional Grammar",
+          "module_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 480,
+          "title_source": "Grammar Points",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Grammar",
+          "grammar_points": [
+            {
+              "grammar_id": "gram_869_001",
+              "concept_source": "Forming Questions with 'What'",
+              "concept_target": "[TRANSLATE]",
+              "title_source": "Asking Questions with 'What'",
+              "title_target": "[TRANSLATE]",
+              "explanation_source": "Use 'What' at the beginning of a question to ask about things, suggestions, or information. In present simple questions, add 'do/does' after 'What'. Example: 'What do you recommend?'",
+              "explanation_target": "[TRANSLATE]",
+              "examples": [
+                {
+                  "example_id": "gr_ex_869_001",
+                  "text_source": "What do you recommend?",
+                  "text_target": "[TRANSLATE]",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]",
+                  "context": "asking_recommendation",
+                  "text_to_speak_target": "What do you recommend?"
+                },
+                {
+                  "example_id": "gr_ex_869_002",
+                  "text_source": "What do you want to eat?",
+                  "text_target": "[TRANSLATE]",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]",
+                  "context": "asking_preference",
+                  "text_to_speak_target": "What do you want to eat?"
+                }
+              ],
+              "rules": [
+                {
+                  "rule_source": "What + do/does + subject + verb (base form)?",
+                  "rule_target": "[TRANSLATE]"
+                },
+                {
+                  "rule_source": "Use 'do' with I/you/we/they and 'does' with he/she/it",
+                  "rule_target": "[TRANSLATE]"
+                }
+              ]
+            },
+            {
+              "grammar_id": "gram_869_002",
+              "concept_source": "The Verb 'Recommend'",
+              "concept_target": "[TRANSLATE]",
+              "title_source": "Using 'Recommend'",
+              "title_target": "[TRANSLATE]",
+              "explanation_source": "The verb 'recommend' means to suggest something as good or suitable. It can be followed by a noun or a verb phrase. Example: 'I recommend the chicken.'",
+              "explanation_target": "[TRANSLATE]",
+              "examples": [
+                {
+                  "example_id": "gr_ex_869_003",
+                  "text_source": "What do you recommend?",
+                  "text_target": "[TRANSLATE]",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]",
+                  "context": "asking_suggestion",
+                  "text_to_speak_target": "What do you recommend?"
+                },
+                {
+                  "example_id": "gr_ex_869_004",
+                  "text_source": "I recommend the soup.",
+                  "text_target": "[TRANSLATE]",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]",
+                  "context": "giving_suggestion",
+                  "text_to_speak_target": "I recommend the soup."
+                }
+              ],
+              "rules": [
+                {
+                  "rule_source": "Subject + recommend + noun/noun phrase",
+                  "rule_target": "[TRANSLATE]"
+                },
+                {
+                  "rule_source": "'Recommend' is often used in restaurants and when giving advice",
+                  "rule_target": "[TRANSLATE]"
+                }
+              ]
+            }
+          ]
+        },
+        "module_3_sentence_building": {
+          "module_id": "module_3",
+          "module_name": "Sentence Building",
+          "module_code": "SENTENCE",
+          "position_in_lesson": 3,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 420,
+          "title_source": "Build Sentences",
+          "title_target": "[TRANSLATE]",
+          "module_type": "SentenceBuilding",
+          "exercises": [
+            {
+              "exercise_id": "ex_sentence_869_001",
+              "exercise_type": "Drag-and-Drop Sentence Builder",
+              "prompt_source": "Arrange the words to form a question:",
+              "prompt_target": "[TRANSLATE]",
+              "target_sentence_source": "What do you recommend?",
+              "word_tiles": [
+                {
+                  "word_id": "word_869_01_01",
+                  "word_source": "What",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "word_869_01_02",
+                  "word_source": "do",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "word_869_01_03",
+                  "word_source": "you",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "word_869_01_04",
+                  "word_source": "recommend",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4
+                },
+                {
+                  "word_id": "word_869_01_05",
+                  "word_source": "?",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 5
+                }
+              ],
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              },
+              "ui_pattern": "DRAG_DROP",
+              "category": "GRAMMAR",
+              "input_method": "Drag & Drop",
+              "ui_components": ["WordTiles", "DropZone", "HintsDisplay"]
+            },
+            {
+              "exercise_id": "ex_sentence_869_002",
+              "exercise_type": "Drag-and-Drop Sentence Builder",
+              "prompt_source": "Build the question:",
+              "prompt_target": "[TRANSLATE]",
+              "target_sentence_source": "What do you want?",
+              "word_tiles": [
+                {
+                  "word_id": "word_869_02_01",
+                  "word_source": "What",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "word_869_02_02",
+                  "word_source": "do",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "word_869_02_03",
+                  "word_source": "you",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "word_869_02_04",
+                  "word_source": "want",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4
+                },
+                {
+                  "word_id": "word_869_02_05",
+                  "word_source": "?",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 5
+                }
+              ],
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              },
+              "ui_pattern": "DRAG_DROP",
+              "category": "GRAMMAR",
+              "input_method": "Drag & Drop",
+              "ui_components": ["WordTiles", "DropZone", "HintsDisplay"]
+            }
+          ]
+        },
+        "module_4_modifiers": {
+          "module_id": "module_4",
+          "module_name": "Modifiers and Variations",
+          "module_code": "MODIFIERS",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": false,
+          "estimated_duration_seconds": 360,
+          "title_source": "Phrase Variations",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Modifiers",
+          "variations": [
+            {
+              "base_phrase_source": "What do you recommend?",
+              "base_phrase_target": "[TRANSLATE]",
+              "variants": [
+                {
+                  "label_source": "Formal",
+                  "label_target": "[TRANSLATE]",
+                  "text_source": "What would you recommend?",
+                  "text_target": "[TRANSLATE]",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]",
+                  "context_source": "More polite; uses 'would' for softness",
+                  "context_target": "[TRANSLATE]",
+                  "text_to_speak_target": "What would you recommend?"
+                },
+                {
+                  "label_source": "Neutral",
+                  "label_target": "[TRANSLATE]",
+                  "text_source": "What do you recommend?",
+                  "text_target": "[TRANSLATE]",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]",
+                  "context_source": "The standard way to ask for a suggestion",
+                  "context_target": "[TRANSLATE]",
+                  "text_to_speak_target": "What do you recommend?"
+                },
+                {
+                  "label_source": "Informal",
+                  "label_target": "[TRANSLATE]",
+                  "text_source": "What's good here?",
+                  "text_target": "[TRANSLATE]",
+                  "audio_normal": "audio_lib_40_869_01",
+                  "audio_slow": "audio_lib_40_869_02",
+                  "context_source": "Casual spoken form among friends or at street food stalls",
+                  "context_target": "[TRANSLATE]"
+                }
+              ]
+            }
+          ]
+        },
+        "module_5_regional_context": {
+          "module_id": "module_5",
+          "module_name": "Regional Context",
+          "module_code": "REGIONAL",
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": false,
+          "estimated_duration_seconds": 300,
+          "title_source": "Cultural Notes",
+          "title_target": "[TRANSLATE]",
+          "module_type": "RegionalContext",
+          "cultural_content": {
+            "general": {
+              "note_source": "Asking for a recommendation is a common and polite way to learn about popular or special dishes at a restaurant. It shows trust in the server's knowledge and can help you discover local favorites that may not stand out on the menu.",
+              "note_target": "[TRANSLATE]"
+            },
+            "location_specific": {
+              "cameroon": {
+                "note_source": "In Cameroon, asking 'What do you recommend?' is a great way to discover popular local dishes such as ndolé, eru, or poulet DG. Servers at local eateries are usually happy to suggest their best dishes and may describe how each one is prepared.",
+                "note_target": "[TRANSLATE]"
+              },
+              "mali": {
+                "note_source": "In Mali, asking for a recommendation at a restaurant or food stall is very common. The server may suggest popular dishes like tigadèguèna (peanut sauce stew) or riz au gras. Locals appreciate when visitors show interest in trying traditional Malian cuisine.",
+                "note_target": "[TRANSLATE]"
+              }
+            }
+          }
+        },
+        "module_6_simple_dialogue_practice": {
+          "module_id": "module_6",
+          "module_name": "Dialogue Practice",
+          "module_code": "DIALOGUE",
+          "position_in_lesson": 6,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 600,
+          "title_source": "Practice Conversation",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Conversations",
+          "dialogue": [
+            {
+              "turn_id": "turn_869_001",
+              "turn": 1,
+              "turn_number": 1,
+              "speaker": "PARTNER",
+              "text_source": "Here is the menu.",
+              "text_target": "[TRANSLATE]",
+              "function": "offering_menu",
+              "formality": "formal",
+              "practice_mode": "listen_and_respond",
+              "audio_normal": "audio_lib_60_869_01",
+              "audio_slow": "audio_lib_60_869_02",
+              "image_url": ""
+            },
+            {
+              "turn_id": "turn_869_002",
+              "turn": 2,
+              "turn_number": 2,
+              "speaker": "YOU",
+              "text_source": "Thank you. What do you recommend?",
+              "text_target": "[TRANSLATE]",
+              "function": "asking_recommendation",
+              "formality": "neutral",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "image_url": "https://cdn.example.com/images/dialogue-reading-menu.jpg",
+              "text_to_speak_target": "Thank you. What do you recommend?"
+            },
+            {
+              "turn_id": "turn_869_003",
+              "turn": 3,
+              "turn_number": 3,
+              "speaker": "PARTNER",
+              "text_source": "I recommend the chicken dish.",
+              "text_target": "[TRANSLATE]",
+              "function": "giving_recommendation",
+              "formality": "neutral",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "audio_lib_60_869_03",
+              "audio_slow": "audio_lib_60_869_04",
+              "image_url": ""
+            }
+          ]
+        },
+        "module_7_section_review": {
+          "module_id": "module_7",
+          "module_name": "Section Review",
+          "module_code": "REVIEW",
+          "position_in_lesson": 7,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 720,
+          "title_source": "Review Exercises",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Review",
+          "exercises": [
+            {
+              "exercise_id": "ex_review_869_001",
+              "exercise_type": "Audio-to-Text Matching",
+              "prompt_source": "Select the phrase you hear:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": false,
+                "text_to_speak_target": "What do you recommend?"
+              },
+              "text_options": [
+                "What do you recommend?",
+                "Where are you from?",
+                "What is your name?",
+                "How much is it?"
+              ],
+              "correct_answer": "What do you recommend?",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              },
+              "ui_pattern": "AUDIO_TEXT_MATCHING",
+              "category": "LISTENING",
+              "input_method": "Tap",
+              "ui_components": ["AudioPlayer", "TextList", "SelectionIndicator"]
+            },
+            {
+              "exercise_id": "ex_review_869_002",
+              "exercise_type": "Multiple Choice",
+              "prompt_source": "When do you say 'What do you recommend?'",
+              "prompt_target": "[TRANSLATE]",
+              "options": [
+                {
+                  "option_id": "opt_01",
+                  "text_source": "When asking for a suggestion",
+                  "text_target": "[TRANSLATE]",
+                  "correct": true
+                },
+                {
+                  "option_id": "opt_02",
+                  "text_source": "When paying the bill",
+                  "text_target": "[TRANSLATE]",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_03",
+                  "text_source": "When leaving the restaurant",
+                  "text_target": "[TRANSLATE]",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_04",
+                  "text_source": "When greeting someone",
+                  "text_target": "[TRANSLATE]",
+                  "correct": false
+                }
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              },
+              "ui_pattern": "MULTIPLE_CHOICE",
+              "category": "MULTIPLE_CHOICE",
+              "input_method": "Tap",
+              "ui_components": [
+                "QuestionText",
+                "OptionsList",
+                "SelectionIndicator"
+              ]
+            },
+            {
+              "exercise_id": "ex_review_869_003",
+              "exercise_type": "Fill-in-the-Blank",
+              "prompt_source": "Complete the sentence:",
+              "prompt_target": "[TRANSLATE]",
+              "sentence": "What ___ you recommend?",
+              "blanks": [1],
+              "correct_answer": "do",
+              "options": ["do", "does", "is", "are"],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              },
+              "ui_pattern": "FILL_IN_BLANK",
+              "category": "FILL_IN_BLANK",
+              "input_method": "Tap/Type",
+              "ui_components": [
+                "SentenceWithBlanks",
+                "InputFields",
+                "OptionsList"
+              ]
+            },
+            {
+              "exercise_id": "ex_review_869_004",
+              "exercise_type": "Audio True/False",
+              "prompt_source": "True or False: The audio asks for a recommendation.",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true,
+                "text_to_speak_target": "What do you recommend?"
+              },
+              "statement": "The audio asks for a recommendation.",
+              "correct_answer": "true",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              },
+              "ui_pattern": "AUDIO_TRUE_FALSE",
+              "category": "LISTENING",
+              "input_method": "Tap",
+              "ui_components": [
+                "AudioPlayer",
+                "StatementDisplay",
+                "TrueFalseButtons"
+              ]
+            },
+            {
+              "exercise_id": "ex_review_869_005",
+              "exercise_type": "Error Correction",
+              "prompt_source": "Find and correct the error in the sentence:",
+              "prompt_target": "[TRANSLATE]",
+              "source_sentence": "What does you recommend?",
+              "transformation_type": "grammar_correction",
+              "target_sentence": "What do you recommend?",
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              },
+              "ui_pattern": "ERROR_CORRECTION",
+              "category": "GRAMMAR",
+              "input_method": "Tap/Type",
+              "ui_components": [
+                "SentenceDisplay",
+                "InputFields",
+                "SubmitButton"
+              ]
+            },
+            {
+              "exercise_id": "ex_review_869_006",
+              "exercise_type": "Audio Fill-in-the-Blank",
+              "prompt_source": "Listen and complete the sentence:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true,
+                "text_to_speak_target": "What do you recommend?"
+              },
+              "sentence": "What do you ___?",
+              "blanks": [3],
+              "correct_answer": "recommend",
+              "options": ["recommend", "order", "want", "need"],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              },
+              "ui_pattern": "AUDIO_FILL_BLANK",
+              "category": "LISTENING",
+              "input_method": "Type",
+              "ui_components": [
+                "AudioPlayer",
+                "SentenceWithBlanks",
+                "InputFields"
+              ]
+            },
+            {
+              "exercise_id": "ex_review_869_007",
+              "exercise_type": "Sentence Unscramble",
+              "prompt_source": "Unscramble the words to form a sentence:",
+              "prompt_target": "[TRANSLATE]",
+              "word_tiles": ["you", "do", "recommend", "What", "?"],
+              "correct_order": [3, 1, 0, 2, 4],
+              "hints": "Start with 'What'",
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              },
+              "ui_pattern": "DRAG_DROP",
+              "category": "GRAMMAR",
+              "input_method": "Drag & Drop",
+              "ui_components": ["WordTiles", "DropZone"]
+            },
+            {
+              "exercise_id": "ex_review_869_008",
+              "exercise_type": "Dialogue Gap-Fill",
+              "prompt_source": "Complete the dialogue with the appropriate response:",
+              "prompt_target": "[TRANSLATE]",
+              "dialogue_context": "A customer is looking at the menu.",
+              "turns": [
+                {
+                  "speaker": "Server",
+                  "text": "Here is the menu."
+                },
+                {
+                  "speaker": "Customer",
+                  "text": "___"
+                }
+              ],
+              "responses": [
+                "What do you recommend?",
+                "I am from Canada.",
+                "You are welcome.",
+                "My name is Sarah."
+              ],
+              "correct_answer": "What do you recommend?",
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              },
+              "ui_pattern": "DIALOGUE_GAP_FILL",
+              "category": "READING",
+              "input_method": "Tap",
+              "ui_components": [
+                "DialogueDisplay",
+                "OptionsList",
+                "SelectionIndicator"
+              ]
+            },
+            {
+              "exercise_id": "ex_review_869_009",
+              "exercise_type": "Translation Typing (L1→L2)",
+              "prompt_source": "Translate to the target language:",
+              "prompt_target": "[TRANSLATE]",
+              "source_text": "What do you recommend?",
+              "target_text": "[TRANSLATE]",
+              "hints": "Asking the server for a food suggestion.",
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              },
+              "ui_pattern": "TRANSLATION_INPUT",
+              "category": "WRITING",
+              "input_method": "Type",
+              "ui_components": ["SourceTextDisplay", "TextArea", "HintsDisplay"]
+            },
+            {
+              "exercise_id": "ex_review_869_010",
+              "exercise_type": "Multiple Choice",
+              "prompt_source": "Which word means 'to suggest something good'?",
+              "prompt_target": "[TRANSLATE]",
+              "options": [
+                {
+                  "option_id": "opt_01",
+                  "text_source": "order",
+                  "text_target": "[TRANSLATE]",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_02",
+                  "text_source": "recommend",
+                  "text_target": "[TRANSLATE]",
+                  "correct": true
+                },
+                {
+                  "option_id": "opt_03",
+                  "text_source": "take",
+                  "text_target": "[TRANSLATE]",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_04",
+                  "text_source": "give",
+                  "text_target": "[TRANSLATE]",
+                  "correct": false
+                }
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              },
+              "ui_pattern": "MULTIPLE_CHOICE",
+              "category": "MULTIPLE_CHOICE",
+              "input_method": "Tap",
+              "ui_components": [
+                "QuestionText",
+                "OptionsList",
+                "SelectionIndicator"
+              ]
+            }
+          ]
+        },
+        "module_8_completion": {
+          "module_id": "module_8",
+          "module_name": "Completion",
+          "module_code": "COMPLETION",
+          "position_in_lesson": 8,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": "Lesson Complete!",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Completion",
+          "summary": {
+            "learned_source": "You learned how to say: \"What do you recommend?\" You practiced vocabulary, grammar, sentence building, phrase variations, cultural context, dialogue practice, and review exercises related to: Asking for a recommendation.",
+            "learned_target": "[TRANSLATE]",
+            "xp_earned": 100,
+            "stars_earned": 3,
+            "modules_completed": 8,
+            "exercises_completed": 22,
+            "time_spent_minutes": 8
+          },
+          "next_lesson_preview": {
+            "lesson_id": "A1-FOD-UNIT-L870",
+            "title_source": "Next: Giving a recommendation",
+            "title_target": "[TRANSLATE]",
+            "teaser_source": "Learn to say: \"I recommend the chicken dish.\"",
+            "teaser_target": "[TRANSLATE]",
+            "difficulty_level": "BEGINNER",
+            "estimated_duration": 8,
+            "image_url": "https://cdn.example.com/images/next-lesson-870.jpg"
+          },
+          "achievements": [
+            {
+              "achievement_id": "ach_869_001",
+              "title_source": "Lesson Master",
+              "title_target": "[TRANSLATE]",
+              "description_source": "Completed all exercises for: Asking for a recommendation",
+              "description_target": "[TRANSLATE]",
+              "icon_url": "https://cdn.example.com/images/achievement-lesson-869.png"
+            },
+            {
+              "achievement_id": "ach_869_002",
+              "title_source": "Dialogue Ready",
+              "title_target": "[TRANSLATE]",
+              "description_source": "Practiced saying: \"What do you recommend?\"",
+              "description_target": "[TRANSLATE]",
+              "icon_url": "https://cdn.example.com/images/achievement-dialogue-869.png"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

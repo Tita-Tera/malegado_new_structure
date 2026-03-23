@@ -1,0 +1,25 @@
+{
+  "difficultyLevel": "BEGINNER",
+  "level_code": "A0",
+  "level_name": "Absolute Beginner",
+  "theme_id": "ESS",
+  "theme_name": "Essentials",
+  "unit_number": 1,
+  "variant": "a",
+  "subunit_number": 1,
+  "unit_name": "Greeting",
+  "setting": "On the Street",
+  "unit_difficulty": 1,
+  "total_lessons_in_unit": 7,
+  "function": "greeting",
+  "formality": "neutral",
+  "core_phrase": [
+    { "turn_number": 1, "text_source": "Hello!" },
+    { "turn_number": 2, "text_source": "Hi!" },
+    { "turn_number": 3, "text_source": "How are you?" },
+    { "turn_number": 4, "text_source": "I am good. And you?" },
+    { "turn_number": 5, "text_source": "I am great, thank you." },
+    { "turn_number": 6, "text_source": "Goodbye!" },
+    { "turn_number": 7, "text_source": "Bye! See you!" }
+  ]
+}

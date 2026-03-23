@@ -202,6 +202,12 @@
         ]
       }
     },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": ["**_target"],
+      "audio_generation_patterns": ["[GENERATE]", "[GENERATE_FOR_TARGET]"]
+    },
     "lesson_structure": {
       "module_order_config": {
         "ordering_strategy": "standard",
@@ -315,23 +321,6 @@
                         "correct": false
                       }
                     ]
-                  },
-                  {
-                    "exercise_id": "ex_vocab_001_02",
-                    "exercise_type": "Audio-to-Text Matching",
-                    "prompt_source": "Select the text that matches what you hear:",
-                    "prompt_target": "[TRANSLATE]",
-                    "audio_stimulus": {
-                      "audio_file": "[GENERATE]",
-                      "play_on_load": false
-                    },
-                    "text_options": [
-                      "Hello!",
-                      "Goodbye!",
-                      "Thank you!",
-                      "Sorry!"
-                    ],
-                    "correct_answer": "Hello!"
                   }
                 ]
               }
@@ -766,12 +755,6 @@
           }
         }
       }
-    },
-    "translation_metadata": {
-      "source_language": "en",
-      "target_language": "RUNTIME_SELECTED",
-      "translatable_field_patterns": ["**_target"],
-      "audio_generation_patterns": ["[GENERATE]", "[GENERATE_FOR_TARGET]"]
     }
   }
 }

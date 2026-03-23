@@ -1,0 +1,1334 @@
+{
+  "title": "Greeting at a restaurant 10",
+  "description": "Greeting at a restaurant 10",
+  "languageId": "en",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 10,
+  "status": "PUBLISHED",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "A0-ESS-1.2b",
+      "generation_timestamp": "2025-01-20T12:00:00Z",
+      "version": "1.0.0",
+      "created_by": "admin",
+      "level_config": {
+        "level_code": "A0",
+        "level_name": "Absolute Beginner",
+        "level_description": "",
+        "cefr_equivalent": "",
+        "available_levels": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      "theme_config": {
+        "theme_id": "ESS",
+        "theme_code": "ESS",
+        "theme_name": "Essentials",
+        "theme_description": "",
+        "available_themes": [
+          {
+            "code": "ESS",
+            "name": "Essentials"
+          },
+          {
+            "code": "TRV",
+            "name": "Travel"
+          },
+          {
+            "code": "WRK",
+            "name": "Work"
+          },
+          {
+            "code": "SOC",
+            "name": "Social"
+          },
+          {
+            "code": "MED",
+            "name": "Medical"
+          },
+          {
+            "code": "SHP",
+            "name": "Shopping"
+          },
+          {
+            "code": "FOD",
+            "name": "Food & Dining"
+          },
+          {
+            "code": "EMG",
+            "name": "Emergency"
+          }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "1.2b",
+        "unit_number": 1,
+        "subunit_number": 2,
+        "variant": "b",
+        "unit_name": "Greeting at a restaurant",
+        "unit_description": "",
+        "unit_difficulty": 1,
+        "total_lessons_in_unit": 12,
+        "estimated_completion_time_minutes": 0,
+        "master_dialogue": {
+          "dialogue_id": "A0-ESS-1.2a-DIALOGUE",
+          "total_turns": 12,
+          "speakers": [
+            "ADO",
+            "LEDO"
+          ],
+          "setting": "[A customer enters a restaurant and meets the host.]",
+          "context": "[A customer enters a restaurant and meets the host.]",
+          "dialogue_type": "conversational",
+          "complete_dialogue": [
+            {
+              "turn_number": 1,
+              "speaker": "PERSON A",
+              "text_source": "Good evening.",
+              "text_target": "[TRANSLATE]",
+              "text_to_speak_target": "¡Buenos días!",
+              "function": "greeting",
+              "formality": "neutral",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "image_url": "https://cdn.example.com/images/greeting-morning.jpg"
+            },
+            {
+              "turn_number": 2,
+              "speaker": "PERSON B",
+              "text_source": "Hello. Welcome.",
+              "text_target": "[TRANSLATE]",
+              "function": "greeting",
+              "formality": "neutral",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]",
+              "audio_normal": "audio_lib_12345",
+              "audio_slow": "audio_lib_12346",
+              "image_url": ""
+            },
+            {
+              "turn_number": 3,
+              "speaker": "PERSON A",
+              "text_source": "A table for one, please.",
+              "text_target": "[TRANSLATE]",
+              "text_to_speak_target": "Estoy bien, gracias. ¿Cómo te llamas?",
+              "function": "greeting",
+              "formality": "neutral",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "image_url": "https://cdn.example.com/images/asking-name.jpg"
+            },
+            {
+              "turn_number": 4,
+              "speaker": "PERSON B",
+              "text_source": "Yes. Follow me.",
+              "text_target": "[TRANSLATE]",
+              "function": "greeting",
+              "formality": "neutral",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]",
+              "audio_normal": "audio_lib_12347",
+              "audio_slow": "audio_lib_12348",
+              "image_url": ""
+            },
+            {
+              "turn_number": 5,
+              "speaker": "PERSON A",
+              "text_source": "Thank you.",
+              "text_target": "[TRANSLATE]",
+              "text_to_speak_target": "Encantado de conocerte también, Sarah. Soy John.",
+              "function": "greeting",
+              "formality": "neutral",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "image_url": ""
+            },
+            {
+              "turn_number": 6,
+              "speaker": "PERSON B",
+              "text_source": "Here is the menu.",
+              "text_target": "[TRANSLATE]",
+              "function": "greeting",
+              "formality": "neutral",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]",
+              "audio_normal": "audio_lib_12349",
+              "audio_slow": "audio_lib_12350",
+              "image_url": "https://cdn.example.com/images/asking-origin.jpg"
+            },
+            {
+              "turn_number": 7,
+              "speaker": "PERSON A",
+              "text_source": "Great. Thanks.",
+              "text_target": "[TRANSLATE]",
+              "text_to_speak_target": "Soy de Canadá. ¿Y tú?",
+              "function": "greeting",
+              "formality": "neutral",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "image_url": ""
+            },
+            {
+              "turn_number": 8,
+              "speaker": "PERSON A",
+              "text_source": "Are you ready?",
+              "text_target": "[TRANSLATE]",
+              "text_to_speak_target": "[TRANSLATE]",
+              "function": "greeting",
+              "formality": "neutral",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "image_url": ""
+            },
+            {
+              "turn_number": 9,
+              "speaker": "PERSON A",
+              "text_source": "No. One minute, please.",
+              "text_target": "[TRANSLATE]",
+              "text_to_speak_target": "[TRANSLATE]",
+              "function": "greeting",
+              "formality": "neutral",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "image_url": ""
+            },
+            {
+              "turn_number": 10,
+              "speaker": "PERSON A",
+              "text_source": "Sure. No rush.",
+              "text_target": "[TRANSLATE]",
+              "text_to_speak_target": "[TRANSLATE]",
+              "function": "greeting",
+              "formality": "neutral",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "image_url": ""
+            },
+            {
+              "turn_number": 11,
+              "speaker": "PERSON A",
+              "text_source": "Wait, is there water?",
+              "text_target": "[TRANSLATE]",
+              "text_to_speak_target": "[TRANSLATE]",
+              "function": "greeting",
+              "formality": "neutral",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "image_url": ""
+            },
+            {
+              "turn_number": 12,
+              "speaker": "PERSON A",
+              "text_source": "Yes. I will bring water now.",
+              "text_target": "[TRANSLATE]",
+              "text_to_speak_target": "[TRANSLATE]",
+              "function": "greeting",
+              "formality": "neutral",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "image_url": ""
+            }
+          ]
+        }
+      },
+      "lesson_config": {
+        "lesson_number": 10,
+        "lesson_type": "",
+        "lesson_name": "",
+        "lesson_description": "",
+        "dialogue_turns_covered": [
+          1,
+          2
+        ],
+        "estimated_duration_minutes": 25,
+        "difficulty_within_unit": 1,
+        "prerequisites": [],
+        "learning_objectives": []
+      }
+    },
+    "translation_metadata": {
+      "order": 10,
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": [
+        "**_target",
+        "**target",
+        "target_*"
+      ],
+      "audio_generation_patterns": [
+        "[GENERATE]",
+        "[GENERATE_FOR_TARGET]"
+      ]
+    },
+    "lesson_structure": {
+      "module_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "module_1_core_vocabulary",
+          "module_2_functional_grammar",
+          "module_3_sentence_building",
+          "module_4_modifiers",
+          "module_5_regional_context",
+          "module_6_simple_dialogue_practice",
+          "module_7_section_review",
+          "module_8_completion"
+        ],
+        "available_orderings": {
+          "standard": [
+            "module_1_core_vocabulary",
+            "module_2_functional_grammar",
+            "module_3_sentence_building",
+            "module_4_modifiers",
+            "module_5_regional_context",
+            "module_6_simple_dialogue_practice",
+            "module_7_section_review",
+            "module_8_completion"
+          ]
+        }
+      },
+      "modules": {
+        "module_1_core_vocabulary": {
+          "module_id": "module_1",
+          "module_name": "Core Vocabulary",
+          "module_code": "VOCAB",
+          "position_in_lesson": 1,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 600,
+          "title_source": "Essential Phrases",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Vocabulary",
+          "vocabulary_items": [
+            {
+              "vocab_id": "vocab_009_001",
+              "phrase_id": 1,
+              "source_text": "Good evening",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "phrase",
+              "frequency_rank": 1,
+              "difficulty": 1,
+              "context": {
+                "usage_context": "greeting",
+                "formality_level": "formal",
+                "time_of_day": "evening",
+                "relationship": "any"
+              },
+              "linguistic_info": {
+                "tooltip_source": "A formal greeting used in the evening after around 6 PM.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "https://cdn.example.com/images/good-evening.jpg",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]",
+                "text_to_speak_target": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "adaptive",
+                "selected_exercises": [
+                  {
+                    "exercise_id": "ex_vocab_009_001_01",
+                    "exercise_type": "Audio-to-Text Matching",
+                    "prompt_source": "Select the text that matches what you hear:",
+                    "prompt_target": "[TRANSLATE]",
+                    "audio_stimulus": {
+                      "audio_file": "[GENERATE]",
+                      "play_on_load": true,
+                      "text_to_speak_target": "[GENERATE]"
+                    },
+                    "text_options": [
+                      "Good evening",
+                      "Good morning",
+                      "Good night",
+                      "Good afternoon"
+                    ],
+                    "correct_answer": "Good evening",
+                    "scoring": {
+                      "points_correct": 10,
+                      "points_incorrect": 0
+                    },
+                    "ui_pattern": "AUDIO_TEXT_MATCHING",
+                    "category": "LISTENING",
+                    "input_method": "Tap",
+                    "ui_components": [
+                      "AudioPlayer",
+                      "TextList",
+                      "SelectionIndicator"
+                    ]
+                  },
+                  {
+                    "exercise_id": "ex_vocab_009_001_02",
+                    "exercise_type": "Multiple Choice",
+                    "prompt_source": "What does 'Good evening' mean?",
+                    "prompt_target": "[TRANSLATE]",
+                    "options": [
+                      {
+                        "option_id": "opt_01",
+                        "text_source": "A formal greeting used in the evening after around 6 PM.",
+                        "text_target": "[TRANSLATE]",
+                        "correct": true
+                      },
+                      {
+                        "option_id": "opt_02",
+                        "text_source": "A morning greeting",
+                        "text_target": "[TRANSLATE]",
+                        "correct": false
+                      },
+                      {
+                        "option_id": "opt_03",
+                        "text_source": "A way to say goodbye",
+                        "text_target": "[TRANSLATE]",
+                        "correct": false
+                      },
+                      {
+                        "option_id": "opt_04",
+                        "text_source": "A way to say thank you",
+                        "text_target": "[TRANSLATE]",
+                        "correct": false
+                      }
+                    ],
+                    "scoring": {
+                      "points_correct": 10,
+                      "points_incorrect": 0
+                    },
+                    "ui_pattern": "MULTIPLE_CHOICE",
+                    "category": "MULTIPLE_CHOICE",
+                    "input_method": "Tap",
+                    "ui_components": [
+                      "QuestionText",
+                      "OptionsList",
+                      "SelectionIndicator"
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "vocab_id": "vocab_009_002",
+              "phrase_id": 2,
+              "source_text": "good",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "adjective",
+              "frequency_rank": 2,
+              "difficulty": 1,
+              "context": {
+                "usage_context": "greeting",
+                "formality_level": "neutral",
+                "time_of_day": "any",
+                "relationship": "any"
+              },
+              "linguistic_info": {
+                "tooltip_source": "Used to describe something positive or to form polite greetings.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]",
+                "text_to_speak_target": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "adaptive",
+                "selected_exercises": [
+                  {
+                    "exercise_id": "ex_vocab_009_002_01",
+                    "exercise_type": "Audio-to-Text Matching",
+                    "prompt_source": "Select the text that matches what you hear:",
+                    "prompt_target": "[TRANSLATE]",
+                    "audio_stimulus": {
+                      "audio_file": "[GENERATE]",
+                      "play_on_load": true,
+                      "text_to_speak_target": "[GENERATE]"
+                    },
+                    "text_options": [
+                      "good",
+                      "Good morning",
+                      "Good night",
+                      "Good afternoon"
+                    ],
+                    "correct_answer": "good",
+                    "scoring": {
+                      "points_correct": 10,
+                      "points_incorrect": 0
+                    },
+                    "ui_pattern": "AUDIO_TEXT_MATCHING",
+                    "category": "LISTENING",
+                    "input_method": "Tap",
+                    "ui_components": [
+                      "AudioPlayer",
+                      "TextList",
+                      "SelectionIndicator"
+                    ]
+                  },
+                  {
+                    "exercise_id": "ex_vocab_009_002_02",
+                    "exercise_type": "Multiple Choice",
+                    "prompt_source": "What does 'good' mean?",
+                    "prompt_target": "[TRANSLATE]",
+                    "options": [
+                      {
+                        "option_id": "opt_01",
+                        "text_source": "Used to describe something positive or to form polite greetings.",
+                        "text_target": "[TRANSLATE]",
+                        "correct": true
+                      },
+                      {
+                        "option_id": "opt_02",
+                        "text_source": "Bad or negative",
+                        "text_target": "[TRANSLATE]",
+                        "correct": false
+                      },
+                      {
+                        "option_id": "opt_03",
+                        "text_source": "A type of food",
+                        "text_target": "[TRANSLATE]",
+                        "correct": false
+                      },
+                      {
+                        "option_id": "opt_04",
+                        "text_source": "A place to sit",
+                        "text_target": "[TRANSLATE]",
+                        "correct": false
+                      }
+                    ],
+                    "scoring": {
+                      "points_correct": 10,
+                      "points_incorrect": 0
+                    },
+                    "ui_pattern": "MULTIPLE_CHOICE",
+                    "category": "MULTIPLE_CHOICE",
+                    "input_method": "Tap",
+                    "ui_components": [
+                      "QuestionText",
+                      "OptionsList",
+                      "SelectionIndicator"
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "vocab_id": "vocab_009_003",
+              "phrase_id": 3,
+              "source_text": "evening",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "frequency_rank": 3,
+              "difficulty": 1,
+              "context": {
+                "usage_context": "time_reference",
+                "formality_level": "neutral",
+                "time_of_day": "evening",
+                "relationship": "any"
+              },
+              "linguistic_info": {
+                "tooltip_source": "The time of day from late afternoon until night.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "https://cdn.example.com/images/evening-sky.jpg",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]",
+                "text_to_speak_target": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "adaptive",
+                "selected_exercises": [
+                  {
+                    "exercise_id": "ex_vocab_009_003_01",
+                    "exercise_type": "Audio-to-Text Matching",
+                    "prompt_source": "Select the text that matches what you hear:",
+                    "prompt_target": "[TRANSLATE]",
+                    "audio_stimulus": {
+                      "audio_file": "[GENERATE]",
+                      "play_on_load": true,
+                      "text_to_speak_target": "[GENERATE]"
+                    },
+                    "text_options": [
+                      "evening",
+                      "Good morning",
+                      "Good night",
+                      "Good afternoon"
+                    ],
+                    "correct_answer": "evening",
+                    "scoring": {
+                      "points_correct": 10,
+                      "points_incorrect": 0
+                    },
+                    "ui_pattern": "AUDIO_TEXT_MATCHING",
+                    "category": "LISTENING",
+                    "input_method": "Tap",
+                    "ui_components": [
+                      "AudioPlayer",
+                      "TextList",
+                      "SelectionIndicator"
+                    ]
+                  },
+                  {
+                    "exercise_id": "ex_vocab_009_003_02",
+                    "exercise_type": "Multiple Choice",
+                    "prompt_source": "What does 'evening' mean?",
+                    "prompt_target": "[TRANSLATE]",
+                    "options": [
+                      {
+                        "option_id": "opt_01",
+                        "text_source": "The time of day from late afternoon until night.",
+                        "text_target": "[TRANSLATE]",
+                        "correct": true
+                      },
+                      {
+                        "option_id": "opt_02",
+                        "text_source": "The early morning hours",
+                        "text_target": "[TRANSLATE]",
+                        "correct": false
+                      },
+                      {
+                        "option_id": "opt_03",
+                        "text_source": "The middle of the day",
+                        "text_target": "[TRANSLATE]",
+                        "correct": false
+                      },
+                      {
+                        "option_id": "opt_04",
+                        "text_source": "A type of meal",
+                        "text_target": "[TRANSLATE]",
+                        "correct": false
+                      }
+                    ],
+                    "scoring": {
+                      "points_correct": 10,
+                      "points_incorrect": 0
+                    },
+                    "ui_pattern": "MULTIPLE_CHOICE",
+                    "category": "MULTIPLE_CHOICE",
+                    "input_method": "Tap",
+                    "ui_components": [
+                      "QuestionText",
+                      "OptionsList",
+                      "SelectionIndicator"
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "vocab_id": "vocab_009_004",
+              "phrase_id": 4,
+              "source_text": "morning",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "frequency_rank": 4,
+              "difficulty": 1,
+              "context": {
+                "usage_context": "time_reference",
+                "formality_level": "neutral",
+                "time_of_day": "morning",
+                "relationship": "any"
+              },
+              "linguistic_info": {
+                "tooltip_source": "The time of day from sunrise until noon.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "https://cdn.example.com/images/morning-sun.jpg",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]",
+                "text_to_speak_target": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "adaptive",
+                "selected_exercises": [
+                  {
+                    "exercise_id": "ex_vocab_009_004_01",
+                    "exercise_type": "Audio-to-Text Matching",
+                    "prompt_source": "Select the text that matches what you hear:",
+                    "prompt_target": "[TRANSLATE]",
+                    "audio_stimulus": {
+                      "audio_file": "[GENERATE]",
+                      "play_on_load": true,
+                      "text_to_speak_target": "[GENERATE]"
+                    },
+                    "text_options": [
+                      "morning",
+                      "Good morning",
+                      "Good night",
+                      "Good afternoon"
+                    ],
+                    "correct_answer": "morning",
+                    "scoring": {
+                      "points_correct": 10,
+                      "points_incorrect": 0
+                    },
+                    "ui_pattern": "AUDIO_TEXT_MATCHING",
+                    "category": "LISTENING",
+                    "input_method": "Tap",
+                    "ui_components": [
+                      "AudioPlayer",
+                      "TextList",
+                      "SelectionIndicator"
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "vocab_id": "vocab_009_005",
+              "phrase_id": 5,
+              "source_text": "afternoon",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "frequency_rank": 5,
+              "difficulty": 1,
+              "context": {
+                "usage_context": "time_reference",
+                "formality_level": "neutral",
+                "time_of_day": "afternoon",
+                "relationship": "any"
+              },
+              "linguistic_info": {
+                "tooltip_source": "The time of day from noon until evening.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "https://cdn.example.com/images/afternoon.jpg",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]",
+                "text_to_speak_target": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "adaptive",
+                "selected_exercises": [
+                  {
+                    "exercise_id": "ex_vocab_009_005_01",
+                    "exercise_type": "Audio-to-Text Matching",
+                    "prompt_source": "Select the text that matches what you hear:",
+                    "prompt_target": "[TRANSLATE]",
+                    "audio_stimulus": {
+                      "audio_file": "[GENERATE]",
+                      "play_on_load": true,
+                      "text_to_speak_target": "[GENERATE]"
+                    },
+                    "text_options": [
+                      "afternoon",
+                      "Good morning",
+                      "Good night",
+                      "Good afternoon"
+                    ],
+                    "correct_answer": "afternoon",
+                    "scoring": {
+                      "points_correct": 10,
+                      "points_incorrect": 0
+                    },
+                    "ui_pattern": "AUDIO_TEXT_MATCHING",
+                    "category": "LISTENING",
+                    "input_method": "Tap",
+                    "ui_components": [
+                      "AudioPlayer",
+                      "TextList",
+                      "SelectionIndicator"
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "module_2_functional_grammar": {
+          "module_id": "module_2",
+          "module_name": "Functional Grammar",
+          "module_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 480,
+          "title_source": "Grammar Points",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Grammar",
+          "grammar_points": [
+            {
+              "grammar_id": "gram_009_001",
+              "concept_source": "Time-of-Day Greetings",
+              "concept_target": "[TRANSLATE]",
+              "title_source": "Greeting by Time of Day",
+              "title_target": "[TRANSLATE]",
+              "explanation_source": "In English, greetings change based on the time of day. Use 'Good morning' before noon, 'Good afternoon' from noon to early evening, and 'Good evening' from late afternoon onward.",
+              "explanation_target": "[TRANSLATE]",
+              "examples": [
+                {
+                  "example_id": "gr_ex_009_001",
+                  "text_source": "Good evening.",
+                  "text_target": "[TRANSLATE]",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]",
+                  "context": "greeting_evening",
+                  "text_to_speak_target": "[GENERATE]"
+                },
+                {
+                  "example_id": "gr_ex_009_002",
+                  "text_source": "Good morning.",
+                  "text_target": "[TRANSLATE]",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]",
+                  "context": "greeting_morning"
+                }
+              ],
+              "rules": [
+                {
+                  "rule_source": "Use 'Good' + time of day (morning / afternoon / evening) as a polite greeting.",
+                  "rule_target": "[TRANSLATE]"
+                },
+                {
+                  "rule_source": "Use 'Good evening' when arriving. Use 'Good night' only when leaving or going to sleep.",
+                  "rule_target": "[TRANSLATE]"
+                }
+              ]
+            }
+          ]
+        },
+        "module_3_sentence_building": {
+          "module_id": "module_3",
+          "module_name": "Sentence Building",
+          "module_code": "SENTENCE",
+          "position_in_lesson": 3,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 420,
+          "title_source": "Build Sentences",
+          "title_target": "[TRANSLATE]",
+          "module_type": "SentenceBuilding",
+          "exercises": [
+            {
+              "exercise_id": "ex_sentence_009_01",
+              "exercise_type": "Drag-and-Drop Sentence Builder",
+              "prompt_source": "Put the words in the correct order to form a greeting:",
+              "prompt_target": "[TRANSLATE]",
+              "target_sentence_source": "Good evening.",
+              "word_tiles": [
+                {
+                  "word_id": "word_009_01",
+                  "word_source": "Good",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "word_009_02",
+                  "word_source": "evening",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "word_009_03",
+                  "word_source": ".",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                }
+              ],
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              },
+              "ui_pattern": "DRAG_DROP",
+              "category": "GRAMMAR",
+              "input_method": "Drag & Drop",
+              "ui_components": [
+                "WordTiles",
+                "DropZone",
+                "HintsDisplay"
+              ]
+            },
+            {
+              "exercise_id": "ex_sentence_009_02",
+              "exercise_type": "Drag-and-Drop Sentence Builder",
+              "prompt_source": "Build the sentence:",
+              "prompt_target": "[TRANSLATE]",
+              "target_sentence_source": "Good morning.",
+              "word_tiles": [
+                {
+                  "word_id": "word_009_21",
+                  "word_source": "Good",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "word_009_22",
+                  "word_source": "morning",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "word_009_23",
+                  "word_source": ".",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                }
+              ],
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              },
+              "ui_pattern": "DRAG_DROP",
+              "category": "GRAMMAR",
+              "input_method": "Drag & Drop",
+              "ui_components": [
+                "WordTiles",
+                "DropZone",
+                "HintsDisplay"
+              ]
+            }
+          ]
+        },
+        "module_4_modifiers": {
+          "module_id": "module_4",
+          "module_name": "Modifiers and Variations",
+          "module_code": "MODIFIERS",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": false,
+          "estimated_duration_seconds": 360,
+          "title_source": "Phrase Variations",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Modifiers",
+          "variations": [
+            {
+              "base_phrase_source": "Good evening",
+              "base_phrase_target": "[TRANSLATE]",
+              "variants": [
+                {
+                  "label_source": "Formal",
+                  "label_target": "[TRANSLATE]",
+                  "text_source": "Good evening.",
+                  "text_target": "[TRANSLATE]",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]",
+                  "context_source": "Used when arriving in a formal or professional setting",
+                  "context_target": "[TRANSLATE]",
+                  "text_to_speak_target": "[GENERATE]"
+                },
+                {
+                  "label_source": "Informal",
+                  "label_target": "[TRANSLATE]",
+                  "text_source": "Evening!",
+                  "text_target": "[TRANSLATE]",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]",
+                  "context_source": "Used casually with friends or people you know well",
+                  "context_target": "[TRANSLATE]"
+                },
+                {
+                  "label_source": "Time-specific",
+                  "label_target": "[TRANSLATE]",
+                  "text_source": "Good night.",
+                  "text_target": "[TRANSLATE]",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]",
+                  "context_source": "Used only when leaving or going to sleep, not as a greeting",
+                  "context_target": "[TRANSLATE]",
+                  "text_to_speak_target": "[GENERATE]"
+                }
+              ]
+            }
+          ]
+        },
+        "module_5_regional_context": {
+          "module_id": "module_5",
+          "module_name": "Regional Context",
+          "module_code": "REGIONAL",
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": false,
+          "estimated_duration_seconds": 300,
+          "title_source": "Cultural Notes",
+          "title_target": "[TRANSLATE]",
+          "module_type": "RegionalContext",
+          "cultural_content": {
+            "general": {
+              "note_source": "Evening greetings vary across cultures. In many places, greeting someone when you arrive at a restaurant or gathering in the evening is an important sign of politeness. The specific words and gestures used can differ, but the intent to show respect remains universal.",
+              "note_target": "[TRANSLATE]"
+            },
+            "location_specific": {
+              "cameroon": {
+                "note_source": "In Cameroon, evening greetings are warm and often accompanied by a handshake. When entering a restaurant or someone's home in the evening, it is polite to greet everyone present, not just the person you are meeting. Saying 'Good evening' shows respect for the time of day and the people around you.",
+                "note_target": "[TRANSLATE]"
+              },
+              "france": {
+                "note_source": "In France, 'Bonsoir' (good evening) is the standard greeting used from late afternoon onward. When entering a restaurant, it is customary to greet the host or waiter with 'Bonsoir' before anything else. Not greeting upon arrival can be seen as impolite.",
+                "note_target": "[TRANSLATE]"
+              }
+            }
+          }
+        },
+        "module_6_simple_dialogue_practice": {
+          "module_id": "module_6",
+          "module_name": "Dialogue Practice",
+          "module_code": "DIALOGUE",
+          "position_in_lesson": 6,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 600,
+          "title_source": "Practice Conversation",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Conversations",
+          "dialogue": [
+            {
+              "turn_id": "turn_009_001",
+              "turn": 1,
+              "turn_number": 1,
+              "speaker": "YOU",
+              "text_source": "Good evening.",
+              "text_target": "[TRANSLATE]",
+              "function": "greeting",
+              "formality": "formal",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "image_url": "https://cdn.example.com/images/restaurant-entrance.jpg",
+              "text_to_speak_target": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_009_002",
+              "turn": 2,
+              "turn_number": 2,
+              "speaker": "PARTNER",
+              "text_source": "Hello. Welcome.",
+              "text_target": "[TRANSLATE]",
+              "function": "greeting_response",
+              "formality": "formal",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "image_url": ""
+            }
+          ]
+        },
+        "module_7_section_review": {
+          "module_id": "module_7",
+          "module_name": "Section Review",
+          "module_code": "REVIEW",
+          "position_in_lesson": 7,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 720,
+          "title_source": "Review Exercises",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Review",
+          "exercises": [
+            {
+              "exercise_id": "ex_review_009_001",
+              "exercise_type": "Audio-to-Text Matching",
+              "prompt_source": "Select the phrase you hear:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": false,
+                "text_to_speak_target": "[GENERATE]"
+              },
+              "text_options": [
+                "Good evening",
+                "Good morning",
+                "Good night",
+                "Good afternoon"
+              ],
+              "correct_answer": "Good evening",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              },
+              "ui_pattern": "AUDIO_TEXT_MATCHING",
+              "category": "LISTENING",
+              "input_method": "Tap",
+              "ui_components": [
+                "AudioPlayer",
+                "TextList",
+                "SelectionIndicator"
+              ]
+            },
+            {
+              "exercise_id": "ex_review_009_002",
+              "exercise_type": "Multiple Choice",
+              "prompt_source": "When do you say 'Good evening'?",
+              "prompt_target": "[TRANSLATE]",
+              "options": [
+                {
+                  "option_id": "opt_01",
+                  "text_source": "When arriving in the evening",
+                  "text_target": "[TRANSLATE]",
+                  "correct": true
+                },
+                {
+                  "option_id": "opt_02",
+                  "text_source": "When leaving at night",
+                  "text_target": "[TRANSLATE]",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_03",
+                  "text_source": "When waking up in the morning",
+                  "text_target": "[TRANSLATE]",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_04",
+                  "text_source": "When eating lunch",
+                  "text_target": "[TRANSLATE]",
+                  "correct": false
+                }
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              },
+              "ui_pattern": "MULTIPLE_CHOICE",
+              "category": "MULTIPLE_CHOICE",
+              "input_method": "Tap",
+              "ui_components": [
+                "QuestionText",
+                "OptionsList",
+                "SelectionIndicator"
+              ]
+            },
+            {
+              "exercise_id": "ex_review_009_003",
+              "exercise_type": "Fill-in-the-Blank",
+              "prompt_source": "Complete the sentence:",
+              "prompt_target": "[TRANSLATE]",
+              "sentence": "Good ___.",
+              "blanks": [
+                1
+              ],
+              "correct_answer": "evening",
+              "options": [
+                "evening",
+                "morning",
+                "night",
+                "day"
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              },
+              "ui_pattern": "FILL_IN_BLANK",
+              "category": "FILL_IN_BLANK",
+              "input_method": "Tap/Type",
+              "ui_components": [
+                "SentenceWithBlanks",
+                "InputFields",
+                "OptionsList"
+              ]
+            },
+            {
+              "exercise_id": "ex_review_009_004",
+              "exercise_type": "Audio True/False",
+              "prompt_source": "True or False: The audio says: Good evening.",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true,
+                "text_to_speak_target": "[GENERATE]"
+              },
+              "statement": "The audio says: Good evening.",
+              "correct_answer": "true",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              },
+              "ui_pattern": "AUDIO_TRUE_FALSE",
+              "category": "LISTENING",
+              "input_method": "Tap",
+              "ui_components": [
+                "AudioPlayer",
+                "StatementDisplay",
+                "TrueFalseButtons"
+              ]
+            },
+            {
+              "exercise_id": "ex_review_009_005",
+              "exercise_type": "Dialogue Gap-Fill",
+              "prompt_source": "Complete the dialogue with the appropriate response:",
+              "prompt_target": "[TRANSLATE]",
+              "dialogue_context": "A customer enters a restaurant in the evening",
+              "turns": [
+                {
+                  "speaker": "Customer",
+                  "text": "___"
+                },
+                {
+                  "speaker": "Host",
+                  "text": "Hello. Welcome."
+                }
+              ],
+              "responses": [
+                "Good evening.",
+                "Good morning.",
+                "Goodbye.",
+                "Thank you."
+              ],
+              "correct_answer": "Good evening.",
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_review_009_006",
+              "exercise_type": "Sentence Ordering (Reading)",
+              "prompt_source": "Put the sentences in the correct order:",
+              "prompt_target": "[TRANSLATE]",
+              "sequence_items": [
+                "Welcome.",
+                "Good evening.",
+                "A table for one, please."
+              ],
+              "correct_order": [
+                2,
+                1,
+                3
+              ],
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_review_009_007",
+              "exercise_type": "Translation Typing (L1→L2)",
+              "prompt_source": "Translate to the target language:",
+              "prompt_target": "[TRANSLATE]",
+              "source_text": "Good evening.",
+              "target_text": "[TRANSLATE]",
+              "hints": "A formal greeting used when arriving in the evening.",
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              },
+              "ui_pattern": "TRANSLATION_INPUT",
+              "category": "WRITING",
+              "input_method": "Type",
+              "ui_components": [
+                "SourceTextDisplay",
+                "TextArea",
+                "HintsDisplay"
+              ]
+            },
+            {
+              "exercise_id": "ex_review_009_008",
+              "exercise_type": "Error Correction",
+              "prompt_source": "Find and correct the error in the sentence:",
+              "prompt_target": "[TRANSLATE]",
+              "source_sentence": "Good Evning.",
+              "transformation_type": "grammar_correction",
+              "target_sentence": "Good evening.",
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_review_009_009",
+              "exercise_type": "Copy Typing",
+              "prompt_source": "Type the following sentence exactly:",
+              "prompt_target": "[TRANSLATE]",
+              "source_text": "Good evening.",
+              "expected_response": "Good evening.",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_review_009_010",
+              "exercise_type": "Listen and Pronounce",
+              "prompt_source": "Listen to the audio and pronounce the phrase:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": false,
+                "text_to_speak_target": "[GENERATE]"
+              },
+              "reference_text": "Good evening",
+              "scoring_criteria": "Pronunciation accuracy, fluency, and intonation",
+              "scoring": {
+                "points_correct": 20,
+                "points_incorrect": 0
+              },
+              "ui_pattern": "LISTEN_AND_PRONOUNCE",
+              "category": "SPEAKING",
+              "input_method": "Voice Record",
+              "ui_components": [
+                "AudioPlayer",
+                "TextDisplay",
+                "RecordButton",
+                "WaveformComparison"
+              ]
+            }
+          ]
+        },
+        "module_8_completion": {
+          "module_id": "module_8",
+          "module_name": "Completion",
+          "module_code": "COMPLETION",
+          "position_in_lesson": 8,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": "Lesson Complete!",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Completion",
+          "summary": {
+            "learned_source": "You learned how to greet someone in the evening using 'Good evening.' You practiced time-of-day greetings, built sentences, explored formal and informal variations, and learned about evening greeting customs in different cultures.",
+            "learned_target": "[TRANSLATE]",
+            "xp_earned": 100,
+            "stars_earned": 3,
+            "modules_completed": 8,
+            "exercises_completed": 20,
+            "time_spent_minutes": 10
+          },
+          "next_lesson_preview": {
+            "lesson_id": "A0-ESS-L10",
+            "title_source": "Next: Hello. Welcome.",
+            "title_target": "[TRANSLATE]",
+            "teaser_source": "Learn how to welcome someone arriving at a restaurant.",
+            "teaser_target": "[TRANSLATE]",
+            "difficulty_level": "BEGINNER",
+            "estimated_duration": 8,
+            "image_url": "https://cdn.example.com/images/next-lesson-welcome.jpg"
+          },
+          "achievements": [
+            {
+              "achievement_id": "ach_009_001",
+              "title_source": "Lesson Completed",
+              "title_target": "[TRANSLATE]",
+              "description_source": "Completed all modules for: Good evening.",
+              "description_target": "[TRANSLATE]",
+              "icon_url": "https://cdn.example.com/images/achievement-lesson-complete.png"
+            },
+            {
+              "achievement_id": "ach_009_002",
+              "title_source": "Vocabulary Learned",
+              "title_target": "[TRANSLATE]",
+              "description_source": "Mastered all vocabulary items in this lesson",
+              "description_target": "[TRANSLATE]",
+              "icon_url": "https://cdn.example.com/images/achievement-vocab.png"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

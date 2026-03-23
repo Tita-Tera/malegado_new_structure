@@ -1,0 +1,986 @@
+{
+  "title": {
+    "value": "Greetings, Names, and Introductions – Micro Lesson",
+    "translatable": true
+  },
+  "description": {
+    "value": "5-phase micro-flow lesson: Vocabulary Anchor → Grammar Engine → Localization → Dialogue → Sprint. Single lesson in ~2–5 minutes (~15–20 interactions).",
+    "translatable": true
+  },
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 3,
+  "status": "DRAFT",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "A0-ESS-1.1a-L3",
+      "generation_timestamp": "2026-01-12T00:00:00Z",
+      "version": "2.0.0",
+      "created_by": "admin",
+      "level_config": {
+        "level_code": "A0",
+        "level_name": {
+          "value": "Absolute Beginner",
+          "translatable": true
+        },
+        "level_description": {
+          "value": "No prior knowledge required",
+          "translatable": true
+        },
+        "cefr_equivalent": "Pre-A1",
+        "available_levels": ["A0", "A1", "A2", "B1", "B2", "C1", "C2"]
+      },
+      "theme_config": {
+        "theme_id": "ESS",
+        "theme_code": "ESS",
+        "theme_name": {
+          "value": "Essentials",
+          "translatable": true
+        },
+        "theme_description": {
+          "value": "Core survival phrases and basic interactions",
+          "translatable": true
+        },
+        "available_themes": [
+          {
+            "code": {
+              "value": "ESS",
+              "translatable": true
+            },
+            "name": {
+              "value": "Essentials",
+              "translatable": true
+            }
+          },
+          {
+            "code": {
+              "value": "TRV",
+              "translatable": true
+            },
+            "name": {
+              "value": "Travel",
+              "translatable": true
+            }
+          },
+          {
+            "code": {
+              "value": "WRK",
+              "translatable": true
+            },
+            "name": {
+              "value": "Work",
+              "translatable": true
+            }
+          },
+          {
+            "code": {
+              "value": "SOC",
+              "translatable": true
+            },
+            "name": {
+              "value": "Social",
+              "translatable": true
+            }
+          },
+          {
+            "code": {
+              "value": "MED",
+              "translatable": true
+            },
+            "name": {
+              "value": "Medical",
+              "translatable": true
+            }
+          },
+          {
+            "code": {
+              "value": "SHP",
+              "translatable": true
+            },
+            "name": {
+              "value": "Shopping",
+              "translatable": true
+            }
+          },
+          {
+            "code": {
+              "value": "FOD",
+              "translatable": true
+            },
+            "name": {
+              "value": "Food & Dining",
+              "translatable": true
+            }
+          },
+          {
+            "code": {
+              "value": "EMG",
+              "translatable": true
+            },
+            "name": {
+              "value": "Emergency",
+              "translatable": true
+            }
+          }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "1.1a",
+        "unit_number": 1,
+        "subunit_number": 1,
+        "variant": "a",
+        "unit_name": {
+          "value": "Greetings and Introductions",
+          "translatable": true
+        },
+        "unit_description": {
+          "value": "Learn to greet people and introduce yourself",
+          "translatable": true
+        },
+        "total_lessons_in_unit": 9,
+        "unit_difficulty": 1,
+        "estimated_completion_time_minutes": 45
+      },
+      "lesson_config": {
+        "lesson_number": 3,
+        "lesson_type": "teaching",
+        "lesson_name": {
+          "value": "Greetings Micro Lesson",
+          "translatable": true
+        },
+        "lesson_description": {
+          "value": "5-phase micro-flow: Core phrase, grammar pro-tip, localization, 4-turn dialogue, sprint exercises.",
+          "translatable": true
+        },
+        "estimated_duration_minutes": 3,
+        "difficulty_within_unit": 1,
+        "prerequisites": [],
+        "learning_objectives": [
+          {
+            "value": "Use the core greeting phrase in context",
+            "translatable": true
+          },
+          {
+            "value": "Apply basic grammar (variations/modifiers)",
+            "translatable": true
+          },
+          {
+            "value": "Recognize local equivalents for key terms",
+            "translatable": true
+          },
+          {
+            "value": "Complete a short 4-turn dialogue",
+            "translatable": true
+          },
+          {
+            "value": "Reinforce with quick sprint exercises",
+            "translatable": true
+          }
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      }
+    },
+    "lesson_structure": {
+      "phase_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "phase_1_vocabulary_anchor",
+          "phase_2_grammar_engine",
+          "phase_3_localization_layer",
+          "phase_4_dialogue",
+          "phase_5_sprint_exercises"
+        ]
+      },
+      "phases": {
+        "phase_1_vocabulary_anchor": {
+          "phase_id": "phase_1",
+          "phase_name": {
+            "value": "Vocabulary Anchor",
+            "translatable": true
+          },
+          "phase_code": "VOCAB_ANCHOR",
+          "position_in_lesson": 1,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 40,
+          "title_source": {
+            "value": "The Core Turn",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "VocabularyAnchor",
+          "core_phrase": {
+            "phrase_id": "core_001",
+            "source_text": {
+              "value": "Hello!",
+              "translatable": true
+            },
+            "target_text": "[TRANSLATE]",
+            "part_of_speech": "interjection",
+            "linguistic_info": {
+              "tooltip_source": {
+                "value": "A general greeting used in many contexts.",
+                "translatable": true
+              },
+              "tooltip_target": "[TRANSLATE]",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+            },
+            "media": {
+              "image_url": "",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            "context": {
+              "usage_context": "greeting",
+              "formality_level": "formal",
+              "time_of_day": "any",
+              "relationship": "any"
+            }
+          },
+          "related_words": [
+            {
+              "word_id": "rel_001",
+              "source_text": {
+                "value": "Greet",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "verb",
+              "image_url": "",
+              "meaning_source": {
+                "value": "To say hello or welcome.",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "word_id": "rel_002",
+              "source_text": {
+                "value": "Formal",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "adjective",
+              "image_url": "",
+              "meaning_source": {
+                "value": "Polite, suitable for official situations.",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "word_id": "rel_003",
+              "source_text": {
+                "value": "Meeting",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "image_url": "",
+              "meaning_source": {
+                "value": "An occasion when people come together.",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "word_id": "rel_004",
+              "source_text": {
+                "value": "Polite",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "adjective",
+              "image_url": "",
+              "meaning_source": {
+                "value": "Showing good manners and respect.",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "word_id": "rel_005",
+              "source_text": {
+                "value": "Name",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "image_url": "",
+              "meaning_source": {
+                "value": "What someone is called.",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            }
+          ],
+          "listen_repeat": {
+            "prompt_source": {
+              "value": "Listen and repeat the core phrase.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {
+              "audio_file": "[GENERATE]",
+              "play_on_load": true
+            },
+            "show_text_after_play": true
+          },
+          "quick_match": {
+            "prompt_source": {
+              "value": "Connect each word to its meaning or image.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              {
+                "word_id": "rel_001",
+                "match_target": "meaning",
+                "correct_key": "greet_meaning"
+              },
+              {
+                "word_id": "rel_002",
+                "match_target": "meaning",
+                "correct_key": "formal_meaning"
+              },
+              {
+                "word_id": "rel_003",
+                "match_target": "image",
+                "correct_key": "meeting_image"
+              },
+              {
+                "word_id": "rel_004",
+                "match_target": "meaning",
+                "correct_key": "polite_meaning"
+              },
+              {
+                "word_id": "rel_005",
+                "match_target": "meaning",
+                "correct_key": "name_meaning"
+              }
+            ],
+            "options_display": "images_or_meanings"
+          }
+        },
+        "phase_2_grammar_engine": {
+          "phase_id": "phase_2",
+          "phase_name": {
+            "value": "Grammar Engine",
+            "translatable": true
+          },
+          "phase_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 50,
+          "title_source": {
+            "value": "The Logic",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "GrammarEngine",
+          "pro_tip": {
+            "tip_id": "pro_001",
+            "concept_source": {
+              "value": "Greeting variations",
+              "translatable": true
+            },
+            "concept_target": "[TRANSLATE]",
+            "explanation_source": {
+              "value": "Use \"Hello!\" in formal or neutral situations. For informal cases use \"Hi!\" or \"Hey!\". Greetings can be followed by a comma and then the rest of the sentence.",
+              "translatable": true
+            },
+            "explanation_target": "[TRANSLATE]",
+            "focus_type": "variations",
+            "examples_source": [
+              {
+                "value": "Hello, sir.",
+                "translatable": true
+              },
+              {
+                "value": "Hi! Nice to meet you.",
+                "translatable": true
+              }
+            ],
+            "examples_target": ["[TRANSLATE]", "[TRANSLATE]"]
+          },
+          "sentence_building": [
+            {
+              "exercise_id": "sb_001",
+              "prompt_source": {
+                "value": "Put the words in the correct order:",
+                "translatable": true
+              },
+              "prompt_target": "[TRANSLATE]",
+              "target_sentence_source": {
+                "value": "Hello! How are you?",
+                "translatable": true
+              },
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": {
+                    "value": "Hello",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": {
+                    "value": "!",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": {
+                    "value": "How",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": {
+                    "value": "are",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4
+                },
+                {
+                  "word_id": "w5",
+                  "word_source": {
+                    "value": "you",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 5
+                },
+                {
+                  "word_id": "w6",
+                  "word_source": {
+                    "value": "?",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 6
+                }
+              ]
+            },
+            {
+              "exercise_id": "sb_002",
+              "prompt_source": {
+                "value": "Arrange the words to form a greeting:",
+                "translatable": true
+              },
+              "prompt_target": "[TRANSLATE]",
+              "target_sentence_source": {
+                "value": "My name is Alex.",
+                "translatable": true
+              },
+              "word_tiles": [
+                {
+                  "word_id": "w7",
+                  "word_source": {
+                    "value": "My",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w8",
+                  "word_source": {
+                    "value": "name",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w9",
+                  "word_source": {
+                    "value": "is",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w10",
+                  "word_source": {
+                    "value": "Alex",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4
+                },
+                {
+                  "word_id": "w11",
+                  "word_source": {
+                    "value": ".",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 5
+                }
+              ]
+            }
+          ]
+        },
+        "phase_3_localization_layer": {
+          "phase_id": "phase_3",
+          "phase_name": {
+            "value": "Localization Layer",
+            "translatable": true
+          },
+          "phase_code": "LOCALIZATION",
+          "position_in_lesson": 3,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 15,
+          "title_source": {
+            "value": "Regional Swap",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "LocalizationLayer",
+          "did_you_know": {
+            "card_id": "dyk_001",
+            "prompt_source": {
+              "value": "Did you know? In your region, this might be said differently:",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "global_term": {
+              "source_text": {
+                "value": "Hello",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "context_source": {
+                "value": "Standard greeting used globally.",
+                "translatable": true
+              }
+            },
+            "local_terms": {
+              "lagos": {
+                "source_text": {
+                  "value": "Kedu",
+                  "translatable": true
+                },
+                "target_text": "[TRANSLATE]",
+                "audio_normal": "[GENERATE]",
+                "context_source": {
+                  "value": "Common greeting in Igbo (Nigeria).",
+                  "translatable": true
+                },
+                "locale_label": "Lagos / Nigeria"
+              },
+              "cameroon": {
+                "source_text": {
+                  "value": "Mbote",
+                  "translatable": true
+                },
+                "target_text": "[TRANSLATE]",
+                "audio_normal": "[GENERATE]",
+                "context_source": {
+                  "value": "Greeting in Lingala used in parts of Cameroon.",
+                  "translatable": true
+                },
+                "locale_label": "Cameroon"
+              },
+              "senegal": {
+                "source_text": {
+                  "value": "Salaam aleikum",
+                  "translatable": true
+                },
+                "target_text": "[TRANSLATE]",
+                "audio_normal": "[GENERATE]",
+                "context_source": {
+                  "value": "Common greeting in Senegal (Wolof/Arabic influence).",
+                  "translatable": true
+                },
+                "locale_label": "Senegal"
+              },
+              "default": {
+                "source_text": {
+                  "value": "Hello",
+                  "translatable": true
+                },
+                "target_text": "[TRANSLATE]",
+                "audio_normal": "[GENERATE]",
+                "context_source": {
+                  "value": "Standard greeting.",
+                  "translatable": true
+                },
+                "locale_label": "Global"
+              }
+            },
+            "gps_locale_swap_logic": "System checks user GPS/Locale and suggests local equivalent; user can toggle Global vs Local."
+          }
+        },
+        "phase_4_dialogue": {
+          "phase_id": "phase_4",
+          "phase_name": {
+            "value": "The Dialogue",
+            "translatable": true
+          },
+          "phase_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": {
+            "value": "The Context",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "Dialogue",
+          "setting": {
+            "value": "Street – First Meeting",
+            "translatable": true
+          },
+          "context": {
+            "value": "Two people meet and exchange greetings and names.",
+            "translatable": true
+          },
+          "dialogue": [
+            {
+              "turn_id": "turn_1",
+              "turn_number": 1,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "Hello!",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "interaction_type": "select_response",
+              "user_response_options": [
+                {
+                  "option_id": "r1a",
+                  "text_source": {
+                    "value": "Hello!",
+                    "translatable": true
+                  },
+                  "text_target": "[TRANSLATE]",
+                  "correct": true
+                },
+                {
+                  "option_id": "r1b",
+                  "text_source": {
+                    "value": "Goodbye!",
+                    "translatable": true
+                  },
+                  "text_target": "[TRANSLATE]",
+                  "correct": false
+                },
+                {
+                  "option_id": "r1c",
+                  "text_source": {
+                    "value": "Thank you.",
+                    "translatable": true
+                  },
+                  "text_target": "[TRANSLATE]",
+                  "correct": false
+                }
+              ],
+              "function": "greeting",
+              "formality": "formal"
+            },
+            {
+              "turn_id": "turn_2",
+              "turn_number": 2,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "What's your name?",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "interaction_type": "select_response",
+              "user_response_options": [
+                {
+                  "option_id": "r2a",
+                  "text_source": {
+                    "value": "My name is Alex.",
+                    "translatable": true
+                  },
+                  "text_target": "[TRANSLATE]",
+                  "correct": true
+                },
+                {
+                  "option_id": "r2b",
+                  "text_source": {
+                    "value": "I am fine.",
+                    "translatable": true
+                  },
+                  "text_target": "[TRANSLATE]",
+                  "correct": false
+                },
+                {
+                  "option_id": "r2c",
+                  "text_source": {
+                    "value": "Hello!",
+                    "translatable": true
+                  },
+                  "text_target": "[TRANSLATE]",
+                  "correct": false
+                }
+              ],
+              "function": "asking_name",
+              "formality": "neutral"
+            },
+            {
+              "turn_id": "turn_3",
+              "turn_number": 3,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "Nice to meet you, Alex.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "interaction_type": "record_pronunciation",
+              "expected_user_phrase_source": {
+                "value": "Nice to meet you too.",
+                "translatable": true
+              },
+              "expected_user_phrase_target": "[TRANSLATE]",
+              "pronunciation_check": true,
+              "function": "responding_to_introduction",
+              "formality": "neutral"
+            },
+            {
+              "turn_id": "turn_4",
+              "turn_number": 4,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "Have a good day!",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "interaction_type": "type_response",
+              "expected_user_phrase_source": {
+                "value": "You too. Goodbye!",
+                "translatable": true
+              },
+              "expected_user_phrase_target": "[TRANSLATE]",
+              "listening_spelling_check": true,
+              "function": "farewell",
+              "formality": "neutral"
+            }
+          ]
+        },
+        "phase_5_sprint_exercises": {
+          "phase_id": "phase_5",
+          "phase_name": {
+            "value": "Sprint Exercises",
+            "translatable": true
+          },
+          "phase_code": "SPRINT",
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": {
+            "value": "Reinforcement",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "SprintExercises",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "sprint_01",
+              "exercise_type": "multiple_choice_listening",
+              "prompt_source": {
+                "value": "Select the phrase you hear:",
+                "translatable": true
+              },
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true
+              },
+              "text_options": [
+                {
+                  "value": "Hello!",
+                  "translatable": true
+                },
+                {
+                  "value": "Goodbye!",
+                  "translatable": true
+                },
+                {
+                  "value": "Thank you!",
+                  "translatable": true
+                },
+                {
+                  "value": "My name is Alex.",
+                  "translatable": true
+                }
+              ],
+              "correct_answer": {
+                "value": "Hello!",
+                "translatable": true
+              },
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "sprint_02",
+              "exercise_type": "translate_sentence",
+              "prompt_source": {
+                "value": "Translate this sentence:",
+                "translatable": true
+              },
+              "prompt_target": "[TRANSLATE]",
+              "sentence_source": {
+                "value": "My name is Alex.",
+                "translatable": true
+              },
+              "sentence_target": "[TRANSLATE]",
+              "direction": "source_to_target",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "sprint_03",
+              "exercise_type": "fill_in_blank",
+              "prompt_source": {
+                "value": "Complete the sentence:",
+                "translatable": true
+              },
+              "prompt_target": "[TRANSLATE]",
+              "sentence_template": {
+                "value": "Hello! ___ are you?",
+                "translatable": true
+              },
+              "blanks": [
+                {
+                  "position": 2,
+                  "correct_answer": {
+                    "value": "How",
+                    "translatable": true
+                  }
+                }
+              ],
+              "options": [
+                {
+                  "value": "How",
+                  "translatable": true
+                },
+                {
+                  "value": "What",
+                  "translatable": true
+                },
+                {
+                  "value": "Where",
+                  "translatable": true
+                },
+                {
+                  "value": "When",
+                  "translatable": true
+                }
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "sprint_04",
+              "exercise_type": "text_to_image_match",
+              "prompt_source": {
+                "value": "Match the phrase to the correct image:",
+                "translatable": true
+              },
+              "prompt_target": "[TRANSLATE]",
+              "phrase_source": {
+                "value": "Hello!",
+                "translatable": true
+              },
+              "phrase_target": "[TRANSLATE]",
+              "image_options": [
+                {
+                  "option_id": "img_01",
+                  "image_url": "",
+                  "correct": true,
+                  "alt_source": "Person waving greeting"
+                },
+                {
+                  "option_id": "img_02",
+                  "image_url": "",
+                  "correct": false,
+                  "alt_source": "Person leaving"
+                },
+                {
+                  "option_id": "img_03",
+                  "image_url": "",
+                  "correct": false,
+                  "alt_source": "Person eating"
+                }
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "sprint_05",
+              "exercise_type": "pronunciation_localized",
+              "prompt_source": {
+                "value": "Say the localized word for your region:",
+                "translatable": true
+              },
+              "prompt_target": "[TRANSLATE]",
+              "localized_word_source": "[FROM_PHASE_3_LOCAL_TERM]",
+              "localized_word_target": "[TRANSLATE]",
+              "audio_model": "[GENERATE]",
+              "pronunciation_check": true,
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            }
+          ]
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": ["**_target"],
+      "audio_generation_patterns": ["[GENERATE]", "[GENERATE_FOR_TARGET]"]
+    }
+  }
+}

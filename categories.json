@@ -1,0 +1,206 @@
+{
+  "lesson_categories": {
+    "description": "Lesson categories organized by proficiency level, mapped to CEFR levels",
+    "version": "1.0.0",
+    "level_groups": {
+      "beginner_survival": {
+        "label": "Beginner / Survival",
+        "cefr_levels": ["A0", "A1"],
+        "categories": [
+          {
+            "id": "greetings_introductions",
+            "name": "Greetings & Introductions",
+            "description": "Greetings, introductions & basic personal info (name, age, nationality, where from/live)"
+          },
+          {
+            "id": "numbers_time",
+            "name": "Numbers & Time",
+            "description": "Numbers, time, dates (days/months/seasons)"
+          },
+          {
+            "id": "family",
+            "name": "Family",
+            "description": "Family members & relationships"
+          },
+          {
+            "id": "basic_descriptions",
+            "name": "Basic Descriptions",
+            "description": "Colors, basic adjectives (big/small, good/bad, happy/sad)"
+          },
+          {
+            "id": "body",
+            "name": "Body",
+            "description": "Body parts & simple descriptions"
+          },
+          {
+            "id": "daily_routines",
+            "name": "Daily Routines",
+            "description": "Daily routines & activities"
+          },
+          {
+            "id": "food_drinks",
+            "name": "Food & Drinks",
+            "description": "Food & drinks (basic meals, likes/dislikes, ordering)"
+          },
+          {
+            "id": "home",
+            "name": "Home",
+            "description": "Home & furniture/rooms"
+          },
+          {
+            "id": "clothing",
+            "name": "Clothing",
+            "description": "Clothing & accessories"
+          },
+          {
+            "id": "weather",
+            "name": "Weather",
+            "description": "Weather & basic nature"
+          },
+          {
+            "id": "shopping",
+            "name": "Shopping",
+            "description": "Shopping & money/prices"
+          },
+          {
+            "id": "directions",
+            "name": "Directions",
+            "description": "Directions & simple travel (transport, asking the way)"
+          }
+        ]
+      },
+      "intermediate": {
+        "label": "Intermediate",
+        "cefr_levels": ["A2", "B1", "B2"],
+        "categories": [
+          {
+            "id": "work_education",
+            "name": "Work & Education",
+            "description": "Work/jobs/professions & education/studies"
+          },
+          {
+            "id": "hobbies_leisure",
+            "name": "Hobbies & Leisure",
+            "description": "Hobbies, sports, free time & entertainment"
+          },
+          {
+            "id": "health",
+            "name": "Health",
+            "description": "Health, illnesses, body feelings & doctor/pharmacy"
+          },
+          {
+            "id": "travel",
+            "name": "Travel",
+            "description": "Travel & holidays (accommodation, booking, experiences)"
+          },
+          {
+            "id": "restaurants",
+            "name": "Restaurants",
+            "description": "Food culture & restaurants (menus, ordering, complaining)"
+          },
+          {
+            "id": "services",
+            "name": "Services",
+            "description": "Shopping & services (clothes, post office, bank, repairs)"
+          },
+          {
+            "id": "places",
+            "name": "Places",
+            "description": "City/neighborhood & public places"
+          },
+          {
+            "id": "technology",
+            "name": "Technology",
+            "description": "Technology & media (phone/internet, social media, news)"
+          },
+          {
+            "id": "past_experiences",
+            "name": "Past Experiences",
+            "description": "Past experiences & storytelling (biography, holidays)"
+          },
+          {
+            "id": "future_plans",
+            "name": "Future Plans",
+            "description": "Future plans & intentions"
+          },
+          {
+            "id": "opinions",
+            "name": "Opinions",
+            "description": "Opinions, preferences & arguments (agree/disagree, reasons)"
+          },
+          {
+            "id": "environment",
+            "name": "Environment",
+            "description": "Environment, animals & nature"
+          }
+        ]
+      },
+      "advanced_extended": {
+        "label": "Advanced / Extended",
+        "cefr_levels": ["C1", "C2"],
+        "categories": [
+          {
+            "id": "feelings_personality",
+            "name": "Feelings & Personality",
+            "description": "Abstract concepts (feelings/emotions in depth, personality traits)"
+          },
+          {
+            "id": "society",
+            "name": "Society",
+            "description": "Society & social issues (inequality, politics, media influence)"
+          },
+          {
+            "id": "culture",
+            "name": "Culture",
+            "description": "Culture, traditions, history & art"
+          },
+          {
+            "id": "current_events",
+            "name": "Current Events",
+            "description": "Current events & global topics (economy, climate, technology trends)"
+          },
+          {
+            "id": "education_systems",
+            "name": "Education Systems",
+            "description": "Education systems & lifelong learning"
+          },
+          {
+            "id": "career",
+            "name": "Career",
+            "description": "Work & career (interviews, negotiations, professional emails)"
+          },
+          {
+            "id": "relationships",
+            "name": "Relationships",
+            "description": "Relationships & human behavior (friendship, love, conflict)"
+          },
+          {
+            "id": "lifestyle",
+            "name": "Lifestyle",
+            "description": "Health & lifestyle (mental health, fitness, habits)"
+          },
+          {
+            "id": "arts_media",
+            "name": "Arts & Media",
+            "description": "Literature, films, music & criticism"
+          },
+          {
+            "id": "philosophy",
+            "name": "Philosophy",
+            "description": "Philosophy, ethics & values"
+          },
+          {
+            "id": "science",
+            "name": "Science",
+            "description": "Science & innovation (basic terms in various fields)"
+          },
+          {
+            "id": "civic_life",
+            "name": "Civic Life",
+            "description": "Law, rights & civic life"
+          }
+        ]
+      }
+    }
+  }
+}
