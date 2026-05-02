@@ -1,0 +1,294 @@
+{
+  "title": { "value": "taking it to a shop", "translatable": true },
+  "description": { "value": "Learn how to ask if someone has had a device repaired.", "translatable": true },
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "services",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_001-L06",
+      "generation_timestamp": "2026-05-02T00:00:00Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A2",
+        "level_name": { "value": "Elementary", "translatable": true },
+        "level_description": { "value": "For learners with basic prior exposure to the language.", "translatable": true },
+        "cefr_equivalent": "A2",
+        "available_levels": ["A0","A1","A2","B1","B2","C1","C2"]
+      },
+      "theme_config": {
+        "theme_id": "SVCS",
+        "theme_code": "SVCS",
+        "theme_name": { "value": "Services", "translatable": true },
+        "theme_description": { "value": "Words and phrases for using shops, repairs, and other services.", "translatable": true },
+        "available_themes": [
+          { "code": { "value": "ESS", "translatable": true }, "name": { "value": "Essentials", "translatable": true } },
+          { "code": { "value": "TRV", "translatable": true }, "name": { "value": "Travel", "translatable": true } }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "2.1a",
+        "unit_number": 2,
+        "subunit_number": 1,
+        "variant": "a",
+        "unit_name": { "value": "Tech Troubles", "translatable": true },
+        "unit_description": { "value": "Everyday talk about slow devices, repairs, and what to do when tech is not working.", "translatable": true },
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 3,
+        "estimated_completion_time_minutes": 75
+      },
+      "lesson_config": {
+        "lesson_number": 6,
+        "lesson_type": "teaching",
+        "lesson_name": { "value": "taking it to a shop", "translatable": true },
+        "lesson_description": { "value": "Practice 'Did you ...?' to ask if a friend has taken action about a broken device.", "translatable": true },
+        "estimated_duration_minutes": 5,
+        "difficulty_within_unit": 6,
+        "prerequisites": ["badge_001-L01", "badge_001-L02", "badge_001-L03", "badge_001-L04", "badge_001-L05"],
+        "learning_objectives": [
+          "Ask 'Did you ...?' to find out about a past action.",
+          "Recognise four common words about device repair services.",
+          "Take part in a short conversation suggesting a repair shop."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      }
+    },
+    "lesson_structure": {
+      "phase_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": ["phase_1_vocabulary_anchor","phase_2_grammar_engine","phase_3_dialogue","phase_4_sprint_exercises"]
+      },
+      "phases": {
+        "phase_1_vocabulary_anchor": {
+          "phase_id": "phase_1",
+          "phase_name": { "value": "Vocabulary Anchor", "translatable": true },
+          "phase_code": "VOCAB_ANCHOR",
+          "position_in_lesson": 1,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": { "value": "Key phrases", "translatable": true },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "VocabularyAnchor",
+          "core_phrase": {
+            "phrase_id": "core_6",
+            "source_text": { "value": "Did you take it to a computer shop?", "translatable": true },
+            "target_text": "[TRANSLATE]",
+            "part_of_speech": "verb",
+            "linguistic_info": {
+              "tooltip_source": { "value": "A polite past-tense question used to suggest taking a broken device for repair.", "translatable": true },
+              "tooltip_target": "[TRANSLATE]",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+            },
+            "media": { "image_url": "", "audio_normal": "[GENERATE]", "audio_slow": "[GENERATE]" },
+            "context": { "usage_context": "suggestion", "formality_level": "neutral", "time_of_day": "any", "relationship": "any" }
+          },
+          "related_words": [
+            { "word_id": "rel_6_001", "source_text": { "value": "repair", "translatable": true }, "target_text": "[TRANSLATE]", "part_of_speech": "noun", "meaning_source": { "value": "The work done to make a broken thing work again.", "translatable": true }, "meaning_target": "[TRANSLATE]", "media": { "image_url": "", "audio_normal": "[GENERATE]", "audio_slow": "[GENERATE]" } },
+            { "word_id": "rel_6_002", "source_text": { "value": "technician", "translatable": true }, "target_text": "[TRANSLATE]", "part_of_speech": "noun", "meaning_source": { "value": "A worker trained to fix machines and devices.", "translatable": true }, "meaning_target": "[TRANSLATE]", "media": { "image_url": "", "audio_normal": "[GENERATE]", "audio_slow": "[GENERATE]" } },
+            { "word_id": "rel_6_003", "source_text": { "value": "fix", "translatable": true }, "target_text": "[TRANSLATE]", "part_of_speech": "verb", "meaning_source": { "value": "To make something broken work again.", "translatable": true }, "meaning_target": "[TRANSLATE]", "media": { "image_url": "", "audio_normal": "[GENERATE]", "audio_slow": "[GENERATE]" } },
+            { "word_id": "rel_6_004", "source_text": { "value": "service", "translatable": true }, "target_text": "[TRANSLATE]", "part_of_speech": "noun", "meaning_source": { "value": "Help that you pay for, like cleaning or repair.", "translatable": true }, "meaning_target": "[TRANSLATE]", "media": { "image_url": "", "audio_normal": "[GENERATE]", "audio_slow": "[GENERATE]" } }
+          ],
+          "listen_repeat": {
+            "prompt_source": { "value": "Listen and repeat the core phrase.", "translatable": true },
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": { "audio_file": "[GENERATE]", "play_on_load": true },
+            "show_text_after_play": true
+          },
+          "quick_match": {
+            "prompt_source": { "value": "Connect each word to its meaning or image.", "translatable": true },
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              { "word_id": "rel_6_001", "correct_key": "rel_6_001_correct" },
+              { "word_id": "rel_6_002", "correct_key": "rel_6_002_correct" },
+              { "word_id": "rel_6_003", "correct_key": "rel_6_003_correct" },
+              { "word_id": "rel_6_004", "correct_key": "rel_6_004_correct" }
+            ],
+            "options_display": "shuffle"
+          }
+        },
+        "phase_2_grammar_engine": {
+          "phase_id": "phase_2",
+          "phase_name": { "value": "Grammar Engine", "translatable": true },
+          "phase_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": { "value": "Grammar tip", "translatable": true },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "GrammarEngine",
+          "pro_tip": {
+            "tip_id": "gram_6",
+            "concept_source": { "value": "asking 'Did you ...?' about a past action", "translatable": true },
+            "concept_target": "[TRANSLATE]",
+            "explanation_source": { "value": "Use 'Did you' with the base form of a verb to ask a yes/no question about the past. The pattern is: Did + you + verb + object + ...?", "translatable": true },
+            "explanation_target": "[TRANSLATE]",
+            "focus_type": "variations",
+            "examples": [
+              { "example_id": "ex_6_001", "source_text": { "value": "Did you call a technician?", "translatable": true }, "target_text": "[TRANSLATE]", "register": "neutral", "usage_note_source": { "value": "Use a different verb to ask about a different action.", "translatable": true }, "usage_note_target": "[TRANSLATE]" },
+              { "example_id": "ex_6_002", "source_text": { "value": "Did you ask for a repair?", "translatable": true }, "target_text": "[TRANSLATE]", "register": "neutral", "usage_note_source": { "value": "Add 'for' to ask about requesting a service.", "translatable": true }, "usage_note_target": "[TRANSLATE]" }
+            ]
+          },
+          "modifiers": [
+            { "modifier_id": "mod_6_001", "modifier_source": { "value": "ever", "translatable": true }, "modifier_target": "[TRANSLATE]", "example_source": { "value": "Did you ever take it to a computer shop?", "translatable": true }, "example_target": "[TRANSLATE]", "explanation_source": { "value": "'ever' asks if it happened at any time in the past.", "translatable": true }, "explanation_target": "[TRANSLATE]" },
+            { "modifier_id": "mod_6_002", "modifier_source": { "value": "already", "translatable": true }, "modifier_target": "[TRANSLATE]", "example_source": { "value": "Did you already take it to a computer shop?", "translatable": true }, "example_target": "[TRANSLATE]", "explanation_source": { "value": "'already' suggests you expect they probably did.", "translatable": true }, "explanation_target": "[TRANSLATE]" }
+          ],
+          "sentence_building": [
+            {
+              "exercise_id": "ex_sb_6_1",
+              "target_sentence_source": { "value": "Did you take it to a computer shop?", "translatable": true },
+              "target_sentence_target": "[TRANSLATE]",
+              "word_tiles": [
+                { "word_id": "w1", "word_source": { "value": "Did", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 1 },
+                { "word_id": "w2", "word_source": { "value": "you", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 2 },
+                { "word_id": "w3", "word_source": { "value": "take", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 3 },
+                { "word_id": "w4", "word_source": { "value": "it", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 4 },
+                { "word_id": "w5", "word_source": { "value": "to", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 5 },
+                { "word_id": "w6", "word_source": { "value": "a", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 6 },
+                { "word_id": "w7", "word_source": { "value": "computer", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 7 },
+                { "word_id": "w8", "word_source": { "value": "shop", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 8 }
+              ],
+              "hints": "Use 'Did you' + verb + object + place."
+            },
+            {
+              "exercise_id": "ex_sb_6_2",
+              "target_sentence_source": { "value": "Did you call a technician?", "translatable": true },
+              "target_sentence_target": "[TRANSLATE]",
+              "word_tiles": [
+                { "word_id": "w1", "word_source": { "value": "Did", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 1 },
+                { "word_id": "w2", "word_source": { "value": "you", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 2 },
+                { "word_id": "w3", "word_source": { "value": "call", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 3 },
+                { "word_id": "w4", "word_source": { "value": "a", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 4 },
+                { "word_id": "w5", "word_source": { "value": "technician", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 5 }
+              ],
+              "hints": "Use a related word as the object."
+            }
+          ]
+        },
+        "phase_3_dialogue": {
+          "phase_id": "phase_3",
+          "phase_name": { "value": "Dialogue Practice", "translatable": true },
+          "phase_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": { "value": "Conversation", "translatable": true },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "Dialogue",
+          "setting": { "value": "On the phone with a friend", "translatable": true },
+          "context": { "value": "Suggesting a friend take a broken phone for repair", "translatable": true },
+          "dialogue": [
+            { "turn_id": "turn_001", "turn_number": 1, "speaker": "PARTNER", "text_source": { "value": "My phone keeps freezing.", "translatable": true }, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "listen_and_repeat" },
+            { "turn_id": "turn_002", "turn_number": 2, "speaker": "YOU", "text_source": { "value": "Did you take it to a computer shop?", "translatable": true }, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "speak_along" },
+            { "turn_id": "turn_003", "turn_number": 3, "speaker": "PARTNER", "text_source": { "value": "Not yet. Is the service expensive?", "translatable": true }, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "listen_and_repeat" },
+            { "turn_id": "turn_004", "turn_number": 4, "speaker": "YOU", "text_source": { "value": "Some shops are cheap if you ask.", "translatable": true }, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "speak_along" },
+            { "turn_id": "turn_005", "turn_number": 5, "speaker": "PARTNER", "text_source": { "value": "I will look for one online.", "translatable": true }, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "listen_and_repeat" }
+          ]
+        },
+        "phase_4_sprint_exercises": {
+          "phase_id": "phase_4",
+          "phase_name": { "value": "Sprint & review", "translatable": true },
+          "phase_code": "SPRINT",
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": { "value": "Quick practice", "translatable": true },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "SprintExercises",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_audio_text",
+              "exercise_type": "Audio-to-Text Matching",
+              "prompt_source": "Select the phrase you hear:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": { "audio_file": "[GENERATE]", "play_on_load": false },
+              "text_options": ["Did you take it to a computer shop?", "Did you call a technician?", "Did you ask for a repair?"],
+              "text_options_source": ["Did you take it to a computer shop?", "Did you call a technician?", "Did you ask for a repair?"],
+              "text_options_target": ["[TRANSLATE]", "[TRANSLATE]", "[TRANSLATE]"],
+              "correct_answer": "Did you take it to a computer shop?",
+              "correct_answer_source": "Did you take it to a computer shop?",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": { "points_correct": 10, "points_incorrect": 0 }
+            },
+            {
+              "exercise_id": "ex_sp_text_audio",
+              "exercise_type": "Text-to-Audio Matching",
+              "prompt_source": "Tap the audio that matches:",
+              "prompt_target": "[TRANSLATE]",
+              "text_stimulus": "Did you take it to a computer shop?",
+              "text_stimulus_source": "Did you take it to a computer shop?",
+              "text_stimulus_target": "[TRANSLATE]",
+              "audio_options": [
+                { "option_id": "a1", "audio_file": "[GENERATE]", "text_to_speak_target": "Did you take it to a computer shop?", "correct": true },
+                { "option_id": "a2", "audio_file": "[GENERATE]", "text_to_speak_target": "Did you call a technician?", "correct": false },
+                { "option_id": "a3", "audio_file": "[GENERATE]", "text_to_speak_target": "Did you ask for a repair?", "correct": false }
+              ],
+              "correct_answer": "Did you take it to a computer shop?",
+              "correct_answer_source": "Did you take it to a computer shop?",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": { "points_correct": 10, "points_incorrect": 0 }
+            },
+            {
+              "exercise_id": "ex_v1_text_image",
+              "exercise_type": "Text-to-Image Matching",
+              "prompt_source": "Read and choose the matching image:",
+              "prompt_target": "[TRANSLATE]",
+              "text_stimulus": "Did you take it to a computer shop?",
+              "text_stimulus_source": "Did you take it to a computer shop?",
+              "text_stimulus_target": "[TRANSLATE]",
+              "image_options": [
+                { "option_id": "opt_a", "image_url": "", "correct": true },
+                { "option_id": "opt_b", "image_url": "", "correct": false },
+                { "option_id": "opt_c", "image_url": "", "correct": false },
+                { "option_id": "opt_d", "image_url": "", "correct": false }
+              ],
+              "scoring": { "points_correct": 10, "points_incorrect": 0 }
+            },
+            {
+              "exercise_id": "ex_sp_fill_dialogue",
+              "exercise_type": "Fill-in-the-Dialogue (Speaking)",
+              "prompt_source": "Speak your line:",
+              "prompt_target": "[TRANSLATE]",
+              "dialogue_context": "A friend's laptop is broken. Suggest a repair shop.",
+              "dialogue_context_source": "A friend's laptop is broken. Suggest a repair shop.",
+              "dialogue_context_target": "[TRANSLATE]",
+              "turns": [
+                { "turn_number": 1, "speaker": "PARTNER", "text_source": "My laptop is not working anymore.", "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "text_to_speak_target": "My laptop is not working anymore." },
+                { "turn_number": 2, "speaker": "YOU", "text_source": "Did you take it to a computer shop?", "expected_response": "Did you take it to a computer shop?", "expected_response_source": "Did you take it to a computer shop?", "expected_response_target": "[TRANSLATE]", "acceptable_responses": ["Did you take it to a computer shop?", "Did you take it to a shop?"], "acceptable_responses_source": ["Did you take it to a computer shop?", "Did you take it to a shop?"], "acceptable_responses_target": ["[TRANSLATE]", "[TRANSLATE]"] }
+              ],
+              "scoring": { "points_correct": 15, "points_incorrect": 0 }
+            },
+            {
+              "exercise_id": "ex_v1_audio_image",
+              "exercise_type": "Audio-to-Image Matching",
+              "prompt_source": "Tap the image that matches what you hear:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": { "audio_file": "[GENERATE]", "play_on_load": true, "text_to_speak_target": "technician" },
+              "image_options": [
+                { "option_id": "opt_01", "image_url": "", "correct": true },
+                { "option_id": "opt_02", "image_url": "", "correct": false },
+                { "option_id": "opt_03", "image_url": "", "correct": false },
+                { "option_id": "opt_04", "image_url": "", "correct": false }
+              ],
+              "scoring": { "points_correct": 10, "points_incorrect": 0 }
+            }
+          ]
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": ["**_target"],
+      "audio_generation_patterns": ["[GENERATE]", "[GENERATE_FOR_TARGET]"]
+    }
+  }
+}

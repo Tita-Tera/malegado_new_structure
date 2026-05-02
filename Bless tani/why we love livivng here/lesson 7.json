@@ -1,0 +1,277 @@
+{
+  "title": { "value": "beautiful houses", "translatable": true },
+  "description": { "value": "Practice describing the houses in a place.", "translatable": true },
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "home",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_001-L07",
+      "generation_timestamp": "2026-05-02T13:34:48Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A1",
+        "level_name": { "value": "Beginner", "translatable": true },
+        "level_description": { "value": "Build basic everyday phrases for simple, familiar topics.", "translatable": true },
+        "cefr_equivalent": "A1",
+        "available_levels": ["A0", "A1", "A2", "B1", "B2", "C1", "C2"]
+      },
+      "theme_config": {
+        "theme_id": "HOME",
+        "theme_code": "HOME",
+        "theme_name": { "value": "Home", "translatable": true },
+        "theme_description": { "value": "Describe homes, houses, and the places where people live.", "translatable": true },
+        "available_themes": [
+          { "code": { "value": "ESS", "translatable": true }, "name": { "value": "Essentials", "translatable": true } },
+          { "code": { "value": "TRV", "translatable": true }, "name": { "value": "Travel", "translatable": true } }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "2.1a",
+        "unit_number": 2,
+        "subunit_number": 1,
+        "variant": "a",
+        "unit_name": { "value": "Where I Live", "translatable": true },
+        "unit_description": { "value": "Talk about the places where you live, study, and spend time, and say what you like about them.", "translatable": true },
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 2,
+        "estimated_completion_time_minutes": 75
+      },
+      "lesson_config": {
+        "lesson_number": 7,
+        "lesson_type": "teaching",
+        "lesson_name": { "value": "beautiful houses", "translatable": true },
+        "lesson_description": { "value": "Practice describing the houses in a place.", "translatable": true },
+        "estimated_duration_minutes": 5,
+        "difficulty_within_unit": 7,
+        "prerequisites": ["badge_001-L01", "badge_001-L02", "badge_001-L03", "badge_001-L04", "badge_001-L05", "badge_001-L06"],
+        "learning_objectives": [
+          "Use 'It has + adjective + plural noun' to describe several things.",
+          "Recognize four home words: apartment, garden, roof, kitchen.",
+          "Use intensifiers 'really' and 'many' before describing houses."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      }
+    },
+    "lesson_structure": {
+      "phase_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": ["phase_1_vocabulary_anchor", "phase_2_grammar_engine", "phase_3_dialogue", "phase_4_sprint_exercises"]
+      },
+      "phases": {
+        "phase_1_vocabulary_anchor": {
+          "phase_id": "phase_1",
+          "phase_name": { "value": "Vocabulary Anchor", "translatable": true },
+          "phase_code": "VOCAB_ANCHOR",
+          "position_in_lesson": 1,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": { "value": "Key phrases", "translatable": true },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "VocabularyAnchor",
+          "core_phrase": {
+            "phrase_id": "core_7",
+            "source_text": { "value": "It has beautiful houses.", "translatable": true },
+            "target_text": "[TRANSLATE]",
+            "part_of_speech": "verb",
+            "linguistic_info": {
+              "tooltip_source": { "value": "Use this to praise the homes in a neighborhood or city.", "translatable": true },
+              "tooltip_target": "[TRANSLATE]",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+            },
+            "media": { "image_url": "", "audio_normal": "[GENERATE]", "audio_slow": "[GENERATE]" },
+            "context": { "usage_context": "description", "formality_level": "neutral", "time_of_day": "any", "relationship": "any" }
+          },
+          "related_words": [
+            { "word_id": "rel_7_001", "source_text": { "value": "apartment", "translatable": true }, "target_text": "[TRANSLATE]", "part_of_speech": "noun", "meaning_source": { "value": "A home in a building with many other homes.", "translatable": true }, "meaning_target": "[TRANSLATE]", "media": { "image_url": "", "audio_normal": "[GENERATE]", "audio_slow": "[GENERATE]" } },
+            { "word_id": "rel_7_002", "source_text": { "value": "garden", "translatable": true }, "target_text": "[TRANSLATE]", "part_of_speech": "noun", "meaning_source": { "value": "An outdoor area with plants and flowers.", "translatable": true }, "meaning_target": "[TRANSLATE]", "media": { "image_url": "", "audio_normal": "[GENERATE]", "audio_slow": "[GENERATE]" } },
+            { "word_id": "rel_7_003", "source_text": { "value": "roof", "translatable": true }, "target_text": "[TRANSLATE]", "part_of_speech": "noun", "meaning_source": { "value": "The top covering of a building.", "translatable": true }, "meaning_target": "[TRANSLATE]", "media": { "image_url": "", "audio_normal": "[GENERATE]", "audio_slow": "[GENERATE]" } },
+            { "word_id": "rel_7_004", "source_text": { "value": "kitchen", "translatable": true }, "target_text": "[TRANSLATE]", "part_of_speech": "noun", "meaning_source": { "value": "The room where food is prepared and cooked.", "translatable": true }, "meaning_target": "[TRANSLATE]", "media": { "image_url": "", "audio_normal": "[GENERATE]", "audio_slow": "[GENERATE]" } }
+          ],
+          "listen_repeat": {
+            "prompt_source": { "value": "Listen and repeat the core phrase.", "translatable": true },
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": { "audio_file": "[GENERATE]", "play_on_load": true },
+            "show_text_after_play": true
+          },
+          "quick_match": {
+            "prompt_source": { "value": "Connect each word to its meaning or image.", "translatable": true },
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              { "pair_id": "qm_7_001", "word_id": "rel_7_001", "correct_key": "rel_7_001_correct" },
+              { "pair_id": "qm_7_002", "word_id": "rel_7_002", "correct_key": "rel_7_002_correct" },
+              { "pair_id": "qm_7_003", "word_id": "rel_7_003", "correct_key": "rel_7_003_correct" },
+              { "pair_id": "qm_7_004", "word_id": "rel_7_004", "correct_key": "rel_7_004_correct" }
+            ],
+            "options_display": "shuffle"
+          }
+        },
+        "phase_2_grammar_engine": {
+          "phase_id": "phase_2",
+          "phase_name": { "value": "Grammar Engine", "translatable": true },
+          "phase_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": { "value": "Grammar tip", "translatable": true },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "GrammarEngine",
+          "pro_tip": {
+            "tip_id": "gram_7",
+            "concept_source": { "value": "Describing several things with 'It has + adjective + plural noun'", "translatable": true },
+            "concept_target": "[TRANSLATE]",
+            "explanation_source": { "value": "Use 'It has + adjective + plural noun' to describe more than one thing at once. The noun ends in '-s' to make it plural — no 'a' or 'an' is needed.", "translatable": true },
+            "explanation_target": "[TRANSLATE]",
+            "focus_type": "variations",
+            "examples": [
+              { "example_id": "ex_7_001", "source_text": { "value": "It has lovely houses.", "translatable": true }, "target_text": "[TRANSLATE]", "register": "neutral", "usage_note_source": { "value": "Use 'lovely' for a softer, warmer tone.", "translatable": true }, "usage_note_target": "[TRANSLATE]" },
+              { "example_id": "ex_7_002", "source_text": { "value": "It's got beautiful houses.", "translatable": true }, "target_text": "[TRANSLATE]", "register": "informal", "usage_note_source": { "value": "Use 'It's got' instead of 'It has' in casual speech.", "translatable": true }, "usage_note_target": "[TRANSLATE]" }
+            ]
+          },
+          "modifiers": [
+            { "modifier_id": "mod_7_001", "modifier_source": { "value": "really", "translatable": true }, "modifier_target": "[TRANSLATE]", "example_source": { "value": "It has really beautiful houses.", "translatable": true }, "example_target": "[TRANSLATE]", "explanation_source": { "value": "Use 'really' before 'beautiful' to emphasize how lovely they are.", "translatable": true }, "explanation_target": "[TRANSLATE]" },
+            { "modifier_id": "mod_7_002", "modifier_source": { "value": "many", "translatable": true }, "modifier_target": "[TRANSLATE]", "example_source": { "value": "It has many beautiful houses.", "translatable": true }, "example_target": "[TRANSLATE]", "explanation_source": { "value": "Use 'many' before the adjective to highlight quantity as well as quality.", "translatable": true }, "explanation_target": "[TRANSLATE]" }
+          ],
+          "sentence_building": [
+            {
+              "exercise_id": "ex_sb_7_1",
+              "target_sentence_source": { "value": "It has beautiful houses.", "translatable": true },
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                { "word_id": "w1", "word_source": { "value": "It", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 1 },
+                { "word_id": "w2", "word_source": { "value": "has", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 2 },
+                { "word_id": "w3", "word_source": { "value": "beautiful", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 3 },
+                { "word_id": "w4", "word_source": { "value": "houses", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 4 }
+              ],
+              "hints": "Use 'It has' before the adjective and the plural noun."
+            },
+            {
+              "exercise_id": "ex_sb_7_2",
+              "target_sentence_source": { "value": "It has lovely gardens.", "translatable": true },
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                { "word_id": "w1", "word_source": { "value": "It", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 1 },
+                { "word_id": "w2", "word_source": { "value": "has", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 2 },
+                { "word_id": "w3", "word_source": { "value": "lovely", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 3 },
+                { "word_id": "w4", "word_source": { "value": "gardens", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 4 }
+              ],
+              "hints": "Same pattern — change the adjective and the plural noun."
+            }
+          ]
+        },
+        "phase_3_dialogue": {
+          "phase_id": "phase_3",
+          "phase_name": { "value": "Dialogue Practice", "translatable": true },
+          "phase_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": { "value": "Conversation", "translatable": true },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "Dialogue",
+          "setting": { "value": "Two friends walking through a residential area", "translatable": true },
+          "context": { "value": "Admiring the homes in a neighborhood", "translatable": true },
+          "dialogue": [
+            { "turn_id": "turn_001", "turn_number": 1, "speaker": "PARTNER", "text_source": { "value": "Look at this street!", "translatable": true }, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "listen_and_repeat" },
+            { "turn_id": "turn_002", "turn_number": 2, "speaker": "YOU", "text_source": { "value": "It has beautiful houses.", "translatable": true }, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "speak_along" },
+            { "turn_id": "turn_003", "turn_number": 3, "speaker": "PARTNER", "text_source": { "value": "The architecture is lovely.", "translatable": true }, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "listen_and_repeat" },
+            { "turn_id": "turn_004", "turn_number": 4, "speaker": "YOU", "text_source": { "value": "I would love to live here.", "translatable": true }, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "speak_along" },
+            { "turn_id": "turn_005", "turn_number": 5, "speaker": "PARTNER", "text_source": { "value": "Maybe one day we will.", "translatable": true }, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "listen_and_repeat" }
+          ]
+        },
+        "phase_4_sprint_exercises": {
+          "phase_id": "phase_4",
+          "phase_name": { "value": "Sprint & review", "translatable": true },
+          "phase_code": "SPRINT",
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": { "value": "Quick practice", "translatable": true },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "SprintExercises",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_sentence_open",
+              "exercise_type": "Sentence Completion (Open)",
+              "prompt_source": "Finish in your own words:",
+              "prompt_target": "[TRANSLATE]",
+              "prompt": "It has ___ houses.",
+              "prompt_text_source": "It has ___ houses.",
+              "prompt_text_target": "[TRANSLATE]",
+              "expected_response": "an adjective like 'beautiful', 'lovely', or 'small'",
+              "expected_response_source": "an adjective like 'beautiful', 'lovely', or 'small'",
+              "expected_response_target": "[TRANSLATE]",
+              "scoring_criteria": "Accept any positive descriptive adjective.",
+              "scoring_criteria_source": "Accept any positive descriptive adjective.",
+              "scoring_criteria_target": "[TRANSLATE]",
+              "scoring": { "points_correct": 10, "points_incorrect": 0 }
+            },
+            {
+              "exercise_id": "ex_sp_audio_blank",
+              "exercise_type": "Audio Fill-in-the-Blank",
+              "prompt_source": "Listen and complete:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": { "audio_file": "[GENERATE]", "play_on_load": true },
+              "sentence": "It ___ beautiful houses.",
+              "sentence_source": "It ___ beautiful houses.",
+              "sentence_target": "[TRANSLATE]",
+              "blanks": [2],
+              "correct_answer": "has",
+              "correct_answer_source": "has",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": { "points_correct": 10, "points_incorrect": 0 }
+            },
+            {
+              "exercise_id": "ex_sp_quick_fire",
+              "exercise_type": "Listen and Respond (Quick Fire)",
+              "prompt_source": "Listen and respond out loud:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": { "audio_file": "[GENERATE]", "play_on_load": true, "text_to_speak_target": "What is your neighborhood like?" },
+              "prompt": "What is your neighborhood like?",
+              "prompt_text_source": "What is your neighborhood like?",
+              "prompt_text_target": "[TRANSLATE]",
+              "response": {
+                "mode": "speech",
+                "acceptable_responses": ["It has beautiful houses.", "It has lovely houses."],
+                "acceptable_responses_source": ["It has beautiful houses.", "It has lovely houses."],
+                "acceptable_responses_target": ["[TRANSLATE]", "[TRANSLATE]"],
+                "time_limit_seconds": 8
+              },
+              "scoring": { "points_correct": 10, "points_incorrect": 0 }
+            },
+            {
+              "exercise_id": "ex_sp_match_game",
+              "exercise_type": "Flashcard Matching Game",
+              "prompt_source": "Match pairs:",
+              "prompt_target": "[TRANSLATE]",
+              "pairs": [
+                { "pair_id": "mg_7_001", "item_a": "apartment", "item_b": "a home in a tall building", "type": "word_meaning" },
+                { "pair_id": "mg_7_002", "item_a": "garden", "item_b": "an outdoor area with plants", "type": "word_meaning" },
+                { "pair_id": "mg_7_003", "item_a": "roof", "item_b": "the top of a building", "type": "word_meaning" },
+                { "pair_id": "mg_7_004", "item_a": "kitchen", "item_b": "the room for cooking", "type": "word_meaning" }
+              ],
+              "scoring": { "points_correct": 10, "points_incorrect": 0 }
+            }
+          ]
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": ["**_target"],
+      "audio_generation_patterns": ["[GENERATE]", "[GENERATE_FOR_TARGET]"]
+    }
+  }
+}
