@@ -1,0 +1,396 @@
+{
+  "title": {"value": "asking why it happened", "translatable": true},
+  "description": {"value": "Push back on a denial by asking what really happened.", "translatable": true},
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "past experiences",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_001-L07",
+      "generation_timestamp": "2026-05-02T12:00:00Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A1",
+        "level_name": {"value": "Beginner", "translatable": true},
+        "level_description": {"value": "First everyday phrases for talking with a friend.", "translatable": true},
+        "cefr_equivalent": "A1",
+        "available_levels": ["A0","A1","A2","B1","B2","C1","C2"]
+      },
+      "theme_config": {
+        "theme_id": "PASTEXP",
+        "theme_code": "PASTEXP",
+        "theme_name": {"value": "Past Experiences", "translatable": true},
+        "theme_description": {"value": "Asking questions about what someone did or didn't do before.", "translatable": true},
+        "available_themes": [
+          {"code": {"value": "ESS", "translatable": true}, "name": {"value": "Essentials", "translatable": true}},
+          {"code": {"value": "TRV", "translatable": true}, "name": {"value": "Travel", "translatable": true}}
+        ]
+      },
+      "unit_config": {
+        "unit_id": "2.1a",
+        "unit_number": 2,
+        "subunit_number": 1,
+        "variant": "a",
+        "unit_name": {"value": "Out and About", "translatable": true},
+        "unit_description": {"value": "Everyday outings with friends — making plans, sharing opinions, and recalling shared experiences.", "translatable": true},
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 2,
+        "estimated_completion_time_minutes": 75
+      },
+      "lesson_config": {
+        "lesson_number": 7,
+        "lesson_type": "teaching",
+        "lesson_name": {"value": "asking why it happened", "translatable": true},
+        "lesson_description": {"value": "Push back on a denial by asking what really happened.", "translatable": true},
+        "estimated_duration_minutes": 5,
+        "difficulty_within_unit": 7,
+        "prerequisites": ["badge_001-L01","badge_001-L02","badge_001-L03","badge_001-L04","badge_001-L05","badge_001-L06"],
+        "learning_objectives": [
+          "Counter a friend's denial by asking a pointed question.",
+          "Use 'Why did' + subject + base verb for past questions.",
+          "Recognize words around water-rescue scenes."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      }
+    },
+    "lesson_structure": {
+      "phase_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": ["phase_1_vocabulary_anchor","phase_2_grammar_engine","phase_3_dialogue","phase_4_sprint_exercises"]
+      },
+      "phases": {
+        "phase_1_vocabulary_anchor": {
+          "phase_id": "phase_1",
+          "phase_name": {"value": "Vocabulary Anchor", "translatable": true},
+          "phase_code": "VOCAB_ANCHOR",
+          "position_in_lesson": 1,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": {"value": "Key phrases", "translatable": true},
+          "title_target": "[TRANSLATE]",
+          "phase_type": "VocabularyAnchor",
+          "core_phrase": {
+            "phrase_id": "core_7",
+            "source_text": {"value": "Then why did the lifeguard dive into the water?", "translatable": true},
+            "target_text": "[TRANSLATE]",
+            "part_of_speech": "phrase",
+            "linguistic_info": {
+              "tooltip_source": {"value": "A pointed question used to challenge a friend's denial about a past event.", "translatable": true},
+              "tooltip_target": "[TRANSLATE]",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+            },
+            "media": {"image_url": "", "audio_normal": "[GENERATE]", "audio_slow": "[GENERATE]"},
+            "context": {
+              "usage_context": "challenge",
+              "formality_level": "neutral",
+              "time_of_day": "any",
+              "relationship": "friends"
+            }
+          },
+          "related_words": [
+            {
+              "word_id": "rel_7_001",
+              "source_text": {"value": "rescue", "translatable": true},
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "verb",
+              "meaning_source": {"value": "To save someone from danger.", "translatable": true},
+              "meaning_target": "[TRANSLATE]"
+            },
+            {
+              "word_id": "rel_7_002",
+              "source_text": {"value": "shore", "translatable": true},
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "meaning_source": {"value": "The strip of land along the edge of the sea.", "translatable": true},
+              "meaning_target": "[TRANSLATE]"
+            },
+            {
+              "word_id": "rel_7_003",
+              "source_text": {"value": "splash", "translatable": true},
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "verb",
+              "meaning_source": {"value": "To make water fly noisily into the air.", "translatable": true},
+              "meaning_target": "[TRANSLATE]"
+            },
+            {
+              "word_id": "rel_7_004",
+              "source_text": {"value": "reason", "translatable": true},
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "meaning_source": {"value": "An explanation for why something happened.", "translatable": true},
+              "meaning_target": "[TRANSLATE]"
+            }
+          ],
+          "listen_repeat": {
+            "prompt_source": {"value": "Listen and repeat the core phrase.", "translatable": true},
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {"audio_file": "[GENERATE]", "play_on_load": true},
+            "show_text_after_play": true
+          },
+          "quick_match": {
+            "prompt_source": {"value": "Connect each word to its meaning or image.", "translatable": true},
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              {"word_id": "rel_7_001", "correct_key": "rel_7_001_correct"},
+              {"word_id": "rel_7_002", "correct_key": "rel_7_002_correct"},
+              {"word_id": "rel_7_003", "correct_key": "rel_7_003_correct"},
+              {"word_id": "rel_7_004", "correct_key": "rel_7_004_correct"}
+            ],
+            "options_display": "shuffle"
+          }
+        },
+        "phase_2_grammar_engine": {
+          "phase_id": "phase_2",
+          "phase_name": {"value": "Grammar Engine", "translatable": true},
+          "phase_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": {"value": "Grammar tip", "translatable": true},
+          "title_target": "[TRANSLATE]",
+          "phase_type": "GrammarEngine",
+          "pro_tip": {
+            "tip_id": "gram_7",
+            "concept_source": {"value": "Why + did + subject + base verb (past questions)", "translatable": true},
+            "concept_target": "[TRANSLATE]",
+            "explanation_source": {"value": "Form past-tense questions with 'Why did' followed by the subject and the base form of the verb. Open with 'Then' to challenge what the other person just said.", "translatable": true},
+            "explanation_target": "[TRANSLATE]",
+            "focus_type": "variations",
+            "examples": [
+              {
+                "example_id": "ex_7_001",
+                "source_text": {"value": "Then why did you splash so much?", "translatable": true},
+                "target_text": "[TRANSLATE]",
+                "register": "informal",
+                "usage_note_source": {"value": "Same structure with a friendly, playful subject.", "translatable": true},
+                "usage_note_target": "[TRANSLATE]"
+              },
+              {
+                "example_id": "ex_7_002",
+                "source_text": {"value": "Why did the lifeguard run to the shore?", "translatable": true},
+                "target_text": "[TRANSLATE]",
+                "register": "neutral",
+                "usage_note_source": {"value": "Drops 'Then' but keeps the same question pattern.", "translatable": true},
+                "usage_note_target": "[TRANSLATE]"
+              }
+            ]
+          },
+          "modifiers": [
+            {
+              "modifier_id": "mod_7_001",
+              "modifier_source": {"value": "exactly", "translatable": true},
+              "modifier_target": "[TRANSLATE]",
+              "example_source": {"value": "Then why exactly did the lifeguard dive into the water?", "translatable": true},
+              "example_target": "[TRANSLATE]",
+              "explanation_source": {"value": "Presses for a precise reason, not a vague one.", "translatable": true},
+              "explanation_target": "[TRANSLATE]"
+            },
+            {
+              "modifier_id": "mod_7_002",
+              "modifier_source": {"value": "suddenly", "translatable": true},
+              "modifier_target": "[TRANSLATE]",
+              "example_source": {"value": "Then why did the lifeguard suddenly dive into the water?", "translatable": true},
+              "example_target": "[TRANSLATE]",
+              "explanation_source": {"value": "Highlights how unexpected the action was.", "translatable": true},
+              "explanation_target": "[TRANSLATE]"
+            }
+          ],
+          "sentence_building": [
+            {
+              "exercise_id": "ex_sb_7_1",
+              "target_sentence_source": {"value": "Then why did the lifeguard dive into the water", "translatable": true},
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {"word_id": "w1", "word_source": {"value": "Then", "translatable": true}, "correct_position": 1},
+                {"word_id": "w2", "word_source": {"value": "why", "translatable": true}, "correct_position": 2},
+                {"word_id": "w3", "word_source": {"value": "did", "translatable": true}, "correct_position": 3},
+                {"word_id": "w4", "word_source": {"value": "the", "translatable": true}, "correct_position": 4},
+                {"word_id": "w5", "word_source": {"value": "lifeguard", "translatable": true}, "correct_position": 5},
+                {"word_id": "w6", "word_source": {"value": "dive", "translatable": true}, "correct_position": 6},
+                {"word_id": "w7", "word_source": {"value": "into", "translatable": true}, "correct_position": 7},
+                {"word_id": "w8", "word_source": {"value": "the", "translatable": true}, "correct_position": 8},
+                {"word_id": "w9", "word_source": {"value": "water", "translatable": true}, "correct_position": 9}
+              ],
+              "hints": "Open with 'Then why' to challenge the previous statement."
+            },
+            {
+              "exercise_id": "ex_sb_7_2",
+              "target_sentence_source": {"value": "Why did the lifeguard splash you", "translatable": true},
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {"word_id": "w1", "word_source": {"value": "Why", "translatable": true}, "correct_position": 1},
+                {"word_id": "w2", "word_source": {"value": "did", "translatable": true}, "correct_position": 2},
+                {"word_id": "w3", "word_source": {"value": "the", "translatable": true}, "correct_position": 3},
+                {"word_id": "w4", "word_source": {"value": "lifeguard", "translatable": true}, "correct_position": 4},
+                {"word_id": "w5", "word_source": {"value": "splash", "translatable": true}, "correct_position": 5},
+                {"word_id": "w6", "word_source": {"value": "you", "translatable": true}, "correct_position": 6}
+              ],
+              "hints": "Use the related verb that means making water fly into the air."
+            }
+          ]
+        },
+        "phase_3_dialogue": {
+          "phase_id": "phase_3",
+          "phase_name": {"value": "Dialogue Practice", "translatable": true},
+          "phase_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": {"value": "Conversation", "translatable": true},
+          "title_target": "[TRANSLATE]",
+          "phase_type": "Dialogue",
+          "setting": {"value": "Walking back from the beach", "translatable": true},
+          "context": {"value": "Two friends arguing over what really happened on a past beach trip.", "translatable": true},
+          "dialogue": [
+            {
+              "turn_id": "turn_001",
+              "turn_number": 1,
+              "speaker": "PARTNER",
+              "text_source": {"value": "I never had any trouble in the water.", "translatable": true},
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_002",
+              "turn_number": 2,
+              "speaker": "YOU",
+              "text_source": {"value": "Then why did the lifeguard dive into the water?", "translatable": true},
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_003",
+              "turn_number": 3,
+              "speaker": "PARTNER",
+              "text_source": {"value": "Perhaps he was just on patrol along the shore.", "translatable": true},
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_004",
+              "turn_number": 4,
+              "speaker": "YOU",
+              "text_source": {"value": "No, he had a clear reason.", "translatable": true},
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_005",
+              "turn_number": 5,
+              "speaker": "PARTNER",
+              "text_source": {"value": "Then it really was a rescue.", "translatable": true},
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            }
+          ]
+        },
+        "phase_4_sprint_exercises": {
+          "phase_id": "phase_4",
+          "phase_name": {"value": "Sprint & review", "translatable": true},
+          "phase_code": "SPRINT",
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": {"value": "Quick practice", "translatable": true},
+          "title_target": "[TRANSLATE]",
+          "phase_type": "SprintExercises",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_sentence_open",
+              "exercise_type": "Sentence Completion (Open)",
+              "prompt_source": "Finish in your own words:",
+              "prompt_target": "[TRANSLATE]",
+              "prompt": "Push back on a friend's denial with a pointed past-tense question.",
+              "prompt_text_source": "Your friend says: 'I never struggled.' You answer: ...",
+              "prompt_text_target": "[TRANSLATE]",
+              "expected_response": "Then why did the lifeguard dive into the water?",
+              "expected_response_source": "Then why did the lifeguard dive into the water?",
+              "expected_response_target": "[TRANSLATE]",
+              "scoring_criteria": "Response uses 'Then why did...' to ask a past-tense question that challenges the denial.",
+              "scoring_criteria_source": "Response uses 'Then why did...' to ask a past-tense question that challenges the denial.",
+              "scoring_criteria_target": "[TRANSLATE]",
+              "scoring": {"points_correct": 10, "points_incorrect": 0}
+            },
+            {
+              "exercise_id": "ex_sp_audio_blank",
+              "exercise_type": "Audio Fill-in-the-Blank",
+              "prompt_source": "Listen and complete:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {"audio_file": "[GENERATE]", "play_on_load": true},
+              "sentence": "Then why did the lifeguard ___ into the water?",
+              "sentence_source": "Then why did the lifeguard ___ into the water?",
+              "sentence_target": "[TRANSLATE]",
+              "blanks": [2],
+              "correct_answer": "dive",
+              "correct_answer_source": "dive",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {"points_correct": 10, "points_incorrect": 0}
+            },
+            {
+              "exercise_id": "ex_sp_quick_fire",
+              "exercise_type": "Listen and Respond (Quick Fire)",
+              "prompt_source": "Listen and respond out loud:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true,
+                "text_to_speak_target": "I never had any trouble that day."
+              },
+              "prompt": "Listen and challenge with a past-tense question.",
+              "prompt_text_source": "I never had any trouble that day.",
+              "prompt_text_target": "[TRANSLATE]",
+              "response": {
+                "mode": "speaking",
+                "acceptable_responses": ["Then why did the lifeguard dive into the water?", "Then why did the lifeguard dive in?"],
+                "acceptable_responses_source": ["Then why did the lifeguard dive into the water?", "Then why did the lifeguard dive in?"],
+                "acceptable_responses_target": ["[TRANSLATE]", "[TRANSLATE]"],
+                "time_limit_seconds": 8
+              },
+              "scoring": {"points_correct": 10, "points_incorrect": 0}
+            },
+            {
+              "exercise_id": "ex_sp_match_game",
+              "exercise_type": "Flashcard Matching Game",
+              "prompt_source": "Match pairs:",
+              "prompt_target": "[TRANSLATE]",
+              "pairs": [
+                {"pair_id": "pair_7_001", "item_a": "rescue", "item_b": "save someone from danger", "type": "word_to_meaning"},
+                {"pair_id": "pair_7_002", "item_a": "shore", "item_b": "the edge of a beach", "type": "word_to_meaning"},
+                {"pair_id": "pair_7_003", "item_a": "splash", "item_b": "make water fly into the air", "type": "word_to_meaning"},
+                {"pair_id": "pair_7_004", "item_a": "reason", "item_b": "why something happened", "type": "word_to_meaning"}
+              ],
+              "scoring": {"points_correct": 10, "points_incorrect": 0}
+            }
+          ]
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": ["**_target"],
+      "audio_generation_patterns": ["[GENERATE]", "[GENERATE_FOR_TARGET]"]
+    }
+  }
+}
