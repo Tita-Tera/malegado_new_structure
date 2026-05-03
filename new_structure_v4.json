@@ -401,6 +401,8 @@
               "prompt_source": "Read and choose the matching image:",
               "prompt_target": "[TRANSLATE]",
               "text_stimulus": "A friendly hello between two people",
+              "text_stimulus_source": "A friendly hello between two people",
+              "text_stimulus_target": "[TRANSLATE]",
               "image_options": [
                 {
                   "option_id": "opt_a",
@@ -428,7 +430,11 @@
                 "play_on_load": false
               },
               "text_options": ["Hello!", "Goodbye!", "Thank you!"],
+              "text_options_source": ["Hello!", "Goodbye!", "Thank you!"],
+              "text_options_target": ["[TRANSLATE]", "[TRANSLATE]", "[TRANSLATE]"],
               "correct_answer": "Hello!",
+              "correct_answer_source": "Hello!",
+              "correct_answer_target": "[TRANSLATE]",
               "scoring": {
                 "points_correct": 10,
                 "points_incorrect": 0
@@ -444,8 +450,12 @@
                 "play_on_load": true
               },
               "sentence": "My name ____ Alex.",
+              "sentence_source": "My name ____ Alex.",
+              "sentence_target": "[TRANSLATE]",
               "blanks": [2],
               "correct_answer": "is",
+              "correct_answer_source": "is",
+              "correct_answer_target": "[TRANSLATE]",
               "scoring": {
                 "points_correct": 10,
                 "points_incorrect": 0
@@ -462,9 +472,13 @@
                 "text_to_speak_target": "Hello!"
               },
               "prompt": "Say the greeting you hear.",
+              "prompt_text_source": "Say the greeting you hear.",
+              "prompt_text_target": "[TRANSLATE]",
               "response": {
                 "mode": "speaking",
                 "acceptable_responses": ["Hello!", "Hi!"],
+                "acceptable_responses_source": ["Hello!", "Hi!"],
+                "acceptable_responses_target": ["[TRANSLATE]", "[TRANSLATE]"],
                 "time_limit_seconds": 8
               },
               "scoring": { "points_correct": 10, "points_incorrect": 0 }
@@ -475,6 +489,8 @@
               "prompt_source": "Tap the audio that matches:",
               "prompt_target": "[TRANSLATE]",
               "text_stimulus": "Thank you",
+              "text_stimulus_source": "Thank you",
+              "text_stimulus_target": "[TRANSLATE]",
               "audio_options": [
                 {
                   "option_id": "a1",
@@ -490,6 +506,8 @@
                 }
               ],
               "correct_answer": "a1",
+              "correct_answer_source": "a1",
+              "correct_answer_target": "[TRANSLATE]",
               "scoring": { "points_correct": 10, "points_incorrect": 0 }
             },
             {
@@ -498,9 +516,18 @@
               "prompt_source": "Translate into English:",
               "prompt_target": "[TRANSLATE]",
               "source_text": "¿Cómo te llamas?",
+              "source_text_source": "¿Cómo te llamas?",
+              "source_text_target": "[TRANSLATE]",
               "target_language": "English",
               "acceptable_answers": ["What's your name?", "What is your name?"],
+              "acceptable_answers_source": [
+                "What's your name?",
+                "What is your name?"
+              ],
+              "acceptable_answers_target": ["[TRANSLATE]", "[TRANSLATE]"],
               "hints": "Question about someone's name",
+              "hints_source": "Question about someone's name",
+              "hints_target": "[TRANSLATE]",
               "scoring": { "points_correct": 15, "points_incorrect": 0 }
             },
             {
@@ -509,9 +536,15 @@
               "prompt_source": "Type the missing word:",
               "prompt_target": "[TRANSLATE]",
               "sentence": "I _____ Alex.",
+              "sentence_source": "I _____ Alex.",
+              "sentence_target": "[TRANSLATE]",
               "blanks": [1],
               "correct_answer": "am",
               "acceptable_answers": ["am"],
+              "correct_answer_source": "am",
+              "correct_answer_target": "[TRANSLATE]",
+              "acceptable_answers_source": ["am"],
+              "acceptable_answers_target": ["[TRANSLATE]"],
               "scoring": { "points_correct": 10, "points_incorrect": 0 }
             },
             {
@@ -520,8 +553,14 @@
               "prompt_source": "Finish in your own words:",
               "prompt_target": "[TRANSLATE]",
               "prompt": "When I meet someone new, I usually say _____.",
+              "prompt_text_source": "When I meet someone new, I usually say _____.",
+              "prompt_text_target": "[TRANSLATE]",
               "expected_response": "(open)",
+              "expected_response_source": "(open)",
+              "expected_response_target": "[TRANSLATE]",
               "scoring_criteria": "Grammar and relevance",
+              "scoring_criteria_source": "Grammar and relevance",
+              "scoring_criteria_target": "[TRANSLATE]",
               "scoring": { "points_correct": 10, "points_incorrect": 0 }
             },
             {
@@ -530,6 +569,8 @@
               "prompt_source": "Speak your line:",
               "prompt_target": "[TRANSLATE]",
               "dialogue_context": "Meeting at a café",
+              "dialogue_context_source": "Meeting at a café",
+              "dialogue_context_target": "[TRANSLATE]",
               "turns": [
                 {
                   "turn_number": 1,
@@ -544,7 +585,11 @@
                   "speaker": "YOU",
                   "text_source": "[BLANK — learner speaks]",
                   "expected_response": "Hi! Nice to meet you.",
-                  "acceptable_responses": ["Hi! Nice to meet you.", "Hello!"]
+                  "expected_response_source": "Hi! Nice to meet you.",
+                  "expected_response_target": "[TRANSLATE]",
+                  "acceptable_responses": ["Hi! Nice to meet you.", "Hello!"],
+                  "acceptable_responses_source": ["Hi! Nice to meet you.", "Hello!"],
+                  "acceptable_responses_target": ["[TRANSLATE]", "[TRANSLATE]"]
                 }
               ],
               "scoring": { "points_correct": 15, "points_incorrect": 0 }
@@ -558,6 +603,14 @@
               "definition": "A greeting",
               "examples": ["Hello, how are you?"],
               "context": "greeting",
+              "word_source": "hello",
+              "word_target": "[TRANSLATE]",
+              "definition_source": "A greeting",
+              "definition_target": "[TRANSLATE]",
+              "examples_source": ["Hello, how are you?"],
+              "examples_target": ["[TRANSLATE]"],
+              "context_source": "greeting",
+              "context_target": "[TRANSLATE]",
               "scoring": { "points_correct": 5, "points_incorrect": 0 }
             },
             {
