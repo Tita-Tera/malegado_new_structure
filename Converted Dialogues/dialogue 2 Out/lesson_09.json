@@ -78,7 +78,8 @@
         ],
         "target_interactions": "15-20",
         "micro_flow_version": "2.0"
-      }
+      },
+      "order": 24
     },
     "lesson_structure": {
       "module_order_config": {

@@ -1,0 +1,259 @@
+{
+  "title": {"value": "talking about strong sun", "translatable": true},
+  "description": {"value": "Apply what you learned to a conversation about hot, sunny weather.", "translatable": true},
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "weather",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_dangerous_weather_001-CTX2",
+      "generation_timestamp": "2026-05-04T12:14:00Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A2",
+        "level_name": {"value": "Elementary", "translatable": true},
+        "level_description": {"value": "Basic conversation about everyday topics with familiar vocabulary.", "translatable": true},
+        "cefr_equivalent": "A2",
+        "available_levels": ["A0", "A1", "A2", "B1", "B2", "C1", "C2"]
+      },
+      "theme_config": {
+        "theme_id": "WEATHER",
+        "theme_code": "WEATHER",
+        "theme_name": {"value": "Weather", "translatable": true},
+        "theme_description": {"value": "Talking about hot weather and the dangers of long sun exposure.", "translatable": true},
+        "available_themes": [
+          {"code": {"value": "ESS", "translatable": true}, "name": {"value": "Essentials", "translatable": true}},
+          {"code": {"value": "TRV", "translatable": true}, "name": {"value": "Travel", "translatable": true}}
+        ]
+      },
+      "unit_config": {
+        "unit_id": "1.2b",
+        "unit_number": 1,
+        "subunit_number": 2,
+        "variant": "b",
+        "unit_name": {"value": "Dangerous Weather", "translatable": true},
+        "unit_description": {"value": "Talk about hazardous weather conditions and how to stay safe.", "translatable": true},
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 3,
+        "estimated_completion_time_minutes": 75
+      },
+      "lesson_config": {
+        "lesson_number": 15,
+        "lesson_type": "review",
+        "lesson_name": {"value": "talking about strong sun", "translatable": true},
+        "lesson_description": {"value": "Apply what you learned to a conversation about hot, sunny weather.", "translatable": true},
+        "estimated_duration_minutes": 5,
+        "difficulty_within_unit": 15,
+        "prerequisites": ["badge_dangerous_weather_001-L01", "badge_dangerous_weather_001-L02", "badge_dangerous_weather_001-L03", "badge_dangerous_weather_001-L04", "badge_dangerous_weather_001-L05", "badge_dangerous_weather_001-L06", "badge_dangerous_weather_001-L07", "badge_dangerous_weather_001-L08", "badge_dangerous_weather_001-L09", "badge_dangerous_weather_001-L10", "badge_dangerous_weather_001-L11", "badge_dangerous_weather_001-L12", "badge_dangerous_weather_001-REVIEW", "badge_dangerous_weather_001-CTX1"],
+        "learning_objectives": [
+          "Apply danger and advice patterns to a hot weather context",
+          "Practice using 'can' to talk about what the sun can do",
+          "Recognize protective vocabulary like sunscreen and shade"
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      }
+    },
+    "lesson_structure": {
+      "phase_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": ["phase_1_vocabulary_anchor", "phase_2_grammar_engine", "phase_3_dialogue", "phase_4_sprint_exercises"]
+      },
+      "phases": {
+        "phase_1_vocabulary_anchor": {
+          "phase_id": "phase_1",
+          "phase_name": {"value": "Vocabulary Anchor", "translatable": true},
+          "phase_code": "VOCAB_ANCHOR",
+          "position_in_lesson": 1,
+          "enabled": false,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": {"value": "Key phrases", "translatable": true},
+          "title_target": "[TRANSLATE]",
+          "phase_type": "VocabularyAnchor",
+          "core_phrase": {
+            "phrase_id": "core_ctx2",
+            "source_text": {"value": "Contextualized lesson", "translatable": true},
+            "target_text": "[TRANSLATE]",
+            "part_of_speech": "n/a",
+            "linguistic_info": {
+              "tooltip_source": {"value": "Contextualized review lesson with a related dialogue.", "translatable": true},
+              "tooltip_target": "[TRANSLATE]",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+            },
+            "media": {"image_url": "", "audio_normal": "[GENERATE]", "audio_slow": "[GENERATE]"},
+            "context": {"usage_context": "review", "formality_level": "neutral", "time_of_day": "any", "relationship": "any"}
+          },
+          "related_words": [],
+          "listen_repeat": {
+            "prompt_source": {"value": "Listen and repeat the core phrase.", "translatable": true},
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {"audio_file": "[GENERATE]", "play_on_load": true},
+            "show_text_after_play": true
+          },
+          "quick_match": {
+            "prompt_source": {"value": "Connect each word to its meaning or image.", "translatable": true},
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [],
+            "options_display": "shuffle"
+          }
+        },
+        "phase_2_grammar_engine": {
+          "phase_id": "phase_2",
+          "phase_name": {"value": "Grammar Engine", "translatable": true},
+          "phase_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": false,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": {"value": "Grammar tip", "translatable": true},
+          "title_target": "[TRANSLATE]",
+          "phase_type": "GrammarEngine",
+          "pro_tip": {
+            "tip_id": "gram_ctx2",
+            "concept_source": {"value": "Review", "translatable": true},
+            "concept_target": "[TRANSLATE]",
+            "explanation_source": {"value": "Review through a contextualized dialogue.", "translatable": true},
+            "explanation_target": "[TRANSLATE]",
+            "focus_type": "variations",
+            "examples": []
+          },
+          "modifiers": [],
+          "sentence_building": []
+        },
+        "phase_3_dialogue": {
+          "phase_id": "phase_3",
+          "phase_name": {"value": "Dialogue Practice", "translatable": true},
+          "phase_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": {"value": "Conversation", "translatable": true},
+          "title_target": "[TRANSLATE]",
+          "phase_type": "Dialogue",
+          "setting": {"value": "Two people discussing hot weather", "translatable": true},
+          "context": {"value": "Talking About Strong Sun", "translatable": true},
+          "dialogue": [
+            {"turn_id": "turn_001", "turn_number": 1, "speaker": "PARTNER", "text_source": {"value": "It is very sunny today.", "translatable": true}, "text_target": "[TRANSLATE]", "practice_mode": "listen_and_repeat"},
+            {"turn_id": "turn_002", "turn_number": 2, "speaker": "YOU", "text_source": {"value": "The heat is strong.", "translatable": true}, "text_target": "[TRANSLATE]", "practice_mode": "speak_along"},
+            {"turn_id": "turn_003", "turn_number": 3, "speaker": "PARTNER", "text_source": {"value": "The sun is dangerous for long exposure.", "translatable": true}, "text_target": "[TRANSLATE]", "practice_mode": "listen_and_repeat"},
+            {"turn_id": "turn_004", "turn_number": 4, "speaker": "YOU", "text_source": {"value": "It can burn your skin.", "translatable": true}, "text_target": "[TRANSLATE]", "practice_mode": "speak_along"},
+            {"turn_id": "turn_005", "turn_number": 5, "speaker": "PARTNER", "text_source": {"value": "People get tired quickly.", "translatable": true}, "text_target": "[TRANSLATE]", "practice_mode": "listen_and_repeat"},
+            {"turn_id": "turn_006", "turn_number": 6, "speaker": "YOU", "text_source": {"value": "You need protection.", "translatable": true}, "text_target": "[TRANSLATE]", "practice_mode": "speak_along"},
+            {"turn_id": "turn_007", "turn_number": 7, "speaker": "PARTNER", "text_source": {"value": "I got sunburn yesterday.", "translatable": true}, "text_target": "[TRANSLATE]", "practice_mode": "listen_and_repeat"},
+            {"turn_id": "turn_008", "turn_number": 8, "speaker": "YOU", "text_source": {"value": "Was it bad?", "translatable": true}, "text_target": "[TRANSLATE]", "practice_mode": "speak_along"},
+            {"turn_id": "turn_009", "turn_number": 9, "speaker": "PARTNER", "text_source": {"value": "I had to stay inside.", "translatable": true}, "text_target": "[TRANSLATE]", "practice_mode": "listen_and_repeat"},
+            {"turn_id": "turn_010", "turn_number": 10, "speaker": "YOU", "text_source": {"value": "That is not good.", "translatable": true}, "text_target": "[TRANSLATE]", "practice_mode": "speak_along"},
+            {"turn_id": "turn_011", "turn_number": 11, "speaker": "PARTNER", "text_source": {"value": "Use sunscreen.", "translatable": true}, "text_target": "[TRANSLATE]", "practice_mode": "listen_and_repeat"},
+            {"turn_id": "turn_012", "turn_number": 12, "speaker": "YOU", "text_source": {"value": "The sun can harm you.", "translatable": true}, "text_target": "[TRANSLATE]", "practice_mode": "speak_along"}
+          ]
+        },
+        "phase_4_sprint_exercises": {
+          "phase_id": "phase_4",
+          "phase_name": {"value": "Sprint & review", "translatable": true},
+          "phase_code": "SPRINT",
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": {"value": "Quick practice", "translatable": true},
+          "title_target": "[TRANSLATE]",
+          "phase_type": "SprintExercises",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_audio_text",
+              "exercise_type": "Audio-to-Text Matching",
+              "prompt_source": "Select the phrase you hear:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {"audio_file": "[GENERATE]", "play_on_load": false, "text_to_speak_target": "The sun is dangerous for long exposure."},
+              "text_options": ["The sun is dangerous for long exposure.", "The wind is dangerous for drivers.", "The rain is dangerous for drivers."],
+              "text_options_source": ["The sun is dangerous for long exposure.", "The wind is dangerous for drivers.", "The rain is dangerous for drivers."],
+              "text_options_target": ["[TRANSLATE]", "[TRANSLATE]", "[TRANSLATE]"],
+              "correct_answer": "The sun is dangerous for long exposure.",
+              "correct_answer_source": "The sun is dangerous for long exposure.",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {"points_correct": 10, "points_incorrect": 0}
+            },
+            {
+              "exercise_id": "ex_sp_quick_fire",
+              "exercise_type": "Listen and Respond (Quick Fire)",
+              "prompt_source": "Listen and respond out loud:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {"audio_file": "[GENERATE]", "play_on_load": true, "text_to_speak_target": "How is the weather today?"},
+              "prompt": "How is the weather today?",
+              "prompt_text_source": "How is the weather today?",
+              "prompt_text_target": "[TRANSLATE]",
+              "response": {
+                "mode": "speak",
+                "acceptable_responses": ["It is very sunny today.", "The heat is strong."],
+                "acceptable_responses_source": ["It is very sunny today.", "The heat is strong."],
+                "acceptable_responses_target": ["[TRANSLATE]", "[TRANSLATE]"],
+                "time_limit_seconds": 8
+              },
+              "scoring": {"points_correct": 10, "points_incorrect": 0}
+            },
+            {
+              "exercise_id": "ex_sp_text_audio",
+              "exercise_type": "Text-to-Audio Matching",
+              "prompt_source": "Tap the audio that matches:",
+              "prompt_target": "[TRANSLATE]",
+              "text_stimulus": "The sun can harm you.",
+              "text_stimulus_source": "The sun can harm you.",
+              "text_stimulus_target": "[TRANSLATE]",
+              "audio_options": [
+                {"option_id": "a1", "audio_file": "[GENERATE]", "text_to_speak_target": "The sun can harm you.", "correct": true},
+                {"option_id": "a2", "audio_file": "[GENERATE]", "text_to_speak_target": "The wind can harm you.", "correct": false}
+              ],
+              "correct_answer": "a1",
+              "correct_answer_source": "a1",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {"points_correct": 10, "points_incorrect": 0}
+            },
+            {
+              "exercise_id": "ex_v1_text_image",
+              "exercise_type": "Text-to-Image Matching",
+              "prompt_source": "Read and choose the matching image:",
+              "prompt_target": "[TRANSLATE]",
+              "text_stimulus": "It can burn your skin.",
+              "text_stimulus_source": "It can burn your skin.",
+              "text_stimulus_target": "[TRANSLATE]",
+              "image_options": [
+                {"option_id": "opt_a", "image_url": "", "correct": true},
+                {"option_id": "opt_b", "image_url": "", "correct": false},
+                {"option_id": "opt_c", "image_url": "", "correct": false},
+                {"option_id": "opt_d", "image_url": "", "correct": false}
+              ],
+              "scoring": {"points_correct": 10, "points_incorrect": 0}
+            },
+            {
+              "exercise_id": "ex_sp_audio_blank",
+              "exercise_type": "Audio Fill-in-the-Blank",
+              "prompt_source": "Listen and complete:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {"audio_file": "[GENERATE]", "play_on_load": true, "text_to_speak_target": "I got sunburn yesterday."},
+              "sentence": "I got ____ yesterday.",
+              "sentence_source": "I got ____ yesterday.",
+              "sentence_target": "[TRANSLATE]",
+              "blanks": [3],
+              "correct_answer": "sunburn",
+              "correct_answer_source": "sunburn",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {"points_correct": 10, "points_incorrect": 0}
+            }
+          ]
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": ["**_target"],
+      "audio_generation_patterns": ["[GENERATE]", "[GENERATE_FOR_TARGET]"]
+    }
+  }
+}

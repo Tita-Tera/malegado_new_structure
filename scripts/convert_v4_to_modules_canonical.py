@@ -408,6 +408,12 @@ def convert_v4_document(doc: dict[str, Any], source_path: str | None = None) -> 
                 lc["lesson_number"] = actual_lesson_number
                 meta_plain["lesson_config"] = lc
 
+    # Global sequence index (same value as lesson_config.lesson_number when computed from path).
+    if isinstance(meta_plain, dict):
+        lc2 = meta_plain.get("lesson_config")
+        if isinstance(lc2, dict) and lc2.get("lesson_number") is not None:
+            meta_plain["order"] = lc2["lesson_number"]
+
     out_content = {
         "lesson_metadata": meta_plain,
         "lesson_structure": new_ls,

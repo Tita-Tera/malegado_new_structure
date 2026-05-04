@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Fix content.lesson_metadata.lesson_config.lesson_number for lessons already written under
-Converted Dialogues/* Out/lesson_XX.json.
+Fix content.lesson_metadata.lesson_config.lesson_number and content.lesson_metadata.order
+for lessons already written under Converted Dialogues/* Out/lesson_XX.json.
 
 Rule:
   actual_lesson_number = (dialogue_number - 1) * 15 + within_dialogue_lesson_number
@@ -9,7 +9,7 @@ Rule:
 Example:
   Converted Dialogues/dialogue 2 Out/lesson_01.json -> lesson_number = 16
 
-Updates ONLY that field; leaves everything else unchanged.
+Updates only those fields; leaves everything else unchanged.
 Logs ONLY mismatches or problems (missing keys, parse errors, write errors).
 """
 
@@ -85,16 +85,27 @@ def main() -> int:
                 continue
 
             current = lc.get("lesson_number")
-            if current == expected:
+            current_order = (
+                data.get("content", {})
+                .get("lesson_metadata", {})
+                .get("order")
+                if isinstance(data.get("content"), dict)
+                else None
+            )
+            if current == expected and current_order == expected:
                 continue
 
             changed += 1
-            print(f"[FIX] {f}: lesson_number {current!r} -> {expected}")
+            print(
+                f"[FIX] {f}: lesson_number {current!r} -> {expected}; "
+                f"order {current_order!r} -> {expected}"
+            )
             if args.dry_run:
                 continue
 
             lc["lesson_number"] = expected
             data["content"]["lesson_metadata"]["lesson_config"] = lc
+            data["content"]["lesson_metadata"]["order"] = expected
             try:
                 f.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
             except Exception as e:
