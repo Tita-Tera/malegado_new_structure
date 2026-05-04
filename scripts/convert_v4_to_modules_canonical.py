@@ -15,6 +15,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 from pathlib import Path
 from typing import Any
@@ -30,6 +31,9 @@ MODULE_ORDER = [
 DEFAULT_SB_PROMPT_SOURCE = "Put the words in the correct order:"
 DEFAULT_SB_PROMPT_TARGET = "[TRANSLATE]"
 DEFAULT_SB_EXERCISE_TYPE = "Drag-and-Drop Sentence Builder"
+
+_RE_DIALOGUE_DIR = re.compile(r"(?:^|/)(?:Dialogues|dialogues)/dialogue\s+(?P<d>\d+)(?:/|$)")
+_RE_LESSON_FILE = re.compile(r"(?:^|/)lesson_(?P<n>\d{2})\.json$", re.IGNORECASE)
 
 
 def is_i18n_leaf(x: Any) -> bool:
@@ -386,6 +390,23 @@ def convert_v4_document(doc: dict[str, Any], source_path: str | None = None) -> 
     }
 
     meta_plain = lesson_metadata_to_plain(content.get("lesson_metadata") or {})
+
+    # Compute globally-unique lesson_number based on dialogue number + within-dialogue lesson index.
+    # Expected:
+    #   Dialogues/dialogue 1/lesson_01.json -> 1
+    #   Dialogues/dialogue 2/lesson_01.json -> 16
+    # Uses dialogue numeric label directly, so gaps are naturally handled.
+    if isinstance(meta_plain, dict) and source_path:
+        m_d = _RE_DIALOGUE_DIR.search(source_path.replace("\\\\", "/"))
+        m_l = _RE_LESSON_FILE.search(source_path.replace("\\\\", "/"))
+        if m_d and m_l:
+            dialogue_n = int(m_d.group("d"))
+            within_n = int(m_l.group("n"))
+            actual_lesson_number = (dialogue_n - 1) * 15 + within_n
+            lc = meta_plain.get("lesson_config")
+            if isinstance(lc, dict):
+                lc["lesson_number"] = actual_lesson_number
+                meta_plain["lesson_config"] = lc
 
     out_content = {
         "lesson_metadata": meta_plain,
