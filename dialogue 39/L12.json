@@ -1,0 +1,239 @@
+{
+  "title": {
+    "value": "saying no",
+    "translatable": true
+  },
+  "description": {
+    "value": "Learn to give a clear, simple negative answer.",
+    "translatable": true
+  },
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "basic descriptions",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_atm_basics_001-L12",
+      "generation_timestamp": "2026-05-04T00:00:00Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A2",
+        "level_name": { "value": "Elementary", "translatable": true },
+        "level_description": { "value": "You can handle short, predictable exchanges about familiar everyday topics.", "translatable": true },
+        "cefr_equivalent": "A2",
+        "available_levels": ["A0","A1","A2","B1","B2","C1","C2"]
+      },
+      "theme_config": {
+        "theme_id": "BASIC_DESCRIPTIONS",
+        "theme_code": "BASIC_DESCRIPTIONS",
+        "theme_name": { "value": "Basic Descriptions", "translatable": true },
+        "theme_description": { "value": "Giving short, clear negative answers in conversation.", "translatable": true },
+        "available_themes": [
+          { "code": { "value": "ESS", "translatable": true }, "name": { "value": "Essentials", "translatable": true } },
+          { "code": { "value": "TRV", "translatable": true }, "name": { "value": "Travel", "translatable": true } }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "2.1b", "unit_number": 2, "subunit_number": 1, "variant": "b",
+        "unit_name": { "value": "Money & Services", "translatable": true },
+        "unit_description": { "value": "Everyday transactions: using banks, machines, and apps to handle your money.", "translatable": true },
+        "total_lessons_in_unit": 15, "unit_difficulty": 3, "estimated_completion_time_minutes": 75
+      },
+      "lesson_config": {
+        "lesson_number": 12, "lesson_type": "teaching",
+        "lesson_name": { "value": "saying no", "translatable": true },
+        "lesson_description": { "value": "Practice replying with a single-word negative answer.", "translatable": true },
+        "estimated_duration_minutes": 5, "difficulty_within_unit": 12,
+        "prerequisites": [
+          "badge_atm_basics_001-L01","badge_atm_basics_001-L02","badge_atm_basics_001-L03",
+          "badge_atm_basics_001-L04","badge_atm_basics_001-L05","badge_atm_basics_001-L06",
+          "badge_atm_basics_001-L07","badge_atm_basics_001-L08","badge_atm_basics_001-L09",
+          "badge_atm_basics_001-L10","badge_atm_basics_001-L11"
+        ],
+        "learning_objectives": [
+          "Use 'No' as a complete short answer.",
+          "Recognize different ways to express disagreement.",
+          "Combine 'No' with a follow-up sentence."
+        ],
+        "target_interactions": "15-20", "micro_flow_version": "2.0"
+      }
+    },
+    "lesson_structure": {
+      "phase_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": ["phase_1_vocabulary_anchor","phase_2_grammar_engine","phase_3_dialogue","phase_4_sprint_exercises"]
+      },
+      "phases": {
+        "phase_1_vocabulary_anchor": {
+          "phase_id": "phase_1",
+          "phase_name": { "value": "Vocabulary Anchor", "translatable": true },
+          "phase_code": "VOCAB_ANCHOR", "position_in_lesson": 1, "enabled": true, "required": true, "estimated_duration_seconds": 60,
+          "title_source": { "value": "Key phrases", "translatable": true }, "title_target": "[TRANSLATE]",
+          "phase_type": "VocabularyAnchor",
+          "core_phrase": {
+            "phrase_id": "core_12",
+            "source_text": { "value": "No.", "translatable": true },
+            "target_text": "[TRANSLATE]", "part_of_speech": "interjection",
+            "linguistic_info": {
+              "tooltip_source": { "value": "A short word used to give a negative answer or to disagree.", "translatable": true },
+              "tooltip_target": "[TRANSLATE]", "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+            },
+            "media": { "image_url": "", "audio_normal": "[GENERATE]", "audio_slow": "[GENERATE]" },
+            "context": { "usage_context": "response", "formality_level": "neutral", "time_of_day": "any", "relationship": "any" }
+          },
+          "related_words": [
+            { "word_id": "rel_12_001", "source_text": { "value": "refuse", "translatable": true }, "target_text": "[TRANSLATE]", "part_of_speech": "verb", "meaning_source": { "value": "To say firmly that you will not do or accept something.", "translatable": true }, "meaning_target": "[TRANSLATE]" },
+            { "word_id": "rel_12_002", "source_text": { "value": "deny", "translatable": true }, "target_text": "[TRANSLATE]", "part_of_speech": "verb", "meaning_source": { "value": "To say that something is not true.", "translatable": true }, "meaning_target": "[TRANSLATE]" },
+            { "word_id": "rel_12_003", "source_text": { "value": "never", "translatable": true }, "target_text": "[TRANSLATE]", "part_of_speech": "adverb", "meaning_source": { "value": "At no time, not on any occasion.", "translatable": true }, "meaning_target": "[TRANSLATE]" },
+            { "word_id": "rel_12_004", "source_text": { "value": "response", "translatable": true }, "target_text": "[TRANSLATE]", "part_of_speech": "noun", "meaning_source": { "value": "Something a person says or does as a reply.", "translatable": true }, "meaning_target": "[TRANSLATE]" }
+          ],
+          "listen_repeat": {
+            "prompt_source": { "value": "Listen and repeat the core phrase.", "translatable": true },
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": { "audio_file": "[GENERATE]", "play_on_load": true },
+            "show_text_after_play": true
+          },
+          "quick_match": {
+            "prompt_source": { "value": "Connect each word to its meaning or image.", "translatable": true },
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              { "word_id": "rel_12_001", "correct_key": "rel_12_001_correct" },
+              { "word_id": "rel_12_002", "correct_key": "rel_12_002_correct" },
+              { "word_id": "rel_12_003", "correct_key": "rel_12_003_correct" },
+              { "word_id": "rel_12_004", "correct_key": "rel_12_004_correct" }
+            ],
+            "options_display": "shuffle"
+          }
+        },
+        "phase_2_grammar_engine": {
+          "phase_id": "phase_2", "phase_name": { "value": "Grammar Engine", "translatable": true },
+          "phase_code": "GRAMMAR", "position_in_lesson": 2, "enabled": true, "required": true, "estimated_duration_seconds": 45,
+          "title_source": { "value": "Grammar tip", "translatable": true }, "title_target": "[TRANSLATE]",
+          "phase_type": "GrammarEngine",
+          "pro_tip": {
+            "tip_id": "gram_12",
+            "concept_source": { "value": "Short negative answers", "translatable": true }, "concept_target": "[TRANSLATE]",
+            "explanation_source": { "value": "'No.' is a complete answer on its own. You can also add a short follow-up sentence to soften or explain the negative answer.", "translatable": true },
+            "explanation_target": "[TRANSLATE]", "focus_type": "variations",
+            "examples": [
+              { "example_id": "ex_12_001", "source_text": { "value": "Nope.", "translatable": true }, "target_text": "[TRANSLATE]", "register": "informal", "usage_note_source": { "value": "Casual spoken alternative to 'no'.", "translatable": true }, "usage_note_target": "[TRANSLATE]" },
+              { "example_id": "ex_12_002", "source_text": { "value": "No, I am afraid not.", "translatable": true }, "target_text": "[TRANSLATE]", "register": "formal", "usage_note_source": { "value": "Polite phrasing that softens the refusal.", "translatable": true }, "usage_note_target": "[TRANSLATE]" }
+            ]
+          },
+          "modifiers": [
+            { "modifier_id": "mod_12_001", "modifier_source": { "value": "absolutely", "translatable": true }, "modifier_target": "[TRANSLATE]", "example_source": { "value": "Absolutely not.", "translatable": true }, "example_target": "[TRANSLATE]", "explanation_source": { "value": "Add 'absolutely' to give a very strong refusal.", "translatable": true }, "explanation_target": "[TRANSLATE]" },
+            { "modifier_id": "mod_12_002", "modifier_source": { "value": "definitely", "translatable": true }, "modifier_target": "[TRANSLATE]", "example_source": { "value": "Definitely not.", "translatable": true }, "example_target": "[TRANSLATE]", "explanation_source": { "value": "Add 'definitely' to make the answer sound certain.", "translatable": true }, "explanation_target": "[TRANSLATE]" }
+          ],
+          "sentence_building": [
+            {
+              "exercise_id": "ex_sb_12_1",
+              "target_sentence_source": { "value": "No.", "translatable": true },
+              "target_sentence_target": "[TRANSLATE]",
+              "word_tiles": [
+                { "word_id": "w1", "word_source": { "value": "No", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 1 }
+              ],
+              "punctuation_mode": "auto_fit",
+              "hints": "Just one word.",
+              "hints_source": { "value": "Just one word.", "translatable": true },
+              "hints_target": "[TRANSLATE]"
+            },
+            {
+              "exercise_id": "ex_sb_12_2",
+              "target_sentence_source": { "value": "I refuse.", "translatable": true },
+              "target_sentence_target": "[TRANSLATE]",
+              "word_tiles": [
+                { "word_id": "w1", "word_source": { "value": "I", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 1 },
+                { "word_id": "w2", "word_source": { "value": "refuse", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 2 }
+              ],
+              "punctuation_mode": "auto_fit",
+              "hints": "A two-word firm refusal.",
+              "hints_source": { "value": "A two-word firm refusal.", "translatable": true },
+              "hints_target": "[TRANSLATE]"
+            }
+          ]
+        },
+        "phase_3_dialogue": {
+          "phase_id": "phase_3", "phase_name": { "value": "Dialogue Practice", "translatable": true },
+          "phase_code": "DIALOGUE", "position_in_lesson": 4, "enabled": true, "required": true, "estimated_duration_seconds": 90,
+          "title_source": { "value": "Conversation", "translatable": true }, "title_target": "[TRANSLATE]",
+          "phase_type": "Dialogue",
+          "setting": { "value": "After a question at the bank", "translatable": true },
+          "context": { "value": "A friend asks if the ATM gives gifts. You give a short answer.", "translatable": true },
+          "dialogue": [
+            { "turn_id": "turn_001", "turn_number": 1, "speaker": "PARTNER", "text_source": { "value": "Is the cash a gift?", "translatable": true }, "text_target": "[TRANSLATE]", "practice_mode": "listen_and_repeat" },
+            { "turn_id": "turn_002", "turn_number": 2, "speaker": "YOU", "text_source": { "value": "No.", "translatable": true }, "text_target": "[TRANSLATE]", "practice_mode": "speak_along" },
+            { "turn_id": "turn_003", "turn_number": 3, "speaker": "PARTNER", "text_source": { "value": "Are you sure?", "translatable": true }, "text_target": "[TRANSLATE]", "practice_mode": "listen_and_repeat" },
+            { "turn_id": "turn_004", "turn_number": 4, "speaker": "YOU", "text_source": { "value": "Never. I refuse to believe that.", "translatable": true }, "text_target": "[TRANSLATE]", "practice_mode": "speak_along" },
+            { "turn_id": "turn_005", "turn_number": 5, "speaker": "PARTNER", "text_source": { "value": "Okay, fair response.", "translatable": true }, "text_target": "[TRANSLATE]", "practice_mode": "listen_and_repeat" }
+          ]
+        },
+        "phase_4_sprint_exercises": {
+          "phase_id": "phase_4", "phase_name": { "value": "Sprint & review", "translatable": true },
+          "phase_code": "SPRINT", "position_in_lesson": 5, "enabled": true, "required": true, "estimated_duration_seconds": 120,
+          "title_source": { "value": "Quick practice", "translatable": true }, "title_target": "[TRANSLATE]",
+          "phase_type": "SprintExercises", "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_fill_type", "exercise_type": "Fill-in-the-Blank Typing",
+              "prompt_source": "Type the missing word:", "prompt_target": "[TRANSLATE]",
+              "sentence": "I ___ to do that.",
+              "sentence_source": "I ___ to do that.", "sentence_target": "[TRANSLATE]",
+              "blanks": [2],
+              "correct_answer": "refuse",
+              "acceptable_answers": ["refuse"],
+              "correct_answer_source": "refuse", "correct_answer_target": "[TRANSLATE]",
+              "acceptable_answers_source": ["refuse"],
+              "acceptable_answers_target": ["[TRANSLATE]"],
+              "scoring": { "points_correct": 10, "points_incorrect": 0 }
+            },
+            {
+              "exercise_id": "ex_sp_flashcard", "exercise_type": "Digital Flashcards",
+              "prompt_source": "Study the card:", "prompt_target": "[TRANSLATE]",
+              "word": "No",
+              "definition": "A short word used to give a negative answer or to disagree.",
+              "examples": ["No."],
+              "context": "Used as a complete answer on its own.",
+              "word_source": "No", "word_target": "[TRANSLATE]",
+              "definition_source": "A short word used to give a negative answer or to disagree.",
+              "definition_target": "[TRANSLATE]",
+              "examples_source": ["No."],
+              "examples_target": ["[TRANSLATE]"],
+              "context_source": "Used as a complete answer on its own.",
+              "context_target": "[TRANSLATE]",
+              "scoring": { "points_correct": 5, "points_incorrect": 0 }
+            },
+            {
+              "exercise_id": "ex_sp_audio_text", "exercise_type": "Audio-to-Text Matching",
+              "prompt_source": "Select the phrase you hear:", "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": { "audio_file": "[GENERATE]", "play_on_load": false },
+              "text_options": ["No.","Never.","I refuse."],
+              "text_options_source": ["No.","Never.","I refuse."],
+              "text_options_target": ["[TRANSLATE]","[TRANSLATE]","[TRANSLATE]"],
+              "correct_answer": "No.",
+              "correct_answer_source": "No.", "correct_answer_target": "[TRANSLATE]",
+              "scoring": { "points_correct": 10, "points_incorrect": 0 }
+            },
+            {
+              "exercise_id": "ex_sp_match_game", "exercise_type": "Flashcard Matching Game",
+              "prompt_source": "Match pairs:", "prompt_target": "[TRANSLATE]",
+              "pairs": [
+                { "pair_id": "p1", "item_a": "refuse", "item_b": "say a firm no", "type": "word_definition" },
+                { "pair_id": "p2", "item_a": "deny", "item_b": "say it isn't true", "type": "word_definition" },
+                { "pair_id": "p3", "item_a": "never", "item_b": "at no time", "type": "word_definition" },
+                { "pair_id": "p4", "item_a": "response", "item_b": "a reply", "type": "word_definition" }
+              ],
+              "scoring": { "points_correct": 10, "points_incorrect": 0 }
+            }
+          ]
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en", "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": ["**_target"],
+      "audio_generation_patterns": ["[GENERATE]","[GENERATE_FOR_TARGET]"]
+    }
+  }
+}

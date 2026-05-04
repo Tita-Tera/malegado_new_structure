@@ -1,0 +1,839 @@
+{
+  "title": {
+    "value": "they do not give a close shave",
+    "translatable": true
+  },
+  "description": {
+    "value": "Reject a recommendation by describing what's missing from the result.",
+    "translatable": true
+  },
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "basic descriptions",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_daily_gripes-L10",
+      "generation_timestamp": "2026-05-03T20:23:06Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A2",
+        "level_name": {
+          "value": "Pre-Intermediate",
+          "translatable": true
+        },
+        "level_description": {
+          "value": "Learners can handle short everyday exchanges with simple opinions and routine descriptions.",
+          "translatable": true
+        },
+        "cefr_equivalent": "A2",
+        "available_levels": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      "theme_config": {
+        "theme_id": "BASIC_DESCRIPTIONS",
+        "theme_code": "BASIC_DESCRIPTIONS",
+        "theme_name": {
+          "value": "Basic Descriptions",
+          "translatable": true
+        },
+        "theme_description": {
+          "value": "Describing the quality and finish of a shave.",
+          "translatable": true
+        },
+        "available_themes": [
+          {
+            "code": {
+              "value": "ESS",
+              "translatable": true
+            },
+            "name": {
+              "value": "Essentials",
+              "translatable": true
+            }
+          },
+          {
+            "code": {
+              "value": "TRV",
+              "translatable": true
+            },
+            "name": {
+              "value": "Travel",
+              "translatable": true
+            }
+          }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "3.2a",
+        "unit_number": 3,
+        "subunit_number": 2,
+        "variant": "a",
+        "unit_name": {
+          "value": "Daily Gripes",
+          "translatable": true
+        },
+        "unit_description": {
+          "value": "Talk about everyday frustrations and respond to suggestions with simple opinions.",
+          "translatable": true
+        },
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 3,
+        "estimated_completion_time_minutes": 75
+      },
+      "lesson_config": {
+        "lesson_number": 10,
+        "lesson_type": "teaching",
+        "lesson_name": {
+          "value": "they do not give a close shave",
+          "translatable": true
+        },
+        "lesson_description": {
+          "value": "Reject a recommendation by describing what's missing from the result.",
+          "translatable": true
+        },
+        "estimated_duration_minutes": 5,
+        "difficulty_within_unit": 10,
+        "prerequisites": [
+          "badge_daily_gripes-L01",
+          "badge_daily_gripes-L02",
+          "badge_daily_gripes-L03",
+          "badge_daily_gripes-L04",
+          "badge_daily_gripes-L05",
+          "badge_daily_gripes-L06",
+          "badge_daily_gripes-L07",
+          "badge_daily_gripes-L08",
+          "badge_daily_gripes-L09"
+        ],
+        "learning_objectives": [
+          "Reject a recommendation politely by saying what the alternative cannot do.",
+          "Form negatives with 'do not' / 'don't' for they/we/you/I.",
+          "Describe a shave's result with smooth, rough, stubble, and thorough."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      }
+    },
+    "lesson_structure": {
+      "phase_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "phase_1_vocabulary_anchor",
+          "phase_2_grammar_engine",
+          "phase_3_dialogue",
+          "phase_4_sprint_exercises"
+        ]
+      },
+      "phases": {
+        "phase_1_vocabulary_anchor": {
+          "phase_id": "phase_1",
+          "phase_name": {
+            "value": "Vocabulary Anchor",
+            "translatable": true
+          },
+          "phase_code": "VOCAB_ANCHOR",
+          "position_in_lesson": 1,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": {
+            "value": "Key phrases",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "VocabularyAnchor",
+          "core_phrase": {
+            "phrase_id": "core_10",
+            "source_text": {
+              "value": "They do not give a close shave.",
+              "translatable": true
+            },
+            "target_text": "[TRANSLATE]",
+            "part_of_speech": "phrase",
+            "linguistic_info": {
+              "tooltip_source": {
+                "value": "A complaint that an electric shaver leaves a shave that is not close enough to the skin.",
+                "translatable": true
+              },
+              "tooltip_target": "[TRANSLATE]",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+            },
+            "media": {
+              "image_url": "",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            "context": {
+              "usage_context": "complaint",
+              "formality_level": "neutral",
+              "time_of_day": "any",
+              "relationship": "any"
+            }
+          },
+          "related_words": [
+            {
+              "word_id": "rel_10_001",
+              "source_text": {
+                "value": "smooth",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "adjective",
+              "meaning_source": {
+                "value": "Having an even surface; free from roughness.",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]",
+              "linguistic_info": {
+                "tooltip_source": {
+                  "value": "Having an even surface; free from roughness.",
+                  "translatable": true
+                },
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              }
+            },
+            {
+              "word_id": "rel_10_002",
+              "source_text": {
+                "value": "rough",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "adjective",
+              "meaning_source": {
+                "value": "Having a coarse, uneven surface; not smooth.",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]",
+              "linguistic_info": {
+                "tooltip_source": {
+                  "value": "Having a coarse, uneven surface; not smooth.",
+                  "translatable": true
+                },
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              }
+            },
+            {
+              "word_id": "rel_10_003",
+              "source_text": {
+                "value": "stubble",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "meaning_source": {
+                "value": "Short bristly hair left on the face after a shave.",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]",
+              "linguistic_info": {
+                "tooltip_source": {
+                  "value": "Short bristly hair left on the face after a shave.",
+                  "translatable": true
+                },
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              }
+            },
+            {
+              "word_id": "rel_10_004",
+              "source_text": {
+                "value": "thorough",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "adjective",
+              "meaning_source": {
+                "value": "Complete and careful in every detail.",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]",
+              "linguistic_info": {
+                "tooltip_source": {
+                  "value": "Complete and careful in every detail.",
+                  "translatable": true
+                },
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              }
+            }
+          ],
+          "listen_repeat": {
+            "prompt_source": {
+              "value": "Listen and repeat the core phrase.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {
+              "audio_file": "[GENERATE]",
+              "play_on_load": true
+            },
+            "show_text_after_play": true
+          },
+          "quick_match": {
+            "prompt_source": {
+              "value": "Connect each word to its meaning or image.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              {
+                "pair_id": "pair_10_001",
+                "word_id": "rel_10_001",
+                "correct_key": "rel_10_001_correct"
+              },
+              {
+                "pair_id": "pair_10_002",
+                "word_id": "rel_10_002",
+                "correct_key": "rel_10_002_correct"
+              },
+              {
+                "pair_id": "pair_10_003",
+                "word_id": "rel_10_003",
+                "correct_key": "rel_10_003_correct"
+              },
+              {
+                "pair_id": "pair_10_004",
+                "word_id": "rel_10_004",
+                "correct_key": "rel_10_004_correct"
+              }
+            ],
+            "options_display": "shuffle"
+          }
+        },
+        "phase_2_grammar_engine": {
+          "phase_id": "phase_2",
+          "phase_name": {
+            "value": "Grammar Engine",
+            "translatable": true
+          },
+          "phase_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": {
+            "value": "Grammar tip",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "GrammarEngine",
+          "pro_tip": {
+            "tip_id": "gram_10",
+            "concept_source": {
+              "value": "Negative present simple: do not / don't (they/we/you/I)",
+              "translatable": true
+            },
+            "concept_target": "[TRANSLATE]",
+            "explanation_source": {
+              "value": "For 'they/we/you/I', form the negative with 'do not' (or 'don't') + base verb: 'They do not give...'. For 'he/she/it', use 'does not' (or 'doesn't') instead. The base verb never changes form.",
+              "translatable": true
+            },
+            "explanation_target": "[TRANSLATE]",
+            "focus_type": "variations",
+            "examples": [
+              {
+                "example_id": "ex_10_001",
+                "source_text": {
+                  "value": "They don't give a close shave.",
+                  "translatable": true
+                },
+                "target_text": "[TRANSLATE]",
+                "register": "informal",
+                "usage_note_source": {
+                  "value": "Same meaning with the everyday contraction.",
+                  "translatable": true
+                },
+                "usage_note_target": "[TRANSLATE]"
+              },
+              {
+                "example_id": "ex_10_002",
+                "source_text": {
+                  "value": "It is not a thorough shave.",
+                  "translatable": true
+                },
+                "target_text": "[TRANSLATE]",
+                "register": "neutral",
+                "usage_note_source": {
+                  "value": "Re-phrasing with 'be + adjective' instead of 'do not give'.",
+                  "translatable": true
+                },
+                "usage_note_target": "[TRANSLATE]"
+              }
+            ]
+          },
+          "modifiers": [
+            {
+              "modifier_id": "mod_10_001",
+              "modifier_source": {
+                "value": "really",
+                "translatable": true
+              },
+              "modifier_target": "[TRANSLATE]",
+              "example_source": {
+                "value": "They do not really give a close shave.",
+                "translatable": true
+              },
+              "example_target": "[TRANSLATE]",
+              "explanation_source": {
+                "value": "'Really' softens the criticism — they do not give a close one in truth.",
+                "translatable": true
+              },
+              "explanation_target": "[TRANSLATE]"
+            },
+            {
+              "modifier_id": "mod_10_002",
+              "modifier_source": {
+                "value": "always",
+                "translatable": true
+              },
+              "modifier_target": "[TRANSLATE]",
+              "example_source": {
+                "value": "They do not always give a close shave.",
+                "translatable": true
+              },
+              "example_target": "[TRANSLATE]",
+              "explanation_source": {
+                "value": "'Always' weakens the claim — sometimes the shave is fine.",
+                "translatable": true
+              },
+              "explanation_target": "[TRANSLATE]"
+            }
+          ],
+          "sentence_building": [
+            {
+              "exercise_id": "ex_sb_10_1",
+              "target_sentence_source": {
+                "value": "They do not give a close shave.",
+                "translatable": true
+              },
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": {
+                    "value": "They",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": {
+                    "value": "do",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": {
+                    "value": "not",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": {
+                    "value": "give",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4
+                },
+                {
+                  "word_id": "w5",
+                  "word_source": {
+                    "value": "a",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 5
+                },
+                {
+                  "word_id": "w6",
+                  "word_source": {
+                    "value": "close",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 6
+                },
+                {
+                  "word_id": "w7",
+                  "word_source": {
+                    "value": "shave",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 7
+                }
+              ],
+              "hints": "Subject (They) + 'do not' (or simple verb) + the rest."
+            },
+            {
+              "exercise_id": "ex_sb_10_2",
+              "target_sentence_source": {
+                "value": "They leave some stubble.",
+                "translatable": true
+              },
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": {
+                    "value": "They",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": {
+                    "value": "leave",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": {
+                    "value": "some",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": {
+                    "value": "stubble",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4
+                }
+              ],
+              "hints": "Subject (They) + 'do not' (or simple verb) + the rest."
+            }
+          ]
+        },
+        "phase_3_dialogue": {
+          "phase_id": "phase_3",
+          "phase_name": {
+            "value": "Dialogue Practice",
+            "translatable": true
+          },
+          "phase_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": {
+            "value": "Conversation",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "Dialogue",
+          "setting": {
+            "value": "Two friends still debating shaver options",
+            "translatable": true
+          },
+          "context": {
+            "value": "One friend praises the convenience; the other points out the trade-off",
+            "translatable": true
+          },
+          "dialogue": [
+            {
+              "turn_id": "turn_001",
+              "turn_number": 1,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "But electric shavers are easier.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_002",
+              "turn_number": 2,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "They do not give a close shave.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_003",
+              "turn_number": 3,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "What do you mean?",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_004",
+              "turn_number": 4,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "They leave some stubble — not smooth, just rough.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_005",
+              "turn_number": 5,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "Right, a manual razor gives a more thorough shave.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            }
+          ]
+        },
+        "phase_4_sprint_exercises": {
+          "phase_id": "phase_4",
+          "phase_name": {
+            "value": "Sprint & review",
+            "translatable": true
+          },
+          "phase_code": "SPRINT",
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": {
+            "value": "Quick practice",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "SprintExercises",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_fill_type",
+              "exercise_type": "Fill-in-the-Blank Typing",
+              "prompt_source": "Type the missing word:",
+              "prompt_target": "[TRANSLATE]",
+              "sentence": "They do ___ give a close shave.",
+              "sentence_source": "They do ___ give a close shave.",
+              "sentence_target": "[TRANSLATE]",
+              "blanks": [
+                3
+              ],
+              "correct_answer": "not",
+              "acceptable_answers": [
+                "not"
+              ],
+              "correct_answer_source": "not",
+              "correct_answer_target": "[TRANSLATE]",
+              "acceptable_answers_source": [
+                "not"
+              ],
+              "acceptable_answers_target": [
+                "[TRANSLATE]"
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_quick_fire",
+              "exercise_type": "Listen and Respond (Quick Fire)",
+              "prompt_source": "Listen and respond out loud:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true,
+                "text_to_speak_target": "Do electric shavers give a close shave?"
+              },
+              "prompt": "Do electric shavers give a close shave?",
+              "prompt_text_source": "Do electric shavers give a close shave?",
+              "prompt_text_target": "[TRANSLATE]",
+              "response": {
+                "mode": "speak",
+                "acceptable_responses": [
+                  "No.",
+                  "No, they do not.",
+                  "They do not give a close shave."
+                ],
+                "acceptable_responses_source": [
+                  "No.",
+                  "No, they do not.",
+                  "They do not give a close shave."
+                ],
+                "acceptable_responses_target": [
+                  "[TRANSLATE]",
+                  "[TRANSLATE]",
+                  "[TRANSLATE]"
+                ],
+                "time_limit_seconds": 8
+              },
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_audio_blank",
+              "exercise_type": "Audio Fill-in-the-Blank",
+              "prompt_source": "Listen and complete:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true
+              },
+              "sentence": "They do not give a ___ shave.",
+              "sentence_source": "They do not give a ___ shave.",
+              "sentence_target": "[TRANSLATE]",
+              "blanks": [
+                6
+              ],
+              "correct_answer": "close",
+              "correct_answer_source": "close",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_match_game",
+              "exercise_type": "Flashcard Matching Game",
+              "prompt_source": "Match pairs:",
+              "prompt_target": "[TRANSLATE]",
+              "pairs": [
+                {
+                  "pair_id": "mg_1",
+                  "item_a": "smooth",
+                  "item_b": "having an even surface; not rough",
+                  "type": "word_meaning"
+                },
+                {
+                  "pair_id": "mg_2",
+                  "item_a": "rough",
+                  "item_b": "having a coarse, uneven surface",
+                  "type": "word_meaning"
+                },
+                {
+                  "pair_id": "mg_3",
+                  "item_a": "stubble",
+                  "item_b": "short bristly hair left after a shave",
+                  "type": "word_meaning"
+                },
+                {
+                  "pair_id": "mg_4",
+                  "item_a": "thorough",
+                  "item_b": "complete and careful in every detail",
+                  "type": "word_meaning"
+                }
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_audio_text",
+              "exercise_type": "Audio-to-Text Matching",
+              "prompt_source": "Select the phrase you hear:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": false
+              },
+              "text_options": [
+                "They do not give a close shave.",
+                "They are very loud.",
+                "They make a lot of noise."
+              ],
+              "text_options_source": [
+                "They do not give a close shave.",
+                "They are very loud.",
+                "They make a lot of noise."
+              ],
+              "text_options_target": [
+                "[TRANSLATE]",
+                "[TRANSLATE]",
+                "[TRANSLATE]"
+              ],
+              "correct_answer": "They do not give a close shave.",
+              "correct_answer_source": "They do not give a close shave.",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            }
+          ]
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": [
+        "**_target"
+      ],
+      "audio_generation_patterns": [
+        "[GENERATE]",
+        "[GENERATE_FOR_TARGET]"
+      ]
+    }
+  }
+}

@@ -1,0 +1,633 @@
+{
+  "title": {
+    "value": "cleaning the kitchen",
+    "translatable": true
+  },
+  "description": {
+    "value": "Apply the past simple to a new context: cleaning the kitchen with a roommate.",
+    "translatable": true
+  },
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "home",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_household_past_001-CTX1",
+      "generation_timestamp": "2026-05-04T05:25:37Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A2",
+        "level_name": {
+          "value": "Pre-Intermediate",
+          "translatable": true
+        },
+        "level_description": {
+          "value": "Use everyday past-simple questions and answers about completed actions.",
+          "translatable": true
+        },
+        "cefr_equivalent": "A2",
+        "available_levels": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      "theme_config": {
+        "theme_id": "HOME",
+        "theme_code": "HOME",
+        "theme_name": {
+          "value": "Home",
+          "translatable": true
+        },
+        "theme_description": {
+          "value": "Cleaning the kitchen with a roommate, using the same past-simple patterns from the laundry conversation.",
+          "translatable": true
+        },
+        "available_themes": [
+          {
+            "code": {
+              "value": "ESS",
+              "translatable": true
+            },
+            "name": {
+              "value": "Essentials",
+              "translatable": true
+            }
+          },
+          {
+            "code": {
+              "value": "TRV",
+              "translatable": true
+            },
+            "name": {
+              "value": "Travel",
+              "translatable": true
+            }
+          }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "1.1a",
+        "unit_number": 1,
+        "subunit_number": 1,
+        "variant": "a",
+        "unit_name": {
+          "value": "household past",
+          "translatable": true
+        },
+        "unit_description": {
+          "value": "Talk about household chores you finished — laundry, cleaning, and tidying up — using the past simple.",
+          "translatable": true
+        },
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 3,
+        "estimated_completion_time_minutes": 75
+      },
+      "lesson_config": {
+        "lesson_number": 14,
+        "lesson_type": "review",
+        "lesson_name": {
+          "value": "cleaning the kitchen",
+          "translatable": true
+        },
+        "lesson_description": {
+          "value": "Apply the past simple to a new context: cleaning the kitchen with a roommate.",
+          "translatable": true
+        },
+        "estimated_duration_minutes": 5,
+        "difficulty_within_unit": 14,
+        "prerequisites": [
+          "badge_household_past_001-L01",
+          "badge_household_past_001-L02",
+          "badge_household_past_001-L03",
+          "badge_household_past_001-L04",
+          "badge_household_past_001-L05",
+          "badge_household_past_001-L06",
+          "badge_household_past_001-L07",
+          "badge_household_past_001-L08",
+          "badge_household_past_001-L09",
+          "badge_household_past_001-L10",
+          "badge_household_past_001-L11",
+          "badge_household_past_001-L12",
+          "badge_household_past_001-REVIEW"
+        ],
+        "learning_objectives": [
+          "Recognize the same past-simple patterns from the laundry unit in a new household context.",
+          "Follow a sequence of past-simple questions and answers about kitchen chores.",
+          "Use vocabulary specific to kitchen cleaning: clean, dishes, table, floor, sweep, mop."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      }
+    },
+    "lesson_structure": {
+      "phase_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "phase_1_vocabulary_anchor",
+          "phase_2_grammar_engine",
+          "phase_3_dialogue",
+          "phase_4_sprint_exercises"
+        ]
+      },
+      "phases": {
+        "phase_1_vocabulary_anchor": {
+          "phase_id": "phase_1",
+          "phase_name": {
+            "value": "Vocabulary Anchor",
+            "translatable": true
+          },
+          "phase_code": "VOCAB_ANCHOR",
+          "position_in_lesson": 1,
+          "enabled": false,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": {
+            "value": "Key phrases",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "VocabularyAnchor",
+          "core_phrase": {
+            "phrase_id": "core_ctx1",
+            "source_text": {
+              "value": "(contextualized review: cleaning the kitchen)",
+              "translatable": true
+            },
+            "target_text": "[TRANSLATE]",
+            "part_of_speech": "phrase",
+            "linguistic_info": {
+              "tooltip_source": {
+                "value": "Phase disabled in contextualized review; see Conversation phase below.",
+                "translatable": true
+              },
+              "tooltip_target": "[TRANSLATE]",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+            },
+            "media": {
+              "image_url": "",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            "context": {
+              "usage_context": "review",
+              "formality_level": "neutral",
+              "time_of_day": "any",
+              "relationship": "any"
+            }
+          },
+          "related_words": [],
+          "listen_repeat": {
+            "prompt_source": {
+              "value": "Listen and repeat the core phrase.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {
+              "audio_file": "[GENERATE]",
+              "play_on_load": true
+            },
+            "show_text_after_play": true
+          },
+          "quick_match": {
+            "prompt_source": {
+              "value": "Connect each word to its meaning or image.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [],
+            "options_display": "shuffle"
+          }
+        },
+        "phase_2_grammar_engine": {
+          "phase_id": "phase_2",
+          "phase_name": {
+            "value": "Grammar Engine",
+            "translatable": true
+          },
+          "phase_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": false,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": {
+            "value": "Grammar tip",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "GrammarEngine",
+          "pro_tip": {
+            "tip_id": "gram_ctx1",
+            "concept_source": {
+              "value": "Past simple in a new context",
+              "translatable": true
+            },
+            "concept_target": "[TRANSLATE]",
+            "explanation_source": {
+              "value": "Phase disabled in contextualized review; see Conversation phase below.",
+              "translatable": true
+            },
+            "explanation_target": "[TRANSLATE]",
+            "focus_type": "variations",
+            "examples": []
+          },
+          "modifiers": [],
+          "sentence_building": []
+        },
+        "phase_3_dialogue": {
+          "phase_id": "phase_3",
+          "phase_name": {
+            "value": "Dialogue Practice",
+            "translatable": true
+          },
+          "phase_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": {
+            "value": "Conversation",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "Dialogue",
+          "setting": {
+            "value": "Two roommates discussing cleaning tasks",
+            "translatable": true
+          },
+          "context": {
+            "value": "Cleaning the Kitchen",
+            "translatable": true
+          },
+          "dialogue": [
+            {
+              "turn_id": "turn_001",
+              "turn_number": 1,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "Did you clean the kitchen?",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_002",
+              "turn_number": 2,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "Yes, I did.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_003",
+              "turn_number": 3,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "What did you clean?",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_004",
+              "turn_number": 4,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "I cleaned the dishes.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_005",
+              "turn_number": 5,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "I cleaned the table.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_006",
+              "turn_number": 6,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "What about the floor?",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_007",
+              "turn_number": 7,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "I swept it.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_008",
+              "turn_number": 8,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "I mopped it.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_009",
+              "turn_number": 9,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "Did you dry everything?",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_010",
+              "turn_number": 10,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "Yes.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_011",
+              "turn_number": 11,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "I dried the dishes.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_012",
+              "turn_number": 12,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "What did you do next?",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_013",
+              "turn_number": 13,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "I put everything away.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_014",
+              "turn_number": 14,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "Did you finish everything?",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_015",
+              "turn_number": 15,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "Yes.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_016",
+              "turn_number": 16,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "The kitchen is clean.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "speak_along"
+            }
+          ]
+        },
+        "phase_4_sprint_exercises": {
+          "phase_id": "phase_4",
+          "phase_name": {
+            "value": "Sprint & review",
+            "translatable": true
+          },
+          "phase_code": "SPRINT",
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": {
+            "value": "Quick practice",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "SprintExercises",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_quick_fire",
+              "exercise_type": "Listen and Respond (Quick Fire)",
+              "prompt_source": "Listen and respond out loud:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true,
+                "text_to_speak_target": "[TRANSLATE]"
+              },
+              "prompt": "Did you clean the kitchen?",
+              "prompt_text_source": "Did you clean the kitchen?",
+              "prompt_text_target": "[TRANSLATE]",
+              "response": {
+                "mode": "speech",
+                "acceptable_responses": [
+                  "Yes, I did.",
+                  "Yeah, I did."
+                ],
+                "acceptable_responses_source": [
+                  "Yes, I did.",
+                  "Yeah, I did."
+                ],
+                "acceptable_responses_target": [
+                  "[TRANSLATE]",
+                  "[TRANSLATE]"
+                ],
+                "time_limit_seconds": 8
+              },
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_match_game",
+              "exercise_type": "Flashcard Matching Game",
+              "prompt_source": "Match pairs:",
+              "prompt_target": "[TRANSLATE]",
+              "pairs": [
+                {
+                  "pair_id": "pair_ctx1_001",
+                  "item_a": "dishes",
+                  "item_b": "Plates, bowls, and cups you eat from.",
+                  "type": "word_definition"
+                },
+                {
+                  "pair_id": "pair_ctx1_002",
+                  "item_a": "table",
+                  "item_b": "A flat surface where you place food and eat.",
+                  "type": "word_definition"
+                },
+                {
+                  "pair_id": "pair_ctx1_003",
+                  "item_a": "floor",
+                  "item_b": "The flat surface you walk on in a room.",
+                  "type": "word_definition"
+                },
+                {
+                  "pair_id": "pair_ctx1_004",
+                  "item_a": "sweep",
+                  "item_b": "To clean a floor with a broom.",
+                  "type": "word_definition"
+                }
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_v1_audio_image",
+              "exercise_type": "Audio-to-Image Matching",
+              "prompt_source": "Tap the image that matches what you hear:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true,
+                "text_to_speak_target": "[TRANSLATE]"
+              },
+              "image_options": [
+                {
+                  "option_id": "opt_01",
+                  "image_url": "",
+                  "correct": true
+                },
+                {
+                  "option_id": "opt_02",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_03",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_04",
+                  "image_url": "",
+                  "correct": false
+                }
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_fill_dialogue",
+              "exercise_type": "Fill-in-the-Dialogue (Speaking)",
+              "prompt_source": "Speak your line:",
+              "prompt_target": "[TRANSLATE]",
+              "dialogue_context": "Talking about cleaning the kitchen with a roommate.",
+              "dialogue_context_source": "Talking about cleaning the kitchen with a roommate.",
+              "dialogue_context_target": "[TRANSLATE]",
+              "turns": [
+                {
+                  "turn_number": 1,
+                  "speaker": "PARTNER",
+                  "text_source": "What about the floor?",
+                  "text_target": "[TRANSLATE]",
+                  "audio_file": "[GENERATE]",
+                  "text_to_speak_target": "[TRANSLATE]"
+                },
+                {
+                  "turn_number": 2,
+                  "speaker": "YOU",
+                  "text_source": "Tell them you swept the floor.",
+                  "expected_response": "I swept it.",
+                  "expected_response_source": "I swept it.",
+                  "expected_response_target": "[TRANSLATE]",
+                  "acceptable_responses": [
+                    "I swept it.",
+                    "I swept the floor."
+                  ],
+                  "acceptable_responses_source": [
+                    "I swept it.",
+                    "I swept the floor."
+                  ],
+                  "acceptable_responses_target": [
+                    "[TRANSLATE]",
+                    "[TRANSLATE]"
+                  ]
+                }
+              ],
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              }
+            }
+          ]
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": [
+        "**_target"
+      ],
+      "audio_generation_patterns": [
+        "[GENERATE]",
+        "[GENERATE_FOR_TARGET]"
+      ]
+    }
+  }
+}

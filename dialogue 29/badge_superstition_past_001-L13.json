@@ -1,0 +1,614 @@
+{
+  "title": {
+    "value": "a friday the thirteenth story",
+    "translatable": true
+  },
+  "description": {
+    "value": "Review the full unlucky-day story and the language you have learned to tell it.",
+    "translatable": true
+  },
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "past experiences",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_superstition_past_001-REVIEW",
+      "generation_timestamp": "2026-05-03T12:00:00Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A2",
+        "level_name": {
+          "value": "Pre-Intermediate",
+          "translatable": true
+        },
+        "level_description": {
+          "value": "Comfortable with simple past, basic modals, and short opinions.",
+          "translatable": true
+        },
+        "cefr_equivalent": "A2",
+        "available_levels": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      "theme_config": {
+        "theme_id": "PAST_EXPERIENCES",
+        "theme_code": "PAST_EXPERIENCES",
+        "theme_name": {
+          "value": "Past Experiences",
+          "translatable": true
+        },
+        "theme_description": {
+          "value": "Bring together superstitions, advice, and a past mishap into one full conversation.",
+          "translatable": true
+        },
+        "available_themes": [
+          {
+            "code": {
+              "value": "ESS",
+              "translatable": true
+            },
+            "name": {
+              "value": "Essentials",
+              "translatable": true
+            }
+          },
+          {
+            "code": {
+              "value": "TRV",
+              "translatable": true
+            },
+            "name": {
+              "value": "Travel",
+              "translatable": true
+            }
+          }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "2.2a",
+        "unit_number": 2,
+        "subunit_number": 2,
+        "variant": "a",
+        "unit_name": {
+          "value": "Unlucky Days",
+          "translatable": true
+        },
+        "unit_description": {
+          "value": "Talk about superstitions, mistakes, and lessons learned from bad days.",
+          "translatable": true
+        },
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 3,
+        "estimated_completion_time_minutes": 75
+      },
+      "lesson_config": {
+        "lesson_number": 13,
+        "lesson_type": "review",
+        "lesson_name": {
+          "value": "a friday the thirteenth story",
+          "translatable": true
+        },
+        "lesson_description": {
+          "value": "Review the full unlucky-day story and the language you have learned to tell it.",
+          "translatable": true
+        },
+        "estimated_duration_minutes": 5,
+        "difficulty_within_unit": 13,
+        "prerequisites": [
+          "badge_superstition_past_001-L01",
+          "badge_superstition_past_001-L02",
+          "badge_superstition_past_001-L03",
+          "badge_superstition_past_001-L04",
+          "badge_superstition_past_001-L05",
+          "badge_superstition_past_001-L06",
+          "badge_superstition_past_001-L07",
+          "badge_superstition_past_001-L08",
+          "badge_superstition_past_001-L09",
+          "badge_superstition_past_001-L10",
+          "badge_superstition_past_001-L11",
+          "badge_superstition_past_001-L12"
+        ],
+        "learning_objectives": [
+          "Follow the full Friday-the-13th story end to end.",
+          "Practice the 12 core phrases in a single connected conversation.",
+          "Match badge vocabulary to its place in a real exchange."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      }
+    },
+    "lesson_structure": {
+      "phase_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "phase_1_vocabulary_anchor",
+          "phase_2_grammar_engine",
+          "phase_3_dialogue",
+          "phase_4_sprint_exercises"
+        ]
+      },
+      "phases": {
+        "phase_1_vocabulary_anchor": {
+          "phase_id": "phase_1",
+          "phase_name": {
+            "value": "Vocabulary Anchor",
+            "translatable": true
+          },
+          "phase_code": "VOCAB_ANCHOR",
+          "position_in_lesson": 1,
+          "enabled": false,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": {
+            "value": "Key phrases",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "VocabularyAnchor",
+          "core_phrase": {
+            "phrase_id": "",
+            "source_text": {
+              "value": "",
+              "translatable": true
+            },
+            "target_text": "[TRANSLATE]",
+            "part_of_speech": "",
+            "linguistic_info": {
+              "tooltip_source": {
+                "value": "",
+                "translatable": true
+              },
+              "tooltip_target": "[TRANSLATE]",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+            },
+            "media": {
+              "image_url": "",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            "context": {
+              "usage_context": "",
+              "formality_level": "",
+              "time_of_day": "",
+              "relationship": ""
+            }
+          },
+          "related_words": [],
+          "listen_repeat": {
+            "prompt_source": {
+              "value": "Listen and repeat the core phrase.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {
+              "audio_file": "[GENERATE]",
+              "play_on_load": true
+            },
+            "show_text_after_play": true
+          },
+          "quick_match": {
+            "prompt_source": {
+              "value": "Connect each word to its meaning or image.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [],
+            "options_display": "shuffle"
+          }
+        },
+        "phase_2_grammar_engine": {
+          "phase_id": "phase_2",
+          "phase_name": {
+            "value": "Grammar Engine",
+            "translatable": true
+          },
+          "phase_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": false,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": {
+            "value": "Grammar tip",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "GrammarEngine",
+          "pro_tip": {
+            "tip_id": "",
+            "concept_source": {
+              "value": "",
+              "translatable": true
+            },
+            "concept_target": "[TRANSLATE]",
+            "explanation_source": {
+              "value": "",
+              "translatable": true
+            },
+            "explanation_target": "[TRANSLATE]",
+            "focus_type": "variations",
+            "examples": []
+          },
+          "modifiers": [],
+          "sentence_building": []
+        },
+        "phase_3_dialogue": {
+          "phase_id": "phase_3",
+          "phase_name": {
+            "value": "Dialogue Practice",
+            "translatable": true
+          },
+          "phase_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": {
+            "value": "Conversation",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "Dialogue",
+          "setting": {
+            "value": "Two friends in conversation about Friday the 13th and a friend's hotel mishap.",
+            "translatable": true
+          },
+          "context": {
+            "value": "The full anchor dialogue: from naming the unlucky day through the laptop theft to the lesson learned.",
+            "translatable": true
+          },
+          "dialogue": [
+            {
+              "turn_id": "turn_001",
+              "turn_number": 1,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "Today is Friday the thirteenth.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_002",
+              "turn_number": 2,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "That is a bad day.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_003",
+              "turn_number": 3,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "It is supposed to be unlucky.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_004",
+              "turn_number": 4,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "You should stay home all day.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_005",
+              "turn_number": 5,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "That is what I do.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_006",
+              "turn_number": 6,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "My friend stayed in a hotel on that day.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_007",
+              "turn_number": 7,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "That was a mistake.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_008",
+              "turn_number": 8,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "He stayed on the thirteenth floor.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_009",
+              "turn_number": 9,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "What happened?",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_010",
+              "turn_number": 10,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "Someone stole his laptop.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_011",
+              "turn_number": 11,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "He was asking for it.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_012",
+              "turn_number": 12,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "He learned his lesson.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_013",
+              "turn_number": 13,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "He is home today.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "speak_along"
+            }
+          ]
+        },
+        "phase_4_sprint_exercises": {
+          "phase_id": "phase_4",
+          "phase_name": {
+            "value": "Sprint & review",
+            "translatable": true
+          },
+          "phase_code": "SPRINT",
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": {
+            "value": "Quick practice",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "SprintExercises",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_flashcard",
+              "exercise_type": "Digital Flashcards",
+              "prompt_source": "Study the card:",
+              "prompt_target": "[TRANSLATE]",
+              "word": "unlucky",
+              "definition": "Believed to bring bad luck.",
+              "examples": [
+                "It is supposed to be unlucky.",
+                "Friday the thirteenth is unlucky for some people."
+              ],
+              "context": "Used to label things tied to a superstition.",
+              "word_source": "unlucky",
+              "word_target": "[TRANSLATE]",
+              "definition_source": "Believed to bring bad luck.",
+              "definition_target": "[TRANSLATE]",
+              "examples_source": [
+                "It is supposed to be unlucky.",
+                "Friday the thirteenth is unlucky for some people."
+              ],
+              "examples_target": [
+                "[TRANSLATE]",
+                "[TRANSLATE]"
+              ],
+              "context_source": "Used to label things tied to a superstition.",
+              "context_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 5,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_v1_text_image",
+              "exercise_type": "Text-to-Image Matching",
+              "prompt_source": "Read and choose the matching image:",
+              "prompt_target": "[TRANSLATE]",
+              "text_stimulus": "My friend stayed in a hotel on that day.",
+              "text_stimulus_source": "My friend stayed in a hotel on that day.",
+              "text_stimulus_target": "[TRANSLATE]",
+              "image_options": [
+                {
+                  "option_id": "opt_a",
+                  "image_url": "",
+                  "correct": true
+                },
+                {
+                  "option_id": "opt_b",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_c",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_d",
+                  "image_url": "",
+                  "correct": false
+                }
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_v1_audio_image",
+              "exercise_type": "Audio-to-Image Matching",
+              "prompt_source": "Tap the image that matches what you hear:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true,
+                "text_to_speak_target": "[TRANSLATE]"
+              },
+              "image_options": [
+                {
+                  "option_id": "opt_01",
+                  "image_url": "",
+                  "correct": true
+                },
+                {
+                  "option_id": "opt_02",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_03",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_04",
+                  "image_url": "",
+                  "correct": false
+                }
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_fill_type",
+              "exercise_type": "Fill-in-the-Blank Typing",
+              "prompt_source": "Type the missing word:",
+              "prompt_target": "[TRANSLATE]",
+              "sentence": "Someone ___ his laptop.",
+              "sentence_source": "Someone ___ his laptop.",
+              "sentence_target": "[TRANSLATE]",
+              "blanks": [
+                2
+              ],
+              "correct_answer": "stole",
+              "acceptable_answers": [
+                "stole"
+              ],
+              "correct_answer_source": "stole",
+              "correct_answer_target": "[TRANSLATE]",
+              "acceptable_answers_source": [
+                "stole"
+              ],
+              "acceptable_answers_target": [
+                "[TRANSLATE]"
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_quick_fire",
+              "exercise_type": "Listen and Respond (Quick Fire)",
+              "prompt_source": "Listen and respond out loud:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true,
+                "text_to_speak_target": "[TRANSLATE]"
+              },
+              "prompt": "Did your friend change after that?",
+              "prompt_text_source": "Did your friend change after that?",
+              "prompt_text_target": "[TRANSLATE]",
+              "response": {
+                "mode": "speech",
+                "acceptable_responses": [
+                  "He learned his lesson.",
+                  "He really learned his lesson."
+                ],
+                "acceptable_responses_source": [
+                  "He learned his lesson.",
+                  "He really learned his lesson."
+                ],
+                "acceptable_responses_target": [
+                  "[TRANSLATE]",
+                  "[TRANSLATE]"
+                ],
+                "time_limit_seconds": 8
+              },
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            }
+          ]
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": [
+        "**_target"
+      ],
+      "audio_generation_patterns": [
+        "[GENERATE]",
+        "[GENERATE_FOR_TARGET]"
+      ]
+    }
+  }
+}

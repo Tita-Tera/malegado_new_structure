@@ -1,0 +1,726 @@
+{
+  "title": {
+    "value": "are you serious?",
+    "translatable": true
+  },
+  "description": {
+    "value": "Learn to react with disbelief and recognize reaction adjectives.",
+    "translatable": true
+  },
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "feelings & personality",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_001-L09",
+      "generation_timestamp": "2026-05-03T01:35:51Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A2",
+        "level_name": {
+          "value": "Elementary",
+          "translatable": true
+        },
+        "level_description": {
+          "value": "Basic everyday phrases for simple, direct exchanges.",
+          "translatable": true
+        },
+        "cefr_equivalent": "A2",
+        "available_levels": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      "theme_config": {
+        "theme_id": "FEELINGS_PERSONALITY",
+        "theme_code": "FEELINGS_PERSONALITY",
+        "theme_name": {
+          "value": "Feelings & Personality",
+          "translatable": true
+        },
+        "theme_description": {
+          "value": "Express surprise, disbelief, and other quick reactions.",
+          "translatable": true
+        },
+        "available_themes": [
+          {
+            "code": {
+              "value": "ESS",
+              "translatable": true
+            },
+            "name": {
+              "value": "Essentials",
+              "translatable": true
+            }
+          },
+          {
+            "code": {
+              "value": "TRV",
+              "translatable": true
+            },
+            "name": {
+              "value": "Travel",
+              "translatable": true
+            }
+          }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "2.1a",
+        "unit_number": 2,
+        "subunit_number": 1,
+        "variant": "a",
+        "unit_name": {
+          "value": "Free Time",
+          "translatable": true
+        },
+        "unit_description": {
+          "value": "Talk about things to do at home and share opinions about TV, movies, and music.",
+          "translatable": true
+        },
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 3,
+        "estimated_completion_time_minutes": 75
+      },
+      "lesson_config": {
+        "lesson_number": 9,
+        "lesson_type": "teaching",
+        "lesson_name": {
+          "value": "are you serious?",
+          "translatable": true
+        },
+        "lesson_description": {
+          "value": "Learn to react with disbelief and recognize reaction adjectives.",
+          "translatable": true
+        },
+        "estimated_duration_minutes": 5,
+        "difficulty_within_unit": 9,
+        "prerequisites": [
+          "badge_001-L01",
+          "badge_001-L02",
+          "badge_001-L03",
+          "badge_001-L04",
+          "badge_001-L05",
+          "badge_001-L06",
+          "badge_001-L07",
+          "badge_001-L08"
+        ],
+        "learning_objectives": [
+          {
+            "objective_source": {
+              "value": "React with disbelief using 'Are you serious?'",
+              "translatable": true
+            },
+            "objective_target": "[TRANSLATE]"
+          },
+          {
+            "objective_source": {
+              "value": "Strengthen the reaction with 'really' or 'actually'.",
+              "translatable": true
+            },
+            "objective_target": "[TRANSLATE]"
+          },
+          {
+            "objective_source": {
+              "value": "Recognize basic reaction adjectives: surprised, shocked, confused, annoyed.",
+              "translatable": true
+            },
+            "objective_target": "[TRANSLATE]"
+          }
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      }
+    },
+    "lesson_structure": {
+      "phase_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "phase_1_vocabulary_anchor",
+          "phase_2_grammar_engine",
+          "phase_3_dialogue",
+          "phase_4_sprint_exercises"
+        ]
+      },
+      "phases": {
+        "phase_1_vocabulary_anchor": {
+          "phase_id": "phase_1",
+          "phase_name": {
+            "value": "Vocabulary Anchor",
+            "translatable": true
+          },
+          "phase_code": "VOCAB_ANCHOR",
+          "position_in_lesson": 1,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": {
+            "value": "Key phrases",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "VocabularyAnchor",
+          "core_phrase": {
+            "phrase_id": "core_9",
+            "source_text": {
+              "value": "Are you serious?",
+              "translatable": true
+            },
+            "target_text": "[TRANSLATE]",
+            "part_of_speech": "phrase",
+            "linguistic_info": {
+              "tooltip_source": {
+                "value": "A short reaction showing surprise or disbelief.",
+                "translatable": true
+              },
+              "tooltip_target": "[TRANSLATE]",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+            },
+            "media": {
+              "image_url": "",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            "context": {
+              "usage_context": "reaction",
+              "formality_level": "informal",
+              "time_of_day": "any",
+              "relationship": "friends"
+            }
+          },
+          "related_words": [
+            {
+              "word_id": "rel_09_001",
+              "source_text": {
+                "value": "surprised",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "adjective",
+              "meaning_source": {
+                "value": "feeling something unexpected has happened",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]"
+            },
+            {
+              "word_id": "rel_09_002",
+              "source_text": {
+                "value": "shocked",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "adjective",
+              "meaning_source": {
+                "value": "very strongly surprised, often in a bad way",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]"
+            },
+            {
+              "word_id": "rel_09_003",
+              "source_text": {
+                "value": "confused",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "adjective",
+              "meaning_source": {
+                "value": "not sure what is going on",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]"
+            },
+            {
+              "word_id": "rel_09_004",
+              "source_text": {
+                "value": "annoyed",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "adjective",
+              "meaning_source": {
+                "value": "slightly angry or bothered",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]"
+            }
+          ],
+          "listen_repeat": {
+            "prompt_source": {
+              "value": "Listen and repeat the core phrase.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {
+              "audio_file": "[GENERATE]",
+              "play_on_load": true
+            },
+            "show_text_after_play": true
+          },
+          "quick_match": {
+            "prompt_source": {
+              "value": "Connect each word to its meaning or image.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              {
+                "word_id": "rel_09_001",
+                "correct_key": "rel_09_001_correct"
+              },
+              {
+                "word_id": "rel_09_002",
+                "correct_key": "rel_09_002_correct"
+              },
+              {
+                "word_id": "rel_09_003",
+                "correct_key": "rel_09_003_correct"
+              },
+              {
+                "word_id": "rel_09_004",
+                "correct_key": "rel_09_004_correct"
+              }
+            ],
+            "options_display": "shuffle"
+          }
+        },
+        "phase_2_grammar_engine": {
+          "phase_id": "phase_2",
+          "phase_name": {
+            "value": "Grammar Engine",
+            "translatable": true
+          },
+          "phase_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": {
+            "value": "Grammar tip",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "GrammarEngine",
+          "pro_tip": {
+            "tip_id": "gram_9",
+            "concept_source": {
+              "value": "Reacting with surprise",
+              "translatable": true
+            },
+            "concept_target": "[TRANSLATE]",
+            "explanation_source": {
+              "value": "'Are you serious?' shows you can't quite believe what you just heard. Drop it to one word, 'Seriously?', for an even faster reaction.",
+              "translatable": true
+            },
+            "explanation_target": "[TRANSLATE]",
+            "focus_type": "variations",
+            "examples": [
+              {
+                "example_id": "ex_09_001",
+                "source_text": {
+                  "value": "Seriously?",
+                  "translatable": true
+                },
+                "target_text": "[TRANSLATE]",
+                "register": "casual",
+                "usage_note_source": {
+                  "value": "Drop down to one word for a quick, casual reaction.",
+                  "translatable": true
+                },
+                "usage_note_target": "[TRANSLATE]"
+              },
+              {
+                "example_id": "ex_09_002",
+                "source_text": {
+                  "value": "Are you being serious?",
+                  "translatable": true
+                },
+                "target_text": "[TRANSLATE]",
+                "register": "neutral",
+                "usage_note_source": {
+                  "value": "Add 'being' to make the question feel slightly more pointed.",
+                  "translatable": true
+                },
+                "usage_note_target": "[TRANSLATE]"
+              }
+            ]
+          },
+          "modifiers": [
+            {
+              "modifier_id": "mod_09_001",
+              "modifier_source": {
+                "value": "really",
+                "translatable": true
+              },
+              "modifier_target": "[TRANSLATE]",
+              "example_source": {
+                "value": "Are you really serious?",
+                "translatable": true
+              },
+              "example_target": "[TRANSLATE]",
+              "explanation_source": {
+                "value": "'Really' makes the disbelief stronger — you want to be sure.",
+                "translatable": true
+              },
+              "explanation_target": "[TRANSLATE]"
+            },
+            {
+              "modifier_id": "mod_09_002",
+              "modifier_source": {
+                "value": "actually",
+                "translatable": true
+              },
+              "modifier_target": "[TRANSLATE]",
+              "example_source": {
+                "value": "Are you actually serious?",
+                "translatable": true
+              },
+              "example_target": "[TRANSLATE]",
+              "explanation_source": {
+                "value": "'Actually' shows you find what they said hard to believe.",
+                "translatable": true
+              },
+              "explanation_target": "[TRANSLATE]"
+            }
+          ],
+          "sentence_building": [
+            {
+              "exercise_id": "ex_sb_09_1",
+              "target_sentence_source": {
+                "value": "Are you serious?",
+                "translatable": true
+              },
+              "target_sentence_target": "[TRANSLATE]",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": {
+                    "value": "Are",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": {
+                    "value": "you",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": {
+                    "value": "serious",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                }
+              ],
+              "punctuation_mode": "auto_fit",
+              "hints": "Three words and a question mark.",
+              "hints_source": "Three words and a question mark.",
+              "hints_target": "[TRANSLATE]"
+            },
+            {
+              "exercise_id": "ex_sb_09_2",
+              "target_sentence_source": {
+                "value": "Are you really serious?",
+                "translatable": true
+              },
+              "target_sentence_target": "[TRANSLATE]",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": {
+                    "value": "Are",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": {
+                    "value": "you",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": {
+                    "value": "really",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": {
+                    "value": "serious",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4
+                }
+              ],
+              "punctuation_mode": "auto_fit",
+              "hints": "Slot 'really' before 'serious' for emphasis.",
+              "hints_source": "Slot 'really' before 'serious' for emphasis.",
+              "hints_target": "[TRANSLATE]"
+            }
+          ]
+        },
+        "phase_3_dialogue": {
+          "phase_id": "phase_3",
+          "phase_name": {
+            "value": "Dialogue Practice",
+            "translatable": true
+          },
+          "phase_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": {
+            "value": "Conversation",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "Dialogue",
+          "setting": {
+            "value": "Watching TV together at home",
+            "translatable": true
+          },
+          "context": {
+            "value": "One friend says something the other finds hard to believe and reacts with surprise.",
+            "translatable": true
+          },
+          "dialogue": [
+            {
+              "turn_id": "turn_001",
+              "turn_number": 1,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "I love that game show host.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_002",
+              "turn_number": 2,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "Are you serious?",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_003",
+              "turn_number": 3,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "Yes, he's actually really funny.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_004",
+              "turn_number": 4,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "I'm surprised — I find him boring.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_005",
+              "turn_number": 5,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "Give him another chance.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "listen_and_repeat"
+            }
+          ]
+        },
+        "phase_4_sprint_exercises": {
+          "phase_id": "phase_4",
+          "phase_name": {
+            "value": "Sprint & review",
+            "translatable": true
+          },
+          "phase_code": "SPRINT",
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": {
+            "value": "Quick practice",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "SprintExercises",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_sentence_open",
+              "exercise_type": "Sentence Completion (Open)",
+              "prompt_source": "Finish in your own words:",
+              "prompt_target": "[TRANSLATE]",
+              "prompt": "Are you",
+              "prompt_text_source": "Are you",
+              "prompt_text_target": "[TRANSLATE]",
+              "expected_response": "serious?",
+              "expected_response_source": "serious?",
+              "expected_response_target": "[TRANSLATE]",
+              "scoring_criteria": "Accept any reaction adjective — serious, sure, surprised, confused, annoyed.",
+              "scoring_criteria_source": "Accept any reaction adjective — serious, sure, surprised, confused, annoyed.",
+              "scoring_criteria_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_l2_l1",
+              "exercise_type": "Translation Typing (L2→L1)",
+              "prompt_source": "Translate into English:",
+              "prompt_target": "[TRANSLATE]",
+              "source_text": "Are you serious?",
+              "source_text_source": "Are you serious?",
+              "source_text_target": "[TRANSLATE]",
+              "target_language": "RUNTIME_SELECTED",
+              "acceptable_answers": [
+                "Are you serious?",
+                "Seriously?"
+              ],
+              "acceptable_answers_source": [
+                "Are you serious?",
+                "Seriously?"
+              ],
+              "acceptable_answers_target": [
+                "[TRANSLATE]",
+                "[TRANSLATE]"
+              ],
+              "hints": "A short surprise question — disbelief in three words.",
+              "hints_source": "A short surprise question — disbelief in three words.",
+              "hints_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_v1_text_image",
+              "exercise_type": "Text-to-Image Matching",
+              "prompt_source": "Read and choose the matching image:",
+              "prompt_target": "[TRANSLATE]",
+              "text_stimulus": "surprised",
+              "text_stimulus_source": "surprised",
+              "text_stimulus_target": "[TRANSLATE]",
+              "image_options": [
+                {
+                  "option_id": "opt_a",
+                  "image_url": "",
+                  "correct": true
+                },
+                {
+                  "option_id": "opt_b",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_c",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_d",
+                  "image_url": "",
+                  "correct": false
+                }
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_match_game",
+              "exercise_type": "Flashcard Matching Game",
+              "prompt_source": "Match pairs:",
+              "prompt_target": "[TRANSLATE]",
+              "pairs": [
+                {
+                  "pair_id": "p_09_001",
+                  "item_a": "surprised",
+                  "item_b": "feeling something unexpected",
+                  "type": "word_definition"
+                },
+                {
+                  "pair_id": "p_09_002",
+                  "item_a": "shocked",
+                  "item_b": "very strongly surprised",
+                  "type": "word_definition"
+                },
+                {
+                  "pair_id": "p_09_003",
+                  "item_a": "confused",
+                  "item_b": "not sure what's going on",
+                  "type": "word_definition"
+                },
+                {
+                  "pair_id": "p_09_004",
+                  "item_a": "annoyed",
+                  "item_b": "slightly bothered or upset",
+                  "type": "word_definition"
+                }
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            }
+          ]
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": [
+        "**_target"
+      ],
+      "audio_generation_patterns": [
+        "[GENERATE]",
+        "[GENERATE_FOR_TARGET]"
+      ]
+    }
+  }
+}

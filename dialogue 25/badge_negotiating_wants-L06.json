@@ -1,0 +1,705 @@
+{
+  "title": {
+    "value": "needing shots",
+    "translatable": true
+  },
+  "description": {
+    "value": "Learn to say that a pet needs vaccines to stay healthy.",
+    "translatable": true
+  },
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "health",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_negotiating_wants-L06",
+      "generation_timestamp": "2026-05-03T00:00:00Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A1",
+        "level_name": {
+          "value": "Beginner",
+          "translatable": true
+        },
+        "level_description": {
+          "value": "Build simple sentences for everyday situations.",
+          "translatable": true
+        },
+        "cefr_equivalent": "A1",
+        "available_levels": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      "theme_config": {
+        "theme_id": "HEALTH",
+        "theme_code": "HEALTH",
+        "theme_name": {
+          "value": "Health",
+          "translatable": true
+        },
+        "theme_description": {
+          "value": "Talk about basic health needs and care.",
+          "translatable": true
+        },
+        "available_themes": [
+          {
+            "code": {
+              "value": "ESS",
+              "translatable": true
+            },
+            "name": {
+              "value": "Essentials",
+              "translatable": true
+            }
+          },
+          {
+            "code": {
+              "value": "TRV",
+              "translatable": true
+            },
+            "name": {
+              "value": "Travel",
+              "translatable": true
+            }
+          }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "1.2a",
+        "unit_number": 1,
+        "subunit_number": 2,
+        "variant": "a",
+        "unit_name": {
+          "value": "Asking & Negotiating",
+          "translatable": true
+        },
+        "unit_description": {
+          "value": "Ask for things you want and handle the back-and-forth of everyday negotiations.",
+          "translatable": true
+        },
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 2,
+        "estimated_completion_time_minutes": 75
+      },
+      "lesson_config": {
+        "lesson_number": 6,
+        "lesson_type": "teaching",
+        "lesson_name": {
+          "value": "needing shots",
+          "translatable": true
+        },
+        "lesson_description": {
+          "value": "Learn to say that a pet needs vaccines to stay healthy.",
+          "translatable": true
+        },
+        "estimated_duration_minutes": 5,
+        "difficulty_within_unit": 6,
+        "prerequisites": [
+          "badge_negotiating_wants-L01",
+          "badge_negotiating_wants-L02",
+          "badge_negotiating_wants-L03",
+          "badge_negotiating_wants-L04",
+          "badge_negotiating_wants-L05"
+        ],
+        "learning_objectives": [
+          "Say 'X needs Y' to talk about a need.",
+          "Use simple health vocabulary like 'shot' and 'vaccine'.",
+          "Discuss basic care steps for a pet."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      }
+    },
+    "lesson_structure": {
+      "phase_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "phase_1_vocabulary_anchor",
+          "phase_2_grammar_engine",
+          "phase_3_dialogue",
+          "phase_4_sprint_exercises"
+        ]
+      },
+      "phases": {
+        "phase_1_vocabulary_anchor": {
+          "phase_id": "phase_1",
+          "phase_name": {
+            "value": "Vocabulary Anchor",
+            "translatable": true
+          },
+          "phase_code": "VOCAB_ANCHOR",
+          "position_in_lesson": 1,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": {
+            "value": "Key phrases",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "VocabularyAnchor",
+          "core_phrase": {
+            "phrase_id": "core_6",
+            "source_text": {
+              "value": "A puppy needs shots.",
+              "translatable": true
+            },
+            "target_text": "[TRANSLATE]",
+            "part_of_speech": "verb_phrase",
+            "linguistic_info": {
+              "tooltip_source": {
+                "value": "A statement about a basic health need for a pet.",
+                "translatable": true
+              },
+              "tooltip_target": "[TRANSLATE]",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+            },
+            "media": {
+              "image_url": "",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            "context": {
+              "usage_context": "statement",
+              "formality_level": "neutral",
+              "time_of_day": "any",
+              "relationship": "any"
+            }
+          },
+          "related_words": [
+            {
+              "word_id": "rel_6_001",
+              "source_text": {
+                "value": "shot",
+                "translatable": true
+              },
+              "part_of_speech": "noun",
+              "meaning_source": {
+                "value": "A small injection to protect against sickness.",
+                "translatable": true
+              }
+            },
+            {
+              "word_id": "rel_6_002",
+              "source_text": {
+                "value": "vaccine",
+                "translatable": true
+              },
+              "part_of_speech": "noun",
+              "meaning_source": {
+                "value": "A medicine that helps stop a disease.",
+                "translatable": true
+              }
+            },
+            {
+              "word_id": "rel_6_003",
+              "source_text": {
+                "value": "doctor",
+                "translatable": true
+              },
+              "part_of_speech": "noun",
+              "meaning_source": {
+                "value": "A person who takes care of health.",
+                "translatable": true
+              }
+            },
+            {
+              "word_id": "rel_6_004",
+              "source_text": {
+                "value": "healthy",
+                "translatable": true
+              },
+              "part_of_speech": "adjective",
+              "meaning_source": {
+                "value": "Feeling well and not sick.",
+                "translatable": true
+              }
+            }
+          ],
+          "listen_repeat": {
+            "prompt_source": {
+              "value": "Listen and repeat the core phrase.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {
+              "audio_file": "[GENERATE]",
+              "play_on_load": true
+            },
+            "show_text_after_play": true
+          },
+          "quick_match": {
+            "prompt_source": {
+              "value": "Connect each word to its meaning or image.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              {
+                "word_id": "rel_6_001",
+                "correct_key": "rel_6_001_correct"
+              },
+              {
+                "word_id": "rel_6_002",
+                "correct_key": "rel_6_002_correct"
+              },
+              {
+                "word_id": "rel_6_003",
+                "correct_key": "rel_6_003_correct"
+              },
+              {
+                "word_id": "rel_6_004",
+                "correct_key": "rel_6_004_correct"
+              }
+            ],
+            "options_display": "shuffle"
+          }
+        },
+        "phase_2_grammar_engine": {
+          "phase_id": "phase_2",
+          "phase_name": {
+            "value": "Grammar Engine",
+            "translatable": true
+          },
+          "phase_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": {
+            "value": "Grammar tip",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "GrammarEngine",
+          "pro_tip": {
+            "tip_id": "gram_6",
+            "concept_source": {
+              "value": "Saying 'X needs Y' for a basic need.",
+              "translatable": true
+            },
+            "concept_target": "[TRANSLATE]",
+            "explanation_source": {
+              "value": "After a singular subject, use 'needs' (with -s). The thing needed comes right after, with no 'to' before it.",
+              "translatable": true
+            },
+            "explanation_target": "[TRANSLATE]",
+            "focus_type": "variations",
+            "examples": [
+              {
+                "example_id": "ex_6_001",
+                "source_text": {
+                  "value": "A puppy needs a vaccine.",
+                  "translatable": true
+                },
+                "register": "neutral",
+                "usage_note_source": {
+                  "value": "Use 'a vaccine' when you mean a single dose.",
+                  "translatable": true
+                }
+              },
+              {
+                "example_id": "ex_6_002",
+                "source_text": {
+                  "value": "Puppies should get shots.",
+                  "translatable": true
+                },
+                "register": "neutral",
+                "usage_note_source": {
+                  "value": "'Should get' suggests it is the right thing to do.",
+                  "translatable": true
+                }
+              }
+            ]
+          },
+          "modifiers": [
+            {
+              "modifier_id": "mod_6_001",
+              "modifier_source": {
+                "value": "really",
+                "translatable": true
+              },
+              "example_source": {
+                "value": "A puppy really needs shots.",
+                "translatable": true
+              },
+              "explanation_source": {
+                "value": "'Really' shows the need is important.",
+                "translatable": true
+              }
+            },
+            {
+              "modifier_id": "mod_6_002",
+              "modifier_source": {
+                "value": "soon",
+                "translatable": true
+              },
+              "example_source": {
+                "value": "A puppy needs shots soon.",
+                "translatable": true
+              },
+              "explanation_source": {
+                "value": "'Soon' adds a sense of timing.",
+                "translatable": true
+              }
+            }
+          ],
+          "sentence_building": [
+            {
+              "exercise_id": "ex_sb_6_1",
+              "target_sentence_source": {
+                "value": "A puppy needs shots.",
+                "translatable": true
+              },
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": {
+                    "value": "A",
+                    "translatable": true
+                  },
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": {
+                    "value": "puppy",
+                    "translatable": true
+                  },
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": {
+                    "value": "needs",
+                    "translatable": true
+                  },
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": {
+                    "value": "shots",
+                    "translatable": true
+                  },
+                  "correct_position": 4
+                }
+              ],
+              "hints": "Subject + 'needs' + the thing it needs."
+            },
+            {
+              "exercise_id": "ex_sb_6_2",
+              "target_sentence_source": {
+                "value": "A puppy needs a vaccine.",
+                "translatable": true
+              },
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": {
+                    "value": "A",
+                    "translatable": true
+                  },
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": {
+                    "value": "puppy",
+                    "translatable": true
+                  },
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": {
+                    "value": "needs",
+                    "translatable": true
+                  },
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": {
+                    "value": "a",
+                    "translatable": true
+                  },
+                  "correct_position": 4
+                },
+                {
+                  "word_id": "w5",
+                  "word_source": {
+                    "value": "vaccine",
+                    "translatable": true
+                  },
+                  "correct_position": 5
+                }
+              ],
+              "hints": "Use 'a' before a single, countable thing."
+            }
+          ]
+        },
+        "phase_3_dialogue": {
+          "phase_id": "phase_3",
+          "phase_name": {
+            "value": "Dialogue Practice",
+            "translatable": true
+          },
+          "phase_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": {
+            "value": "Conversation",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "Dialogue",
+          "setting": {
+            "value": "At home, planning for a pet",
+            "translatable": true
+          },
+          "context": {
+            "value": "A parent reminds a child that a pet has health needs.",
+            "translatable": true
+          },
+          "dialogue": [
+            {
+              "turn_id": "turn_001",
+              "turn_number": 1,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "When can we get the puppy?",
+                "translatable": true
+              },
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_002",
+              "turn_number": 2,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "A puppy needs shots.",
+                "translatable": true
+              },
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_003",
+              "turn_number": 3,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "What kind of shots?",
+                "translatable": true
+              },
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_004",
+              "turn_number": 4,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "Shots from the doctor to stay healthy.",
+                "translatable": true
+              },
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_005",
+              "turn_number": 5,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "Okay, let us plan a visit.",
+                "translatable": true
+              },
+              "practice_mode": "listen_and_repeat"
+            }
+          ]
+        },
+        "phase_4_sprint_exercises": {
+          "phase_id": "phase_4",
+          "phase_name": {
+            "value": "Sprint & review",
+            "translatable": true
+          },
+          "phase_code": "SPRINT",
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": {
+            "value": "Quick practice",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "SprintExercises",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_v1_audio_image",
+              "exercise_type": "Audio-to-Image Matching",
+              "prompt_source": "Tap the image that matches what you hear:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true,
+                "text_to_speak_target": "A puppy needs shots."
+              },
+              "image_options": [
+                {
+                  "option_id": "opt_01",
+                  "image_url": "",
+                  "correct": true
+                },
+                {
+                  "option_id": "opt_02",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_03",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_04",
+                  "image_url": "",
+                  "correct": false
+                }
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_fill_dialogue",
+              "exercise_type": "Fill-in-the-Dialogue (Speaking)",
+              "prompt_source": "Speak your line:",
+              "prompt_target": "[TRANSLATE]",
+              "dialogue_context": "A friend asks if a puppy is ready to come home. Mention its health needs.",
+              "dialogue_context_source": "A friend asks if a puppy is ready to come home. Mention its health needs.",
+              "dialogue_context_target": "[TRANSLATE]",
+              "turns": [
+                {
+                  "turn_number": 1,
+                  "speaker": "PARTNER",
+                  "text_source": "Is the puppy ready to come home?",
+                  "text_target": "[TRANSLATE]",
+                  "audio_file": "[GENERATE]",
+                  "text_to_speak_target": "Is the puppy ready to come home?"
+                },
+                {
+                  "turn_number": 2,
+                  "speaker": "YOU",
+                  "text_source": "A puppy needs shots.",
+                  "expected_response": "A puppy needs shots.",
+                  "expected_response_source": "A puppy needs shots.",
+                  "expected_response_target": "[TRANSLATE]",
+                  "acceptable_responses": [
+                    "A puppy needs shots.",
+                    "A puppy needs a vaccine."
+                  ],
+                  "acceptable_responses_source": [
+                    "A puppy needs shots.",
+                    "A puppy needs a vaccine."
+                  ],
+                  "acceptable_responses_target": [
+                    "[TRANSLATE]",
+                    "[TRANSLATE]"
+                  ]
+                }
+              ],
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_l2_l1",
+              "exercise_type": "Translation Typing (L2→L1)",
+              "prompt_source": "Translate into English:",
+              "prompt_target": "[TRANSLATE]",
+              "source_text": "A puppy needs shots.",
+              "source_text_source": "A puppy needs shots.",
+              "source_text_target": "[TRANSLATE]",
+              "target_language": "es",
+              "acceptable_answers": [
+                "A puppy needs shots.",
+                "A puppy needs shots"
+              ],
+              "acceptable_answers_source": [
+                "A puppy needs shots.",
+                "A puppy needs shots"
+              ],
+              "acceptable_answers_target": [
+                "[TRANSLATE]",
+                "[TRANSLATE]"
+              ],
+              "hints": "Subject + 'needs' + plural noun.",
+              "hints_source": "Subject + 'needs' + plural noun.",
+              "hints_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_audio_text",
+              "exercise_type": "Audio-to-Text Matching",
+              "prompt_source": "Select the phrase you hear:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": false
+              },
+              "text_options": [
+                "A puppy needs shots.",
+                "A puppy is healthy.",
+                "A puppy is free."
+              ],
+              "text_options_source": [
+                "A puppy needs shots.",
+                "A puppy is healthy.",
+                "A puppy is free."
+              ],
+              "text_options_target": [
+                "[TRANSLATE]",
+                "[TRANSLATE]",
+                "[TRANSLATE]"
+              ],
+              "correct_answer": "A puppy needs shots.",
+              "correct_answer_source": "A puppy needs shots.",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            }
+          ]
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": [
+        "**_target"
+      ],
+      "audio_generation_patterns": [
+        "[GENERATE]",
+        "[GENERATE_FOR_TARGET]"
+      ]
+    }
+  }
+}

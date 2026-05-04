@@ -1,0 +1,740 @@
+{
+  "title": {
+    "value": "so it does not get sick",
+    "translatable": true
+  },
+  "description": {
+    "value": "Learn to give the reason for medical care using 'so it does not'.",
+    "translatable": true
+  },
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "health",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_negotiating_wants-L08",
+      "generation_timestamp": "2026-05-03T00:00:00Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A1",
+        "level_name": {
+          "value": "Beginner",
+          "translatable": true
+        },
+        "level_description": {
+          "value": "Build simple sentences for everyday situations.",
+          "translatable": true
+        },
+        "cefr_equivalent": "A1",
+        "available_levels": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      "theme_config": {
+        "theme_id": "HEALTH",
+        "theme_code": "HEALTH",
+        "theme_name": {
+          "value": "Health",
+          "translatable": true
+        },
+        "theme_description": {
+          "value": "Give simple reasons for keeping a pet or person healthy.",
+          "translatable": true
+        },
+        "available_themes": [
+          {
+            "code": {
+              "value": "ESS",
+              "translatable": true
+            },
+            "name": {
+              "value": "Essentials",
+              "translatable": true
+            }
+          },
+          {
+            "code": {
+              "value": "TRV",
+              "translatable": true
+            },
+            "name": {
+              "value": "Travel",
+              "translatable": true
+            }
+          }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "1.2a",
+        "unit_number": 1,
+        "subunit_number": 2,
+        "variant": "a",
+        "unit_name": {
+          "value": "Asking & Negotiating",
+          "translatable": true
+        },
+        "unit_description": {
+          "value": "Ask for things you want and handle the back-and-forth of everyday negotiations.",
+          "translatable": true
+        },
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 2,
+        "estimated_completion_time_minutes": 75
+      },
+      "lesson_config": {
+        "lesson_number": 8,
+        "lesson_type": "teaching",
+        "lesson_name": {
+          "value": "so it does not get sick",
+          "translatable": true
+        },
+        "lesson_description": {
+          "value": "Learn to give the reason for medical care using 'so it does not'.",
+          "translatable": true
+        },
+        "estimated_duration_minutes": 5,
+        "difficulty_within_unit": 8,
+        "prerequisites": [
+          "badge_negotiating_wants-L01",
+          "badge_negotiating_wants-L02",
+          "badge_negotiating_wants-L03",
+          "badge_negotiating_wants-L04",
+          "badge_negotiating_wants-L05",
+          "badge_negotiating_wants-L06",
+          "badge_negotiating_wants-L07"
+        ],
+        "learning_objectives": [
+          "Give a reason using 'So it does not ___'.",
+          "Use the negative form 'does not get' for a singular subject.",
+          "Talk about safety and avoiding harm in simple sentences."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      }
+    },
+    "lesson_structure": {
+      "phase_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "phase_1_vocabulary_anchor",
+          "phase_2_grammar_engine",
+          "phase_3_dialogue",
+          "phase_4_sprint_exercises"
+        ]
+      },
+      "phases": {
+        "phase_1_vocabulary_anchor": {
+          "phase_id": "phase_1",
+          "phase_name": {
+            "value": "Vocabulary Anchor",
+            "translatable": true
+          },
+          "phase_code": "VOCAB_ANCHOR",
+          "position_in_lesson": 1,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": {
+            "value": "Key phrases",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "VocabularyAnchor",
+          "core_phrase": {
+            "phrase_id": "core_8",
+            "source_text": {
+              "value": "So it does not get sick.",
+              "translatable": true
+            },
+            "target_text": "[TRANSLATE]",
+            "part_of_speech": "verb_phrase",
+            "linguistic_info": {
+              "tooltip_source": {
+                "value": "A short reason that explains the purpose of an action.",
+                "translatable": true
+              },
+              "tooltip_target": "[TRANSLATE]",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+            },
+            "media": {
+              "image_url": "",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            "context": {
+              "usage_context": "explanation",
+              "formality_level": "neutral",
+              "time_of_day": "any",
+              "relationship": "any"
+            }
+          },
+          "related_words": [
+            {
+              "word_id": "rel_8_001",
+              "source_text": {
+                "value": "safe",
+                "translatable": true
+              },
+              "part_of_speech": "adjective",
+              "meaning_source": {
+                "value": "Free from harm or danger.",
+                "translatable": true
+              }
+            },
+            {
+              "word_id": "rel_8_002",
+              "source_text": {
+                "value": "avoid",
+                "translatable": true
+              },
+              "part_of_speech": "verb",
+              "meaning_source": {
+                "value": "To stay away from something.",
+                "translatable": true
+              }
+            },
+            {
+              "word_id": "rel_8_003",
+              "source_text": {
+                "value": "hurt",
+                "translatable": true
+              },
+              "part_of_speech": "verb",
+              "meaning_source": {
+                "value": "To cause pain or injury.",
+                "translatable": true
+              }
+            },
+            {
+              "word_id": "rel_8_004",
+              "source_text": {
+                "value": "well",
+                "translatable": true
+              },
+              "part_of_speech": "adjective",
+              "meaning_source": {
+                "value": "In good health.",
+                "translatable": true
+              }
+            }
+          ],
+          "listen_repeat": {
+            "prompt_source": {
+              "value": "Listen and repeat the core phrase.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {
+              "audio_file": "[GENERATE]",
+              "play_on_load": true
+            },
+            "show_text_after_play": true
+          },
+          "quick_match": {
+            "prompt_source": {
+              "value": "Connect each word to its meaning or image.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              {
+                "word_id": "rel_8_001",
+                "correct_key": "rel_8_001_correct"
+              },
+              {
+                "word_id": "rel_8_002",
+                "correct_key": "rel_8_002_correct"
+              },
+              {
+                "word_id": "rel_8_003",
+                "correct_key": "rel_8_003_correct"
+              },
+              {
+                "word_id": "rel_8_004",
+                "correct_key": "rel_8_004_correct"
+              }
+            ],
+            "options_display": "shuffle"
+          }
+        },
+        "phase_2_grammar_engine": {
+          "phase_id": "phase_2",
+          "phase_name": {
+            "value": "Grammar Engine",
+            "translatable": true
+          },
+          "phase_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": {
+            "value": "Grammar tip",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "GrammarEngine",
+          "pro_tip": {
+            "tip_id": "gram_8",
+            "concept_source": {
+              "value": "Using 'So it does not ___' to give a reason.",
+              "translatable": true
+            },
+            "concept_target": "[TRANSLATE]",
+            "explanation_source": {
+              "value": "'So' here means 'in order that'. Use 'does not' + base verb to make the negative for a singular subject like 'it'.",
+              "translatable": true
+            },
+            "explanation_target": "[TRANSLATE]",
+            "focus_type": "variations",
+            "examples": [
+              {
+                "example_id": "ex_8_001",
+                "source_text": {
+                  "value": "So that it stays well.",
+                  "translatable": true
+                },
+                "register": "neutral",
+                "usage_note_source": {
+                  "value": "A positive way to give the same reason.",
+                  "translatable": true
+                }
+              },
+              {
+                "example_id": "ex_8_002",
+                "source_text": {
+                  "value": "To keep it safe.",
+                  "translatable": true
+                },
+                "register": "informal",
+                "usage_note_source": {
+                  "value": "A short, casual reason using 'to + verb'.",
+                  "translatable": true
+                }
+              }
+            ]
+          },
+          "modifiers": [
+            {
+              "modifier_id": "mod_8_001",
+              "modifier_source": {
+                "value": "ever",
+                "translatable": true
+              },
+              "example_source": {
+                "value": "So it does not ever get sick.",
+                "translatable": true
+              },
+              "explanation_source": {
+                "value": "'Ever' makes the reason stronger and more general.",
+                "translatable": true
+              }
+            },
+            {
+              "modifier_id": "mod_8_002",
+              "modifier_source": {
+                "value": "again",
+                "translatable": true
+              },
+              "example_source": {
+                "value": "So it does not get sick again.",
+                "translatable": true
+              },
+              "explanation_source": {
+                "value": "'Again' refers to a problem that already happened once.",
+                "translatable": true
+              }
+            }
+          ],
+          "sentence_building": [
+            {
+              "exercise_id": "ex_sb_8_1",
+              "target_sentence_source": {
+                "value": "So it does not get sick.",
+                "translatable": true
+              },
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": {
+                    "value": "So",
+                    "translatable": true
+                  },
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": {
+                    "value": "it",
+                    "translatable": true
+                  },
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": {
+                    "value": "does",
+                    "translatable": true
+                  },
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": {
+                    "value": "not",
+                    "translatable": true
+                  },
+                  "correct_position": 4
+                },
+                {
+                  "word_id": "w5",
+                  "word_source": {
+                    "value": "get",
+                    "translatable": true
+                  },
+                  "correct_position": 5
+                },
+                {
+                  "word_id": "w6",
+                  "word_source": {
+                    "value": "sick",
+                    "translatable": true
+                  },
+                  "correct_position": 6
+                }
+              ],
+              "hints": "Reason word + subject + 'does not' + base verb + result."
+            },
+            {
+              "exercise_id": "ex_sb_8_2",
+              "target_sentence_source": {
+                "value": "So it does not get hurt.",
+                "translatable": true
+              },
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": {
+                    "value": "So",
+                    "translatable": true
+                  },
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": {
+                    "value": "it",
+                    "translatable": true
+                  },
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": {
+                    "value": "does",
+                    "translatable": true
+                  },
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": {
+                    "value": "not",
+                    "translatable": true
+                  },
+                  "correct_position": 4
+                },
+                {
+                  "word_id": "w5",
+                  "word_source": {
+                    "value": "get",
+                    "translatable": true
+                  },
+                  "correct_position": 5
+                },
+                {
+                  "word_id": "w6",
+                  "word_source": {
+                    "value": "hurt",
+                    "translatable": true
+                  },
+                  "correct_position": 6
+                }
+              ],
+              "hints": "Same pattern; just swap the last word for a different harm."
+            }
+          ]
+        },
+        "phase_3_dialogue": {
+          "phase_id": "phase_3",
+          "phase_name": {
+            "value": "Dialogue Practice",
+            "translatable": true
+          },
+          "phase_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": {
+            "value": "Conversation",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "Dialogue",
+          "setting": {
+            "value": "At home, after a vet conversation",
+            "translatable": true
+          },
+          "context": {
+            "value": "A child explains the purpose of a pet's shots.",
+            "translatable": true
+          },
+          "dialogue": [
+            {
+              "turn_id": "turn_001",
+              "turn_number": 1,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "Why must the puppy get shots?",
+                "translatable": true
+              },
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_002",
+              "turn_number": 2,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "So it does not get sick.",
+                "translatable": true
+              },
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_003",
+              "turn_number": 3,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "Are shots really safe?",
+                "translatable": true
+              },
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_004",
+              "turn_number": 4,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "Yes, they help it stay well.",
+                "translatable": true
+              },
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_005",
+              "turn_number": 5,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "I see now.",
+                "translatable": true
+              },
+              "practice_mode": "listen_and_repeat"
+            }
+          ]
+        },
+        "phase_4_sprint_exercises": {
+          "phase_id": "phase_4",
+          "phase_name": {
+            "value": "Sprint & review",
+            "translatable": true
+          },
+          "phase_code": "SPRINT",
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": {
+            "value": "Quick practice",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "SprintExercises",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_text_audio",
+              "exercise_type": "Text-to-Audio Matching",
+              "prompt_source": "Tap the audio that matches:",
+              "prompt_target": "[TRANSLATE]",
+              "text_stimulus": "So it does not get sick.",
+              "text_stimulus_source": "So it does not get sick.",
+              "text_stimulus_target": "[TRANSLATE]",
+              "audio_options": [
+                {
+                  "option_id": "a1",
+                  "audio_file": "[GENERATE]",
+                  "text_to_speak_target": "So it does not get sick.",
+                  "correct": true
+                },
+                {
+                  "option_id": "a2",
+                  "audio_file": "[GENERATE]",
+                  "text_to_speak_target": "So it does not get hurt.",
+                  "correct": false
+                }
+              ],
+              "correct_answer": "So it does not get sick.",
+              "correct_answer_source": "So it does not get sick.",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_audio_text",
+              "exercise_type": "Audio-to-Text Matching",
+              "prompt_source": "Select the phrase you hear:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": false
+              },
+              "text_options": [
+                "So it does not get sick.",
+                "So it can stay well.",
+                "So it is safe to play."
+              ],
+              "text_options_source": [
+                "So it does not get sick.",
+                "So it can stay well.",
+                "So it is safe to play."
+              ],
+              "text_options_target": [
+                "[TRANSLATE]",
+                "[TRANSLATE]",
+                "[TRANSLATE]"
+              ],
+              "correct_answer": "So it does not get sick.",
+              "correct_answer_source": "So it does not get sick.",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_l2_l1",
+              "exercise_type": "Translation Typing (L2→L1)",
+              "prompt_source": "Translate into English:",
+              "prompt_target": "[TRANSLATE]",
+              "source_text": "So it does not get sick.",
+              "source_text_source": "So it does not get sick.",
+              "source_text_target": "[TRANSLATE]",
+              "target_language": "es",
+              "acceptable_answers": [
+                "So it does not get sick.",
+                "So it does not get sick"
+              ],
+              "acceptable_answers_source": [
+                "So it does not get sick.",
+                "So it does not get sick"
+              ],
+              "acceptable_answers_target": [
+                "[TRANSLATE]",
+                "[TRANSLATE]"
+              ],
+              "hints": "'So' + subject + 'does not' + base verb + result.",
+              "hints_source": "'So' + subject + 'does not' + base verb + result.",
+              "hints_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_fill_type",
+              "exercise_type": "Fill-in-the-Blank Typing",
+              "prompt_source": "Type the missing word:",
+              "prompt_target": "[TRANSLATE]",
+              "sentence": "So it does not get ___.",
+              "sentence_source": "So it does not get ___.",
+              "sentence_target": "[TRANSLATE]",
+              "blanks": [
+                6
+              ],
+              "correct_answer": "sick",
+              "acceptable_answers": [
+                "sick",
+                "hurt"
+              ],
+              "correct_answer_source": "sick",
+              "correct_answer_target": "[TRANSLATE]",
+              "acceptable_answers_source": [
+                "sick",
+                "hurt"
+              ],
+              "acceptable_answers_target": [
+                "[TRANSLATE]",
+                "[TRANSLATE]"
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_flashcard",
+              "exercise_type": "Digital Flashcards",
+              "prompt_source": "Study the card:",
+              "prompt_target": "[TRANSLATE]",
+              "word": "safe",
+              "definition": "Free from harm or danger.",
+              "examples": [
+                "So it does not get sick."
+              ],
+              "context": "Used when talking about staying away from harm.",
+              "word_source": "safe",
+              "word_target": "[TRANSLATE]",
+              "definition_source": "Free from harm or danger.",
+              "definition_target": "[TRANSLATE]",
+              "examples_source": [
+                "So it does not get sick."
+              ],
+              "examples_target": [
+                "[TRANSLATE]"
+              ],
+              "context_source": "Used when talking about staying away from harm.",
+              "context_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 5,
+                "points_incorrect": 0
+              }
+            }
+          ]
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": [
+        "**_target"
+      ],
+      "audio_generation_patterns": [
+        "[GENERATE]",
+        "[GENERATE_FOR_TARGET]"
+      ]
+    }
+  }
+}

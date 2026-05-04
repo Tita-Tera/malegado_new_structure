@@ -1,0 +1,682 @@
+{
+  "title": {
+    "value": "asking why",
+    "translatable": true
+  },
+  "description": {
+    "value": "Learn to ask why someone needs more time before answering.",
+    "translatable": true
+  },
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "basic descriptions",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_negotiating_wants-L03",
+      "generation_timestamp": "2026-05-03T00:00:00Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A1",
+        "level_name": {
+          "value": "Beginner",
+          "translatable": true
+        },
+        "level_description": {
+          "value": "Build simple sentences for everyday situations.",
+          "translatable": true
+        },
+        "cefr_equivalent": "A1",
+        "available_levels": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      "theme_config": {
+        "theme_id": "BASIC_DESCRIPTIONS",
+        "theme_code": "BASIC_DESCRIPTIONS",
+        "theme_name": {
+          "value": "Basic Descriptions",
+          "translatable": true
+        },
+        "theme_description": {
+          "value": "Use simple questions to ask about reasons.",
+          "translatable": true
+        },
+        "available_themes": [
+          {
+            "code": {
+              "value": "ESS",
+              "translatable": true
+            },
+            "name": {
+              "value": "Essentials",
+              "translatable": true
+            }
+          },
+          {
+            "code": {
+              "value": "TRV",
+              "translatable": true
+            },
+            "name": {
+              "value": "Travel",
+              "translatable": true
+            }
+          }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "1.2a",
+        "unit_number": 1,
+        "subunit_number": 2,
+        "variant": "a",
+        "unit_name": {
+          "value": "Asking & Negotiating",
+          "translatable": true
+        },
+        "unit_description": {
+          "value": "Ask for things you want and handle the back-and-forth of everyday negotiations.",
+          "translatable": true
+        },
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 2,
+        "estimated_completion_time_minutes": 75
+      },
+      "lesson_config": {
+        "lesson_number": 3,
+        "lesson_type": "teaching",
+        "lesson_name": {
+          "value": "asking why",
+          "translatable": true
+        },
+        "lesson_description": {
+          "value": "Learn to ask why someone needs more time before answering.",
+          "translatable": true
+        },
+        "estimated_duration_minutes": 5,
+        "difficulty_within_unit": 3,
+        "prerequisites": [
+          "badge_negotiating_wants-L01",
+          "badge_negotiating_wants-L02"
+        ],
+        "learning_objectives": [
+          "Form a 'Why do you need to ___?' question.",
+          "Ask for the reason behind a request or pause.",
+          "Recognize basic question words and their use."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      }
+    },
+    "lesson_structure": {
+      "phase_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "phase_1_vocabulary_anchor",
+          "phase_2_grammar_engine",
+          "phase_3_dialogue",
+          "phase_4_sprint_exercises"
+        ]
+      },
+      "phases": {
+        "phase_1_vocabulary_anchor": {
+          "phase_id": "phase_1",
+          "phase_name": {
+            "value": "Vocabulary Anchor",
+            "translatable": true
+          },
+          "phase_code": "VOCAB_ANCHOR",
+          "position_in_lesson": 1,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": {
+            "value": "Key phrases",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "VocabularyAnchor",
+          "core_phrase": {
+            "phrase_id": "core_3",
+            "source_text": {
+              "value": "Why do you need to think about it?",
+              "translatable": true
+            },
+            "target_text": "[TRANSLATE]",
+            "part_of_speech": "interrogative",
+            "linguistic_info": {
+              "tooltip_source": {
+                "value": "A question asking the reason behind someone needing time.",
+                "translatable": true
+              },
+              "tooltip_target": "[TRANSLATE]",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+            },
+            "media": {
+              "image_url": "",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            "context": {
+              "usage_context": "question",
+              "formality_level": "neutral",
+              "time_of_day": "any",
+              "relationship": "any"
+            }
+          },
+          "related_words": [
+            {
+              "word_id": "rel_3_001",
+              "source_text": {
+                "value": "why",
+                "translatable": true
+              },
+              "part_of_speech": "adverb",
+              "meaning_source": {
+                "value": "A question word asking for a reason.",
+                "translatable": true
+              }
+            },
+            {
+              "word_id": "rel_3_002",
+              "source_text": {
+                "value": "need",
+                "translatable": true
+              },
+              "part_of_speech": "verb",
+              "meaning_source": {
+                "value": "To require or have to do something.",
+                "translatable": true
+              }
+            },
+            {
+              "word_id": "rel_3_003",
+              "source_text": {
+                "value": "ask",
+                "translatable": true
+              },
+              "part_of_speech": "verb",
+              "meaning_source": {
+                "value": "To say a question to someone.",
+                "translatable": true
+              }
+            },
+            {
+              "word_id": "rel_3_004",
+              "source_text": {
+                "value": "reason",
+                "translatable": true
+              },
+              "part_of_speech": "noun",
+              "meaning_source": {
+                "value": "The cause or explanation for something.",
+                "translatable": true
+              }
+            }
+          ],
+          "listen_repeat": {
+            "prompt_source": {
+              "value": "Listen and repeat the core phrase.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {
+              "audio_file": "[GENERATE]",
+              "play_on_load": true
+            },
+            "show_text_after_play": true
+          },
+          "quick_match": {
+            "prompt_source": {
+              "value": "Connect each word to its meaning or image.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              {
+                "word_id": "rel_3_001",
+                "correct_key": "rel_3_001_correct"
+              },
+              {
+                "word_id": "rel_3_002",
+                "correct_key": "rel_3_002_correct"
+              },
+              {
+                "word_id": "rel_3_003",
+                "correct_key": "rel_3_003_correct"
+              },
+              {
+                "word_id": "rel_3_004",
+                "correct_key": "rel_3_004_correct"
+              }
+            ],
+            "options_display": "shuffle"
+          }
+        },
+        "phase_2_grammar_engine": {
+          "phase_id": "phase_2",
+          "phase_name": {
+            "value": "Grammar Engine",
+            "translatable": true
+          },
+          "phase_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": {
+            "value": "Grammar tip",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "GrammarEngine",
+          "pro_tip": {
+            "tip_id": "gram_3",
+            "concept_source": {
+              "value": "Building 'Why do you need to ___?' questions.",
+              "translatable": true
+            },
+            "concept_target": "[TRANSLATE]",
+            "explanation_source": {
+              "value": "Use 'Why do you need to' + verb to ask the reason behind something. The verb stays in its base form.",
+              "translatable": true
+            },
+            "explanation_target": "[TRANSLATE]",
+            "focus_type": "variations",
+            "examples": [
+              {
+                "example_id": "ex_3_001",
+                "source_text": {
+                  "value": "Why are you thinking about it?",
+                  "translatable": true
+                },
+                "register": "informal",
+                "usage_note_source": {
+                  "value": "A short, casual way to ask the same thing.",
+                  "translatable": true
+                }
+              },
+              {
+                "example_id": "ex_3_002",
+                "source_text": {
+                  "value": "May I ask why you need to think?",
+                  "translatable": true
+                },
+                "register": "formal",
+                "usage_note_source": {
+                  "value": "A polite version for careful or formal moments.",
+                  "translatable": true
+                }
+              }
+            ]
+          },
+          "modifiers": [
+            {
+              "modifier_id": "mod_3_001",
+              "modifier_source": {
+                "value": "exactly",
+                "translatable": true
+              },
+              "example_source": {
+                "value": "Why exactly do you need to think about it?",
+                "translatable": true
+              },
+              "explanation_source": {
+                "value": "'Exactly' makes the question more specific.",
+                "translatable": true
+              }
+            },
+            {
+              "modifier_id": "mod_3_002",
+              "modifier_source": {
+                "value": "really",
+                "translatable": true
+              },
+              "example_source": {
+                "value": "Why do you really need to think about it?",
+                "translatable": true
+              },
+              "explanation_source": {
+                "value": "'Really' adds a hint of doubt or emphasis.",
+                "translatable": true
+              }
+            }
+          ],
+          "sentence_building": [
+            {
+              "exercise_id": "ex_sb_3_1",
+              "target_sentence_source": {
+                "value": "Why do you need to think about it?",
+                "translatable": true
+              },
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": {
+                    "value": "Why",
+                    "translatable": true
+                  },
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": {
+                    "value": "do",
+                    "translatable": true
+                  },
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": {
+                    "value": "you",
+                    "translatable": true
+                  },
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": {
+                    "value": "need",
+                    "translatable": true
+                  },
+                  "correct_position": 4
+                },
+                {
+                  "word_id": "w5",
+                  "word_source": {
+                    "value": "to",
+                    "translatable": true
+                  },
+                  "correct_position": 5
+                },
+                {
+                  "word_id": "w6",
+                  "word_source": {
+                    "value": "think",
+                    "translatable": true
+                  },
+                  "correct_position": 6
+                },
+                {
+                  "word_id": "w7",
+                  "word_source": {
+                    "value": "about",
+                    "translatable": true
+                  },
+                  "correct_position": 7
+                },
+                {
+                  "word_id": "w8",
+                  "word_source": {
+                    "value": "it",
+                    "translatable": true
+                  },
+                  "correct_position": 8
+                }
+              ],
+              "hints": "Question word first, then 'do you', then the action."
+            },
+            {
+              "exercise_id": "ex_sb_3_2",
+              "target_sentence_source": {
+                "value": "Why do you need to wait?",
+                "translatable": true
+              },
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": {
+                    "value": "Why",
+                    "translatable": true
+                  },
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": {
+                    "value": "do",
+                    "translatable": true
+                  },
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": {
+                    "value": "you",
+                    "translatable": true
+                  },
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": {
+                    "value": "need",
+                    "translatable": true
+                  },
+                  "correct_position": 4
+                },
+                {
+                  "word_id": "w5",
+                  "word_source": {
+                    "value": "to",
+                    "translatable": true
+                  },
+                  "correct_position": 5
+                },
+                {
+                  "word_id": "w6",
+                  "word_source": {
+                    "value": "wait",
+                    "translatable": true
+                  },
+                  "correct_position": 6
+                }
+              ],
+              "hints": "Same shape; just swap the action verb."
+            }
+          ]
+        },
+        "phase_3_dialogue": {
+          "phase_id": "phase_3",
+          "phase_name": {
+            "value": "Dialogue Practice",
+            "translatable": true
+          },
+          "phase_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": {
+            "value": "Conversation",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "Dialogue",
+          "setting": {
+            "value": "At home, mid-conversation",
+            "translatable": true
+          },
+          "context": {
+            "value": "A child asks a parent for the reason behind a pause.",
+            "translatable": true
+          },
+          "dialogue": [
+            {
+              "turn_id": "turn_001",
+              "turn_number": 1,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "I need more time.",
+                "translatable": true
+              },
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_002",
+              "turn_number": 2,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "Why do you need to think about it?",
+                "translatable": true
+              },
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_003",
+              "turn_number": 3,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "It is a big choice.",
+                "translatable": true
+              },
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_004",
+              "turn_number": 4,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "How long do you need?",
+                "translatable": true
+              },
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_005",
+              "turn_number": 5,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "Just a few minutes.",
+                "translatable": true
+              },
+              "practice_mode": "listen_and_repeat"
+            }
+          ]
+        },
+        "phase_4_sprint_exercises": {
+          "phase_id": "phase_4",
+          "phase_name": {
+            "value": "Sprint & review",
+            "translatable": true
+          },
+          "phase_code": "SPRINT",
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": {
+            "value": "Quick practice",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "SprintExercises",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_sentence_open",
+              "exercise_type": "Sentence Completion (Open)",
+              "prompt_source": "Finish in your own words:",
+              "prompt_target": "[TRANSLATE]",
+              "prompt": "Why do you need to ___?",
+              "prompt_text_source": "Why do you need to ___?",
+              "prompt_text_target": "[TRANSLATE]",
+              "expected_response": "Why do you need to think about it?",
+              "expected_response_source": "Why do you need to think about it?",
+              "expected_response_target": "[TRANSLATE]",
+              "scoring_criteria": "Accept any base verb that completes the question; reward 'think', 'ask', or 'wait'.",
+              "scoring_criteria_source": "Accept any base verb that completes the question; reward 'think', 'ask', or 'wait'.",
+              "scoring_criteria_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_audio_text",
+              "exercise_type": "Audio-to-Text Matching",
+              "prompt_source": "Select the phrase you hear:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": false
+              },
+              "text_options": [
+                "Why do you need to think about it?",
+                "Let me think about it.",
+                "I want to ask."
+              ],
+              "text_options_source": [
+                "Why do you need to think about it?",
+                "Let me think about it.",
+                "I want to ask."
+              ],
+              "text_options_target": [
+                "[TRANSLATE]",
+                "[TRANSLATE]",
+                "[TRANSLATE]"
+              ],
+              "correct_answer": "Why do you need to think about it?",
+              "correct_answer_source": "Why do you need to think about it?",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_text_audio",
+              "exercise_type": "Text-to-Audio Matching",
+              "prompt_source": "Tap the audio that matches:",
+              "prompt_target": "[TRANSLATE]",
+              "text_stimulus": "Why do you need to think about it?",
+              "text_stimulus_source": "Why do you need to think about it?",
+              "text_stimulus_target": "[TRANSLATE]",
+              "audio_options": [
+                {
+                  "option_id": "a1",
+                  "audio_file": "[GENERATE]",
+                  "text_to_speak_target": "Why do you need to think about it?",
+                  "correct": true
+                },
+                {
+                  "option_id": "a2",
+                  "audio_file": "[GENERATE]",
+                  "text_to_speak_target": "Why did you ask about it?",
+                  "correct": false
+                }
+              ],
+              "correct_answer": "Why do you need to think about it?",
+              "correct_answer_source": "Why do you need to think about it?",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            }
+          ]
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": [
+        "**_target"
+      ],
+      "audio_generation_patterns": [
+        "[GENERATE]",
+        "[GENERATE_FOR_TARGET]"
+      ]
+    }
+  }
+}

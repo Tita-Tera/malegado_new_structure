@@ -1,0 +1,246 @@
+{
+  "title": {
+    "value": "asking if it gives money",
+    "translatable": true
+  },
+  "description": {
+    "value": "Learn to ask a yes-or-no question about what a machine does.",
+    "translatable": true
+  },
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "basic descriptions",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_atm_basics_001-L08",
+      "generation_timestamp": "2026-05-04T00:00:00Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A2",
+        "level_name": { "value": "Elementary", "translatable": true },
+        "level_description": { "value": "You can handle short, predictable exchanges about familiar everyday topics.", "translatable": true },
+        "cefr_equivalent": "A2",
+        "available_levels": ["A0","A1","A2","B1","B2","C1","C2"]
+      },
+      "theme_config": {
+        "theme_id": "BASIC_DESCRIPTIONS",
+        "theme_code": "BASIC_DESCRIPTIONS",
+        "theme_name": { "value": "Basic Descriptions", "translatable": true },
+        "theme_description": { "value": "Forming and answering simple yes-or-no questions about what a thing does.", "translatable": true },
+        "available_themes": [
+          { "code": { "value": "ESS", "translatable": true }, "name": { "value": "Essentials", "translatable": true } },
+          { "code": { "value": "TRV", "translatable": true }, "name": { "value": "Travel", "translatable": true } }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "2.1b", "unit_number": 2, "subunit_number": 1, "variant": "b",
+        "unit_name": { "value": "Money & Services", "translatable": true },
+        "unit_description": { "value": "Everyday transactions: using banks, machines, and apps to handle your money.", "translatable": true },
+        "total_lessons_in_unit": 15, "unit_difficulty": 3, "estimated_completion_time_minutes": 75
+      },
+      "lesson_config": {
+        "lesson_number": 8, "lesson_type": "teaching",
+        "lesson_name": { "value": "asking if it gives money", "translatable": true },
+        "lesson_description": { "value": "Practice asking yes-or-no questions about what a machine gives you.", "translatable": true },
+        "estimated_duration_minutes": 5, "difficulty_within_unit": 8,
+        "prerequisites": [
+          "badge_atm_basics_001-L01","badge_atm_basics_001-L02","badge_atm_basics_001-L03",
+          "badge_atm_basics_001-L04","badge_atm_basics_001-L05","badge_atm_basics_001-L06",
+          "badge_atm_basics_001-L07"
+        ],
+        "learning_objectives": [
+          "Form a yes-or-no question with 'Does it'.",
+          "Use the verb 'give' with two objects.",
+          "Recognize verbs that describe how a machine delivers something."
+        ],
+        "target_interactions": "15-20", "micro_flow_version": "2.0"
+      }
+    },
+    "lesson_structure": {
+      "phase_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": ["phase_1_vocabulary_anchor","phase_2_grammar_engine","phase_3_dialogue","phase_4_sprint_exercises"]
+      },
+      "phases": {
+        "phase_1_vocabulary_anchor": {
+          "phase_id": "phase_1",
+          "phase_name": { "value": "Vocabulary Anchor", "translatable": true },
+          "phase_code": "VOCAB_ANCHOR", "position_in_lesson": 1, "enabled": true, "required": true, "estimated_duration_seconds": 60,
+          "title_source": { "value": "Key phrases", "translatable": true }, "title_target": "[TRANSLATE]",
+          "phase_type": "VocabularyAnchor",
+          "core_phrase": {
+            "phrase_id": "core_8",
+            "source_text": { "value": "Does it give you money?", "translatable": true },
+            "target_text": "[TRANSLATE]", "part_of_speech": "question",
+            "linguistic_info": {
+              "tooltip_source": { "value": "A yes-or-no question that asks whether a machine hands you cash.", "translatable": true },
+              "tooltip_target": "[TRANSLATE]", "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+            },
+            "media": { "image_url": "", "audio_normal": "[GENERATE]", "audio_slow": "[GENERATE]" },
+            "context": { "usage_context": "question", "formality_level": "neutral", "time_of_day": "any", "relationship": "any" }
+          },
+          "related_words": [
+            { "word_id": "rel_8_001", "source_text": { "value": "give", "translatable": true }, "target_text": "[TRANSLATE]", "part_of_speech": "verb", "meaning_source": { "value": "To hand or pass something to another person.", "translatable": true }, "meaning_target": "[TRANSLATE]" },
+            { "word_id": "rel_8_002", "source_text": { "value": "provide", "translatable": true }, "target_text": "[TRANSLATE]", "part_of_speech": "verb", "meaning_source": { "value": "To make something available for someone to use.", "translatable": true }, "meaning_target": "[TRANSLATE]" },
+            { "word_id": "rel_8_003", "source_text": { "value": "receive", "translatable": true }, "target_text": "[TRANSLATE]", "part_of_speech": "verb", "meaning_source": { "value": "To take or get something that someone hands you.", "translatable": true }, "meaning_target": "[TRANSLATE]" },
+            { "word_id": "rel_8_004", "source_text": { "value": "dispense", "translatable": true }, "target_text": "[TRANSLATE]", "part_of_speech": "verb", "meaning_source": { "value": "To release or hand out items, often by a machine.", "translatable": true }, "meaning_target": "[TRANSLATE]" }
+          ],
+          "listen_repeat": {
+            "prompt_source": { "value": "Listen and repeat the core phrase.", "translatable": true },
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": { "audio_file": "[GENERATE]", "play_on_load": true },
+            "show_text_after_play": true
+          },
+          "quick_match": {
+            "prompt_source": { "value": "Connect each word to its meaning or image.", "translatable": true },
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              { "word_id": "rel_8_001", "correct_key": "rel_8_001_correct" },
+              { "word_id": "rel_8_002", "correct_key": "rel_8_002_correct" },
+              { "word_id": "rel_8_003", "correct_key": "rel_8_003_correct" },
+              { "word_id": "rel_8_004", "correct_key": "rel_8_004_correct" }
+            ],
+            "options_display": "shuffle"
+          }
+        },
+        "phase_2_grammar_engine": {
+          "phase_id": "phase_2", "phase_name": { "value": "Grammar Engine", "translatable": true },
+          "phase_code": "GRAMMAR", "position_in_lesson": 2, "enabled": true, "required": true, "estimated_duration_seconds": 45,
+          "title_source": { "value": "Grammar tip", "translatable": true }, "title_target": "[TRANSLATE]",
+          "phase_type": "GrammarEngine",
+          "pro_tip": {
+            "tip_id": "gram_8",
+            "concept_source": { "value": "Yes-or-no questions with 'Does it'", "translatable": true }, "concept_target": "[TRANSLATE]",
+            "explanation_source": { "value": "To ask a yes-or-no question about something, start with 'Does it' followed by the base verb. The verb stays in its base form, even though the subject is 'it'.", "translatable": true },
+            "explanation_target": "[TRANSLATE]", "focus_type": "variations",
+            "examples": [
+              { "example_id": "ex_8_001", "source_text": { "value": "Does it give cash?", "translatable": true }, "target_text": "[TRANSLATE]", "register": "informal", "usage_note_source": { "value": "Shorter casual phrasing dropping 'you'.", "translatable": true }, "usage_note_target": "[TRANSLATE]" },
+              { "example_id": "ex_8_002", "source_text": { "value": "Does it provide cash to customers?", "translatable": true }, "target_text": "[TRANSLATE]", "register": "formal", "usage_note_source": { "value": "Polished phrasing using 'provide' instead of 'give'.", "translatable": true }, "usage_note_target": "[TRANSLATE]" }
+            ]
+          },
+          "modifiers": [
+            { "modifier_id": "mod_8_001", "modifier_source": { "value": "really", "translatable": true }, "modifier_target": "[TRANSLATE]", "example_source": { "value": "Does it really give you money?", "translatable": true }, "example_target": "[TRANSLATE]", "explanation_source": { "value": "Add 'really' to express surprise or to double-check.", "translatable": true }, "explanation_target": "[TRANSLATE]" },
+            { "modifier_id": "mod_8_002", "modifier_source": { "value": "always", "translatable": true }, "modifier_target": "[TRANSLATE]", "example_source": { "value": "Does it always give you money?", "translatable": true }, "example_target": "[TRANSLATE]", "explanation_source": { "value": "Add 'always' to ask if the action happens every single time.", "translatable": true }, "explanation_target": "[TRANSLATE]" }
+          ],
+          "sentence_building": [
+            {
+              "exercise_id": "ex_sb_8_1",
+              "target_sentence_source": { "value": "Does it give you money?", "translatable": true },
+              "target_sentence_target": "[TRANSLATE]",
+              "word_tiles": [
+                { "word_id": "w1", "word_source": { "value": "Does", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 1 },
+                { "word_id": "w2", "word_source": { "value": "it", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 2 },
+                { "word_id": "w3", "word_source": { "value": "give", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 3 },
+                { "word_id": "w4", "word_source": { "value": "you", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 4 },
+                { "word_id": "w5", "word_source": { "value": "money", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 5 }
+              ],
+              "punctuation_mode": "auto_fit",
+              "hints": "Start with 'Does it', then the base verb.",
+              "hints_source": { "value": "Start with 'Does it', then the base verb.", "translatable": true },
+              "hints_target": "[TRANSLATE]"
+            },
+            {
+              "exercise_id": "ex_sb_8_2",
+              "target_sentence_source": { "value": "Does it dispense cash?", "translatable": true },
+              "target_sentence_target": "[TRANSLATE]",
+              "word_tiles": [
+                { "word_id": "w1", "word_source": { "value": "Does", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 1 },
+                { "word_id": "w2", "word_source": { "value": "it", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 2 },
+                { "word_id": "w3", "word_source": { "value": "dispense", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 3 },
+                { "word_id": "w4", "word_source": { "value": "cash", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 4 }
+              ],
+              "punctuation_mode": "auto_fit",
+              "hints": "Same pattern, different verb and object.",
+              "hints_source": { "value": "Same pattern, different verb and object.", "translatable": true },
+              "hints_target": "[TRANSLATE]"
+            }
+          ]
+        },
+        "phase_3_dialogue": {
+          "phase_id": "phase_3", "phase_name": { "value": "Dialogue Practice", "translatable": true },
+          "phase_code": "DIALOGUE", "position_in_lesson": 4, "enabled": true, "required": true, "estimated_duration_seconds": 90,
+          "title_source": { "value": "Conversation", "translatable": true }, "title_target": "[TRANSLATE]",
+          "phase_type": "Dialogue",
+          "setting": { "value": "Standing near the ATM", "translatable": true },
+          "context": { "value": "You ask a friend whether the machine gives out cash.", "translatable": true },
+          "dialogue": [
+            { "turn_id": "turn_001", "turn_number": 1, "speaker": "PARTNER", "text_source": { "value": "This machine looks new.", "translatable": true }, "text_target": "[TRANSLATE]", "practice_mode": "listen_and_repeat" },
+            { "turn_id": "turn_002", "turn_number": 2, "speaker": "YOU", "text_source": { "value": "Does it give you money?", "translatable": true }, "text_target": "[TRANSLATE]", "practice_mode": "speak_along" },
+            { "turn_id": "turn_003", "turn_number": 3, "speaker": "PARTNER", "text_source": { "value": "Yes, it does.", "translatable": true }, "text_target": "[TRANSLATE]", "practice_mode": "listen_and_repeat" },
+            { "turn_id": "turn_004", "turn_number": 4, "speaker": "YOU", "text_source": { "value": "Does it provide receipts too?", "translatable": true }, "text_target": "[TRANSLATE]", "practice_mode": "speak_along" },
+            { "turn_id": "turn_005", "turn_number": 5, "speaker": "PARTNER", "text_source": { "value": "Yes, it can do both.", "translatable": true }, "text_target": "[TRANSLATE]", "practice_mode": "listen_and_repeat" }
+          ]
+        },
+        "phase_4_sprint_exercises": {
+          "phase_id": "phase_4", "phase_name": { "value": "Sprint & review", "translatable": true },
+          "phase_code": "SPRINT", "position_in_lesson": 5, "enabled": true, "required": true, "estimated_duration_seconds": 120,
+          "title_source": { "value": "Quick practice", "translatable": true }, "title_target": "[TRANSLATE]",
+          "phase_type": "SprintExercises", "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_text_audio", "exercise_type": "Text-to-Audio Matching",
+              "prompt_source": "Tap the audio that matches:", "prompt_target": "[TRANSLATE]",
+              "text_stimulus": "Does it give you money?",
+              "text_stimulus_source": "Does it give you money?", "text_stimulus_target": "[TRANSLATE]",
+              "audio_options": [
+                { "option_id": "a1", "audio_file": "[GENERATE]", "text_to_speak_target": "Does it give you money?", "correct": true },
+                { "option_id": "a2", "audio_file": "[GENERATE]", "text_to_speak_target": "Does it dispense cash?", "correct": false }
+              ],
+              "correct_answer": "Does it give you money?",
+              "correct_answer_source": "Does it give you money?", "correct_answer_target": "[TRANSLATE]",
+              "scoring": { "points_correct": 10, "points_incorrect": 0 }
+            },
+            {
+              "exercise_id": "ex_v1_text_image", "exercise_type": "Text-to-Image Matching",
+              "prompt_source": "Read and choose the matching image:", "prompt_target": "[TRANSLATE]",
+              "text_stimulus": "Does it give you money?",
+              "text_stimulus_source": "Does it give you money?", "text_stimulus_target": "[TRANSLATE]",
+              "image_options": [
+                { "option_id": "opt_a", "image_url": "", "correct": true },
+                { "option_id": "opt_b", "image_url": "", "correct": false },
+                { "option_id": "opt_c", "image_url": "", "correct": false },
+                { "option_id": "opt_d", "image_url": "", "correct": false }
+              ],
+              "scoring": { "points_correct": 10, "points_incorrect": 0 }
+            },
+            {
+              "exercise_id": "ex_sp_audio_text", "exercise_type": "Audio-to-Text Matching",
+              "prompt_source": "Select the phrase you hear:", "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": { "audio_file": "[GENERATE]", "play_on_load": false },
+              "text_options": ["Does it give you money?","Does it dispense cash?","Does it provide receipts?"],
+              "text_options_source": ["Does it give you money?","Does it dispense cash?","Does it provide receipts?"],
+              "text_options_target": ["[TRANSLATE]","[TRANSLATE]","[TRANSLATE]"],
+              "correct_answer": "Does it give you money?",
+              "correct_answer_source": "Does it give you money?", "correct_answer_target": "[TRANSLATE]",
+              "scoring": { "points_correct": 10, "points_incorrect": 0 }
+            },
+            {
+              "exercise_id": "ex_sp_flashcard", "exercise_type": "Digital Flashcards",
+              "prompt_source": "Study the card:", "prompt_target": "[TRANSLATE]",
+              "word": "give",
+              "definition": "To hand or pass something to another person.",
+              "examples": ["Does it give you money?"],
+              "context": "Used when asking what a person or machine offers.",
+              "word_source": "give", "word_target": "[TRANSLATE]",
+              "definition_source": "To hand or pass something to another person.",
+              "definition_target": "[TRANSLATE]",
+              "examples_source": ["Does it give you money?"],
+              "examples_target": ["[TRANSLATE]"],
+              "context_source": "Used when asking what a person or machine offers.",
+              "context_target": "[TRANSLATE]",
+              "scoring": { "points_correct": 5, "points_incorrect": 0 }
+            }
+          ]
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en", "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": ["**_target"],
+      "audio_generation_patterns": ["[GENERATE]","[GENERATE_FOR_TARGET]"]
+    }
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "title": {
+    "value": "you had to pull him away",
+    "translatable": true
+  },
+  "description": {
+    "value": "Talk about a past obligation using 'had to + verb'.",
+    "translatable": true
+  },
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "past experiences",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_pets_future_001-L12",
+      "generation_timestamp": "2026-05-04T05:57:25Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A2",
+        "level_name": { "value": "Elementary", "translatable": true },
+        "level_description": { "value": "Building on basics with everyday past, present, and future situations.", "translatable": true },
+        "cefr_equivalent": "A2",
+        "available_levels": ["A0","A1","A2","B1","B2","C1","C2"]
+      },
+      "theme_config": {
+        "theme_id": "PAST_EXPERIENCES",
+        "theme_code": "PAST_EXPERIENCES",
+        "theme_name": { "value": "Past Experiences", "translatable": true },
+        "theme_description": { "value": "Reporting a past obligation that someone could not avoid.", "translatable": true },
+        "available_themes": [
+          { "code": { "value": "ESS", "translatable": true }, "name": { "value": "Essentials", "translatable": true } },
+          { "code": { "value": "TRV", "translatable": true }, "name": { "value": "Travel", "translatable": true } }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "1.1b",
+        "unit_number": 1,
+        "subunit_number": 1,
+        "variant": "b",
+        "unit_name": { "value": "Getting a Pet", "translatable": true },
+        "unit_description": { "value": "Plan a trip to the animal shelter and talk about choosing a puppy for the family.", "translatable": true },
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 3,
+        "estimated_completion_time_minutes": 75
+      },
+      "lesson_config": {
+        "lesson_number": 12,
+        "lesson_type": "teaching",
+        "lesson_name": { "value": "you had to pull him away", "translatable": true },
+        "lesson_description": { "value": "Talk about a past obligation using 'had to + verb'.", "translatable": true },
+        "estimated_duration_minutes": 5,
+        "difficulty_within_unit": 12,
+        "prerequisites": ["badge_pets_future_001-L01","badge_pets_future_001-L02","badge_pets_future_001-L03","badge_pets_future_001-L04","badge_pets_future_001-L05","badge_pets_future_001-L06","badge_pets_future_001-L07","badge_pets_future_001-L08","badge_pets_future_001-L09","badge_pets_future_001-L10","badge_pets_future_001-L11"],
+        "learning_objectives": [
+          "Use 'had to + verb' to report a past obligation.",
+          "Use 'pull' and 'away' to describe a physical separation.",
+          "Use 'needed to' as an alternative way to report past necessity."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      }
+    },
+    "lesson_structure": {
+      "phase_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": ["phase_1_vocabulary_anchor","phase_2_grammar_engine","phase_3_dialogue","phase_4_sprint_exercises"]
+      },
+      "phases": {
+        "phase_1_vocabulary_anchor": {
+          "phase_id": "phase_1",
+          "phase_name": { "value": "Vocabulary Anchor", "translatable": true },
+          "phase_code": "VOCAB_ANCHOR",
+          "position_in_lesson": 1,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": { "value": "Key phrases", "translatable": true },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "VocabularyAnchor",
+          "core_phrase": {
+            "phrase_id": "core_12",
+            "source_text": { "value": "You had to pull him away.", "translatable": true },
+            "target_text": "[TRANSLATE]",
+            "part_of_speech": "phrase",
+            "linguistic_info": {
+              "tooltip_source": { "value": "A way to report that someone had no choice but to act in a past situation.", "translatable": true },
+              "tooltip_target": "[TRANSLATE]",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+            },
+            "media": { "image_url": "", "audio_normal": "[GENERATE]", "audio_slow": "[GENERATE]" },
+            "context": { "usage_context": "narration", "formality_level": "neutral", "time_of_day": "any", "relationship": "any" }
+          },
+          "related_words": [
+            { "word_id": "rel_12_001", "source_text": { "value": "had", "translatable": true }, "target_text": "[TRANSLATE]", "part_of_speech": "verb", "meaning_source": { "value": "Past tense of 'have'; in 'had to' it shows past obligation.", "translatable": true }, "meaning_target": "[TRANSLATE]", "pronunciation_guide": "[GENERATE_FOR_TARGET]", "media": { "image_url": "", "audio_normal": "[GENERATE]", "audio_slow": "[GENERATE]" } },
+            { "word_id": "rel_12_002", "source_text": { "value": "pull", "translatable": true }, "target_text": "[TRANSLATE]", "part_of_speech": "verb", "meaning_source": { "value": "To use force to move someone or something toward you or in a direction.", "translatable": true }, "meaning_target": "[TRANSLATE]", "pronunciation_guide": "[GENERATE_FOR_TARGET]", "media": { "image_url": "", "audio_normal": "[GENERATE]", "audio_slow": "[GENERATE]" } },
+            { "word_id": "rel_12_003", "source_text": { "value": "away", "translatable": true }, "target_text": "[TRANSLATE]", "part_of_speech": "adverb", "meaning_source": { "value": "To or at a distance from a place or person.", "translatable": true }, "meaning_target": "[TRANSLATE]", "pronunciation_guide": "[GENERATE_FOR_TARGET]", "media": { "image_url": "", "audio_normal": "[GENERATE]", "audio_slow": "[GENERATE]" } },
+            { "word_id": "rel_12_004", "source_text": { "value": "needed", "translatable": true }, "target_text": "[TRANSLATE]", "part_of_speech": "verb", "meaning_source": { "value": "Past tense of 'need'; had to do something because it was necessary.", "translatable": true }, "meaning_target": "[TRANSLATE]", "pronunciation_guide": "[GENERATE_FOR_TARGET]", "media": { "image_url": "", "audio_normal": "[GENERATE]", "audio_slow": "[GENERATE]" } }
+          ],
+          "listen_repeat": {
+            "prompt_source": { "value": "Listen and repeat the core phrase.", "translatable": true },
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": { "audio_file": "[GENERATE]", "play_on_load": true },
+            "show_text_after_play": true
+          },
+          "quick_match": {
+            "prompt_source": { "value": "Connect each word to its meaning or image.", "translatable": true },
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              { "pair_id": "pair_12_001", "word_id": "rel_12_001", "source_word": { "value": "had", "translatable": true }, "target_word": "[TRANSLATE]", "image_url": "", "correct_key": "rel_12_001_correct" },
+              { "pair_id": "pair_12_002", "word_id": "rel_12_002", "source_word": { "value": "pull", "translatable": true }, "target_word": "[TRANSLATE]", "image_url": "", "correct_key": "rel_12_002_correct" },
+              { "pair_id": "pair_12_003", "word_id": "rel_12_003", "source_word": { "value": "away", "translatable": true }, "target_word": "[TRANSLATE]", "image_url": "", "correct_key": "rel_12_003_correct" },
+              { "pair_id": "pair_12_004", "word_id": "rel_12_004", "source_word": { "value": "needed", "translatable": true }, "target_word": "[TRANSLATE]", "image_url": "", "correct_key": "rel_12_004_correct" }
+            ],
+            "options_display": "shuffle"
+          }
+        },
+        "phase_2_grammar_engine": {
+          "phase_id": "phase_2",
+          "phase_name": { "value": "Grammar Engine", "translatable": true },
+          "phase_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": { "value": "Grammar tip", "translatable": true },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "GrammarEngine",
+          "pro_tip": {
+            "tip_id": "gram_12",
+            "concept_source": { "value": "'had to + verb' for past obligation", "translatable": true },
+            "concept_target": "[TRANSLATE]",
+            "explanation_source": { "value": "Use 'had to + base verb' to say something was necessary in the past. The verb after 'to' stays in its base form. 'Needed to + verb' carries a similar meaning.", "translatable": true },
+            "explanation_target": "[TRANSLATE]",
+            "focus_type": "variations",
+            "examples": [
+              { "example_id": "ex_12_001", "source_text": { "value": "You needed to pull him away.", "translatable": true }, "target_text": "[TRANSLATE]", "register": "neutral", "usage_note_source": { "value": "'Needed to' is a softer way to express the same past necessity as 'had to'.", "translatable": true }, "usage_note_target": "[TRANSLATE]" },
+              { "example_id": "ex_12_002", "source_text": { "value": "It was necessary to pull him away.", "translatable": true }, "target_text": "[TRANSLATE]", "register": "formal", "usage_note_source": { "value": "'It was necessary to' is a more formal alternative for 'had to'.", "translatable": true }, "usage_note_target": "[TRANSLATE]" }
+            ]
+          },
+          "modifiers": [
+            { "modifier_id": "mod_12_001", "modifier_source": { "value": "almost", "translatable": true }, "modifier_target": "[TRANSLATE]", "example_source": { "value": "You almost had to pull him away.", "translatable": true }, "example_target": "[TRANSLATE]", "explanation_source": { "value": "'Almost' shows the action was very close to happening but did not fully happen.", "translatable": true }, "explanation_target": "[TRANSLATE]" },
+            { "modifier_id": "mod_12_002", "modifier_source": { "value": "nearly", "translatable": true }, "modifier_target": "[TRANSLATE]", "example_source": { "value": "You nearly had to pull him away.", "translatable": true }, "example_target": "[TRANSLATE]", "explanation_source": { "value": "'Nearly' has the same softening effect as 'almost' on a past obligation.", "translatable": true }, "explanation_target": "[TRANSLATE]" }
+          ],
+          "sentence_building": [
+            { "exercise_id": "ex_sb_12_1", "target_sentence_source": { "value": "You had to pull him away.", "translatable": true }, "target_sentence_target": "[TRANSLATE]", "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                { "word_id": "w1", "word_source": { "value": "You", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 1 },
+                { "word_id": "w2", "word_source": { "value": "had", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 2 },
+                { "word_id": "w3", "word_source": { "value": "to", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 3 },
+                { "word_id": "w4", "word_source": { "value": "pull", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 4 },
+                { "word_id": "w5", "word_source": { "value": "him", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 5 },
+                { "word_id": "w6", "word_source": { "value": "away", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 6 }
+              ],
+              "hints": "Open with 'You had to' for past obligation."
+            },
+            { "exercise_id": "ex_sb_12_2", "target_sentence_source": { "value": "You needed to pull him away.", "translatable": true }, "target_sentence_target": "[TRANSLATE]", "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                { "word_id": "w1", "word_source": { "value": "You", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 1 },
+                { "word_id": "w2", "word_source": { "value": "needed", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 2 },
+                { "word_id": "w3", "word_source": { "value": "to", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 3 },
+                { "word_id": "w4", "word_source": { "value": "pull", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 4 },
+                { "word_id": "w5", "word_source": { "value": "him", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 5 },
+                { "word_id": "w6", "word_source": { "value": "away", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 6 }
+              ],
+              "hints": "Swap 'had to' for 'needed to' from this lesson."
+            }
+          ]
+        },
+        "phase_3_dialogue": {
+          "phase_id": "phase_3",
+          "phase_name": { "value": "Dialogue Practice", "translatable": true },
+          "phase_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": { "value": "Conversation", "translatable": true },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "Dialogue",
+          "setting": { "value": "At home, recalling a moment from yesterday's shelter visit.", "translatable": true },
+          "context": { "value": "Two people remember how attached the child became to the puppy.", "translatable": true },
+          "dialogue": [
+            { "turn_id": "turn_001", "turn_number": 1, "speaker": "PARTNER", "text_source": { "value": "My son did not want to leave the shelter.", "translatable": true }, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "listen_and_repeat" },
+            { "turn_id": "turn_002", "turn_number": 2, "speaker": "YOU", "text_source": { "value": "You had to pull him away.", "translatable": true }, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "speak_along" },
+            { "turn_id": "turn_003", "turn_number": 3, "speaker": "PARTNER", "text_source": { "value": "Yes. He really loved that puppy.", "translatable": true }, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "listen_and_repeat" },
+            { "turn_id": "turn_004", "turn_number": 4, "speaker": "YOU", "text_source": { "value": "Sometimes you needed to be firm.", "translatable": true }, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "speak_along" },
+            { "turn_id": "turn_005", "turn_number": 5, "speaker": "PARTNER", "text_source": { "value": "We almost had to wait until closing time.", "translatable": true }, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "listen_and_repeat" }
+          ]
+        },
+        "phase_4_sprint_exercises": {
+          "phase_id": "phase_4",
+          "phase_name": { "value": "Sprint & review", "translatable": true },
+          "phase_code": "SPRINT",
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": { "value": "Quick practice", "translatable": true },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "SprintExercises",
+          "randomize_order": true,
+          "exercises": [
+            { "exercise_id": "ex_sp_flashcard", "exercise_type": "Digital Flashcards", "prompt_source": "Study the card:", "prompt_target": "[TRANSLATE]",
+              "word": "had",
+              "definition": "Past tense of 'have'; in 'had to' it shows past obligation.",
+              "examples": ["You had to pull him away."],
+              "context": "Talking about something that was necessary in the past.",
+              "word_source": "had",
+              "word_target": "[TRANSLATE]",
+              "definition_source": "Past tense of 'have'; in 'had to' it shows past obligation.",
+              "definition_target": "[TRANSLATE]",
+              "examples_source": ["You had to pull him away."],
+              "examples_target": ["[TRANSLATE]"],
+              "context_source": "Talking about something that was necessary in the past.",
+              "context_target": "[TRANSLATE]",
+              "scoring": { "points_correct": 5, "points_incorrect": 0 }
+            },
+            { "exercise_id": "ex_sp_audio_text", "exercise_type": "Audio-to-Text Matching", "prompt_source": "Select the phrase you hear:", "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": { "audio_file": "[GENERATE]", "play_on_load": false },
+              "text_options": ["You had to pull him away.","You had to take him away.","You needed to pull him away."],
+              "text_options_source": ["You had to pull him away.","You had to take him away.","You needed to pull him away."],
+              "text_options_target": ["[TRANSLATE]","[TRANSLATE]","[TRANSLATE]"],
+              "correct_answer": "You had to pull him away.",
+              "correct_answer_source": "You had to pull him away.",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": { "points_correct": 10, "points_incorrect": 0 }
+            },
+            { "exercise_id": "ex_sp_l2_l1", "exercise_type": "Translation Typing (L2→L1)", "prompt_source": "Translate into English:", "prompt_target": "[TRANSLATE]",
+              "source_text": "You had to pull him away.",
+              "source_text_source": "You had to pull him away.",
+              "source_text_target": "[TRANSLATE]",
+              "target_language": "es",
+              "acceptable_answers": ["You had to pull him away.","You needed to pull him away."],
+              "acceptable_answers_source": ["You had to pull him away.","You needed to pull him away."],
+              "acceptable_answers_target": ["[TRANSLATE]","[TRANSLATE]"],
+              "hints": "Use 'had to' or 'needed to' from this lesson.",
+              "hints_source": "Use 'had to' or 'needed to' from this lesson.",
+              "hints_target": "[TRANSLATE]",
+              "scoring": { "points_correct": 15, "points_incorrect": 0 }
+            },
+            { "exercise_id": "ex_sp_audio_blank", "exercise_type": "Audio Fill-in-the-Blank", "prompt_source": "Listen and complete:", "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": { "audio_file": "[GENERATE]", "play_on_load": true },
+              "sentence": "You had to ____ him away.",
+              "sentence_source": "You had to ____ him away.",
+              "sentence_target": "[TRANSLATE]",
+              "blanks": [4],
+              "correct_answer": "pull",
+              "correct_answer_source": "pull",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": { "points_correct": 10, "points_incorrect": 0 }
+            },
+            { "exercise_id": "ex_v1_audio_image", "exercise_type": "Audio-to-Image Matching", "prompt_source": "Tap the image that matches what you hear:", "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": { "audio_file": "[GENERATE]", "play_on_load": true, "text_to_speak_target": "[TRANSLATE]" },
+              "image_options": [
+                { "option_id": "opt_01", "image_url": "", "correct": true },
+                { "option_id": "opt_02", "image_url": "", "correct": false },
+                { "option_id": "opt_03", "image_url": "", "correct": false },
+                { "option_id": "opt_04", "image_url": "", "correct": false }
+              ],
+              "scoring": { "points_correct": 10, "points_incorrect": 0 }
+            }
+          ]
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": ["**_target"],
+      "audio_generation_patterns": ["[GENERATE]","[GENERATE_FOR_TARGET]"]
+    }
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "title": {"value": "borrowing a charger at work", "translatable": true},
+  "description": {"value": "Apply what you've learned to an office situation: asking a coworker for a phone charger.", "translatable": true},
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 4,
+  "status": "DRAFT",
+  "category": "relationships",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_001-CTX2",
+      "generation_timestamp": "2026-05-03T14:22:42Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A1",
+        "level_name": {"value": "Beginner", "translatable": true},
+        "level_description": {"value": "First steps in the language: simple everyday phrases and basic exchanges.", "translatable": true},
+        "cefr_equivalent": "A1",
+        "available_levels": ["A0", "A1", "A2", "B1", "B2", "C1", "C2"]
+      },
+      "theme_config": {
+        "theme_id": "RELATIONSHIPS",
+        "theme_code": "RELATIONSHIPS",
+        "theme_name": {"value": "Relationships", "translatable": true},
+        "theme_description": {"value": "A conversation between two coworkers about borrowing a phone charger at the office.", "translatable": true},
+        "available_themes": [
+          {"code": {"value": "ESS", "translatable": true}, "name": {"value": "Essentials", "translatable": true}},
+          {"code": {"value": "TRV", "translatable": true}, "name": {"value": "Travel", "translatable": true}}
+        ]
+      },
+      "unit_config": {
+        "unit_id": "2.1a",
+        "unit_number": 2,
+        "subunit_number": 1,
+        "variant": "a",
+        "unit_name": {"value": "Borrowing & Lending", "translatable": true},
+        "unit_description": {"value": "Practice asking to borrow things and responding when others ask for help.", "translatable": true},
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 2,
+        "estimated_completion_time_minutes": 60
+      },
+      "lesson_config": {
+        "lesson_number": 15,
+        "lesson_type": "review",
+        "lesson_name": {"value": "borrowing a charger at work", "translatable": true},
+        "lesson_description": {"value": "Apply what you've learned to an office situation: asking a coworker for a phone charger.", "translatable": true},
+        "estimated_duration_minutes": 4,
+        "difficulty_within_unit": 15,
+        "prerequisites": ["badge_001-L01", "badge_001-L02", "badge_001-L03", "badge_001-L04", "badge_001-L05", "badge_001-L06", "badge_001-L07", "badge_001-L08", "badge_001-L09", "badge_001-L10", "badge_001-L11", "badge_001-L12", "badge_001-REVIEW", "badge_001-CTX1"],
+        "learning_objectives": [
+          "Apply borrowing and lending phrases to a workplace situation",
+          "Recognise the badge patterns adapted to technology vocabulary",
+          "Use the conversation flow when an everyday item is needed urgently"
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      }
+    },
+    "lesson_structure": {
+      "phase_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": ["phase_1_vocabulary_anchor", "phase_2_grammar_engine", "phase_3_dialogue", "phase_4_sprint_exercises"]
+      },
+      "phases": {
+        "phase_1_vocabulary_anchor": {
+          "phase_id": "phase_1",
+          "phase_name": {"value": "Vocabulary Anchor", "translatable": true},
+          "phase_code": "VOCAB_ANCHOR",
+          "position_in_lesson": 1,
+          "enabled": false,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": {"value": "Key phrases", "translatable": true},
+          "title_target": "[TRANSLATE]",
+          "phase_type": "VocabularyAnchor",
+          "core_phrase": {
+            "phrase_id": "core_15",
+            "source_text": {"value": "Can I borrow your charger?", "translatable": true},
+            "target_text": "[TRANSLATE]",
+            "part_of_speech": "phrase",
+            "linguistic_info": {
+              "tooltip_source": {"value": "The opening phrase of the contextualized dialogue, where a coworker asks to borrow a phone charger.", "translatable": true},
+              "tooltip_target": "[TRANSLATE]",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+            },
+            "media": {"image_url": "", "audio_normal": "[GENERATE]", "audio_slow": "[GENERATE]"},
+            "context": {"usage_context": "review", "formality_level": "neutral", "time_of_day": "any", "relationship": "any"}
+          },
+          "related_words": [],
+          "listen_repeat": {
+            "prompt_source": {"value": "Listen and repeat the core phrase.", "translatable": true},
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {"audio_file": "[GENERATE]", "play_on_load": true},
+            "show_text_after_play": true
+          },
+          "quick_match": {
+            "prompt_source": {"value": "Connect each word to its meaning or image.", "translatable": true},
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [],
+            "options_display": "shuffle"
+          }
+        },
+        "phase_2_grammar_engine": {
+          "phase_id": "phase_2",
+          "phase_name": {"value": "Grammar Engine", "translatable": true},
+          "phase_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": false,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": {"value": "Grammar tip", "translatable": true},
+          "title_target": "[TRANSLATE]",
+          "phase_type": "GrammarEngine",
+          "pro_tip": {
+            "tip_id": "gram_15",
+            "concept_source": {"value": "Review of borrowing and lending patterns", "translatable": true},
+            "concept_target": "[TRANSLATE]",
+            "explanation_source": {"value": "This contextualized lesson revisits the badge grammar patterns through a workplace dialogue about a phone charger.", "translatable": true},
+            "explanation_target": "[TRANSLATE]",
+            "focus_type": "variations",
+            "examples": []
+          },
+          "modifiers": [],
+          "sentence_building": []
+        },
+        "phase_3_dialogue": {
+          "phase_id": "phase_3",
+          "phase_name": {"value": "Dialogue Practice", "translatable": true},
+          "phase_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": {"value": "Conversation", "translatable": true},
+          "title_target": "[TRANSLATE]",
+          "phase_type": "Dialogue",
+          "setting": {"value": "Two coworkers in an office", "translatable": true},
+          "context": {"value": "Borrowing a Phone Charger", "translatable": true},
+          "dialogue": [
+            {"turn_id": "turn_001", "turn_number": 1, "speaker": "PARTNER", "text_source": {"value": "Can I borrow your charger?", "translatable": true}, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "listen_and_repeat"},
+            {"turn_id": "turn_002", "turn_number": 2, "speaker": "YOU", "text_source": {"value": "Sure. Why do you need it?", "translatable": true}, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "speak_along"},
+            {"turn_id": "turn_003", "turn_number": 3, "speaker": "PARTNER", "text_source": {"value": "My phone battery is low.", "translatable": true}, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "listen_and_repeat"},
+            {"turn_id": "turn_004", "turn_number": 4, "speaker": "YOU", "text_source": {"value": "Where is your charger?", "translatable": true}, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "speak_along"},
+            {"turn_id": "turn_005", "turn_number": 5, "speaker": "PARTNER", "text_source": {"value": "I left it at home.", "translatable": true}, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "listen_and_repeat"},
+            {"turn_id": "turn_006", "turn_number": 6, "speaker": "YOU", "text_source": {"value": "So your phone is almost off?", "translatable": true}, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "speak_along"},
+            {"turn_id": "turn_007", "turn_number": 7, "speaker": "PARTNER", "text_source": {"value": "Yes, it has very little power.", "translatable": true}, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "listen_and_repeat"},
+            {"turn_id": "turn_008", "turn_number": 8, "speaker": "YOU", "text_source": {"value": "That is stressful.", "translatable": true}, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "speak_along"},
+            {"turn_id": "turn_009", "turn_number": 9, "speaker": "PARTNER", "text_source": {"value": "Yes, even for a short time.", "translatable": true}, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "listen_and_repeat"},
+            {"turn_id": "turn_010", "turn_number": 10, "speaker": "YOU", "text_source": {"value": "It is good to have helpful coworkers.", "translatable": true}, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "speak_along"},
+            {"turn_id": "turn_011", "turn_number": 11, "speaker": "PARTNER", "text_source": {"value": "Coworkers can help you in situations like this.", "translatable": true}, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "listen_and_repeat"},
+            {"turn_id": "turn_012", "turn_number": 12, "speaker": "YOU", "text_source": {"value": "As long as you give it back.", "translatable": true}, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "speak_along"}
+          ]
+        },
+        "phase_4_sprint_exercises": {
+          "phase_id": "phase_4",
+          "phase_name": {"value": "Sprint & review", "translatable": true},
+          "phase_code": "SPRINT",
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": {"value": "Quick practice", "translatable": true},
+          "title_target": "[TRANSLATE]",
+          "phase_type": "SprintExercises",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_fill_type",
+              "exercise_type": "Fill-in-the-Blank Typing",
+              "prompt_source": "Type the missing word:",
+              "prompt_target": "[TRANSLATE]",
+              "sentence": "Can I borrow your _____?",
+              "sentence_source": "Can I borrow your _____?",
+              "sentence_target": "[TRANSLATE]",
+              "blanks": [4],
+              "correct_answer": "charger",
+              "acceptable_answers": ["charger"],
+              "correct_answer_source": "charger",
+              "correct_answer_target": "[TRANSLATE]",
+              "acceptable_answers_source": ["charger"],
+              "acceptable_answers_target": ["[TRANSLATE]"],
+              "scoring": {"points_correct": 10, "points_incorrect": 0}
+            },
+            {
+              "exercise_id": "ex_v1_audio_image",
+              "exercise_type": "Audio-to-Image Matching",
+              "prompt_source": "Tap the image that matches what you hear:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {"audio_file": "[GENERATE]", "play_on_load": true, "text_to_speak_target": "Can I borrow your charger?"},
+              "image_options": [
+                {"option_id": "opt_01", "image_url": "", "correct": true},
+                {"option_id": "opt_02", "image_url": "", "correct": false},
+                {"option_id": "opt_03", "image_url": "", "correct": false},
+                {"option_id": "opt_04", "image_url": "", "correct": false}
+              ],
+              "scoring": {"points_correct": 10, "points_incorrect": 0}
+            },
+            {
+              "exercise_id": "ex_sp_match_game",
+              "exercise_type": "Flashcard Matching Game",
+              "prompt_source": "Match pairs:",
+              "prompt_target": "[TRANSLATE]",
+              "pairs": [
+                {"pair_id": "pair_15_01", "item_a": "charger", "item_b": "A device used to put electricity back into a phone or laptop.", "type": "phrase_meaning"},
+                {"pair_id": "pair_15_02", "item_a": "battery", "item_b": "The part of a phone or device that stores power.", "type": "phrase_meaning"},
+                {"pair_id": "pair_15_03", "item_a": "coworker", "item_b": "A person who works with you at the same job.", "type": "phrase_meaning"},
+                {"pair_id": "pair_15_04", "item_a": "give it back", "item_b": "To return something to the person who lent it to you.", "type": "phrase_meaning"}
+              ],
+              "scoring": {"points_correct": 10, "points_incorrect": 0}
+            },
+            {
+              "exercise_id": "ex_sp_audio_blank",
+              "exercise_type": "Audio Fill-in-the-Blank",
+              "prompt_source": "Listen and complete:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {"audio_file": "[GENERATE]", "play_on_load": true},
+              "sentence": "My phone battery is _____.",
+              "sentence_source": "My phone battery is _____.",
+              "sentence_target": "[TRANSLATE]",
+              "blanks": [5],
+              "correct_answer": "low",
+              "correct_answer_source": "low",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {"points_correct": 10, "points_incorrect": 0}
+            },
+            {
+              "exercise_id": "ex_sp_flashcard",
+              "exercise_type": "Digital Flashcards",
+              "prompt_source": "Study the card:",
+              "prompt_target": "[TRANSLATE]",
+              "word": "charger",
+              "definition": "A device used to put electricity back into a phone or laptop.",
+              "examples": ["Can I borrow your charger?", "I left my charger at home."],
+              "context": "Used in everyday situations when a phone or laptop is running out of power.",
+              "word_source": "charger",
+              "word_target": "[TRANSLATE]",
+              "definition_source": "A device used to put electricity back into a phone or laptop.",
+              "definition_target": "[TRANSLATE]",
+              "examples_source": ["Can I borrow your charger?", "I left my charger at home."],
+              "examples_target": ["[TRANSLATE]", "[TRANSLATE]"],
+              "context_source": "Used in everyday situations when a phone or laptop is running out of power.",
+              "context_target": "[TRANSLATE]",
+              "scoring": {"points_correct": 5, "points_incorrect": 0}
+            }
+          ]
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": ["**_target"],
+      "audio_generation_patterns": ["[GENERATE]", "[GENERATE_FOR_TARGET]"]
+    }
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "title": {
+    "value": "withdrawing money",
+    "translatable": true
+  },
+  "description": {
+    "value": "Learn to say you need to take money out of your account.",
+    "translatable": true
+  },
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "services",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_atm_basics_001-L03",
+      "generation_timestamp": "2026-05-04T00:00:00Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A2",
+        "level_name": { "value": "Elementary", "translatable": true },
+        "level_description": { "value": "You can handle short, predictable exchanges about familiar everyday topics.", "translatable": true },
+        "cefr_equivalent": "A2",
+        "available_levels": ["A0","A1","A2","B1","B2","C1","C2"]
+      },
+      "theme_config": {
+        "theme_id": "SERVICES",
+        "theme_code": "SERVICES",
+        "theme_name": { "value": "Services", "translatable": true },
+        "theme_description": { "value": "Talking about banking actions and getting money for personal use.", "translatable": true },
+        "available_themes": [
+          { "code": { "value": "ESS", "translatable": true }, "name": { "value": "Essentials", "translatable": true } },
+          { "code": { "value": "TRV", "translatable": true }, "name": { "value": "Travel", "translatable": true } }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "2.1b", "unit_number": 2, "subunit_number": 1, "variant": "b",
+        "unit_name": { "value": "Money & Services", "translatable": true },
+        "unit_description": { "value": "Everyday transactions: using banks, machines, and apps to handle your money.", "translatable": true },
+        "total_lessons_in_unit": 15, "unit_difficulty": 3, "estimated_completion_time_minutes": 75
+      },
+      "lesson_config": {
+        "lesson_number": 3, "lesson_type": "teaching",
+        "lesson_name": { "value": "withdrawing money", "translatable": true },
+        "lesson_description": { "value": "Practice saying you need to take cash out of your account.", "translatable": true },
+        "estimated_duration_minutes": 5, "difficulty_within_unit": 3,
+        "prerequisites": ["badge_atm_basics_001-L01","badge_atm_basics_001-L02"],
+        "learning_objectives": [
+          "Say what you need to do at the bank.",
+          "Use banking vocabulary like 'withdraw' and 'account'.",
+          "Combine 'need to' with an action verb."
+        ],
+        "target_interactions": "15-20", "micro_flow_version": "2.0"
+      }
+    },
+    "lesson_structure": {
+      "phase_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": ["phase_1_vocabulary_anchor","phase_2_grammar_engine","phase_3_dialogue","phase_4_sprint_exercises"]
+      },
+      "phases": {
+        "phase_1_vocabulary_anchor": {
+          "phase_id": "phase_1",
+          "phase_name": { "value": "Vocabulary Anchor", "translatable": true },
+          "phase_code": "VOCAB_ANCHOR", "position_in_lesson": 1, "enabled": true, "required": true, "estimated_duration_seconds": 60,
+          "title_source": { "value": "Key phrases", "translatable": true }, "title_target": "[TRANSLATE]",
+          "phase_type": "VocabularyAnchor",
+          "core_phrase": {
+            "phrase_id": "core_3",
+            "source_text": { "value": "I need to withdraw money.", "translatable": true },
+            "target_text": "[TRANSLATE]", "part_of_speech": "sentence",
+            "linguistic_info": {
+              "tooltip_source": { "value": "Used to say you must take cash out of your bank account.", "translatable": true },
+              "tooltip_target": "[TRANSLATE]", "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+            },
+            "media": { "image_url": "", "audio_normal": "[GENERATE]", "audio_slow": "[GENERATE]" },
+            "context": { "usage_context": "request", "formality_level": "neutral", "time_of_day": "any", "relationship": "any" }
+          },
+          "related_words": [
+            { "word_id": "rel_3_001", "source_text": { "value": "withdraw", "translatable": true }, "target_text": "[TRANSLATE]", "part_of_speech": "verb", "meaning_source": { "value": "To take money out of an account.", "translatable": true }, "meaning_target": "[TRANSLATE]" },
+            { "word_id": "rel_3_002", "source_text": { "value": "money", "translatable": true }, "target_text": "[TRANSLATE]", "part_of_speech": "noun", "meaning_source": { "value": "Coins and paper notes used to buy things.", "translatable": true }, "meaning_target": "[TRANSLATE]" },
+            { "word_id": "rel_3_003", "source_text": { "value": "cash", "translatable": true }, "target_text": "[TRANSLATE]", "part_of_speech": "noun", "meaning_source": { "value": "Physical money in coins or paper bills.", "translatable": true }, "meaning_target": "[TRANSLATE]" },
+            { "word_id": "rel_3_004", "source_text": { "value": "account", "translatable": true }, "target_text": "[TRANSLATE]", "part_of_speech": "noun", "meaning_source": { "value": "A record at a bank where your money is kept.", "translatable": true }, "meaning_target": "[TRANSLATE]" }
+          ],
+          "listen_repeat": {
+            "prompt_source": { "value": "Listen and repeat the core phrase.", "translatable": true },
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": { "audio_file": "[GENERATE]", "play_on_load": true },
+            "show_text_after_play": true
+          },
+          "quick_match": {
+            "prompt_source": { "value": "Connect each word to its meaning or image.", "translatable": true },
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              { "word_id": "rel_3_001", "correct_key": "rel_3_001_correct" },
+              { "word_id": "rel_3_002", "correct_key": "rel_3_002_correct" },
+              { "word_id": "rel_3_003", "correct_key": "rel_3_003_correct" },
+              { "word_id": "rel_3_004", "correct_key": "rel_3_004_correct" }
+            ],
+            "options_display": "shuffle"
+          }
+        },
+        "phase_2_grammar_engine": {
+          "phase_id": "phase_2", "phase_name": { "value": "Grammar Engine", "translatable": true },
+          "phase_code": "GRAMMAR", "position_in_lesson": 2, "enabled": true, "required": true, "estimated_duration_seconds": 45,
+          "title_source": { "value": "Grammar tip", "translatable": true }, "title_target": "[TRANSLATE]",
+          "phase_type": "GrammarEngine",
+          "pro_tip": {
+            "tip_id": "gram_3",
+            "concept_source": { "value": "Saying what you need to do", "translatable": true }, "concept_target": "[TRANSLATE]",
+            "explanation_source": { "value": "Use 'I need to' plus a verb to say something is required. The verb after 'to' stays in its base form.", "translatable": true },
+            "explanation_target": "[TRANSLATE]", "focus_type": "variations",
+            "examples": [
+              { "example_id": "ex_3_001", "source_text": { "value": "I have to take out some cash.", "translatable": true }, "target_text": "[TRANSLATE]", "register": "informal", "usage_note_source": { "value": "Casual phrasing with 'have to' instead of 'need to'.", "translatable": true }, "usage_note_target": "[TRANSLATE]" },
+              { "example_id": "ex_3_002", "source_text": { "value": "I would like to withdraw money.", "translatable": true }, "target_text": "[TRANSLATE]", "register": "formal", "usage_note_source": { "value": "Polite phrasing for use at a bank counter.", "translatable": true }, "usage_note_target": "[TRANSLATE]" }
+            ]
+          },
+          "modifiers": [
+            { "modifier_id": "mod_3_001", "modifier_source": { "value": "some", "translatable": true }, "modifier_target": "[TRANSLATE]", "example_source": { "value": "I need to withdraw some money.", "translatable": true }, "example_target": "[TRANSLATE]", "explanation_source": { "value": "Add 'some' to mean an unspecified amount.", "translatable": true }, "explanation_target": "[TRANSLATE]" },
+            { "modifier_id": "mod_3_002", "modifier_source": { "value": "more", "translatable": true }, "modifier_target": "[TRANSLATE]", "example_source": { "value": "I need to withdraw more money.", "translatable": true }, "example_target": "[TRANSLATE]", "explanation_source": { "value": "Add 'more' when a previous amount was not enough.", "translatable": true }, "explanation_target": "[TRANSLATE]" }
+          ],
+          "sentence_building": [
+            {
+              "exercise_id": "ex_sb_3_1",
+              "target_sentence_source": { "value": "I need to withdraw money.", "translatable": true },
+              "target_sentence_target": "[TRANSLATE]",
+              "word_tiles": [
+                { "word_id": "w1", "word_source": { "value": "I", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 1 },
+                { "word_id": "w2", "word_source": { "value": "need", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 2 },
+                { "word_id": "w3", "word_source": { "value": "to", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 3 },
+                { "word_id": "w4", "word_source": { "value": "withdraw", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 4 },
+                { "word_id": "w5", "word_source": { "value": "money", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 5 }
+              ],
+              "punctuation_mode": "auto_fit",
+              "hints": "Subject, then 'need to', then the action.",
+              "hints_source": { "value": "Subject, then 'need to', then the action.", "translatable": true },
+              "hints_target": "[TRANSLATE]"
+            },
+            {
+              "exercise_id": "ex_sb_3_2",
+              "target_sentence_source": { "value": "I need to check my account.", "translatable": true },
+              "target_sentence_target": "[TRANSLATE]",
+              "word_tiles": [
+                { "word_id": "w1", "word_source": { "value": "I", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 1 },
+                { "word_id": "w2", "word_source": { "value": "need", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 2 },
+                { "word_id": "w3", "word_source": { "value": "to", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 3 },
+                { "word_id": "w4", "word_source": { "value": "check", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 4 },
+                { "word_id": "w5", "word_source": { "value": "my", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 5 },
+                { "word_id": "w6", "word_source": { "value": "account", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 6 }
+              ],
+              "punctuation_mode": "auto_fit",
+              "hints": "Same pattern, different action.",
+              "hints_source": { "value": "Same pattern, different action.", "translatable": true },
+              "hints_target": "[TRANSLATE]"
+            }
+          ]
+        },
+        "phase_3_dialogue": {
+          "phase_id": "phase_3", "phase_name": { "value": "Dialogue Practice", "translatable": true },
+          "phase_code": "DIALOGUE", "position_in_lesson": 4, "enabled": true, "required": true, "estimated_duration_seconds": 90,
+          "title_source": { "value": "Conversation", "translatable": true }, "title_target": "[TRANSLATE]",
+          "phase_type": "Dialogue",
+          "setting": { "value": "Walking toward the bank", "translatable": true },
+          "context": { "value": "You explain to a friend why you are going to the bank.", "translatable": true },
+          "dialogue": [
+            { "turn_id": "turn_001", "turn_number": 1, "speaker": "PARTNER", "text_source": { "value": "Why are you going to the bank?", "translatable": true }, "text_target": "[TRANSLATE]", "practice_mode": "listen_and_repeat" },
+            { "turn_id": "turn_002", "turn_number": 2, "speaker": "YOU", "text_source": { "value": "I need to withdraw money.", "translatable": true }, "text_target": "[TRANSLATE]", "practice_mode": "speak_along" },
+            { "turn_id": "turn_003", "turn_number": 3, "speaker": "PARTNER", "text_source": { "value": "How much cash do you need?", "translatable": true }, "text_target": "[TRANSLATE]", "practice_mode": "listen_and_repeat" },
+            { "turn_id": "turn_004", "turn_number": 4, "speaker": "YOU", "text_source": { "value": "Just a small amount.", "translatable": true }, "text_target": "[TRANSLATE]", "practice_mode": "speak_along" },
+            { "turn_id": "turn_005", "turn_number": 5, "speaker": "PARTNER", "text_source": { "value": "Got it, let's go.", "translatable": true }, "text_target": "[TRANSLATE]", "practice_mode": "listen_and_repeat" }
+          ]
+        },
+        "phase_4_sprint_exercises": {
+          "phase_id": "phase_4", "phase_name": { "value": "Sprint & review", "translatable": true },
+          "phase_code": "SPRINT", "position_in_lesson": 5, "enabled": true, "required": true, "estimated_duration_seconds": 120,
+          "title_source": { "value": "Quick practice", "translatable": true }, "title_target": "[TRANSLATE]",
+          "phase_type": "SprintExercises", "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_match_game", "exercise_type": "Flashcard Matching Game",
+              "prompt_source": "Match pairs:", "prompt_target": "[TRANSLATE]",
+              "pairs": [
+                { "pair_id": "p1", "item_a": "withdraw", "item_b": "take money out", "type": "word_definition" },
+                { "pair_id": "p2", "item_a": "money", "item_b": "coins and notes", "type": "word_definition" },
+                { "pair_id": "p3", "item_a": "cash", "item_b": "physical bills", "type": "word_definition" },
+                { "pair_id": "p4", "item_a": "account", "item_b": "bank record", "type": "word_definition" }
+              ],
+              "scoring": { "points_correct": 10, "points_incorrect": 0 }
+            },
+            {
+              "exercise_id": "ex_sp_l2_l1", "exercise_type": "Translation Typing (L2→L1)",
+              "prompt_source": "Translate into English:", "prompt_target": "[TRANSLATE]",
+              "source_text": "I need to withdraw money.",
+              "source_text_source": "I need to withdraw money.", "source_text_target": "[TRANSLATE]",
+              "target_language": "es",
+              "acceptable_answers": ["I need to withdraw money.","I have to withdraw money."],
+              "acceptable_answers_source": ["I need to withdraw money.","I have to withdraw money."],
+              "acceptable_answers_target": ["[TRANSLATE]","[TRANSLATE]"],
+              "hints": "Subject + 'need to' + verb + object.",
+              "hints_source": "Subject + 'need to' + verb + object.",
+              "hints_target": "[TRANSLATE]",
+              "scoring": { "points_correct": 15, "points_incorrect": 0 }
+            },
+            {
+              "exercise_id": "ex_v1_audio_image", "exercise_type": "Audio-to-Image Matching",
+              "prompt_source": "Tap the image that matches what you hear:", "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": { "audio_file": "[GENERATE]", "play_on_load": true, "text_to_speak_target": "I need to withdraw money." },
+              "image_options": [
+                { "option_id": "opt_01", "image_url": "", "correct": true },
+                { "option_id": "opt_02", "image_url": "", "correct": false },
+                { "option_id": "opt_03", "image_url": "", "correct": false },
+                { "option_id": "opt_04", "image_url": "", "correct": false }
+              ],
+              "scoring": { "points_correct": 10, "points_incorrect": 0 }
+            },
+            {
+              "exercise_id": "ex_sp_audio_text", "exercise_type": "Audio-to-Text Matching",
+              "prompt_source": "Select the phrase you hear:", "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": { "audio_file": "[GENERATE]", "play_on_load": false },
+              "text_options": ["I need to withdraw money.","I need to check my account.","I need some cash."],
+              "text_options_source": ["I need to withdraw money.","I need to check my account.","I need some cash."],
+              "text_options_target": ["[TRANSLATE]","[TRANSLATE]","[TRANSLATE]"],
+              "correct_answer": "I need to withdraw money.",
+              "correct_answer_source": "I need to withdraw money.", "correct_answer_target": "[TRANSLATE]",
+              "scoring": { "points_correct": 10, "points_incorrect": 0 }
+            }
+          ]
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en", "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": ["**_target"],
+      "audio_generation_patterns": ["[GENERATE]","[GENERATE_FOR_TARGET]"]
+    }
+  }
+}

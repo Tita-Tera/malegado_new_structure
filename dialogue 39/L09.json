@@ -1,0 +1,255 @@
+{
+  "title": {
+    "value": "inserting your card",
+    "translatable": true
+  },
+  "description": {
+    "value": "Learn to say you put your debit card into the machine.",
+    "translatable": true
+  },
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "technology",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_atm_basics_001-L09",
+      "generation_timestamp": "2026-05-04T00:00:00Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A2",
+        "level_name": { "value": "Elementary", "translatable": true },
+        "level_description": { "value": "You can handle short, predictable exchanges about familiar everyday topics.", "translatable": true },
+        "cefr_equivalent": "A2",
+        "available_levels": ["A0","A1","A2","B1","B2","C1","C2"]
+      },
+      "theme_config": {
+        "theme_id": "TECHNOLOGY",
+        "theme_code": "TECHNOLOGY",
+        "theme_name": { "value": "Technology", "translatable": true },
+        "theme_description": { "value": "Talking about the small actions you take with cards and machines.", "translatable": true },
+        "available_themes": [
+          { "code": { "value": "ESS", "translatable": true }, "name": { "value": "Essentials", "translatable": true } },
+          { "code": { "value": "TRV", "translatable": true }, "name": { "value": "Travel", "translatable": true } }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "2.1b", "unit_number": 2, "subunit_number": 1, "variant": "b",
+        "unit_name": { "value": "Money & Services", "translatable": true },
+        "unit_description": { "value": "Everyday transactions: using banks, machines, and apps to handle your money.", "translatable": true },
+        "total_lessons_in_unit": 15, "unit_difficulty": 3, "estimated_completion_time_minutes": 75
+      },
+      "lesson_config": {
+        "lesson_number": 9, "lesson_type": "teaching",
+        "lesson_name": { "value": "inserting your card", "translatable": true },
+        "lesson_description": { "value": "Practice saying you put your card into the machine.", "translatable": true },
+        "estimated_duration_minutes": 5, "difficulty_within_unit": 9,
+        "prerequisites": [
+          "badge_atm_basics_001-L01","badge_atm_basics_001-L02","badge_atm_basics_001-L03",
+          "badge_atm_basics_001-L04","badge_atm_basics_001-L05","badge_atm_basics_001-L06",
+          "badge_atm_basics_001-L07","badge_atm_basics_001-L08"
+        ],
+        "learning_objectives": [
+          "Describe a present action with the simple present tense.",
+          "Use 'my' to mark a personal possession.",
+          "Recognize ATM-related vocabulary like 'debit card' and 'PIN'."
+        ],
+        "target_interactions": "15-20", "micro_flow_version": "2.0"
+      }
+    },
+    "lesson_structure": {
+      "phase_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": ["phase_1_vocabulary_anchor","phase_2_grammar_engine","phase_3_dialogue","phase_4_sprint_exercises"]
+      },
+      "phases": {
+        "phase_1_vocabulary_anchor": {
+          "phase_id": "phase_1",
+          "phase_name": { "value": "Vocabulary Anchor", "translatable": true },
+          "phase_code": "VOCAB_ANCHOR", "position_in_lesson": 1, "enabled": true, "required": true, "estimated_duration_seconds": 60,
+          "title_source": { "value": "Key phrases", "translatable": true }, "title_target": "[TRANSLATE]",
+          "phase_type": "VocabularyAnchor",
+          "core_phrase": {
+            "phrase_id": "core_9",
+            "source_text": { "value": "I insert my debit card.", "translatable": true },
+            "target_text": "[TRANSLATE]", "part_of_speech": "sentence",
+            "linguistic_info": {
+              "tooltip_source": { "value": "Used to describe putting a debit card into a slot to start a transaction.", "translatable": true },
+              "tooltip_target": "[TRANSLATE]", "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+            },
+            "media": { "image_url": "", "audio_normal": "[GENERATE]", "audio_slow": "[GENERATE]" },
+            "context": { "usage_context": "description", "formality_level": "neutral", "time_of_day": "any", "relationship": "any" }
+          },
+          "related_words": [
+            { "word_id": "rel_9_001", "source_text": { "value": "insert", "translatable": true }, "target_text": "[TRANSLATE]", "part_of_speech": "verb", "meaning_source": { "value": "To place an object into a slot or opening.", "translatable": true }, "meaning_target": "[TRANSLATE]" },
+            { "word_id": "rel_9_002", "source_text": { "value": "debit", "translatable": true }, "target_text": "[TRANSLATE]", "part_of_speech": "adjective", "meaning_source": { "value": "Connected directly to money in your bank account.", "translatable": true }, "meaning_target": "[TRANSLATE]" },
+            { "word_id": "rel_9_003", "source_text": { "value": "card", "translatable": true }, "target_text": "[TRANSLATE]", "part_of_speech": "noun", "meaning_source": { "value": "A small flat piece of plastic used for payments.", "translatable": true }, "meaning_target": "[TRANSLATE]" },
+            { "word_id": "rel_9_004", "source_text": { "value": "PIN", "translatable": true }, "target_text": "[TRANSLATE]", "part_of_speech": "noun", "meaning_source": { "value": "A short secret number that protects your account.", "translatable": true }, "meaning_target": "[TRANSLATE]" }
+          ],
+          "listen_repeat": {
+            "prompt_source": { "value": "Listen and repeat the core phrase.", "translatable": true },
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": { "audio_file": "[GENERATE]", "play_on_load": true },
+            "show_text_after_play": true
+          },
+          "quick_match": {
+            "prompt_source": { "value": "Connect each word to its meaning or image.", "translatable": true },
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              { "word_id": "rel_9_001", "correct_key": "rel_9_001_correct" },
+              { "word_id": "rel_9_002", "correct_key": "rel_9_002_correct" },
+              { "word_id": "rel_9_003", "correct_key": "rel_9_003_correct" },
+              { "word_id": "rel_9_004", "correct_key": "rel_9_004_correct" }
+            ],
+            "options_display": "shuffle"
+          }
+        },
+        "phase_2_grammar_engine": {
+          "phase_id": "phase_2", "phase_name": { "value": "Grammar Engine", "translatable": true },
+          "phase_code": "GRAMMAR", "position_in_lesson": 2, "enabled": true, "required": true, "estimated_duration_seconds": 45,
+          "title_source": { "value": "Grammar tip", "translatable": true }, "title_target": "[TRANSLATE]",
+          "phase_type": "GrammarEngine",
+          "pro_tip": {
+            "tip_id": "gram_9",
+            "concept_source": { "value": "Describing actions with simple present", "translatable": true }, "concept_target": "[TRANSLATE]",
+            "explanation_source": { "value": "Use 'I' plus a base verb to describe an action you do as part of a routine. Add 'my' before a noun to show it belongs to you.", "translatable": true },
+            "explanation_target": "[TRANSLATE]", "focus_type": "variations",
+            "examples": [
+              { "example_id": "ex_9_001", "source_text": { "value": "I put in my card.", "translatable": true }, "target_text": "[TRANSLATE]", "register": "informal", "usage_note_source": { "value": "Casual phrasing using 'put in' instead of 'insert'.", "translatable": true }, "usage_note_target": "[TRANSLATE]" },
+              { "example_id": "ex_9_002", "source_text": { "value": "I insert my debit card into the slot.", "translatable": true }, "target_text": "[TRANSLATE]", "register": "formal", "usage_note_source": { "value": "Detailed phrasing useful in instructions.", "translatable": true }, "usage_note_target": "[TRANSLATE]" }
+            ]
+          },
+          "modifiers": [
+            { "modifier_id": "mod_9_001", "modifier_source": { "value": "carefully", "translatable": true }, "modifier_target": "[TRANSLATE]", "example_source": { "value": "I carefully insert my debit card.", "translatable": true }, "example_target": "[TRANSLATE]", "explanation_source": { "value": "Add 'carefully' to show the action is done with care.", "translatable": true }, "explanation_target": "[TRANSLATE]" },
+            { "modifier_id": "mod_9_002", "modifier_source": { "value": "slowly", "translatable": true }, "modifier_target": "[TRANSLATE]", "example_source": { "value": "I slowly insert my debit card.", "translatable": true }, "example_target": "[TRANSLATE]", "explanation_source": { "value": "Add 'slowly' to mean the action is taking time.", "translatable": true }, "explanation_target": "[TRANSLATE]" }
+          ],
+          "sentence_building": [
+            {
+              "exercise_id": "ex_sb_9_1",
+              "target_sentence_source": { "value": "I insert my debit card.", "translatable": true },
+              "target_sentence_target": "[TRANSLATE]",
+              "word_tiles": [
+                { "word_id": "w1", "word_source": { "value": "I", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 1 },
+                { "word_id": "w2", "word_source": { "value": "insert", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 2 },
+                { "word_id": "w3", "word_source": { "value": "my", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 3 },
+                { "word_id": "w4", "word_source": { "value": "debit", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 4 },
+                { "word_id": "w5", "word_source": { "value": "card", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 5 }
+              ],
+              "punctuation_mode": "auto_fit",
+              "hints": "Subject + verb + 'my' + noun phrase.",
+              "hints_source": { "value": "Subject + verb + 'my' + noun phrase.", "translatable": true },
+              "hints_target": "[TRANSLATE]"
+            },
+            {
+              "exercise_id": "ex_sb_9_2",
+              "target_sentence_source": { "value": "I enter my PIN.", "translatable": true },
+              "target_sentence_target": "[TRANSLATE]",
+              "word_tiles": [
+                { "word_id": "w1", "word_source": { "value": "I", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 1 },
+                { "word_id": "w2", "word_source": { "value": "enter", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 2 },
+                { "word_id": "w3", "word_source": { "value": "my", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 3 },
+                { "word_id": "w4", "word_source": { "value": "PIN", "translatable": true }, "word_target": "[TRANSLATE]", "correct_position": 4 }
+              ],
+              "punctuation_mode": "auto_fit",
+              "hints": "Same pattern, different action and object.",
+              "hints_source": { "value": "Same pattern, different action and object.", "translatable": true },
+              "hints_target": "[TRANSLATE]"
+            }
+          ]
+        },
+        "phase_3_dialogue": {
+          "phase_id": "phase_3", "phase_name": { "value": "Dialogue Practice", "translatable": true },
+          "phase_code": "DIALOGUE", "position_in_lesson": 4, "enabled": true, "required": true, "estimated_duration_seconds": 90,
+          "title_source": { "value": "Conversation", "translatable": true }, "title_target": "[TRANSLATE]",
+          "phase_type": "Dialogue",
+          "setting": { "value": "Standing at the ATM", "translatable": true },
+          "context": { "value": "You walk a friend through using the machine step by step.", "translatable": true },
+          "dialogue": [
+            { "turn_id": "turn_001", "turn_number": 1, "speaker": "PARTNER", "text_source": { "value": "What is the first step?", "translatable": true }, "text_target": "[TRANSLATE]", "practice_mode": "listen_and_repeat" },
+            { "turn_id": "turn_002", "turn_number": 2, "speaker": "YOU", "text_source": { "value": "I insert my debit card.", "translatable": true }, "text_target": "[TRANSLATE]", "practice_mode": "speak_along" },
+            { "turn_id": "turn_003", "turn_number": 3, "speaker": "PARTNER", "text_source": { "value": "And then?", "translatable": true }, "text_target": "[TRANSLATE]", "practice_mode": "listen_and_repeat" },
+            { "turn_id": "turn_004", "turn_number": 4, "speaker": "YOU", "text_source": { "value": "I enter my PIN.", "translatable": true }, "text_target": "[TRANSLATE]", "practice_mode": "speak_along" },
+            { "turn_id": "turn_005", "turn_number": 5, "speaker": "PARTNER", "text_source": { "value": "Okay, that sounds simple.", "translatable": true }, "text_target": "[TRANSLATE]", "practice_mode": "listen_and_repeat" }
+          ]
+        },
+        "phase_4_sprint_exercises": {
+          "phase_id": "phase_4", "phase_name": { "value": "Sprint & review", "translatable": true },
+          "phase_code": "SPRINT", "position_in_lesson": 5, "enabled": true, "required": true, "estimated_duration_seconds": 120,
+          "title_source": { "value": "Quick practice", "translatable": true }, "title_target": "[TRANSLATE]",
+          "phase_type": "SprintExercises", "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_audio_text", "exercise_type": "Audio-to-Text Matching",
+              "prompt_source": "Select the phrase you hear:", "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": { "audio_file": "[GENERATE]", "play_on_load": false },
+              "text_options": ["I insert my debit card.","I enter my PIN.","I take my card."],
+              "text_options_source": ["I insert my debit card.","I enter my PIN.","I take my card."],
+              "text_options_target": ["[TRANSLATE]","[TRANSLATE]","[TRANSLATE]"],
+              "correct_answer": "I insert my debit card.",
+              "correct_answer_source": "I insert my debit card.", "correct_answer_target": "[TRANSLATE]",
+              "scoring": { "points_correct": 10, "points_incorrect": 0 }
+            },
+            {
+              "exercise_id": "ex_sp_sentence_open", "exercise_type": "Sentence Completion (Open)",
+              "prompt_source": "Finish in your own words:", "prompt_target": "[TRANSLATE]",
+              "prompt": "I insert my ___.",
+              "prompt_text_source": "I insert my ___.", "prompt_text_target": "[TRANSLATE]",
+              "expected_response": "I insert my debit card.",
+              "expected_response_source": "I insert my debit card.", "expected_response_target": "[TRANSLATE]",
+              "scoring_criteria": "Sentence must end with a noun phrase that names something insertable.",
+              "scoring_criteria_source": "Sentence must end with a noun phrase that names something insertable.",
+              "scoring_criteria_target": "[TRANSLATE]",
+              "scoring": { "points_correct": 10, "points_incorrect": 0 }
+            },
+            {
+              "exercise_id": "ex_v1_audio_image", "exercise_type": "Audio-to-Image Matching",
+              "prompt_source": "Tap the image that matches what you hear:", "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": { "audio_file": "[GENERATE]", "play_on_load": true, "text_to_speak_target": "I insert my debit card." },
+              "image_options": [
+                { "option_id": "opt_01", "image_url": "", "correct": true },
+                { "option_id": "opt_02", "image_url": "", "correct": false },
+                { "option_id": "opt_03", "image_url": "", "correct": false },
+                { "option_id": "opt_04", "image_url": "", "correct": false }
+              ],
+              "scoring": { "points_correct": 10, "points_incorrect": 0 }
+            },
+            {
+              "exercise_id": "ex_sp_audio_blank", "exercise_type": "Audio Fill-in-the-Blank",
+              "prompt_source": "Listen and complete:", "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": { "audio_file": "[GENERATE]", "play_on_load": true },
+              "sentence": "I insert my debit ___.",
+              "sentence_source": "I insert my debit ___.", "sentence_target": "[TRANSLATE]",
+              "blanks": [4],
+              "correct_answer": "card",
+              "correct_answer_source": "card", "correct_answer_target": "[TRANSLATE]",
+              "scoring": { "points_correct": 10, "points_incorrect": 0 }
+            },
+            {
+              "exercise_id": "ex_sp_flashcard", "exercise_type": "Digital Flashcards",
+              "prompt_source": "Study the card:", "prompt_target": "[TRANSLATE]",
+              "word": "debit card",
+              "definition": "A plastic card linked to your bank account that lets you pay or withdraw cash.",
+              "examples": ["I insert my debit card."],
+              "context": "Used at ATMs, shops, and online stores.",
+              "word_source": "debit card", "word_target": "[TRANSLATE]",
+              "definition_source": "A plastic card linked to your bank account that lets you pay or withdraw cash.",
+              "definition_target": "[TRANSLATE]",
+              "examples_source": ["I insert my debit card."],
+              "examples_target": ["[TRANSLATE]"],
+              "context_source": "Used at ATMs, shops, and online stores.",
+              "context_target": "[TRANSLATE]",
+              "scoring": { "points_correct": 5, "points_incorrect": 0 }
+            }
+          ]
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en", "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": ["**_target"],
+      "audio_generation_patterns": ["[GENERATE]","[GENERATE_FOR_TARGET]"]
+    }
+  }
+}

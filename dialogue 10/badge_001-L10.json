@@ -1,0 +1,285 @@
+{
+  "title": {"value": "asking about past events", "translatable": true},
+  "description": {"value": "Learn how to ask a past yes/no question with 'Did'.", "translatable": true},
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "past experiences",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_001-L10",
+      "generation_timestamp": "2026-05-02T12:09:00Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A1",
+        "level_name": {"value": "Beginner", "translatable": true},
+        "level_description": {"value": "For learners with very little prior experience in the language.", "translatable": true},
+        "cefr_equivalent": "A1",
+        "available_levels": ["A0", "A1", "A2", "B1", "B2", "C1", "C2"]
+      },
+      "theme_config": {
+        "theme_id": "PAST_EXPERIENCES",
+        "theme_code": "PAST_EXPERIENCES",
+        "theme_name": {"value": "Past Experiences", "translatable": true},
+        "theme_description": {"value": "Words and questions used to talk about things that already happened.", "translatable": true},
+        "available_themes": [
+          {"code": {"value": "ESS", "translatable": true}, "name": {"value": "Essentials", "translatable": true}},
+          {"code": {"value": "TRV", "translatable": true}, "name": {"value": "Travel", "translatable": true}}
+        ]
+      },
+      "unit_config": {
+        "unit_id": "2.1a",
+        "unit_number": 2,
+        "subunit_number": 1,
+        "variant": "a",
+        "unit_name": {"value": "Home Life", "translatable": true},
+        "unit_description": {"value": "Everyday conversations about furniture, comfort, and small problems at home.", "translatable": true},
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 2,
+        "estimated_completion_time_minutes": 75
+      },
+      "lesson_config": {
+        "lesson_number": 10,
+        "lesson_type": "teaching",
+        "lesson_name": {"value": "asking about past events", "translatable": true},
+        "lesson_description": {"value": "Learn how to ask a past yes/no question with 'Did'.", "translatable": true},
+        "estimated_duration_minutes": 5,
+        "difficulty_within_unit": 10,
+        "prerequisites": ["badge_001-L01", "badge_001-L02", "badge_001-L03", "badge_001-L04", "badge_001-L05", "badge_001-L06", "badge_001-L07", "badge_001-L08", "badge_001-L09"],
+        "learning_objectives": [
+          "Ask a past yes/no question using 'Did + subject + base verb'.",
+          "Use 'Did' for any subject in past simple questions.",
+          "Recognize basic time markers used with past simple."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      }
+    },
+    "lesson_structure": {
+      "phase_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": ["phase_1_vocabulary_anchor", "phase_2_grammar_engine", "phase_3_dialogue", "phase_4_sprint_exercises"]
+      },
+      "phases": {
+        "phase_1_vocabulary_anchor": {
+          "phase_id": "phase_1",
+          "phase_name": {"value": "Vocabulary Anchor", "translatable": true},
+          "phase_code": "VOCAB_ANCHOR",
+          "position_in_lesson": 1,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": {"value": "Key phrases", "translatable": true},
+          "title_target": "[TRANSLATE]",
+          "phase_type": "VocabularyAnchor",
+          "core_phrase": {
+            "phrase_id": "core_10",
+            "source_text": {"value": "Did the cat bite you?", "translatable": true},
+            "target_text": "[TRANSLATE]",
+            "part_of_speech": "question",
+            "linguistic_info": {
+              "tooltip_source": {"value": "A past yes/no question asking if an animal bit you.", "translatable": true},
+              "tooltip_target": "[TRANSLATE]",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+            },
+            "media": {"image_url": "", "audio_normal": "[GENERATE]", "audio_slow": "[GENERATE]"},
+            "context": {"usage_context": "question", "formality_level": "neutral", "time_of_day": "any", "relationship": "any"}
+          },
+          "related_words": [
+            {"word_id": "rel_10_001", "source_text": {"value": "dog", "translatable": true}, "target_text": "[TRANSLATE]", "part_of_speech": "noun", "meaning_source": {"value": "A common pet animal that barks.", "translatable": true}, "meaning_target": "[TRANSLATE]", "media": {"image_url": "", "audio_normal": "[GENERATE]", "audio_slow": "[GENERATE]"}},
+            {"word_id": "rel_10_002", "source_text": {"value": "spider", "translatable": true}, "target_text": "[TRANSLATE]", "part_of_speech": "noun", "meaning_source": {"value": "A small animal with eight legs that makes webs.", "translatable": true}, "meaning_target": "[TRANSLATE]", "media": {"image_url": "", "audio_normal": "[GENERATE]", "audio_slow": "[GENERATE]"}},
+            {"word_id": "rel_10_003", "source_text": {"value": "yesterday", "translatable": true}, "target_text": "[TRANSLATE]", "part_of_speech": "adverb", "meaning_source": {"value": "The day before today.", "translatable": true}, "meaning_target": "[TRANSLATE]", "media": {"image_url": "", "audio_normal": "[GENERATE]", "audio_slow": "[GENERATE]"}},
+            {"word_id": "rel_10_004", "source_text": {"value": "ago", "translatable": true}, "target_text": "[TRANSLATE]", "part_of_speech": "adverb", "meaning_source": {"value": "A word used after a time to mean before now, like 'two days ago'.", "translatable": true}, "meaning_target": "[TRANSLATE]", "media": {"image_url": "", "audio_normal": "[GENERATE]", "audio_slow": "[GENERATE]"}}
+          ],
+          "listen_repeat": {
+            "prompt_source": {"value": "Listen and repeat the core phrase.", "translatable": true},
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {"audio_file": "[GENERATE]", "play_on_load": true},
+            "show_text_after_play": true
+          },
+          "quick_match": {
+            "prompt_source": {"value": "Connect each word to its meaning or image.", "translatable": true},
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              {"word_id": "rel_10_001", "correct_key": "rel_10_001_correct"},
+              {"word_id": "rel_10_002", "correct_key": "rel_10_002_correct"},
+              {"word_id": "rel_10_003", "correct_key": "rel_10_003_correct"},
+              {"word_id": "rel_10_004", "correct_key": "rel_10_004_correct"}
+            ],
+            "options_display": "shuffle"
+          }
+        },
+        "phase_2_grammar_engine": {
+          "phase_id": "phase_2",
+          "phase_name": {"value": "Grammar Engine", "translatable": true},
+          "phase_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": {"value": "Grammar tip", "translatable": true},
+          "title_target": "[TRANSLATE]",
+          "phase_type": "GrammarEngine",
+          "pro_tip": {
+            "tip_id": "gram_10",
+            "concept_source": {"value": "Did + subject + base verb", "translatable": true},
+            "concept_target": "[TRANSLATE]",
+            "explanation_source": {"value": "Use 'Did' to start a past yes/no question. Use the base form of the main verb after the subject. Do not add -ed or -s.", "translatable": true},
+            "explanation_target": "[TRANSLATE]",
+            "focus_type": "variations",
+            "examples": [
+              {"example_id": "ex_10_001", "source_text": {"value": "Were you bitten by the cat?", "translatable": true}, "target_text": "[TRANSLATE]", "register": "formal", "usage_note_source": {"value": "A more formal version using passive form.", "translatable": true}, "usage_note_target": "[TRANSLATE]"},
+              {"example_id": "ex_10_002", "source_text": {"value": "Did the cat bite ya?", "translatable": true}, "target_text": "[TRANSLATE]", "register": "casual", "usage_note_source": {"value": "A casual version with 'ya' instead of 'you' in fast speech.", "translatable": true}, "usage_note_target": "[TRANSLATE]"}
+            ]
+          },
+          "modifiers": [
+            {"modifier_id": "mod_10_001", "modifier_source": {"value": "really", "translatable": true}, "modifier_target": "[TRANSLATE]", "example_source": {"value": "Did the cat really bite you?", "translatable": true}, "example_target": "[TRANSLATE]", "explanation_source": {"value": "Add 'really' before the verb to show surprise or doubt.", "translatable": true}, "explanation_target": "[TRANSLATE]"},
+            {"modifier_id": "mod_10_002", "modifier_source": {"value": "yesterday", "translatable": true}, "modifier_target": "[TRANSLATE]", "example_source": {"value": "Did the cat bite you yesterday?", "translatable": true}, "example_target": "[TRANSLATE]", "explanation_source": {"value": "Add 'yesterday' at the end to ask about a specific day in the past.", "translatable": true}, "explanation_target": "[TRANSLATE]"}
+          ],
+          "sentence_building": [
+            {
+              "exercise_id": "ex_sb_10_1",
+              "target_sentence_source": {"value": "Did the cat bite you?", "translatable": true},
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {"word_id": "w1", "word_source": {"value": "Did", "translatable": true}, "word_target": "[TRANSLATE]", "correct_position": 1},
+                {"word_id": "w2", "word_source": {"value": "the", "translatable": true}, "word_target": "[TRANSLATE]", "correct_position": 2},
+                {"word_id": "w3", "word_source": {"value": "cat", "translatable": true}, "word_target": "[TRANSLATE]", "correct_position": 3},
+                {"word_id": "w4", "word_source": {"value": "bite", "translatable": true}, "word_target": "[TRANSLATE]", "correct_position": 4},
+                {"word_id": "w5", "word_source": {"value": "you", "translatable": true}, "word_target": "[TRANSLATE]", "correct_position": 5}
+              ],
+              "hints": "Start with 'Did'. The main verb stays in the base form."
+            },
+            {
+              "exercise_id": "ex_sb_10_2",
+              "target_sentence_source": {"value": "Did the dog bite you?", "translatable": true},
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {"word_id": "w1", "word_source": {"value": "Did", "translatable": true}, "word_target": "[TRANSLATE]", "correct_position": 1},
+                {"word_id": "w2", "word_source": {"value": "the", "translatable": true}, "word_target": "[TRANSLATE]", "correct_position": 2},
+                {"word_id": "w3", "word_source": {"value": "dog", "translatable": true}, "word_target": "[TRANSLATE]", "correct_position": 3},
+                {"word_id": "w4", "word_source": {"value": "bite", "translatable": true}, "word_target": "[TRANSLATE]", "correct_position": 4},
+                {"word_id": "w5", "word_source": {"value": "you", "translatable": true}, "word_target": "[TRANSLATE]", "correct_position": 5}
+              ],
+              "hints": "Same pattern, just change the animal."
+            }
+          ]
+        },
+        "phase_3_dialogue": {
+          "phase_id": "phase_3",
+          "phase_name": {"value": "Dialogue Practice", "translatable": true},
+          "phase_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": {"value": "Conversation", "translatable": true},
+          "title_target": "[TRANSLATE]",
+          "phase_type": "Dialogue",
+          "setting": {"value": "A living room in the afternoon.", "translatable": true},
+          "context": {"value": "Asking a friend with a sore arm what happened.", "translatable": true},
+          "dialogue": [
+            {"turn_id": "turn_001", "turn_number": 1, "speaker": "PARTNER", "text_source": {"value": "Ouch, my arm is so sore.", "translatable": true}, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "listen_and_repeat"},
+            {"turn_id": "turn_002", "turn_number": 2, "speaker": "YOU", "text_source": {"value": "Did the cat bite you?", "translatable": true}, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "speak_along"},
+            {"turn_id": "turn_003", "turn_number": 3, "speaker": "PARTNER", "text_source": {"value": "Yes, this morning at the door.", "translatable": true}, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "listen_and_repeat"},
+            {"turn_id": "turn_004", "turn_number": 4, "speaker": "YOU", "text_source": {"value": "Did you wash it well?", "translatable": true}, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "speak_along"},
+            {"turn_id": "turn_005", "turn_number": 5, "speaker": "PARTNER", "text_source": {"value": "Yes, with soap and water.", "translatable": true}, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "listen_and_repeat"}
+          ]
+        },
+        "phase_4_sprint_exercises": {
+          "phase_id": "phase_4",
+          "phase_name": {"value": "Sprint & review", "translatable": true},
+          "phase_code": "SPRINT",
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": {"value": "Quick practice", "translatable": true},
+          "title_target": "[TRANSLATE]",
+          "phase_type": "SprintExercises",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_flashcard",
+              "exercise_type": "Digital Flashcards",
+              "prompt_source": "Study the card:",
+              "prompt_target": "[TRANSLATE]",
+              "word": "Did",
+              "definition": "A helping word used at the start of past yes/no questions.",
+              "examples": ["Did the cat bite you?", "Did you sleep well?"],
+              "context": "Always followed by a subject and the base form of the main verb.",
+              "word_source": "Did",
+              "word_target": "[TRANSLATE]",
+              "definition_source": "A helping word used at the start of past yes/no questions.",
+              "definition_target": "[TRANSLATE]",
+              "examples_source": ["Did the cat bite you?", "Did you sleep well?"],
+              "examples_target": ["[TRANSLATE]", "[TRANSLATE]"],
+              "context_source": "Always followed by a subject and the base form of the main verb.",
+              "context_target": "[TRANSLATE]",
+              "scoring": {"points_correct": 5, "points_incorrect": 0}
+            },
+            {
+              "exercise_id": "ex_sp_quick_fire",
+              "exercise_type": "Listen and Respond (Quick Fire)",
+              "prompt_source": "Listen and respond out loud:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {"audio_file": "[GENERATE]", "play_on_load": true, "text_to_speak_target": "My arm hurts."},
+              "prompt": "My arm hurts.",
+              "prompt_text_source": "My arm hurts.",
+              "prompt_text_target": "[TRANSLATE]",
+              "response": {
+                "mode": "speech",
+                "acceptable_responses": ["Did the cat bite you?", "Did the dog bite you?"],
+                "acceptable_responses_source": ["Did the cat bite you?", "Did the dog bite you?"],
+                "acceptable_responses_target": ["[TRANSLATE]", "[TRANSLATE]"],
+                "time_limit_seconds": 8
+              },
+              "scoring": {"points_correct": 10, "points_incorrect": 0}
+            },
+            {
+              "exercise_id": "ex_sp_text_audio",
+              "exercise_type": "Text-to-Audio Matching",
+              "prompt_source": "Tap the audio that matches:",
+              "prompt_target": "[TRANSLATE]",
+              "text_stimulus": "Did the cat bite you?",
+              "text_stimulus_source": "Did the cat bite you?",
+              "text_stimulus_target": "[TRANSLATE]",
+              "audio_options": [
+                {"option_id": "a1", "audio_file": "[GENERATE]", "text_to_speak_target": "Did the cat bite you?", "correct": true},
+                {"option_id": "a2", "audio_file": "[GENERATE]", "text_to_speak_target": "Did the dog bite you?", "correct": false}
+              ],
+              "correct_answer": "Did the cat bite you?",
+              "correct_answer_source": "Did the cat bite you?",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {"points_correct": 10, "points_incorrect": 0}
+            },
+            {
+              "exercise_id": "ex_sp_fill_dialogue",
+              "exercise_type": "Fill-in-the-Dialogue (Speaking)",
+              "prompt_source": "Speak your line:",
+              "prompt_target": "[TRANSLATE]",
+              "dialogue_context": "A friend complains about a mark on their hand.",
+              "dialogue_context_source": "A friend complains about a mark on their hand.",
+              "dialogue_context_target": "[TRANSLATE]",
+              "turns": [
+                {"turn_number": 1, "speaker": "PARTNER", "text_source": "Look at this red mark on my hand.", "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "text_to_speak_target": "Look at this red mark on my hand."},
+                {"turn_number": 2, "speaker": "YOU", "text_source": "[YOUR LINE]", "expected_response": "Did the cat bite you?", "expected_response_source": "Did the cat bite you?", "expected_response_target": "[TRANSLATE]", "acceptable_responses": ["Did the cat bite you?", "Did the dog bite you?"], "acceptable_responses_source": ["Did the cat bite you?", "Did the dog bite you?"], "acceptable_responses_target": ["[TRANSLATE]", "[TRANSLATE]"]}
+              ],
+              "scoring": {"points_correct": 15, "points_incorrect": 0}
+            }
+          ]
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": ["**_target"],
+      "audio_generation_patterns": ["[GENERATE]", "[GENERATE_FOR_TARGET]"]
+    }
+  }
+}

@@ -1,0 +1,647 @@
+{
+  "title": {
+    "value": "saying it is free",
+    "translatable": true
+  },
+  "description": {
+    "value": "Learn to share an opinion that something costs nothing.",
+    "translatable": true
+  },
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "opinions",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_negotiating_wants-L05",
+      "generation_timestamp": "2026-05-03T00:00:00Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A1",
+        "level_name": {
+          "value": "Beginner",
+          "translatable": true
+        },
+        "level_description": {
+          "value": "Build simple sentences for everyday situations.",
+          "translatable": true
+        },
+        "cefr_equivalent": "A1",
+        "available_levels": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      "theme_config": {
+        "theme_id": "OPINIONS",
+        "theme_code": "OPINIONS",
+        "theme_name": {
+          "value": "Opinions",
+          "translatable": true
+        },
+        "theme_description": {
+          "value": "Share a simple opinion or claim about a thing.",
+          "translatable": true
+        },
+        "available_themes": [
+          {
+            "code": {
+              "value": "ESS",
+              "translatable": true
+            },
+            "name": {
+              "value": "Essentials",
+              "translatable": true
+            }
+          },
+          {
+            "code": {
+              "value": "TRV",
+              "translatable": true
+            },
+            "name": {
+              "value": "Travel",
+              "translatable": true
+            }
+          }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "1.2a",
+        "unit_number": 1,
+        "subunit_number": 2,
+        "variant": "a",
+        "unit_name": {
+          "value": "Asking & Negotiating",
+          "translatable": true
+        },
+        "unit_description": {
+          "value": "Ask for things you want and handle the back-and-forth of everyday negotiations.",
+          "translatable": true
+        },
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 2,
+        "estimated_completion_time_minutes": 75
+      },
+      "lesson_config": {
+        "lesson_number": 5,
+        "lesson_type": "teaching",
+        "lesson_name": {
+          "value": "saying it is free",
+          "translatable": true
+        },
+        "lesson_description": {
+          "value": "Learn to share an opinion that something costs nothing.",
+          "translatable": true
+        },
+        "estimated_duration_minutes": 5,
+        "difficulty_within_unit": 5,
+        "prerequisites": [
+          "badge_negotiating_wants-L01",
+          "badge_negotiating_wants-L02",
+          "badge_negotiating_wants-L03",
+          "badge_negotiating_wants-L04"
+        ],
+        "learning_objectives": [
+          "State that something costs nothing using 'are free'.",
+          "Use plural subjects with 'are' for general claims.",
+          "Disagree gently in a friendly conversation."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      }
+    },
+    "lesson_structure": {
+      "phase_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "phase_1_vocabulary_anchor",
+          "phase_2_grammar_engine",
+          "phase_3_dialogue",
+          "phase_4_sprint_exercises"
+        ]
+      },
+      "phases": {
+        "phase_1_vocabulary_anchor": {
+          "phase_id": "phase_1",
+          "phase_name": {
+            "value": "Vocabulary Anchor",
+            "translatable": true
+          },
+          "phase_code": "VOCAB_ANCHOR",
+          "position_in_lesson": 1,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": {
+            "value": "Key phrases",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "VocabularyAnchor",
+          "core_phrase": {
+            "phrase_id": "core_5",
+            "source_text": {
+              "value": "Puppies are free.",
+              "translatable": true
+            },
+            "target_text": "[TRANSLATE]",
+            "part_of_speech": "verb_phrase",
+            "linguistic_info": {
+              "tooltip_source": {
+                "value": "An opinion or claim that something costs nothing.",
+                "translatable": true
+              },
+              "tooltip_target": "[TRANSLATE]",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+            },
+            "media": {
+              "image_url": "",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            "context": {
+              "usage_context": "opinion",
+              "formality_level": "informal",
+              "time_of_day": "any",
+              "relationship": "any"
+            }
+          },
+          "related_words": [
+            {
+              "word_id": "rel_5_001",
+              "source_text": {
+                "value": "free",
+                "translatable": true
+              },
+              "part_of_speech": "adjective",
+              "meaning_source": {
+                "value": "Costing no money.",
+                "translatable": true
+              }
+            },
+            {
+              "word_id": "rel_5_002",
+              "source_text": {
+                "value": "cheap",
+                "translatable": true
+              },
+              "part_of_speech": "adjective",
+              "meaning_source": {
+                "value": "Costing very little money.",
+                "translatable": true
+              }
+            },
+            {
+              "word_id": "rel_5_003",
+              "source_text": {
+                "value": "give",
+                "translatable": true
+              },
+              "part_of_speech": "verb",
+              "meaning_source": {
+                "value": "To hand something to someone with no payment.",
+                "translatable": true
+              }
+            },
+            {
+              "word_id": "rel_5_004",
+              "source_text": {
+                "value": "true",
+                "translatable": true
+              },
+              "part_of_speech": "adjective",
+              "meaning_source": {
+                "value": "Real or correct, not false.",
+                "translatable": true
+              }
+            }
+          ],
+          "listen_repeat": {
+            "prompt_source": {
+              "value": "Listen and repeat the core phrase.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {
+              "audio_file": "[GENERATE]",
+              "play_on_load": true
+            },
+            "show_text_after_play": true
+          },
+          "quick_match": {
+            "prompt_source": {
+              "value": "Connect each word to its meaning or image.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              {
+                "word_id": "rel_5_001",
+                "correct_key": "rel_5_001_correct"
+              },
+              {
+                "word_id": "rel_5_002",
+                "correct_key": "rel_5_002_correct"
+              },
+              {
+                "word_id": "rel_5_003",
+                "correct_key": "rel_5_003_correct"
+              },
+              {
+                "word_id": "rel_5_004",
+                "correct_key": "rel_5_004_correct"
+              }
+            ],
+            "options_display": "shuffle"
+          }
+        },
+        "phase_2_grammar_engine": {
+          "phase_id": "phase_2",
+          "phase_name": {
+            "value": "Grammar Engine",
+            "translatable": true
+          },
+          "phase_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": {
+            "value": "Grammar tip",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "GrammarEngine",
+          "pro_tip": {
+            "tip_id": "gram_5",
+            "concept_source": {
+              "value": "Plural subjects with 'are' for general claims.",
+              "translatable": true
+            },
+            "concept_target": "[TRANSLATE]",
+            "explanation_source": {
+              "value": "Use 'are' after a plural subject like 'puppies'. No article is needed when you mean all of them in general.",
+              "translatable": true
+            },
+            "explanation_target": "[TRANSLATE]",
+            "focus_type": "variations",
+            "examples": [
+              {
+                "example_id": "ex_5_001",
+                "source_text": {
+                  "value": "Puppies do not cost money.",
+                  "translatable": true
+                },
+                "register": "informal",
+                "usage_note_source": {
+                  "value": "Another way to say the same thing using a verb instead.",
+                  "translatable": true
+                }
+              },
+              {
+                "example_id": "ex_5_002",
+                "source_text": {
+                  "value": "Puppies are usually free.",
+                  "translatable": true
+                },
+                "register": "informal",
+                "usage_note_source": {
+                  "value": "'Usually' softens the claim a little.",
+                  "translatable": true
+                }
+              }
+            ]
+          },
+          "modifiers": [
+            {
+              "modifier_id": "mod_5_001",
+              "modifier_source": {
+                "value": "always",
+                "translatable": true
+              },
+              "example_source": {
+                "value": "Puppies are always free.",
+                "translatable": true
+              },
+              "explanation_source": {
+                "value": "'Always' makes the claim stronger.",
+                "translatable": true
+              }
+            },
+            {
+              "modifier_id": "mod_5_002",
+              "modifier_source": {
+                "value": "sometimes",
+                "translatable": true
+              },
+              "example_source": {
+                "value": "Puppies are sometimes free.",
+                "translatable": true
+              },
+              "explanation_source": {
+                "value": "'Sometimes' makes the claim softer and safer.",
+                "translatable": true
+              }
+            }
+          ],
+          "sentence_building": [
+            {
+              "exercise_id": "ex_sb_5_1",
+              "target_sentence_source": {
+                "value": "Puppies are free.",
+                "translatable": true
+              },
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": {
+                    "value": "Puppies",
+                    "translatable": true
+                  },
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": {
+                    "value": "are",
+                    "translatable": true
+                  },
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": {
+                    "value": "free",
+                    "translatable": true
+                  },
+                  "correct_position": 3
+                }
+              ],
+              "hints": "Plural subject + 'are' + describing word."
+            },
+            {
+              "exercise_id": "ex_sb_5_2",
+              "target_sentence_source": {
+                "value": "Puppies are cheap.",
+                "translatable": true
+              },
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": {
+                    "value": "Puppies",
+                    "translatable": true
+                  },
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": {
+                    "value": "are",
+                    "translatable": true
+                  },
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": {
+                    "value": "cheap",
+                    "translatable": true
+                  },
+                  "correct_position": 3
+                }
+              ],
+              "hints": "Same shape; just swap the describing word."
+            }
+          ]
+        },
+        "phase_3_dialogue": {
+          "phase_id": "phase_3",
+          "phase_name": {
+            "value": "Dialogue Practice",
+            "translatable": true
+          },
+          "phase_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": {
+            "value": "Conversation",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "Dialogue",
+          "setting": {
+            "value": "At home, after a price comment",
+            "translatable": true
+          },
+          "context": {
+            "value": "A child gently disagrees about the cost of a puppy.",
+            "translatable": true
+          },
+          "dialogue": [
+            {
+              "turn_id": "turn_001",
+              "turn_number": 1,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "A puppy costs too much.",
+                "translatable": true
+              },
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_002",
+              "turn_number": 2,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "Puppies are free.",
+                "translatable": true
+              },
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_003",
+              "turn_number": 3,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "Really? How?",
+                "translatable": true
+              },
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_004",
+              "turn_number": 4,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "My friend can give me one.",
+                "translatable": true
+              },
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_005",
+              "turn_number": 5,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "That is good news.",
+                "translatable": true
+              },
+              "practice_mode": "listen_and_repeat"
+            }
+          ]
+        },
+        "phase_4_sprint_exercises": {
+          "phase_id": "phase_4",
+          "phase_name": {
+            "value": "Sprint & review",
+            "translatable": true
+          },
+          "phase_code": "SPRINT",
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": {
+            "value": "Quick practice",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "SprintExercises",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_fill_dialogue",
+              "exercise_type": "Fill-in-the-Dialogue (Speaking)",
+              "prompt_source": "Speak your line:",
+              "prompt_target": "[TRANSLATE]",
+              "dialogue_context": "Someone says puppies are too costly. Disagree.",
+              "dialogue_context_source": "Someone says puppies are too costly. Disagree.",
+              "dialogue_context_target": "[TRANSLATE]",
+              "turns": [
+                {
+                  "turn_number": 1,
+                  "speaker": "PARTNER",
+                  "text_source": "Puppies cost a lot of money.",
+                  "text_target": "[TRANSLATE]",
+                  "audio_file": "[GENERATE]",
+                  "text_to_speak_target": "Puppies cost a lot of money."
+                },
+                {
+                  "turn_number": 2,
+                  "speaker": "YOU",
+                  "text_source": "Puppies are free.",
+                  "expected_response": "Puppies are free.",
+                  "expected_response_source": "Puppies are free.",
+                  "expected_response_target": "[TRANSLATE]",
+                  "acceptable_responses": [
+                    "Puppies are free.",
+                    "Puppies are cheap."
+                  ],
+                  "acceptable_responses_source": [
+                    "Puppies are free.",
+                    "Puppies are cheap."
+                  ],
+                  "acceptable_responses_target": [
+                    "[TRANSLATE]",
+                    "[TRANSLATE]"
+                  ]
+                }
+              ],
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_v1_audio_image",
+              "exercise_type": "Audio-to-Image Matching",
+              "prompt_source": "Tap the image that matches what you hear:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true,
+                "text_to_speak_target": "Puppies are free."
+              },
+              "image_options": [
+                {
+                  "option_id": "opt_01",
+                  "image_url": "",
+                  "correct": true
+                },
+                {
+                  "option_id": "opt_02",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_03",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_04",
+                  "image_url": "",
+                  "correct": false
+                }
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_flashcard",
+              "exercise_type": "Digital Flashcards",
+              "prompt_source": "Study the card:",
+              "prompt_target": "[TRANSLATE]",
+              "word": "free",
+              "definition": "Costing no money.",
+              "examples": [
+                "Puppies are free."
+              ],
+              "context": "Used for things you do not have to pay for.",
+              "word_source": "free",
+              "word_target": "[TRANSLATE]",
+              "definition_source": "Costing no money.",
+              "definition_target": "[TRANSLATE]",
+              "examples_source": [
+                "Puppies are free."
+              ],
+              "examples_target": [
+                "[TRANSLATE]"
+              ],
+              "context_source": "Used for things you do not have to pay for.",
+              "context_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 5,
+                "points_incorrect": 0
+              }
+            }
+          ]
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": [
+        "**_target"
+      ],
+      "audio_generation_patterns": [
+        "[GENERATE]",
+        "[GENERATE_FOR_TARGET]"
+      ]
+    }
+  }
+}

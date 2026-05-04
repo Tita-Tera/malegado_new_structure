@@ -1,0 +1,408 @@
+{
+  "title": {"value": "giving in just a little", "translatable": true},
+  "description": {"value": "Soften your stance and admit your friend may be right.", "translatable": true},
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "opinions",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_001-L11",
+      "generation_timestamp": "2026-05-02T12:00:00Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A1",
+        "level_name": {"value": "Beginner", "translatable": true},
+        "level_description": {"value": "First everyday phrases for talking with a friend.", "translatable": true},
+        "cefr_equivalent": "A1",
+        "available_levels": ["A0","A1","A2","B1","B2","C1","C2"]
+      },
+      "theme_config": {
+        "theme_id": "OPINIONS",
+        "theme_code": "OPINIONS",
+        "theme_name": {"value": "Opinions", "translatable": true},
+        "theme_description": {"value": "Softening or conceding when someone else might be right.", "translatable": true},
+        "available_themes": [
+          {"code": {"value": "ESS", "translatable": true}, "name": {"value": "Essentials", "translatable": true}},
+          {"code": {"value": "TRV", "translatable": true}, "name": {"value": "Travel", "translatable": true}}
+        ]
+      },
+      "unit_config": {
+        "unit_id": "2.1a",
+        "unit_number": 2,
+        "subunit_number": 1,
+        "variant": "a",
+        "unit_name": {"value": "Out and About", "translatable": true},
+        "unit_description": {"value": "Everyday outings with friends — making plans, sharing opinions, and recalling shared experiences.", "translatable": true},
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 2,
+        "estimated_completion_time_minutes": 75
+      },
+      "lesson_config": {
+        "lesson_number": 11,
+        "lesson_type": "teaching",
+        "lesson_name": {"value": "giving in just a little", "translatable": true},
+        "lesson_description": {"value": "Soften your stance and admit your friend may be right.", "translatable": true},
+        "estimated_duration_minutes": 5,
+        "difficulty_within_unit": 11,
+        "prerequisites": ["badge_001-L01","badge_001-L02","badge_001-L03","badge_001-L04","badge_001-L05","badge_001-L06","badge_001-L07","badge_001-L08","badge_001-L09","badge_001-L10"],
+        "learning_objectives": [
+          "Concede a small point in a friendly disagreement.",
+          "Use 'Maybe' + subject + 'be' + adjective to soften an opinion.",
+          "Recognize words for hesitating, conceding, and admitting."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      }
+    },
+    "lesson_structure": {
+      "phase_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": ["phase_1_vocabulary_anchor","phase_2_grammar_engine","phase_3_dialogue","phase_4_sprint_exercises"]
+      },
+      "phases": {
+        "phase_1_vocabulary_anchor": {
+          "phase_id": "phase_1",
+          "phase_name": {"value": "Vocabulary Anchor", "translatable": true},
+          "phase_code": "VOCAB_ANCHOR",
+          "position_in_lesson": 1,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": {"value": "Key phrases", "translatable": true},
+          "title_target": "[TRANSLATE]",
+          "phase_type": "VocabularyAnchor",
+          "core_phrase": {
+            "phrase_id": "core_11",
+            "source_text": {"value": "Maybe you're right.", "translatable": true},
+            "target_text": "[TRANSLATE]",
+            "part_of_speech": "phrase",
+            "linguistic_info": {
+              "tooltip_source": {"value": "A friendly way to admit your friend might have a point.", "translatable": true},
+              "tooltip_target": "[TRANSLATE]",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+            },
+            "media": {"image_url": "", "audio_normal": "[GENERATE]", "audio_slow": "[GENERATE]"},
+            "context": {
+              "usage_context": "concession",
+              "formality_level": "informal",
+              "time_of_day": "any",
+              "relationship": "friends"
+            }
+          },
+          "related_words": [
+            {
+              "word_id": "rel_11_001",
+              "source_text": {"value": "possibly", "translatable": true},
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "adverb",
+              "meaning_source": {"value": "Used to say something might be true but isn't certain.", "translatable": true},
+              "meaning_target": "[TRANSLATE]"
+            },
+            {
+              "word_id": "rel_11_002",
+              "source_text": {"value": "point", "translatable": true},
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "meaning_source": {"value": "An idea or argument someone is making.", "translatable": true},
+              "meaning_target": "[TRANSLATE]"
+            },
+            {
+              "word_id": "rel_11_003",
+              "source_text": {"value": "doubt", "translatable": true},
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "meaning_source": {"value": "A feeling of not being sure about something.", "translatable": true},
+              "meaning_target": "[TRANSLATE]"
+            },
+            {
+              "word_id": "rel_11_004",
+              "source_text": {"value": "admit", "translatable": true},
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "verb",
+              "meaning_source": {"value": "To agree that something is true, even if you didn't want to.", "translatable": true},
+              "meaning_target": "[TRANSLATE]"
+            }
+          ],
+          "listen_repeat": {
+            "prompt_source": {"value": "Listen and repeat the core phrase.", "translatable": true},
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {"audio_file": "[GENERATE]", "play_on_load": true},
+            "show_text_after_play": true
+          },
+          "quick_match": {
+            "prompt_source": {"value": "Connect each word to its meaning or image.", "translatable": true},
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              {"word_id": "rel_11_001", "correct_key": "rel_11_001_correct"},
+              {"word_id": "rel_11_002", "correct_key": "rel_11_002_correct"},
+              {"word_id": "rel_11_003", "correct_key": "rel_11_003_correct"},
+              {"word_id": "rel_11_004", "correct_key": "rel_11_004_correct"}
+            ],
+            "options_display": "shuffle"
+          }
+        },
+        "phase_2_grammar_engine": {
+          "phase_id": "phase_2",
+          "phase_name": {"value": "Grammar Engine", "translatable": true},
+          "phase_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": {"value": "Grammar tip", "translatable": true},
+          "title_target": "[TRANSLATE]",
+          "phase_type": "GrammarEngine",
+          "pro_tip": {
+            "tip_id": "gram_11",
+            "concept_source": {"value": "Maybe + subject + be + adjective (soft concession)", "translatable": true},
+            "concept_target": "[TRANSLATE]",
+            "explanation_source": {"value": "Open with 'Maybe' to soften a statement. Follow it with a subject, a 'be' verb (often contracted), and an adjective like 'right' to concede a point without fully giving in.", "translatable": true},
+            "explanation_target": "[TRANSLATE]",
+            "focus_type": "variations",
+            "examples": [
+              {
+                "example_id": "ex_11_001",
+                "source_text": {"value": "Possibly you're right.", "translatable": true},
+                "target_text": "[TRANSLATE]",
+                "register": "neutral",
+                "usage_note_source": {"value": "Swap 'Maybe' for the related adverb 'possibly' for a slightly cooler tone.", "translatable": true},
+                "usage_note_target": "[TRANSLATE]"
+              },
+              {
+                "example_id": "ex_11_002",
+                "source_text": {"value": "You might have a point.", "translatable": true},
+                "target_text": "[TRANSLATE]",
+                "register": "neutral",
+                "usage_note_source": {"value": "Concedes that the other person's argument is worth considering.", "translatable": true},
+                "usage_note_target": "[TRANSLATE]"
+              }
+            ]
+          },
+          "modifiers": [
+            {
+              "modifier_id": "mod_11_001",
+              "modifier_source": {"value": "actually", "translatable": true},
+              "modifier_target": "[TRANSLATE]",
+              "example_source": {"value": "Maybe you're actually right.", "translatable": true},
+              "example_target": "[TRANSLATE]",
+              "explanation_source": {"value": "Adds gentle surprise that they might be right after all.", "translatable": true},
+              "explanation_target": "[TRANSLATE]"
+            },
+            {
+              "modifier_id": "mod_11_002",
+              "modifier_source": {"value": "after all", "translatable": true},
+              "modifier_target": "[TRANSLATE]",
+              "example_source": {"value": "Maybe you're right after all.", "translatable": true},
+              "example_target": "[TRANSLATE]",
+              "explanation_source": {"value": "Signals that you've changed your mind in the end.", "translatable": true},
+              "explanation_target": "[TRANSLATE]"
+            }
+          ],
+          "sentence_building": [
+            {
+              "exercise_id": "ex_sb_11_1",
+              "target_sentence_source": {"value": "Maybe you're right", "translatable": true},
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {"word_id": "w1", "word_source": {"value": "Maybe", "translatable": true}, "correct_position": 1},
+                {"word_id": "w2", "word_source": {"value": "you're", "translatable": true}, "correct_position": 2},
+                {"word_id": "w3", "word_source": {"value": "right", "translatable": true}, "correct_position": 3}
+              ],
+              "hints": "Open with 'Maybe' to soften the concession."
+            },
+            {
+              "exercise_id": "ex_sb_11_2",
+              "target_sentence_source": {"value": "I admit you have a point", "translatable": true},
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {"word_id": "w1", "word_source": {"value": "I", "translatable": true}, "correct_position": 1},
+                {"word_id": "w2", "word_source": {"value": "admit", "translatable": true}, "correct_position": 2},
+                {"word_id": "w3", "word_source": {"value": "you", "translatable": true}, "correct_position": 3},
+                {"word_id": "w4", "word_source": {"value": "have", "translatable": true}, "correct_position": 4},
+                {"word_id": "w5", "word_source": {"value": "a", "translatable": true}, "correct_position": 5},
+                {"word_id": "w6", "word_source": {"value": "point", "translatable": true}, "correct_position": 6}
+              ],
+              "hints": "Use the related verb that means 'agree it's true'."
+            }
+          ]
+        },
+        "phase_3_dialogue": {
+          "phase_id": "phase_3",
+          "phase_name": {"value": "Dialogue Practice", "translatable": true},
+          "phase_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": {"value": "Conversation", "translatable": true},
+          "title_target": "[TRANSLATE]",
+          "phase_type": "Dialogue",
+          "setting": {"value": "Sitting on the porch after the beach story", "translatable": true},
+          "context": {"value": "Two friends ending a friendly disagreement with a soft concession.", "translatable": true},
+          "dialogue": [
+            {
+              "turn_id": "turn_001",
+              "turn_number": 1,
+              "speaker": "PARTNER",
+              "text_source": {"value": "I'm telling you, the lifeguard rescued you.", "translatable": true},
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_002",
+              "turn_number": 2,
+              "speaker": "YOU",
+              "text_source": {"value": "Maybe you're right.", "translatable": true},
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_003",
+              "turn_number": 3,
+              "speaker": "PARTNER",
+              "text_source": {"value": "I had a few doubts at first too.", "translatable": true},
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_004",
+              "turn_number": 4,
+              "speaker": "YOU",
+              "text_source": {"value": "I admit you have a point.", "translatable": true},
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_005",
+              "turn_number": 5,
+              "speaker": "PARTNER",
+              "text_source": {"value": "Glad we possibly agree now.", "translatable": true},
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            }
+          ]
+        },
+        "phase_4_sprint_exercises": {
+          "phase_id": "phase_4",
+          "phase_name": {"value": "Sprint & review", "translatable": true},
+          "phase_code": "SPRINT",
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": {"value": "Quick practice", "translatable": true},
+          "title_target": "[TRANSLATE]",
+          "phase_type": "SprintExercises",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_audio_blank",
+              "exercise_type": "Audio Fill-in-the-Blank",
+              "prompt_source": "Listen and complete:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {"audio_file": "[GENERATE]", "play_on_load": true},
+              "sentence": "Maybe you're ___.",
+              "sentence_source": "Maybe you're ___.",
+              "sentence_target": "[TRANSLATE]",
+              "blanks": [2],
+              "correct_answer": "right",
+              "correct_answer_source": "right",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {"points_correct": 10, "points_incorrect": 0}
+            },
+            {
+              "exercise_id": "ex_sp_flashcard",
+              "exercise_type": "Digital Flashcards",
+              "prompt_source": "Study the card:",
+              "prompt_target": "[TRANSLATE]",
+              "word": "admit",
+              "definition": "To agree that something is true, even if you didn't want to.",
+              "examples": ["I admit you have a point."],
+              "context": "Used when you finally accept what someone else has been saying.",
+              "word_source": "admit",
+              "word_target": "[TRANSLATE]",
+              "definition_source": "To agree that something is true, even if you didn't want to.",
+              "definition_target": "[TRANSLATE]",
+              "examples_source": ["I admit you have a point."],
+              "examples_target": ["[TRANSLATE]"],
+              "context_source": "Used when you finally accept what someone else has been saying.",
+              "context_target": "[TRANSLATE]",
+              "scoring": {"points_correct": 5, "points_incorrect": 0}
+            },
+            {
+              "exercise_id": "ex_sp_l2_l1",
+              "exercise_type": "Translation Typing (L2→L1)",
+              "prompt_source": "Translate into English:",
+              "prompt_target": "[TRANSLATE]",
+              "source_text": "Maybe you're right.",
+              "source_text_source": "Maybe you're right.",
+              "source_text_target": "[TRANSLATE]",
+              "target_language": "sw",
+              "acceptable_answers": ["Maybe you're right.", "Maybe you are right."],
+              "acceptable_answers_source": ["Maybe you're right.", "Maybe you are right."],
+              "acceptable_answers_target": ["[TRANSLATE]", "[TRANSLATE]"],
+              "hints": "Open with 'Maybe' to soften the concession.",
+              "hints_source": "Open with 'Maybe' to soften the concession.",
+              "hints_target": "[TRANSLATE]",
+              "scoring": {"points_correct": 15, "points_incorrect": 0}
+            },
+            {
+              "exercise_id": "ex_sp_sentence_open",
+              "exercise_type": "Sentence Completion (Open)",
+              "prompt_source": "Finish in your own words:",
+              "prompt_target": "[TRANSLATE]",
+              "prompt": "Soften your stance after a friend makes a strong argument.",
+              "prompt_text_source": "Your friend says: 'I'm telling you, he rescued you.' You answer: ...",
+              "prompt_text_target": "[TRANSLATE]",
+              "expected_response": "Maybe you're right.",
+              "expected_response_source": "Maybe you're right.",
+              "expected_response_target": "[TRANSLATE]",
+              "scoring_criteria": "Response uses 'Maybe' or 'possibly' to concede the friend may be right.",
+              "scoring_criteria_source": "Response uses 'Maybe' or 'possibly' to concede the friend may be right.",
+              "scoring_criteria_target": "[TRANSLATE]",
+              "scoring": {"points_correct": 10, "points_incorrect": 0}
+            },
+            {
+              "exercise_id": "ex_sp_fill_type",
+              "exercise_type": "Fill-in-the-Blank Typing",
+              "prompt_source": "Type the missing word:",
+              "prompt_target": "[TRANSLATE]",
+              "sentence": "___ you're right.",
+              "sentence_source": "___ you're right.",
+              "sentence_target": "[TRANSLATE]",
+              "blanks": [1],
+              "correct_answer": "Maybe",
+              "acceptable_answers": ["Maybe", "maybe"],
+              "correct_answer_source": "Maybe",
+              "correct_answer_target": "[TRANSLATE]",
+              "acceptable_answers_source": ["Maybe", "maybe"],
+              "acceptable_answers_target": ["[TRANSLATE]", "[TRANSLATE]"],
+              "scoring": {"points_correct": 10, "points_incorrect": 0}
+            }
+          ]
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": ["**_target"],
+      "audio_generation_patterns": ["[GENERATE]", "[GENERATE_FOR_TARGET]"]
+    }
+  }
+}

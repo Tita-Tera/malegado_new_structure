@@ -1,0 +1,685 @@
+{
+  "title": {
+    "value": "wanting a puppy",
+    "translatable": true
+  },
+  "description": {
+    "value": "Learn to say what you want using a simple, everyday phrase.",
+    "translatable": true
+  },
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "lifestyle",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_negotiating_wants-L01",
+      "generation_timestamp": "2026-05-03T00:00:00Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A1",
+        "level_name": {
+          "value": "Beginner",
+          "translatable": true
+        },
+        "level_description": {
+          "value": "Build simple sentences for everyday situations.",
+          "translatable": true
+        },
+        "cefr_equivalent": "A1",
+        "available_levels": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      "theme_config": {
+        "theme_id": "LIFESTYLE",
+        "theme_code": "LIFESTYLE",
+        "theme_name": {
+          "value": "Lifestyle",
+          "translatable": true
+        },
+        "theme_description": {
+          "value": "Talk about what you want in your daily life.",
+          "translatable": true
+        },
+        "available_themes": [
+          {
+            "code": {
+              "value": "ESS",
+              "translatable": true
+            },
+            "name": {
+              "value": "Essentials",
+              "translatable": true
+            }
+          },
+          {
+            "code": {
+              "value": "TRV",
+              "translatable": true
+            },
+            "name": {
+              "value": "Travel",
+              "translatable": true
+            }
+          }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "1.2a",
+        "unit_number": 1,
+        "subunit_number": 2,
+        "variant": "a",
+        "unit_name": {
+          "value": "Asking & Negotiating",
+          "translatable": true
+        },
+        "unit_description": {
+          "value": "Ask for things you want and handle the back-and-forth of everyday negotiations.",
+          "translatable": true
+        },
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 2,
+        "estimated_completion_time_minutes": 75
+      },
+      "lesson_config": {
+        "lesson_number": 1,
+        "lesson_type": "teaching",
+        "lesson_name": {
+          "value": "wanting a puppy",
+          "translatable": true
+        },
+        "lesson_description": {
+          "value": "Learn to say what you want using a simple, everyday phrase.",
+          "translatable": true
+        },
+        "estimated_duration_minutes": 5,
+        "difficulty_within_unit": 1,
+        "prerequisites": [],
+        "learning_objectives": [
+          "Say what you want using 'I want + noun'.",
+          "Recognize and use simple wish-related vocabulary.",
+          "Begin a friendly conversation about a personal wish."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      }
+    },
+    "lesson_structure": {
+      "phase_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "phase_1_vocabulary_anchor",
+          "phase_2_grammar_engine",
+          "phase_3_dialogue",
+          "phase_4_sprint_exercises"
+        ]
+      },
+      "phases": {
+        "phase_1_vocabulary_anchor": {
+          "phase_id": "phase_1",
+          "phase_name": {
+            "value": "Vocabulary Anchor",
+            "translatable": true
+          },
+          "phase_code": "VOCAB_ANCHOR",
+          "position_in_lesson": 1,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": {
+            "value": "Key phrases",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "VocabularyAnchor",
+          "core_phrase": {
+            "phrase_id": "core_1",
+            "source_text": {
+              "value": "I want a puppy.",
+              "translatable": true
+            },
+            "target_text": "[TRANSLATE]",
+            "part_of_speech": "verb_phrase",
+            "linguistic_info": {
+              "tooltip_source": {
+                "value": "A simple way to express a personal wish for something.",
+                "translatable": true
+              },
+              "tooltip_target": "[TRANSLATE]",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+            },
+            "media": {
+              "image_url": "",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            "context": {
+              "usage_context": "request",
+              "formality_level": "informal",
+              "time_of_day": "any",
+              "relationship": "family"
+            }
+          },
+          "related_words": [
+            {
+              "word_id": "rel_1_001",
+              "source_text": {
+                "value": "puppy",
+                "translatable": true
+              },
+              "part_of_speech": "noun",
+              "meaning_source": {
+                "value": "A young dog.",
+                "translatable": true
+              }
+            },
+            {
+              "word_id": "rel_1_002",
+              "source_text": {
+                "value": "want",
+                "translatable": true
+              },
+              "part_of_speech": "verb",
+              "meaning_source": {
+                "value": "To wish for or desire something.",
+                "translatable": true
+              }
+            },
+            {
+              "word_id": "rel_1_003",
+              "source_text": {
+                "value": "pet",
+                "translatable": true
+              },
+              "part_of_speech": "noun",
+              "meaning_source": {
+                "value": "An animal kept at home for company.",
+                "translatable": true
+              }
+            },
+            {
+              "word_id": "rel_1_004",
+              "source_text": {
+                "value": "wish",
+                "translatable": true
+              },
+              "part_of_speech": "noun",
+              "meaning_source": {
+                "value": "Something you hope to have or do.",
+                "translatable": true
+              }
+            }
+          ],
+          "listen_repeat": {
+            "prompt_source": {
+              "value": "Listen and repeat the core phrase.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {
+              "audio_file": "[GENERATE]",
+              "play_on_load": true
+            },
+            "show_text_after_play": true
+          },
+          "quick_match": {
+            "prompt_source": {
+              "value": "Connect each word to its meaning or image.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              {
+                "word_id": "rel_1_001",
+                "correct_key": "rel_1_001_correct"
+              },
+              {
+                "word_id": "rel_1_002",
+                "correct_key": "rel_1_002_correct"
+              },
+              {
+                "word_id": "rel_1_003",
+                "correct_key": "rel_1_003_correct"
+              },
+              {
+                "word_id": "rel_1_004",
+                "correct_key": "rel_1_004_correct"
+              }
+            ],
+            "options_display": "shuffle"
+          }
+        },
+        "phase_2_grammar_engine": {
+          "phase_id": "phase_2",
+          "phase_name": {
+            "value": "Grammar Engine",
+            "translatable": true
+          },
+          "phase_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": {
+            "value": "Grammar tip",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "GrammarEngine",
+          "pro_tip": {
+            "tip_id": "gram_1",
+            "concept_source": {
+              "value": "Saying what you want with 'I want + noun'.",
+              "translatable": true
+            },
+            "concept_target": "[TRANSLATE]",
+            "explanation_source": {
+              "value": "Use 'I want' followed by a noun to express a wish. Add 'a' or 'an' before singular things.",
+              "translatable": true
+            },
+            "explanation_target": "[TRANSLATE]",
+            "focus_type": "variations",
+            "examples": [
+              {
+                "example_id": "ex_1_001",
+                "source_text": {
+                  "value": "I would like a puppy.",
+                  "translatable": true
+                },
+                "register": "formal",
+                "usage_note_source": {
+                  "value": "A more polite way to say what you want.",
+                  "translatable": true
+                }
+              },
+              {
+                "example_id": "ex_1_002",
+                "source_text": {
+                  "value": "I really want a puppy.",
+                  "translatable": true
+                },
+                "register": "informal",
+                "usage_note_source": {
+                  "value": "Adding 'really' makes the wish stronger.",
+                  "translatable": true
+                }
+              }
+            ]
+          },
+          "modifiers": [
+            {
+              "modifier_id": "mod_1_001",
+              "modifier_source": {
+                "value": "really",
+                "translatable": true
+              },
+              "example_source": {
+                "value": "I really want a puppy.",
+                "translatable": true
+              },
+              "explanation_source": {
+                "value": "Use 'really' to make your wish stronger.",
+                "translatable": true
+              }
+            },
+            {
+              "modifier_id": "mod_1_002",
+              "modifier_source": {
+                "value": "small",
+                "translatable": true
+              },
+              "example_source": {
+                "value": "I want a small puppy.",
+                "translatable": true
+              },
+              "explanation_source": {
+                "value": "Add an adjective like 'small' before the noun to describe what you want.",
+                "translatable": true
+              }
+            }
+          ],
+          "sentence_building": [
+            {
+              "exercise_id": "ex_sb_1_1",
+              "target_sentence_source": {
+                "value": "I want a puppy.",
+                "translatable": true
+              },
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": {
+                    "value": "I",
+                    "translatable": true
+                  },
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": {
+                    "value": "want",
+                    "translatable": true
+                  },
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": {
+                    "value": "a",
+                    "translatable": true
+                  },
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": {
+                    "value": "puppy",
+                    "translatable": true
+                  },
+                  "correct_position": 4
+                }
+              ],
+              "hints": "Start with the person, then the action, then the thing you want."
+            },
+            {
+              "exercise_id": "ex_sb_1_2",
+              "target_sentence_source": {
+                "value": "I want a small pet.",
+                "translatable": true
+              },
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": {
+                    "value": "I",
+                    "translatable": true
+                  },
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": {
+                    "value": "want",
+                    "translatable": true
+                  },
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": {
+                    "value": "a",
+                    "translatable": true
+                  },
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": {
+                    "value": "small",
+                    "translatable": true
+                  },
+                  "correct_position": 4
+                },
+                {
+                  "word_id": "w5",
+                  "word_source": {
+                    "value": "pet",
+                    "translatable": true
+                  },
+                  "correct_position": 5
+                }
+              ],
+              "hints": "The describing word goes right before the noun."
+            }
+          ]
+        },
+        "phase_3_dialogue": {
+          "phase_id": "phase_3",
+          "phase_name": {
+            "value": "Dialogue Practice",
+            "translatable": true
+          },
+          "phase_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": {
+            "value": "Conversation",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "Dialogue",
+          "setting": {
+            "value": "At home, in the living room",
+            "translatable": true
+          },
+          "context": {
+            "value": "A child tells a parent about a wish.",
+            "translatable": true
+          },
+          "dialogue": [
+            {
+              "turn_id": "turn_001",
+              "turn_number": 1,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "What do you want for your birthday?",
+                "translatable": true
+              },
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_002",
+              "turn_number": 2,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "I want a puppy.",
+                "translatable": true
+              },
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_003",
+              "turn_number": 3,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "A puppy? Really?",
+                "translatable": true
+              },
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_004",
+              "turn_number": 4,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "Yes. I really want a puppy.",
+                "translatable": true
+              },
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_005",
+              "turn_number": 5,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "Okay, let me think about it.",
+                "translatable": true
+              },
+              "practice_mode": "listen_and_repeat"
+            }
+          ]
+        },
+        "phase_4_sprint_exercises": {
+          "phase_id": "phase_4",
+          "phase_name": {
+            "value": "Sprint & review",
+            "translatable": true
+          },
+          "phase_code": "SPRINT",
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": {
+            "value": "Quick practice",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "SprintExercises",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_match_game",
+              "exercise_type": "Flashcard Matching Game",
+              "prompt_source": "Match pairs:",
+              "prompt_target": "[TRANSLATE]",
+              "pairs": [
+                {
+                  "pair_id": "pair_001",
+                  "item_a": "puppy",
+                  "item_b": "A young dog.",
+                  "type": "word_to_meaning"
+                },
+                {
+                  "pair_id": "pair_002",
+                  "item_a": "want",
+                  "item_b": "To wish for something.",
+                  "type": "word_to_meaning"
+                },
+                {
+                  "pair_id": "pair_003",
+                  "item_a": "pet",
+                  "item_b": "An animal kept at home.",
+                  "type": "word_to_meaning"
+                },
+                {
+                  "pair_id": "pair_004",
+                  "item_a": "wish",
+                  "item_b": "Something you hope to have.",
+                  "type": "word_to_meaning"
+                }
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_fill_dialogue",
+              "exercise_type": "Fill-in-the-Dialogue (Speaking)",
+              "prompt_source": "Speak your line:",
+              "prompt_target": "[TRANSLATE]",
+              "dialogue_context": "A parent asks what you want.",
+              "dialogue_context_source": "A parent asks what you want.",
+              "dialogue_context_target": "[TRANSLATE]",
+              "turns": [
+                {
+                  "turn_number": 1,
+                  "speaker": "PARTNER",
+                  "text_source": "What do you want?",
+                  "text_target": "[TRANSLATE]",
+                  "audio_file": "[GENERATE]",
+                  "text_to_speak_target": "What do you want?"
+                },
+                {
+                  "turn_number": 2,
+                  "speaker": "YOU",
+                  "text_source": "I want a puppy.",
+                  "expected_response": "I want a puppy.",
+                  "expected_response_source": "I want a puppy.",
+                  "expected_response_target": "[TRANSLATE]",
+                  "acceptable_responses": [
+                    "I want a puppy.",
+                    "I want a pet."
+                  ],
+                  "acceptable_responses_source": [
+                    "I want a puppy.",
+                    "I want a pet."
+                  ],
+                  "acceptable_responses_target": [
+                    "[TRANSLATE]",
+                    "[TRANSLATE]"
+                  ]
+                }
+              ],
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_l2_l1",
+              "exercise_type": "Translation Typing (L2→L1)",
+              "prompt_source": "Translate into English:",
+              "prompt_target": "[TRANSLATE]",
+              "source_text": "I want a puppy.",
+              "source_text_source": "I want a puppy.",
+              "source_text_target": "[TRANSLATE]",
+              "target_language": "es",
+              "acceptable_answers": [
+                "I want a puppy.",
+                "I want a puppy"
+              ],
+              "acceptable_answers_source": [
+                "I want a puppy.",
+                "I want a puppy"
+              ],
+              "acceptable_answers_target": [
+                "[TRANSLATE]",
+                "[TRANSLATE]"
+              ],
+              "hints": "Subject + verb + article + noun.",
+              "hints_source": "Subject + verb + article + noun.",
+              "hints_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_sentence_open",
+              "exercise_type": "Sentence Completion (Open)",
+              "prompt_source": "Finish in your own words:",
+              "prompt_target": "[TRANSLATE]",
+              "prompt": "I want a ___.",
+              "prompt_text_source": "I want a ___.",
+              "prompt_text_target": "[TRANSLATE]",
+              "expected_response": "I want a puppy.",
+              "expected_response_source": "I want a puppy.",
+              "expected_response_target": "[TRANSLATE]",
+              "scoring_criteria": "Accept any noun that completes a grammatical wish; reward use of 'puppy', 'pet', or 'wish'.",
+              "scoring_criteria_source": "Accept any noun that completes a grammatical wish; reward use of 'puppy', 'pet', or 'wish'.",
+              "scoring_criteria_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            }
+          ]
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": [
+        "**_target"
+      ],
+      "audio_generation_patterns": [
+        "[GENERATE]",
+        "[GENERATE_FOR_TARGET]"
+      ]
+    }
+  }
+}

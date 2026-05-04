@@ -1,0 +1,306 @@
+{
+  "title": {"value": "talking about friends helping out", "translatable": true},
+  "description": {"value": "Practice talking about how people help each other in tough times.", "translatable": true},
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 4,
+  "status": "DRAFT",
+  "category": "relationships",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_001-L11",
+      "generation_timestamp": "2026-05-03T12:32:14Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A1",
+        "level_name": {"value": "Beginner", "translatable": true},
+        "level_description": {"value": "First steps in the language: simple everyday phrases and basic exchanges.", "translatable": true},
+        "cefr_equivalent": "A1",
+        "available_levels": ["A0", "A1", "A2", "B1", "B2", "C1", "C2"]
+      },
+      "theme_config": {
+        "theme_id": "RELATIONSHIPS",
+        "theme_code": "RELATIONSHIPS",
+        "theme_name": {"value": "Relationships", "translatable": true},
+        "theme_description": {"value": "Phrases for talking about how friends and family support you when times are hard.", "translatable": true},
+        "available_themes": [
+          {"code": {"value": "ESS", "translatable": true}, "name": {"value": "Essentials", "translatable": true}},
+          {"code": {"value": "TRV", "translatable": true}, "name": {"value": "Travel", "translatable": true}}
+        ]
+      },
+      "unit_config": {
+        "unit_id": "2.1a",
+        "unit_number": 2,
+        "subunit_number": 1,
+        "variant": "a",
+        "unit_name": {"value": "Borrowing & Lending", "translatable": true},
+        "unit_description": {"value": "Practice asking to borrow things and responding when others ask for help.", "translatable": true},
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 2,
+        "estimated_completion_time_minutes": 60
+      },
+      "lesson_config": {
+        "lesson_number": 11,
+        "lesson_type": "teaching",
+        "lesson_name": {"value": "talking about friends helping out", "translatable": true},
+        "lesson_description": {"value": "Practice talking about how people help each other in tough times.", "translatable": true},
+        "estimated_duration_minutes": 4,
+        "difficulty_within_unit": 11,
+        "prerequisites": ["badge_001-L01", "badge_001-L02", "badge_001-L03", "badge_001-L04", "badge_001-L05", "badge_001-L06", "badge_001-L07", "badge_001-L08", "badge_001-L09", "badge_001-L10"],
+        "learning_objectives": [
+          "Use 'will' to talk about future help or actions",
+          "Form a 'when'-clause to describe a condition",
+          "Recognise common verbs for giving and receiving support"
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      }
+    },
+    "lesson_structure": {
+      "phase_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": ["phase_1_vocabulary_anchor", "phase_2_grammar_engine", "phase_3_dialogue", "phase_4_sprint_exercises"]
+      },
+      "phases": {
+        "phase_1_vocabulary_anchor": {
+          "phase_id": "phase_1",
+          "phase_name": {"value": "Vocabulary Anchor", "translatable": true},
+          "phase_code": "VOCAB_ANCHOR",
+          "position_in_lesson": 1,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": {"value": "Key phrases", "translatable": true},
+          "title_target": "[TRANSLATE]",
+          "phase_type": "VocabularyAnchor",
+          "core_phrase": {
+            "phrase_id": "core_11",
+            "source_text": {"value": "Friends will lend you money when you are broke.", "translatable": true},
+            "target_text": "[TRANSLATE]",
+            "part_of_speech": "verb",
+            "linguistic_info": {
+              "tooltip_source": {"value": "A general statement about how friends help with money in difficult times.", "translatable": true},
+              "tooltip_target": "[TRANSLATE]",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+            },
+            "media": {"image_url": "", "audio_normal": "[GENERATE]", "audio_slow": "[GENERATE]"},
+            "context": {"usage_context": "opinion", "formality_level": "neutral", "time_of_day": "any", "relationship": "friends"}
+          },
+          "related_words": [
+            {"word_id": "rel_11_001", "source_text": {"value": "help", "translatable": true}, "target_text": "[TRANSLATE]", "part_of_speech": "verb", "meaning_source": {"value": "To do something useful for someone who needs support.", "translatable": true}, "meaning_target": "[TRANSLATE]"},
+            {"word_id": "rel_11_002", "source_text": {"value": "give", "translatable": true}, "target_text": "[TRANSLATE]", "part_of_speech": "verb", "meaning_source": {"value": "To hand something to someone for them to keep or use.", "translatable": true}, "meaning_target": "[TRANSLATE]"},
+            {"word_id": "rel_11_003", "source_text": {"value": "share", "translatable": true}, "target_text": "[TRANSLATE]", "part_of_speech": "verb", "meaning_source": {"value": "To let someone use or have part of something that is yours.", "translatable": true}, "meaning_target": "[TRANSLATE]"},
+            {"word_id": "rel_11_004", "source_text": {"value": "support", "translatable": true}, "target_text": "[TRANSLATE]", "part_of_speech": "noun", "meaning_source": {"value": "Help, encouragement, or care given to someone in need.", "translatable": true}, "meaning_target": "[TRANSLATE]"}
+          ],
+          "listen_repeat": {
+            "prompt_source": {"value": "Listen and repeat the core phrase.", "translatable": true},
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {"audio_file": "[GENERATE]", "play_on_load": true},
+            "show_text_after_play": true
+          },
+          "quick_match": {
+            "prompt_source": {"value": "Connect each word to its meaning or image.", "translatable": true},
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              {"word_id": "rel_11_001", "correct_key": "rel_11_001_correct"},
+              {"word_id": "rel_11_002", "correct_key": "rel_11_002_correct"},
+              {"word_id": "rel_11_003", "correct_key": "rel_11_003_correct"},
+              {"word_id": "rel_11_004", "correct_key": "rel_11_004_correct"}
+            ],
+            "options_display": "shuffle"
+          }
+        },
+        "phase_2_grammar_engine": {
+          "phase_id": "phase_2",
+          "phase_name": {"value": "Grammar Engine", "translatable": true},
+          "phase_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": {"value": "Grammar tip", "translatable": true},
+          "title_target": "[TRANSLATE]",
+          "phase_type": "GrammarEngine",
+          "pro_tip": {
+            "tip_id": "gram_11",
+            "concept_source": {"value": "Future help with 'will' + 'when'-clause", "translatable": true},
+            "concept_target": "[TRANSLATE]",
+            "explanation_source": {"value": "Use 'will + verb' to talk about a future action. Add 'when + subject + verb' to describe the condition or situation. The 'when'-clause stays in the present tense.", "translatable": true},
+            "explanation_target": "[TRANSLATE]",
+            "focus_type": "variations",
+            "examples": [
+              {"example_id": "ex_11_001", "source_text": {"value": "Friends'll help you when you need it.", "translatable": true}, "target_text": "[TRANSLATE]", "register": "casual", "usage_note_source": {"value": "Use the contraction \"'ll\" and a simpler 'when'-clause for casual conversation.", "translatable": true}, "usage_note_target": "[TRANSLATE]"},
+              {"example_id": "ex_11_002", "source_text": {"value": "Friends will give you money when you are broke.", "translatable": true}, "target_text": "[TRANSLATE]", "register": "neutral", "usage_note_source": {"value": "Swap 'lend' for 'give' to talk about money you do not need to pay back.", "translatable": true}, "usage_note_target": "[TRANSLATE]"}
+            ]
+          },
+          "modifiers": [
+            {"modifier_id": "mod_11_001", "modifier_source": {"value": "always", "translatable": true}, "modifier_target": "[TRANSLATE]", "example_source": {"value": "Friends will always lend you money when you are broke.", "translatable": true}, "example_target": "[TRANSLATE]", "explanation_source": {"value": "Adding 'always' shows that good friends help every single time.", "translatable": true}, "explanation_target": "[TRANSLATE]"},
+            {"modifier_id": "mod_11_002", "modifier_source": {"value": "good", "translatable": true}, "modifier_target": "[TRANSLATE]", "example_source": {"value": "Good friends will lend you money when you are broke.", "translatable": true}, "example_target": "[TRANSLATE]", "explanation_source": {"value": "Adding 'good' before 'friends' specifies the kind of friends you mean.", "translatable": true}, "explanation_target": "[TRANSLATE]"}
+          ],
+          "sentence_building": [
+            {
+              "exercise_id": "ex_sb_11_1",
+              "target_sentence_source": {"value": "Friends will lend you money when you are broke.", "translatable": true},
+              "target_sentence_target": "[TRANSLATE]",
+              "word_tiles": [
+                {"word_id": "w1", "word_source": {"value": "Friends", "translatable": true}, "word_target": "[TRANSLATE]", "correct_position": 1},
+                {"word_id": "w2", "word_source": {"value": "will", "translatable": true}, "word_target": "[TRANSLATE]", "correct_position": 2},
+                {"word_id": "w3", "word_source": {"value": "lend", "translatable": true}, "word_target": "[TRANSLATE]", "correct_position": 3},
+                {"word_id": "w4", "word_source": {"value": "you", "translatable": true}, "word_target": "[TRANSLATE]", "correct_position": 4},
+                {"word_id": "w5", "word_source": {"value": "money", "translatable": true}, "word_target": "[TRANSLATE]", "correct_position": 5},
+                {"word_id": "w6", "word_source": {"value": "when", "translatable": true}, "word_target": "[TRANSLATE]", "correct_position": 6},
+                {"word_id": "w7", "word_source": {"value": "you", "translatable": true}, "word_target": "[TRANSLATE]", "correct_position": 7},
+                {"word_id": "w8", "word_source": {"value": "are", "translatable": true}, "word_target": "[TRANSLATE]", "correct_position": 8},
+                {"word_id": "w9", "word_source": {"value": "broke", "translatable": true}, "word_target": "[TRANSLATE]", "correct_position": 9}
+              ],
+              "hints": "Start with the subject, then the future verb 'will + lend', then the 'when'-clause."
+            },
+            {
+              "exercise_id": "ex_sb_11_2",
+              "target_sentence_source": {"value": "Friends will help you when you need it.", "translatable": true},
+              "target_sentence_target": "[TRANSLATE]",
+              "word_tiles": [
+                {"word_id": "w1", "word_source": {"value": "Friends", "translatable": true}, "word_target": "[TRANSLATE]", "correct_position": 1},
+                {"word_id": "w2", "word_source": {"value": "will", "translatable": true}, "word_target": "[TRANSLATE]", "correct_position": 2},
+                {"word_id": "w3", "word_source": {"value": "help", "translatable": true}, "word_target": "[TRANSLATE]", "correct_position": 3},
+                {"word_id": "w4", "word_source": {"value": "you", "translatable": true}, "word_target": "[TRANSLATE]", "correct_position": 4},
+                {"word_id": "w5", "word_source": {"value": "when", "translatable": true}, "word_target": "[TRANSLATE]", "correct_position": 5},
+                {"word_id": "w6", "word_source": {"value": "you", "translatable": true}, "word_target": "[TRANSLATE]", "correct_position": 6},
+                {"word_id": "w7", "word_source": {"value": "need", "translatable": true}, "word_target": "[TRANSLATE]", "correct_position": 7},
+                {"word_id": "w8", "word_source": {"value": "it", "translatable": true}, "word_target": "[TRANSLATE]", "correct_position": 8}
+              ],
+              "hints": "Same pattern with a different verb and a shorter 'when'-clause."
+            }
+          ]
+        },
+        "phase_3_dialogue": {
+          "phase_id": "phase_3",
+          "phase_name": {"value": "Dialogue Practice", "translatable": true},
+          "phase_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": {"value": "Conversation", "translatable": true},
+          "title_target": "[TRANSLATE]",
+          "phase_type": "Dialogue",
+          "setting": {"value": "Walking down a street", "translatable": true},
+          "context": {"value": "You and your friend are walking and talking about the value of having people who help in tough times.", "translatable": true},
+          "dialogue": [
+            {"turn_id": "turn_001", "turn_number": 1, "speaker": "PARTNER", "text_source": {"value": "I don't know what I'd do without you.", "translatable": true}, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "listen_and_repeat"},
+            {"turn_id": "turn_002", "turn_number": 2, "speaker": "YOU", "text_source": {"value": "Friends will lend you money when you are broke.", "translatable": true}, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "speak_along"},
+            {"turn_id": "turn_003", "turn_number": 3, "speaker": "PARTNER", "text_source": {"value": "That's how good friendships work.", "translatable": true}, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "listen_and_repeat"},
+            {"turn_id": "turn_004", "turn_number": 4, "speaker": "YOU", "text_source": {"value": "I would do the same for you.", "translatable": true}, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "speak_along"},
+            {"turn_id": "turn_005", "turn_number": 5, "speaker": "PARTNER", "text_source": {"value": "I know you would.", "translatable": true}, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "listen_and_repeat"}
+          ]
+        },
+        "phase_4_sprint_exercises": {
+          "phase_id": "phase_4",
+          "phase_name": {"value": "Sprint & review", "translatable": true},
+          "phase_code": "SPRINT",
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": {"value": "Quick practice", "translatable": true},
+          "title_target": "[TRANSLATE]",
+          "phase_type": "SprintExercises",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_audio_blank",
+              "exercise_type": "Audio Fill-in-the-Blank",
+              "prompt_source": "Listen and complete:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {"audio_file": "[GENERATE]", "play_on_load": true},
+              "sentence": "Friends will _____ you money when you are broke.",
+              "sentence_source": "Friends will _____ you money when you are broke.",
+              "sentence_target": "[TRANSLATE]",
+              "blanks": [3],
+              "correct_answer": "lend",
+              "correct_answer_source": "lend",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {"points_correct": 10, "points_incorrect": 0}
+            },
+            {
+              "exercise_id": "ex_sp_flashcard",
+              "exercise_type": "Digital Flashcards",
+              "prompt_source": "Study the card:",
+              "prompt_target": "[TRANSLATE]",
+              "word": "lend",
+              "definition": "To give something to someone for a short time, expecting it back.",
+              "examples": ["Friends will lend you money when you are broke.", "Can you lend me a pen?"],
+              "context": "Used when you give money or an item temporarily, with the expectation of getting it back.",
+              "word_source": "lend",
+              "word_target": "[TRANSLATE]",
+              "definition_source": "To give something to someone for a short time, expecting it back.",
+              "definition_target": "[TRANSLATE]",
+              "examples_source": ["Friends will lend you money when you are broke.", "Can you lend me a pen?"],
+              "examples_target": ["[TRANSLATE]", "[TRANSLATE]"],
+              "context_source": "Used when you give money or an item temporarily, with the expectation of getting it back.",
+              "context_target": "[TRANSLATE]",
+              "scoring": {"points_correct": 5, "points_incorrect": 0}
+            },
+            {
+              "exercise_id": "ex_sp_l2_l1",
+              "exercise_type": "Translation Typing (L2→L1)",
+              "prompt_source": "Translate into English:",
+              "prompt_target": "[TRANSLATE]",
+              "source_text": "Friends will lend you money when you are broke.",
+              "source_text_source": "Friends will lend you money when you are broke.",
+              "source_text_target": "[TRANSLATE]",
+              "target_language": "sw",
+              "acceptable_answers": ["Friends will lend you money when you are broke.", "Friends'll lend you money when you're broke."],
+              "acceptable_answers_source": ["Friends will lend you money when you are broke.", "Friends'll lend you money when you're broke."],
+              "acceptable_answers_target": ["[TRANSLATE]", "[TRANSLATE]"],
+              "hints": "Start with the subject and use 'will' for the future action.",
+              "hints_source": "Start with the subject and use 'will' for the future action.",
+              "hints_target": "[TRANSLATE]",
+              "scoring": {"points_correct": 15, "points_incorrect": 0}
+            },
+            {
+              "exercise_id": "ex_sp_sentence_open",
+              "exercise_type": "Sentence Completion (Open)",
+              "prompt_source": "Finish in your own words:",
+              "prompt_target": "[TRANSLATE]",
+              "prompt": "Friends will _____ you when you need help.",
+              "prompt_text_source": "Friends will _____ you when you need help.",
+              "prompt_text_target": "[TRANSLATE]",
+              "expected_response": "help",
+              "expected_response_source": "help",
+              "expected_response_target": "[TRANSLATE]",
+              "scoring_criteria": "Accept any reasonable verb for giving support (help, support, lend, give).",
+              "scoring_criteria_source": "Accept any reasonable verb for giving support (help, support, lend, give).",
+              "scoring_criteria_target": "[TRANSLATE]",
+              "scoring": {"points_correct": 10, "points_incorrect": 0}
+            },
+            {
+              "exercise_id": "ex_sp_fill_type",
+              "exercise_type": "Fill-in-the-Blank Typing",
+              "prompt_source": "Type the missing word:",
+              "prompt_target": "[TRANSLATE]",
+              "sentence": "Friends will lend you money _____ you are broke.",
+              "sentence_source": "Friends will lend you money _____ you are broke.",
+              "sentence_target": "[TRANSLATE]",
+              "blanks": [6],
+              "correct_answer": "when",
+              "acceptable_answers": ["when"],
+              "correct_answer_source": "when",
+              "correct_answer_target": "[TRANSLATE]",
+              "acceptable_answers_source": ["when"],
+              "acceptable_answers_target": ["[TRANSLATE]"],
+              "scoring": {"points_correct": 10, "points_incorrect": 0}
+            }
+          ]
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": ["**_target"],
+      "audio_generation_patterns": ["[GENERATE]", "[GENERATE_FOR_TARGET]"]
+    }
+  }
+}
