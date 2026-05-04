@@ -1,0 +1,782 @@
+{
+  "title": {
+    "value": "do they talk about us?",
+    "translatable": true
+  },
+  "description": {
+    "value": "Ask whether animals discuss humans, focusing on the object pronoun 'us'.",
+    "translatable": true
+  },
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "science",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_animals_talk-L08",
+      "generation_timestamp": "2026-05-03T13:03:09Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A1",
+        "level_name": {
+          "value": "Beginner",
+          "translatable": true
+        },
+        "level_description": {
+          "value": "Simple, everyday phrases for handling basic questions and answers.",
+          "translatable": true
+        },
+        "cefr_equivalent": "A1",
+        "available_levels": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      "theme_config": {
+        "theme_id": "SCIENCE",
+        "theme_code": "SCIENCE",
+        "theme_name": {
+          "value": "Science",
+          "translatable": true
+        },
+        "theme_description": {
+          "value": "Curious questions about how the natural world works.",
+          "translatable": true
+        },
+        "available_themes": [
+          {
+            "code": {
+              "value": "ESS",
+              "translatable": true
+            },
+            "name": {
+              "value": "Essentials",
+              "translatable": true
+            }
+          },
+          {
+            "code": {
+              "value": "TRV",
+              "translatable": true
+            },
+            "name": {
+              "value": "Travel",
+              "translatable": true
+            }
+          }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "1.1a",
+        "unit_number": 1,
+        "subunit_number": 1,
+        "variant": "a",
+        "unit_name": {
+          "value": "Do animals talk?",
+          "translatable": true
+        },
+        "unit_description": {
+          "value": "Ask and answer simple questions about what animals notice, say, and do.",
+          "translatable": true
+        },
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 2,
+        "estimated_completion_time_minutes": 75
+      },
+      "lesson_config": {
+        "lesson_number": 8,
+        "lesson_type": "teaching",
+        "lesson_name": {
+          "value": "do they talk about us?",
+          "translatable": true
+        },
+        "lesson_description": {
+          "value": "Ask whether animals discuss humans, focusing on the object pronoun 'us'.",
+          "translatable": true
+        },
+        "estimated_duration_minutes": 5,
+        "difficulty_within_unit": 8,
+        "prerequisites": [
+          "badge_animals_talk-L01",
+          "badge_animals_talk-L02",
+          "badge_animals_talk-L03",
+          "badge_animals_talk-L04",
+          "badge_animals_talk-L05",
+          "badge_animals_talk-L06",
+          "badge_animals_talk-L07"
+        ],
+        "learning_objectives": [
+          "Form a yes/no question with the object pronoun 'us'.",
+          "Distinguish subject pronouns from object pronouns.",
+          "Build vocabulary around observation: 'notice' and 'watch'.",
+          "Take the animal's-eye view of humans."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      }
+    },
+    "lesson_structure": {
+      "phase_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "phase_1_vocabulary_anchor",
+          "phase_2_grammar_engine",
+          "phase_3_dialogue",
+          "phase_4_sprint_exercises"
+        ]
+      },
+      "phases": {
+        "phase_1_vocabulary_anchor": {
+          "phase_id": "phase_1",
+          "phase_name": {
+            "value": "Vocabulary Anchor",
+            "translatable": true
+          },
+          "phase_code": "VOCAB_ANCHOR",
+          "position_in_lesson": 1,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": {
+            "value": "Key phrases",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "VocabularyAnchor",
+          "core_phrase": {
+            "phrase_id": "core_8",
+            "source_text": {
+              "value": "Do they talk about us?",
+              "translatable": true
+            },
+            "target_text": "[TRANSLATE]",
+            "part_of_speech": "phrase",
+            "linguistic_info": {
+              "tooltip_source": {
+                "value": "A yes/no question turning the focus back on humans — do animals talk about us?",
+                "translatable": true
+              },
+              "tooltip_target": "[TRANSLATE]",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+            },
+            "media": {
+              "image_url": "",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            "context": {
+              "usage_context": "question",
+              "formality_level": "neutral",
+              "time_of_day": "any",
+              "relationship": "any"
+            }
+          },
+          "related_words": [
+            {
+              "word_id": "rel_8_001",
+              "source_text": {
+                "value": "us",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "pronoun",
+              "meaning_source": {
+                "value": "The object form of 'we'; used after verbs and prepositions.",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]"
+            },
+            {
+              "word_id": "rel_8_002",
+              "source_text": {
+                "value": "humans",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "meaning_source": {
+                "value": "People; the species we belong to.",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]"
+            },
+            {
+              "word_id": "rel_8_003",
+              "source_text": {
+                "value": "notice",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "verb",
+              "meaning_source": {
+                "value": "To see or become aware of something.",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]"
+            },
+            {
+              "word_id": "rel_8_004",
+              "source_text": {
+                "value": "watch",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "verb",
+              "meaning_source": {
+                "value": "To look at someone or something for a while.",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]"
+            }
+          ],
+          "listen_repeat": {
+            "prompt_source": {
+              "value": "Listen and repeat the core phrase.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {
+              "audio_file": "[GENERATE]",
+              "play_on_load": true
+            },
+            "show_text_after_play": true
+          },
+          "quick_match": {
+            "prompt_source": {
+              "value": "Connect each word to its meaning or image.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              {
+                "word_id": "rel_8_001",
+                "correct_key": "rel_8_001_correct"
+              },
+              {
+                "word_id": "rel_8_002",
+                "correct_key": "rel_8_002_correct"
+              },
+              {
+                "word_id": "rel_8_003",
+                "correct_key": "rel_8_003_correct"
+              },
+              {
+                "word_id": "rel_8_004",
+                "correct_key": "rel_8_004_correct"
+              }
+            ],
+            "options_display": "shuffle"
+          }
+        },
+        "phase_2_grammar_engine": {
+          "phase_id": "phase_2",
+          "phase_name": {
+            "value": "Grammar Engine",
+            "translatable": true
+          },
+          "phase_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": {
+            "value": "Grammar tip",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "GrammarEngine",
+          "pro_tip": {
+            "tip_id": "gram_8",
+            "concept_source": {
+              "value": "Object pronouns: 'us' and friends",
+              "translatable": true
+            },
+            "concept_target": "[TRANSLATE]",
+            "explanation_source": {
+              "value": "Subject pronouns ('we', 'they') change to object pronouns ('us', 'them') after verbs and prepositions. 'About us' is correct; 'about we' is not.",
+              "translatable": true
+            },
+            "explanation_target": "[TRANSLATE]",
+            "focus_type": "variations",
+            "examples": [
+              {
+                "example_id": "ex_8_001",
+                "source_text": {
+                  "value": "Do they discuss us?",
+                  "translatable": true
+                },
+                "target_text": "[TRANSLATE]",
+                "register": "formal",
+                "usage_note_source": {
+                  "value": "A more formal alternative using 'discuss'.",
+                  "translatable": true
+                },
+                "usage_note_target": "[TRANSLATE]"
+              },
+              {
+                "example_id": "ex_8_002",
+                "source_text": {
+                  "value": "Do they talk about people?",
+                  "translatable": true
+                },
+                "target_text": "[TRANSLATE]",
+                "register": "neutral",
+                "usage_note_source": {
+                  "value": "A variation that uses 'people' instead of the pronoun 'us'.",
+                  "translatable": true
+                },
+                "usage_note_target": "[TRANSLATE]"
+              }
+            ]
+          },
+          "modifiers": [
+            {
+              "modifier_id": "mod_8_001",
+              "modifier_source": {
+                "value": "actually",
+                "translatable": true
+              },
+              "modifier_target": "[TRANSLATE]",
+              "example_source": {
+                "value": "Do they actually talk about us?",
+                "translatable": true
+              },
+              "example_target": "[TRANSLATE]",
+              "explanation_source": {
+                "value": "Add 'actually' when you find the idea surprising.",
+                "translatable": true
+              },
+              "explanation_target": "[TRANSLATE]"
+            },
+            {
+              "modifier_id": "mod_8_002",
+              "modifier_source": {
+                "value": "secretly",
+                "translatable": true
+              },
+              "modifier_target": "[TRANSLATE]",
+              "example_source": {
+                "value": "Do they secretly talk about us?",
+                "translatable": true
+              },
+              "example_target": "[TRANSLATE]",
+              "explanation_source": {
+                "value": "Add 'secretly' for a playful, conspiratorial tone.",
+                "translatable": true
+              },
+              "explanation_target": "[TRANSLATE]"
+            }
+          ],
+          "sentence_building": [
+            {
+              "exercise_id": "ex_sb_8_1",
+              "target_sentence_source": {
+                "value": "Do they talk about us?",
+                "translatable": true
+              },
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": {
+                    "value": "Do",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": {
+                    "value": "they",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": {
+                    "value": "talk",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": {
+                    "value": "about",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4
+                },
+                {
+                  "word_id": "w5",
+                  "word_source": {
+                    "value": "us",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 5
+                }
+              ],
+              "hints_source": {
+                "value": "Use 'us' (not 'we') after the preposition 'about'.",
+                "translatable": true
+              },
+              "hints_target": "[TRANSLATE]"
+            },
+            {
+              "exercise_id": "ex_sb_8_2",
+              "target_sentence_source": {
+                "value": "Do they notice humans?",
+                "translatable": true
+              },
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": {
+                    "value": "Do",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": {
+                    "value": "they",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": {
+                    "value": "notice",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": {
+                    "value": "humans",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4
+                }
+              ],
+              "hints_source": {
+                "value": "A related question using 'notice' and 'humans'.",
+                "translatable": true
+              },
+              "hints_target": "[TRANSLATE]"
+            }
+          ]
+        },
+        "phase_3_dialogue": {
+          "phase_id": "phase_3",
+          "phase_name": {
+            "value": "Dialogue Practice",
+            "translatable": true
+          },
+          "phase_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": {
+            "value": "Conversation",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "Dialogue",
+          "setting": {
+            "value": "A cozy kitchen, a cat watching from the windowsill while two friends drink tea.",
+            "translatable": true
+          },
+          "context": {
+            "value": "Two friends notice their cat staring at them with intense focus and start wondering whether pets share thoughts about their human housemates.",
+            "translatable": true
+          },
+          "dialogue": [
+            {
+              "turn_id": "turn_001",
+              "turn_number": 1,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "My cat has been staring at us for ten minutes.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_002",
+              "turn_number": 2,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "Do they talk about us?",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_003",
+              "turn_number": 3,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "Maybe to other cats? That's a wild thought.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_004",
+              "turn_number": 4,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "I bet pets have a lot to say about humans.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_005",
+              "turn_number": 5,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "Hopefully nothing too embarrassing.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            }
+          ]
+        },
+        "phase_4_sprint_exercises": {
+          "phase_id": "phase_4",
+          "phase_name": {
+            "value": "Sprint & review",
+            "translatable": true
+          },
+          "phase_code": "SPRINT",
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": {
+            "value": "Quick practice",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "SprintExercises",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_fill_type",
+              "exercise_type": "Fill-in-the-Blank Typing",
+              "prompt_source": "Type the missing word:",
+              "prompt_target": "[TRANSLATE]",
+              "sentence": "Do they talk about ___?",
+              "sentence_source": "Do they talk about ___?",
+              "sentence_target": "[TRANSLATE]",
+              "blanks": [
+                5
+              ],
+              "correct_answer": "us",
+              "acceptable_answers": [
+                "us"
+              ],
+              "correct_answer_source": "us",
+              "correct_answer_target": "[TRANSLATE]",
+              "acceptable_answers_source": [
+                "us"
+              ],
+              "acceptable_answers_target": [
+                "[TRANSLATE]"
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_v1_audio_image",
+              "exercise_type": "Audio-to-Image Matching",
+              "prompt_source": "Tap the image that matches what you hear:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true,
+                "text_to_speak_target": "watch"
+              },
+              "image_options": [
+                {
+                  "option_id": "opt_01",
+                  "image_url": "",
+                  "correct": true
+                },
+                {
+                  "option_id": "opt_02",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_03",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_04",
+                  "image_url": "",
+                  "correct": false
+                }
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_match_game",
+              "exercise_type": "Flashcard Matching Game",
+              "prompt_source": "Match pairs:",
+              "prompt_target": "[TRANSLATE]",
+              "pairs": [
+                {
+                  "pair_id": "pair_001",
+                  "item_a": "us",
+                  "item_b": "object form of 'we'",
+                  "type": "definition"
+                },
+                {
+                  "pair_id": "pair_002",
+                  "item_a": "humans",
+                  "item_b": "people",
+                  "type": "synonym"
+                },
+                {
+                  "pair_id": "pair_003",
+                  "item_a": "notice",
+                  "item_b": "become aware of",
+                  "type": "definition"
+                },
+                {
+                  "pair_id": "pair_004",
+                  "item_a": "watch",
+                  "item_b": "look at for a while",
+                  "type": "definition"
+                }
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_quick_fire",
+              "exercise_type": "Listen and Respond (Quick Fire)",
+              "prompt_source": "Listen and respond out loud:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true,
+                "text_to_speak_target": "Do they talk about us?"
+              },
+              "prompt": "Do they talk about us?",
+              "prompt_text_source": "Do they talk about us?",
+              "prompt_text_target": "[TRANSLATE]",
+              "response": {
+                "mode": "speech",
+                "acceptable_responses": [
+                  "Yes, probably.",
+                  "I think so."
+                ],
+                "acceptable_responses_source": [
+                  "Yes, probably.",
+                  "I think so."
+                ],
+                "acceptable_responses_target": [
+                  "[TRANSLATE]",
+                  "[TRANSLATE]"
+                ],
+                "time_limit_seconds": 8
+              },
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_flashcard",
+              "exercise_type": "Digital Flashcards",
+              "prompt_source": "Study the card:",
+              "prompt_target": "[TRANSLATE]",
+              "word": "notice",
+              "definition": "To see or become aware of something.",
+              "examples": [
+                "Animals notice all the time.",
+                "We notice with words and gestures."
+              ],
+              "context": "From this lesson's vocabulary: notice.",
+              "word_source": "notice",
+              "word_target": "[TRANSLATE]",
+              "definition_source": "To see or become aware of something.",
+              "definition_target": "[TRANSLATE]",
+              "examples_source": [
+                "Animals notice all the time.",
+                "We notice with words and gestures."
+              ],
+              "examples_target": [
+                "[TRANSLATE]",
+                "[TRANSLATE]"
+              ],
+              "context_source": "From this lesson's vocabulary: notice.",
+              "context_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 5,
+                "points_incorrect": 0
+              }
+            }
+          ]
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": [
+        "**_target"
+      ],
+      "audio_generation_patterns": [
+        "[GENERATE]",
+        "[GENERATE_FOR_TARGET]"
+      ]
+    }
+  }
+}

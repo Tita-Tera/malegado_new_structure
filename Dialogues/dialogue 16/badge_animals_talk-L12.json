@@ -1,0 +1,701 @@
+{
+  "title": {
+    "value": "we are not funny-looking",
+    "translatable": true
+  },
+  "description": {
+    "value": "Push back against a description using simple negation: 'are not'.",
+    "translatable": true
+  },
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "opinions",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_animals_talk-L12",
+      "generation_timestamp": "2026-05-03T15:14:15Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A1",
+        "level_name": {
+          "value": "Beginner",
+          "translatable": true
+        },
+        "level_description": {
+          "value": "Simple, everyday phrases for handling basic questions and answers.",
+          "translatable": true
+        },
+        "cefr_equivalent": "A1",
+        "available_levels": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      "theme_config": {
+        "theme_id": "OPINIONS",
+        "theme_code": "OPINIONS",
+        "theme_name": {
+          "value": "Opinions",
+          "translatable": true
+        },
+        "theme_description": {
+          "value": "Ways to express what you think and confirm what others say.",
+          "translatable": true
+        },
+        "available_themes": [
+          {
+            "code": {
+              "value": "ESS",
+              "translatable": true
+            },
+            "name": {
+              "value": "Essentials",
+              "translatable": true
+            }
+          },
+          {
+            "code": {
+              "value": "TRV",
+              "translatable": true
+            },
+            "name": {
+              "value": "Travel",
+              "translatable": true
+            }
+          }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "1.1a",
+        "unit_number": 1,
+        "subunit_number": 1,
+        "variant": "a",
+        "unit_name": {
+          "value": "Do animals talk?",
+          "translatable": true
+        },
+        "unit_description": {
+          "value": "Ask and answer simple questions about what animals notice, say, and do.",
+          "translatable": true
+        },
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 2,
+        "estimated_completion_time_minutes": 75
+      },
+      "lesson_config": {
+        "lesson_number": 12,
+        "lesson_type": "teaching",
+        "lesson_name": {
+          "value": "we are not funny-looking",
+          "translatable": true
+        },
+        "lesson_description": {
+          "value": "Push back against a description using simple negation: 'are not'.",
+          "translatable": true
+        },
+        "estimated_duration_minutes": 5,
+        "difficulty_within_unit": 12,
+        "prerequisites": [
+          "badge_animals_talk-L01",
+          "badge_animals_talk-L02",
+          "badge_animals_talk-L03",
+          "badge_animals_talk-L04",
+          "badge_animals_talk-L05",
+          "badge_animals_talk-L06",
+          "badge_animals_talk-L07",
+          "badge_animals_talk-L08",
+          "badge_animals_talk-L09",
+          "badge_animals_talk-L10",
+          "badge_animals_talk-L11"
+        ],
+        "learning_objectives": [
+          "Form a negative 'be' statement using 'are not'.",
+          "Recognize 'aren't' as the contracted form.",
+          "Push back politely with 'disagree'.",
+          "Use 'normal' as a positive antonym to 'funny-looking'."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      }
+    },
+    "lesson_structure": {
+      "phase_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "phase_1_vocabulary_anchor",
+          "phase_2_grammar_engine",
+          "phase_3_dialogue",
+          "phase_4_sprint_exercises"
+        ]
+      },
+      "phases": {
+        "phase_1_vocabulary_anchor": {
+          "phase_id": "phase_1",
+          "phase_name": {
+            "value": "Vocabulary Anchor",
+            "translatable": true
+          },
+          "phase_code": "VOCAB_ANCHOR",
+          "position_in_lesson": 1,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": {
+            "value": "Key phrases",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "VocabularyAnchor",
+          "core_phrase": {
+            "phrase_id": "core_12",
+            "source_text": {
+              "value": "We are not funny-looking.",
+              "translatable": true
+            },
+            "target_text": "[TRANSLATE]",
+            "part_of_speech": "phrase",
+            "linguistic_info": {
+              "tooltip_source": {
+                "value": "A short denial: pushing back against the claim that we look funny.",
+                "translatable": true
+              },
+              "tooltip_target": "[TRANSLATE]",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+            },
+            "media": {
+              "image_url": "",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            "context": {
+              "usage_context": "denial",
+              "formality_level": "neutral",
+              "time_of_day": "any",
+              "relationship": "any"
+            }
+          },
+          "related_words": [
+            {
+              "word_id": "rel_12_001",
+              "source_text": {
+                "value": "not",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "adverb",
+              "meaning_source": {
+                "value": "Used to make a sentence negative.",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]"
+            },
+            {
+              "word_id": "rel_12_002",
+              "source_text": {
+                "value": "disagree",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "verb",
+              "meaning_source": {
+                "value": "To not have the same opinion as someone.",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]"
+            },
+            {
+              "word_id": "rel_12_003",
+              "source_text": {
+                "value": "normal",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "adjective",
+              "meaning_source": {
+                "value": "Usual, ordinary, or expected.",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]"
+            },
+            {
+              "word_id": "rel_12_004",
+              "source_text": {
+                "value": "wrong",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "adjective",
+              "meaning_source": {
+                "value": "Not correct; not right.",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]"
+            }
+          ],
+          "listen_repeat": {
+            "prompt_source": {
+              "value": "Listen and repeat the core phrase.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {
+              "audio_file": "[GENERATE]",
+              "play_on_load": true
+            },
+            "show_text_after_play": true
+          },
+          "quick_match": {
+            "prompt_source": {
+              "value": "Connect each word to its meaning or image.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              {
+                "word_id": "rel_12_001",
+                "correct_key": "rel_12_001_correct"
+              },
+              {
+                "word_id": "rel_12_002",
+                "correct_key": "rel_12_002_correct"
+              },
+              {
+                "word_id": "rel_12_003",
+                "correct_key": "rel_12_003_correct"
+              },
+              {
+                "word_id": "rel_12_004",
+                "correct_key": "rel_12_004_correct"
+              }
+            ],
+            "options_display": "shuffle"
+          }
+        },
+        "phase_2_grammar_engine": {
+          "phase_id": "phase_2",
+          "phase_name": {
+            "value": "Grammar Engine",
+            "translatable": true
+          },
+          "phase_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": {
+            "value": "Grammar tip",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "GrammarEngine",
+          "pro_tip": {
+            "tip_id": "gram_12",
+            "concept_source": {
+              "value": "Negation with 'are not'",
+              "translatable": true
+            },
+            "concept_target": "[TRANSLATE]",
+            "explanation_source": {
+              "value": "To make a 'be' statement negative, add 'not' after the verb: 'are' becomes 'are not'. The contraction 'aren't' means the same thing in casual speech.",
+              "translatable": true
+            },
+            "explanation_target": "[TRANSLATE]",
+            "focus_type": "variations",
+            "examples": [
+              {
+                "example_id": "ex_12_001",
+                "source_text": {
+                  "value": "We aren't funny-looking.",
+                  "translatable": true
+                },
+                "target_text": "[TRANSLATE]",
+                "register": "informal",
+                "usage_note_source": {
+                  "value": "The contracted form — common in casual speech.",
+                  "translatable": true
+                },
+                "usage_note_target": "[TRANSLATE]"
+              },
+              {
+                "example_id": "ex_12_002",
+                "source_text": {
+                  "value": "We are perfectly normal.",
+                  "translatable": true
+                },
+                "target_text": "[TRANSLATE]",
+                "register": "neutral",
+                "usage_note_source": {
+                  "value": "A positive rephrasing using 'normal'.",
+                  "translatable": true
+                },
+                "usage_note_target": "[TRANSLATE]"
+              }
+            ]
+          },
+          "modifiers": [
+            {
+              "modifier_id": "mod_12_001",
+              "modifier_source": {
+                "value": "really",
+                "translatable": true
+              },
+              "modifier_target": "[TRANSLATE]",
+              "example_source": {
+                "value": "We are really not funny-looking.",
+                "translatable": true
+              },
+              "example_target": "[TRANSLATE]",
+              "explanation_source": {
+                "value": "Add 'really' before 'not' to push back more strongly.",
+                "translatable": true
+              },
+              "explanation_target": "[TRANSLATE]"
+            },
+            {
+              "modifier_id": "mod_12_002",
+              "modifier_source": {
+                "value": "at all",
+                "translatable": true
+              },
+              "modifier_target": "[TRANSLATE]",
+              "example_source": {
+                "value": "We are not funny-looking at all.",
+                "translatable": true
+              },
+              "example_target": "[TRANSLATE]",
+              "explanation_source": {
+                "value": "Add 'at all' at the end for the same emphasis.",
+                "translatable": true
+              },
+              "explanation_target": "[TRANSLATE]"
+            }
+          ],
+          "sentence_building": [
+            {
+              "exercise_id": "ex_sb_12_1",
+              "target_sentence_source": {
+                "value": "We are not funny-looking.",
+                "translatable": true
+              },
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": {
+                    "value": "We",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": {
+                    "value": "are",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": {
+                    "value": "not",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": {
+                    "value": "funny-looking",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4
+                }
+              ],
+              "hints_source": {
+                "value": "Place 'not' right after 'are' to make it negative.",
+                "translatable": true
+              },
+              "hints_target": "[TRANSLATE]"
+            },
+            {
+              "exercise_id": "ex_sb_12_2",
+              "target_sentence_source": {
+                "value": "I disagree with them.",
+                "translatable": true
+              },
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": {
+                    "value": "I",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": {
+                    "value": "disagree",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": {
+                    "value": "with",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": {
+                    "value": "them",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4
+                }
+              ],
+              "hints_source": {
+                "value": "A related way to push back, using 'disagree'.",
+                "translatable": true
+              },
+              "hints_target": "[TRANSLATE]"
+            }
+          ]
+        },
+        "phase_3_dialogue": {
+          "phase_id": "phase_3",
+          "phase_name": {
+            "value": "Dialogue Practice",
+            "translatable": true
+          },
+          "phase_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": {
+            "value": "Conversation",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "Dialogue",
+          "setting": {
+            "value": "A living room mirror, two friends checking their reflections after the bus-stop dog encounter.",
+            "translatable": true
+          },
+          "context": {
+            "value": "Back home, two friends laugh off the dog's stare and inspect themselves in the hallway mirror, deciding the dog must have got it wrong.",
+            "translatable": true
+          },
+          "dialogue": [
+            {
+              "turn_id": "turn_001",
+              "turn_number": 1,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "Okay, that dog had me second-guessing my outfit.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_002",
+              "turn_number": 2,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "We are not funny-looking.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_003",
+              "turn_number": 3,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "Right? We look perfectly normal!",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_004",
+              "turn_number": 4,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "I disagree with the dog's opinion completely.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_005",
+              "turn_number": 5,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "Maybe the dog is the one who's wrong.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            }
+          ]
+        },
+        "phase_4_sprint_exercises": {
+          "phase_id": "phase_4",
+          "phase_name": {
+            "value": "Sprint & review",
+            "translatable": true
+          },
+          "phase_code": "SPRINT",
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": {
+            "value": "Quick practice",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "SprintExercises",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_audio_text",
+              "exercise_type": "Audio-to-Text Matching",
+              "prompt_source": "Select the phrase you hear:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": false
+              },
+              "text_options": [
+                "We are not funny-looking.",
+                "We are funny-looking.",
+                "We are not friendly."
+              ],
+              "text_options_source": [
+                "We are not funny-looking.",
+                "We are funny-looking.",
+                "We are not friendly."
+              ],
+              "text_options_target": [
+                "[TRANSLATE]",
+                "[TRANSLATE]",
+                "[TRANSLATE]"
+              ],
+              "correct_answer": "We are not funny-looking.",
+              "correct_answer_source": "We are not funny-looking.",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_v1_text_image",
+              "exercise_type": "Text-to-Image Matching",
+              "prompt_source": "Read and choose the matching image:",
+              "prompt_target": "[TRANSLATE]",
+              "text_stimulus": "normal",
+              "text_stimulus_source": "normal",
+              "text_stimulus_target": "[TRANSLATE]",
+              "image_options": [
+                {
+                  "option_id": "opt_a",
+                  "image_url": "",
+                  "correct": true
+                },
+                {
+                  "option_id": "opt_b",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_c",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_d",
+                  "image_url": "",
+                  "correct": false
+                }
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_audio_blank",
+              "exercise_type": "Audio Fill-in-the-Blank",
+              "prompt_source": "Listen and complete:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true
+              },
+              "sentence": "We are ___ funny-looking.",
+              "sentence_source": "We are ___ funny-looking.",
+              "sentence_target": "[TRANSLATE]",
+              "blanks": [
+                3
+              ],
+              "correct_answer": "not",
+              "correct_answer_source": "not",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            }
+          ]
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": [
+        "**_target"
+      ],
+      "audio_generation_patterns": [
+        "[GENERATE]",
+        "[GENERATE_FOR_TARGET]"
+      ]
+    }
+  }
+}
