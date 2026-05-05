@@ -1,0 +1,750 @@
+{
+  "title": {
+    "value": "doing simple math",
+    "translatable": true
+  },
+  "description": {
+    "value": "Practice saying what you can do in basic arithmetic.",
+    "translatable": true
+  },
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "education systems",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_asking_help_001-L02",
+      "generation_timestamp": "2026-05-05T03:33:59Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A2",
+        "level_name": {
+          "value": "Elementary",
+          "translatable": true
+        },
+        "level_description": {
+          "value": "Builds on basic phrases for everyday situations.",
+          "translatable": true
+        },
+        "cefr_equivalent": "A2",
+        "available_levels": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      "theme_config": {
+        "theme_id": "EDUCATION_SYSTEMS",
+        "theme_code": "EDUCATION_SYSTEMS",
+        "theme_name": {
+          "value": "Education Systems",
+          "translatable": true
+        },
+        "theme_description": {
+          "value": "Talking about what you can do in school subjects.",
+          "translatable": true
+        },
+        "available_themes": [
+          {
+            "code": {
+              "value": "ESS",
+              "translatable": true
+            },
+            "name": {
+              "value": "Essentials",
+              "translatable": true
+            }
+          },
+          {
+            "code": {
+              "value": "TRV",
+              "translatable": true
+            },
+            "name": {
+              "value": "Travel",
+              "translatable": true
+            }
+          }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "2.1a",
+        "unit_number": 2,
+        "subunit_number": 1,
+        "variant": "a",
+        "unit_name": {
+          "value": "Asking for Help",
+          "translatable": true
+        },
+        "unit_description": {
+          "value": "Learn how to ask for help and respond to advice in everyday conversations.",
+          "translatable": true
+        },
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 3,
+        "estimated_completion_time_minutes": 75
+      },
+      "lesson_config": {
+        "lesson_number": 2,
+        "lesson_type": "teaching",
+        "lesson_name": {
+          "value": "doing simple math",
+          "translatable": true
+        },
+        "lesson_description": {
+          "value": "Practice saying what you can do in basic arithmetic.",
+          "translatable": true
+        },
+        "estimated_duration_minutes": 5,
+        "difficulty_within_unit": 2,
+        "prerequisites": [
+          "badge_asking_help_001-L01"
+        ],
+        "learning_objectives": [
+          "Express a basic ability using 'I can...'.",
+          "Use simple math vocabulary like 'add', 'count', and 'number'.",
+          "Talk about what you can do in arithmetic."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      }
+    },
+    "lesson_structure": {
+      "phase_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "phase_1_vocabulary_anchor",
+          "phase_2_grammar_engine",
+          "phase_3_dialogue",
+          "phase_4_sprint_exercises"
+        ]
+      },
+      "phases": {
+        "phase_1_vocabulary_anchor": {
+          "phase_id": "phase_1",
+          "phase_name": {
+            "value": "Vocabulary Anchor",
+            "translatable": true
+          },
+          "phase_code": "VOCAB_ANCHOR",
+          "position_in_lesson": 1,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": {
+            "value": "Key phrases",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "VocabularyAnchor",
+          "core_phrase": {
+            "phrase_id": "core_2",
+            "source_text": {
+              "value": "I can add two and two.",
+              "translatable": true
+            },
+            "target_text": "[TRANSLATE]",
+            "part_of_speech": "verb phrase",
+            "linguistic_info": {
+              "tooltip_source": {
+                "value": "A statement that says you have a basic, simple ability.",
+                "translatable": true
+              },
+              "tooltip_target": "[TRANSLATE]",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+            },
+            "media": {
+              "image_url": "",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            "context": {
+              "usage_context": "self_assessment",
+              "formality_level": "neutral",
+              "time_of_day": "any",
+              "relationship": "any"
+            }
+          },
+          "related_words": [
+            {
+              "word_id": "rel_2_001",
+              "source_text": {
+                "value": "count",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "verb",
+              "meaning_source": {
+                "value": "To say numbers in order, like one, two, three.",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]"
+            },
+            {
+              "word_id": "rel_2_002",
+              "source_text": {
+                "value": "number",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "meaning_source": {
+                "value": "A symbol or word used in counting, like 1, 2, or 3.",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]"
+            },
+            {
+              "word_id": "rel_2_003",
+              "source_text": {
+                "value": "easy",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "adjective",
+              "meaning_source": {
+                "value": "Not hard to do.",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]"
+            },
+            {
+              "word_id": "rel_2_004",
+              "source_text": {
+                "value": "basic",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "adjective",
+              "meaning_source": {
+                "value": "At the simplest or starting level.",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]"
+            }
+          ],
+          "listen_repeat": {
+            "prompt_source": {
+              "value": "Listen and repeat the core phrase.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {
+              "audio_file": "[GENERATE]",
+              "play_on_load": true
+            },
+            "show_text_after_play": true
+          },
+          "quick_match": {
+            "prompt_source": {
+              "value": "Connect each word to its meaning or image.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              {
+                "word_id": "rel_2_001",
+                "correct_key": "rel_2_001_correct"
+              },
+              {
+                "word_id": "rel_2_002",
+                "correct_key": "rel_2_002_correct"
+              },
+              {
+                "word_id": "rel_2_003",
+                "correct_key": "rel_2_003_correct"
+              },
+              {
+                "word_id": "rel_2_004",
+                "correct_key": "rel_2_004_correct"
+              }
+            ],
+            "options_display": "shuffle"
+          }
+        },
+        "phase_2_grammar_engine": {
+          "phase_id": "phase_2",
+          "phase_name": {
+            "value": "Grammar Engine",
+            "translatable": true
+          },
+          "phase_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": {
+            "value": "Grammar tip",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "GrammarEngine",
+          "pro_tip": {
+            "tip_id": "gram_2",
+            "concept_source": {
+              "value": "Stating ability with 'I can...'",
+              "translatable": true
+            },
+            "concept_target": "[TRANSLATE]",
+            "explanation_source": {
+              "value": "Use 'I can' plus a verb to say what you are able to do. The verb stays in its base form.",
+              "translatable": true
+            },
+            "explanation_target": "[TRANSLATE]",
+            "focus_type": "variations",
+            "examples": [
+              {
+                "example_id": "ex_2_001",
+                "source_text": {
+                  "value": "I am able to add two and two.",
+                  "translatable": true
+                },
+                "target_text": "[TRANSLATE]",
+                "register": "formal",
+                "usage_note_source": {
+                  "value": "A more formal way to say the same thing.",
+                  "translatable": true
+                },
+                "usage_note_target": "[TRANSLATE]"
+              },
+              {
+                "example_id": "ex_2_002",
+                "source_text": {
+                  "value": "I know how to add two and two.",
+                  "translatable": true
+                },
+                "target_text": "[TRANSLATE]",
+                "register": "informal",
+                "usage_note_source": {
+                  "value": "A common way to say you have learned a skill.",
+                  "translatable": true
+                },
+                "usage_note_target": "[TRANSLATE]"
+              }
+            ]
+          },
+          "modifiers": [
+            {
+              "modifier_id": "mod_2_001",
+              "modifier_source": {
+                "value": "easily",
+                "translatable": true
+              },
+              "modifier_target": "[TRANSLATE]",
+              "example_source": {
+                "value": "I can easily add two and two.",
+                "translatable": true
+              },
+              "example_target": "[TRANSLATE]",
+              "explanation_source": {
+                "value": "Add 'easily' to show the action is simple for you.",
+                "translatable": true
+              },
+              "explanation_target": "[TRANSLATE]"
+            },
+            {
+              "modifier_id": "mod_2_002",
+              "modifier_source": {
+                "value": "quickly",
+                "translatable": true
+              },
+              "modifier_target": "[TRANSLATE]",
+              "example_source": {
+                "value": "I can quickly add two and two.",
+                "translatable": true
+              },
+              "example_target": "[TRANSLATE]",
+              "explanation_source": {
+                "value": "Add 'quickly' to show how fast you do the action.",
+                "translatable": true
+              },
+              "explanation_target": "[TRANSLATE]"
+            }
+          ],
+          "sentence_building": [
+            {
+              "exercise_id": "ex_sb_2_1",
+              "target_sentence_source": {
+                "value": "I can add two and two.",
+                "translatable": true
+              },
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": {
+                    "value": "I",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": {
+                    "value": "can",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": {
+                    "value": "add",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": {
+                    "value": "two",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4
+                },
+                {
+                  "word_id": "w5",
+                  "word_source": {
+                    "value": "and",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 5
+                },
+                {
+                  "word_id": "w6",
+                  "word_source": {
+                    "value": "two",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 6
+                }
+              ],
+              "hints": "Start with the speaker, then the modal verb."
+            },
+            {
+              "exercise_id": "ex_sb_2_2",
+              "target_sentence_source": {
+                "value": "I can count to ten.",
+                "translatable": true
+              },
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": {
+                    "value": "I",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": {
+                    "value": "can",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": {
+                    "value": "count",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": {
+                    "value": "to",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4
+                },
+                {
+                  "word_id": "w5",
+                  "word_source": {
+                    "value": "ten",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 5
+                }
+              ],
+              "hints": "A different basic ability using 'I can'."
+            }
+          ]
+        },
+        "phase_3_dialogue": {
+          "phase_id": "phase_3",
+          "phase_name": {
+            "value": "Dialogue Practice",
+            "translatable": true
+          },
+          "phase_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": {
+            "value": "Conversation",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "Dialogue",
+          "setting": {
+            "value": "In a beginner math class",
+            "translatable": true
+          },
+          "context": {
+            "value": "Two students sharing what they can already do.",
+            "translatable": true
+          },
+          "dialogue": [
+            {
+              "turn_id": "turn_001",
+              "turn_number": 1,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "Can you do simple math?",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_002",
+              "turn_number": 2,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "I can add two and two.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_003",
+              "turn_number": 3,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "That is a good start.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_004",
+              "turn_number": 4,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "I know basic numbers too.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_005",
+              "turn_number": 5,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "Math gets easier with practice.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            }
+          ]
+        },
+        "phase_4_sprint_exercises": {
+          "phase_id": "phase_4",
+          "phase_name": {
+            "value": "Sprint & review",
+            "translatable": true
+          },
+          "phase_code": "SPRINT",
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": {
+            "value": "Quick practice",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "SprintExercises",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_audio_text",
+              "exercise_type": "Audio-to-Text Matching",
+              "prompt_source": "Select the phrase you hear:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": false
+              },
+              "text_options": [
+                "I can add two and two.",
+                "I can count to ten.",
+                "I know basic numbers."
+              ],
+              "text_options_source": [
+                "I can add two and two.",
+                "I can count to ten.",
+                "I know basic numbers."
+              ],
+              "text_options_target": [
+                "[TRANSLATE]",
+                "[TRANSLATE]",
+                "[TRANSLATE]"
+              ],
+              "correct_answer": "I can add two and two.",
+              "correct_answer_source": "I can add two and two.",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_fill_dialogue",
+              "exercise_type": "Fill-in-the-Dialogue (Speaking)",
+              "prompt_source": "Speak your line:",
+              "prompt_target": "[TRANSLATE]",
+              "dialogue_context": "A classmate asks if you can do simple math; respond with what you can do.",
+              "dialogue_context_source": "A classmate asks if you can do simple math; respond with what you can do.",
+              "dialogue_context_target": "[TRANSLATE]",
+              "turns": [
+                {
+                  "turn_number": 1,
+                  "speaker": "PARTNER",
+                  "text_source": "Can you do basic math?",
+                  "text_target": "[TRANSLATE]",
+                  "audio_file": "[GENERATE]",
+                  "text_to_speak_target": "Can you do basic math?"
+                },
+                {
+                  "turn_number": 2,
+                  "speaker": "YOU",
+                  "text_source": "",
+                  "expected_response": "I can add two and two.",
+                  "expected_response_source": "I can add two and two.",
+                  "expected_response_target": "[TRANSLATE]",
+                  "acceptable_responses": [
+                    "I can add two and two.",
+                    "I can count to ten."
+                  ],
+                  "acceptable_responses_source": [
+                    "I can add two and two.",
+                    "I can count to ten."
+                  ],
+                  "acceptable_responses_target": [
+                    "[TRANSLATE]",
+                    "[TRANSLATE]"
+                  ]
+                }
+              ],
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_sentence_open",
+              "exercise_type": "Sentence Completion (Open)",
+              "prompt_source": "Finish in your own words:",
+              "prompt_target": "[TRANSLATE]",
+              "prompt": "I can add two and ___.",
+              "prompt_text_source": "I can add two and ___.",
+              "prompt_text_target": "[TRANSLATE]",
+              "expected_response": "two",
+              "expected_response_source": "two",
+              "expected_response_target": "[TRANSLATE]",
+              "scoring_criteria": "Accept any basic number that completes a simple addition.",
+              "scoring_criteria_source": "Accept any basic number that completes a simple addition.",
+              "scoring_criteria_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_quick_fire",
+              "exercise_type": "Listen and Respond (Quick Fire)",
+              "prompt_source": "Listen and respond out loud:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true,
+                "text_to_speak_target": "Can you do basic math?"
+              },
+              "prompt": "Can you do basic math?",
+              "prompt_text_source": "Can you do basic math?",
+              "prompt_text_target": "[TRANSLATE]",
+              "response": {
+                "mode": "speak",
+                "acceptable_responses": [
+                  "I can add two and two.",
+                  "I can count to ten.",
+                  "I know basic numbers."
+                ],
+                "acceptable_responses_source": [
+                  "I can add two and two.",
+                  "I can count to ten.",
+                  "I know basic numbers."
+                ],
+                "acceptable_responses_target": [
+                  "[TRANSLATE]",
+                  "[TRANSLATE]",
+                  "[TRANSLATE]"
+                ],
+                "time_limit_seconds": 8
+              },
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            }
+          ]
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": [
+        "**_target"
+      ],
+      "audio_generation_patterns": [
+        "[GENERATE]",
+        "[GENERATE_FOR_TARGET]"
+      ]
+    }
+  }
+}

@@ -1,0 +1,734 @@
+{
+  "title": "echoing what you own",
+  "description": "Confirm that you own the same thing your friend just mentioned.",
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "basic descriptions",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_sharing_favorites_001-L07",
+      "generation_timestamp": "2026-05-04T07:34:33.969820+00:00",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A2",
+        "level_name": "Pre-Intermediate",
+        "level_description": "Learners can handle short past-tense conversations and simple plans about familiar topics.",
+        "cefr_equivalent": "A2",
+        "available_levels": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      "theme_config": {
+        "theme_id": "BASICDESCRIPTIONS",
+        "theme_code": "BASICDESCRIPTIONS",
+        "theme_name": "Basic Descriptions",
+        "theme_description": "Talking about basic descriptions as part of sharing favorites with a friend.",
+        "available_themes": [
+          {
+            "code": "ESS",
+            "name": "Essentials"
+          },
+          {
+            "code": "TRV",
+            "name": "Travel"
+          }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "2.1a",
+        "unit_number": 2,
+        "subunit_number": 1,
+        "variant": "a",
+        "unit_name": "Sharing Favorites",
+        "unit_description": "Talk about movies, shows, and songs you love, and make plans to enjoy them with a friend.",
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 3,
+        "estimated_completion_time_minutes": 60
+      },
+      "lesson_config": {
+        "lesson_number": 847,
+        "lesson_type": "teaching",
+        "lesson_name": "echoing what you own",
+        "lesson_description": "Echo a friend's possession with 'I have it too' — using 'it' as a pronoun to avoid repeating the noun.",
+        "estimated_duration_minutes": 5,
+        "difficulty_within_unit": 7,
+        "prerequisites": [
+          "badge_sharing_favorites_001-L01",
+          "badge_sharing_favorites_001-L02",
+          "badge_sharing_favorites_001-L03",
+          "badge_sharing_favorites_001-L04",
+          "badge_sharing_favorites_001-L05",
+          "badge_sharing_favorites_001-L06"
+        ],
+        "learning_objectives": [
+          "Use the pronoun 'it' to replace a noun already mentioned.",
+          "Combine 'I have' with 'too' to echo possession.",
+          "Recognize basic possessive pronouns like 'mine' and 'yours'."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      },
+      "order": 847
+    },
+    "lesson_structure": {
+      "module_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "module_1_core_vocabulary",
+          "module_2_functional_grammar",
+          "module_3_sentence_building",
+          "module_dialogue_practice",
+          "module_sprint_exercises"
+        ]
+      },
+      "modules": {
+        "module_1_core_vocabulary": {
+          "module_id": "module_1",
+          "module_name": "Vocabulary Anchor",
+          "module_code": "VOCAB",
+          "position_in_lesson": 1,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": "Key phrases",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Vocabulary",
+          "vocabulary_items": [
+            {
+              "vocab_id": "core_7",
+              "phrase_id": 1,
+              "source_text": "I have it too.",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "declarative phrase",
+              "frequency_rank": 1,
+              "difficulty": 1,
+              "context": {
+                "usage_context": "agreement",
+                "formality_level": "neutral",
+                "time_of_day": "any",
+                "relationship": "friends"
+              },
+              "linguistic_info": {
+                "tooltip_source": "A short statement that uses the pronoun 'it' and the echo word 'too' to confirm shared ownership.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_7_001",
+              "phrase_id": 2,
+              "source_text": "own",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "verb",
+              "frequency_rank": 2,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "To have something as your property.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_7_002",
+              "phrase_id": 3,
+              "source_text": "mine",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "pronoun",
+              "frequency_rank": 3,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "Used to mean 'belonging to me'.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_7_003",
+              "phrase_id": 4,
+              "source_text": "yours",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "pronoun",
+              "frequency_rank": 4,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "Used to mean 'belonging to you'.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_7_004",
+              "phrase_id": 5,
+              "source_text": "copy",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "frequency_rank": 5,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "One single version of a book, movie, or recording.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            }
+          ],
+          "vocabulary_anchor_listen_repeat": {
+            "prompt_source": "Listen and repeat the core phrase.",
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {
+              "audio_file": "[GENERATE]",
+              "play_on_load": true,
+              "text_to_speak_target": "I have it too."
+            },
+            "show_text_after_play": true
+          },
+          "vocabulary_anchor_quick_match": {
+            "prompt_source": "Connect each word to its meaning or image.",
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              {
+                "pair_id": "qm_rel_7_001",
+                "word_id": "rel_7_001",
+                "word_source": "own",
+                "word_target": "[TRANSLATE]",
+                "match_type": "definition",
+                "match_value_source": "To have something as your property.",
+                "match_value_target": "[TRANSLATE]",
+                "correct_key": "rel_7_001_correct"
+              },
+              {
+                "pair_id": "qm_rel_7_002",
+                "word_id": "rel_7_002",
+                "word_source": "mine",
+                "word_target": "[TRANSLATE]",
+                "match_type": "definition",
+                "match_value_source": "Used to mean 'belonging to me'.",
+                "match_value_target": "[TRANSLATE]",
+                "correct_key": "rel_7_002_correct"
+              },
+              {
+                "pair_id": "qm_rel_7_003",
+                "word_id": "rel_7_003",
+                "word_source": "yours",
+                "word_target": "[TRANSLATE]",
+                "match_type": "definition",
+                "match_value_source": "Used to mean 'belonging to you'.",
+                "match_value_target": "[TRANSLATE]",
+                "correct_key": "rel_7_003_correct"
+              },
+              {
+                "pair_id": "qm_rel_7_004",
+                "word_id": "rel_7_004",
+                "word_source": "copy",
+                "word_target": "[TRANSLATE]",
+                "match_type": "definition",
+                "match_value_source": "One single version of a book, movie, or recording.",
+                "match_value_target": "[TRANSLATE]",
+                "correct_key": "rel_7_004_correct"
+              }
+            ],
+            "options_display": "shuffle"
+          }
+        },
+        "module_2_functional_grammar": {
+          "module_id": "module_2",
+          "module_name": "Grammar Engine",
+          "module_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": "Grammar tip",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Grammar",
+          "grammar_points": [
+            {
+              "grammar_id": "gram_7",
+              "concept_source": "Replacing nouns with the pronoun 'it'",
+              "concept_target": "[TRANSLATE]",
+              "explanation_source": "When you and a friend already know what you are talking about, replace the noun with the pronoun 'it'. So 'I have the DVD' becomes 'I have it'. Add 'too' at the end to echo your friend. The pronoun 'it' is for one thing — for more than one, use 'them'.",
+              "explanation_target": "[TRANSLATE]",
+              "focus_type": "variations",
+              "examples": [
+                {
+                  "example_id": "ex_7_001",
+                  "text_source": "I have it as well.",
+                  "text_target": "[TRANSLATE]",
+                  "register": "neutral",
+                  "usage_note_source": "'As well' is a natural alternative to 'too' at the end.",
+                  "usage_note_target": "[TRANSLATE]",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                },
+                {
+                  "example_id": "ex_7_002",
+                  "text_source": "I own it too.",
+                  "text_target": "[TRANSLATE]",
+                  "register": "neutral",
+                  "usage_note_source": "'Own' makes the sense of possession more explicit than 'have'.",
+                  "usage_note_target": "[TRANSLATE]",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                }
+              ]
+            }
+          ],
+          "grammar_engine_modifiers": [
+            {
+              "modifier_id": "mod_7_001",
+              "modifier_source": "at home",
+              "modifier_target": "[TRANSLATE]",
+              "example_source": "I have it at home too.",
+              "example_target": "[TRANSLATE]",
+              "explanation_source": "Adds where you keep the item.",
+              "explanation_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "modifier_id": "mod_7_002",
+              "modifier_source": "on me",
+              "modifier_target": "[TRANSLATE]",
+              "example_source": "I have it on me too.",
+              "example_target": "[TRANSLATE]",
+              "explanation_source": "Means you are carrying the item with you.",
+              "explanation_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            }
+          ]
+        },
+        "module_3_sentence_building": {
+          "module_id": "module_3",
+          "module_name": "Sentence Building",
+          "module_code": "SENTENCE",
+          "position_in_lesson": 3,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": "Build sentences",
+          "title_target": "[TRANSLATE]",
+          "module_type": "SentenceBuilding",
+          "exercises": [
+            {
+              "exercise_id": "ex_sb_7_1",
+              "target_sentence_source": "I have it too.",
+              "target_sentence_target": "[TRANSLATE]",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": "I",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": "have",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": "it",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": "too",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4
+                }
+              ],
+              "punctuation_mode": "auto_fit",
+              "hints_source": "Use 'it' instead of repeating the noun.",
+              "hints_target": "[TRANSLATE]",
+              "exercise_type": "Drag-and-Drop Sentence Builder",
+              "prompt_source": "Put the words in the correct order:",
+              "prompt_target": "[TRANSLATE]"
+            },
+            {
+              "exercise_id": "ex_sb_7_2",
+              "target_sentence_source": "I have it as well.",
+              "target_sentence_target": "[TRANSLATE]",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": "I",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": "have",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": "it",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": "as",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4
+                },
+                {
+                  "word_id": "w5",
+                  "word_source": "well",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 5
+                }
+              ],
+              "punctuation_mode": "auto_fit",
+              "hints_source": "Same idea, swapping 'too' for 'as well'.",
+              "hints_target": "[TRANSLATE]",
+              "exercise_type": "Drag-and-Drop Sentence Builder",
+              "prompt_source": "Put the words in the correct order:",
+              "prompt_target": "[TRANSLATE]"
+            }
+          ]
+        },
+        "module_dialogue_practice": {
+          "module_id": "module_dialogue_practice",
+          "module_name": "Dialogue Practice",
+          "module_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": "Conversation",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Conversations",
+          "setting_source": "In a friend's bedroom",
+          "setting_target": "[TRANSLATE]",
+          "context_source": "A friend has just shown a movie they own and you realize you own the same one.",
+          "context_target": "[TRANSLATE]",
+          "setting": "In a friend's bedroom",
+          "context": "A friend has just shown a movie they own and you realize you own the same one.",
+          "dialogue": [
+            {
+              "turn_id": "turn_001",
+              "turn_number": 1,
+              "speaker": "PARTNER",
+              "text_source": "Look, I have the DVD of that movie.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_002",
+              "turn_number": 2,
+              "speaker": "YOU",
+              "text_source": "I have it too.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_003",
+              "turn_number": 3,
+              "speaker": "PARTNER",
+              "text_source": "Really? What a coincidence.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_004",
+              "turn_number": 4,
+              "speaker": "YOU",
+              "text_source": "Yeah, my copy is at home.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_005",
+              "turn_number": 5,
+              "speaker": "PARTNER",
+              "text_source": "We can compare them later if you want.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            }
+          ]
+        },
+        "module_sprint_exercises": {
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": "Quick practice",
+          "title_target": "[TRANSLATE]",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_flashcard",
+              "exercise_type": "Digital Flashcards",
+              "prompt_source": "Study the card:",
+              "prompt_target": "[TRANSLATE]",
+              "word": "mine",
+              "definition": "Used to mean 'belonging to me'.",
+              "examples": [
+                "That copy is mine."
+              ],
+              "context": "Use 'mine' when you want to say something belongs to you, without repeating the noun.",
+              "word_source": "mine",
+              "word_target": "[TRANSLATE]",
+              "definition_source": "Used to mean 'belonging to me'.",
+              "definition_target": "[TRANSLATE]",
+              "examples_source": [
+                "That copy is mine."
+              ],
+              "examples_target": [
+                "[TRANSLATE]"
+              ],
+              "context_source": "Use 'mine' when you want to say something belongs to you, without repeating the noun.",
+              "context_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 5,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_match_game",
+              "exercise_type": "Flashcard Matching Game",
+              "prompt_source": "Match pairs:",
+              "prompt_target": "[TRANSLATE]",
+              "pairs": [
+                {
+                  "pair_id": "pair_001",
+                  "item_a": "own",
+                  "item_b": "to have as property",
+                  "type": "definition"
+                },
+                {
+                  "pair_id": "pair_002",
+                  "item_a": "mine",
+                  "item_b": "belonging to me",
+                  "type": "definition"
+                },
+                {
+                  "pair_id": "pair_003",
+                  "item_a": "yours",
+                  "item_b": "belonging to you",
+                  "type": "definition"
+                },
+                {
+                  "pair_id": "pair_004",
+                  "item_a": "copy",
+                  "item_b": "one version of something",
+                  "type": "definition"
+                }
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_audio_blank",
+              "exercise_type": "Audio Fill-in-the-Blank",
+              "prompt_source": "Listen and complete:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true
+              },
+              "sentence": "I have ___ too.",
+              "sentence_source": "I have ___ too.",
+              "sentence_target": "[TRANSLATE]",
+              "blanks": [
+                3
+              ],
+              "correct_answer": "it",
+              "correct_answer_source": "it",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_v1_text_image",
+              "exercise_type": "Text-to-Image Matching",
+              "prompt_source": "Read and choose the matching image:",
+              "prompt_target": "[TRANSLATE]",
+              "text_stimulus": "copy",
+              "text_stimulus_source": "copy",
+              "text_stimulus_target": "[TRANSLATE]",
+              "image_options": [
+                {
+                  "option_id": "opt_a",
+                  "image_url": "",
+                  "correct": true
+                },
+                {
+                  "option_id": "opt_b",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_c",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_d",
+                  "image_url": "",
+                  "correct": false
+                }
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_fill_dialogue",
+              "exercise_type": "Fill-in-the-Dialogue (Speaking)",
+              "prompt_source": "Speak your line:",
+              "prompt_target": "[TRANSLATE]",
+              "dialogue_context": "Your friend mentions a movie they own.",
+              "dialogue_context_source": "Your friend mentions a movie they own.",
+              "dialogue_context_target": "[TRANSLATE]",
+              "turns": [
+                {
+                  "turn_number": 1,
+                  "speaker": "PARTNER",
+                  "text_source": "I have the DVD of that movie.",
+                  "text_target": "[TRANSLATE]",
+                  "audio_file": "[GENERATE]",
+                  "text_to_speak_target": "I have the DVD of that movie."
+                },
+                {
+                  "turn_number": 2,
+                  "speaker": "YOU",
+                  "text_source": "(echo with the pronoun 'it')",
+                  "expected_response": "I have it too.",
+                  "expected_response_source": "I have it too.",
+                  "expected_response_target": "[TRANSLATE]",
+                  "acceptable_responses": [
+                    "I have it too.",
+                    "I have it as well.",
+                    "I own it too.",
+                    "Me too."
+                  ],
+                  "acceptable_responses_source": [
+                    "I have it too.",
+                    "I have it as well.",
+                    "I own it too.",
+                    "Me too."
+                  ],
+                  "acceptable_responses_target": [
+                    "[TRANSLATE]",
+                    "[TRANSLATE]",
+                    "[TRANSLATE]",
+                    "[TRANSLATE]"
+                  ]
+                }
+              ],
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              }
+            }
+          ],
+          "module_id": "module_sprint_exercises",
+          "module_name": "Sprint & review",
+          "module_code": "SPRINT",
+          "module_type": "Review"
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": [
+        "**_target"
+      ],
+      "audio_generation_patterns": [
+        "[GENERATE]",
+        "[GENERATE_FOR_TARGET]"
+      ]
+    }
+  },
+  "metadata": {
+    "lessonType": "malegado",
+    "uploadSchema": "modules_canonical_v1",
+    "convertedFrom": "new_structure_v4_phases",
+    "sourcePath": "/home/metuge/Dev/submissions/malegado_new_structure/Dialogues/dialogue 57/lesson_07.json",
+    "sourceLessonId": "badge_sharing_favorites_001-L07"
+  }
+}

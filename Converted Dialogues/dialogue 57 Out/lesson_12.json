@@ -1,0 +1,686 @@
+{
+  "title": "reacting to a story",
+  "description": "Share how a movie makes you feel emotionally.",
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "feelings & personality",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_sharing_favorites_001-L12",
+      "generation_timestamp": "2026-05-04T10:43:38.072744+00:00",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A2",
+        "level_name": "Pre-Intermediate",
+        "level_description": "Learners can handle short past-tense conversations and simple plans about familiar topics.",
+        "cefr_equivalent": "A2",
+        "available_levels": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      "theme_config": {
+        "theme_id": "FEELINGSPERSONALITY",
+        "theme_code": "FEELINGSPERSONALITY",
+        "theme_name": "Feelings & Personality",
+        "theme_description": "Talking about feelings & personality as part of sharing favorites with a friend.",
+        "available_themes": [
+          {
+            "code": "ESS",
+            "name": "Essentials"
+          },
+          {
+            "code": "TRV",
+            "name": "Travel"
+          }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "2.1a",
+        "unit_number": 2,
+        "subunit_number": 1,
+        "variant": "a",
+        "unit_name": "Sharing Favorites",
+        "unit_description": "Talk about movies, shows, and songs you love, and make plans to enjoy them with a friend.",
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 3,
+        "estimated_completion_time_minutes": 60
+      },
+      "lesson_config": {
+        "lesson_number": 852,
+        "lesson_type": "teaching",
+        "lesson_name": "reacting to a story",
+        "lesson_description": "Use the simple present with 'at the end' to describe an emotional reaction to a story.",
+        "estimated_duration_minutes": 5,
+        "difficulty_within_unit": 12,
+        "prerequisites": [
+          "badge_sharing_favorites_001-L01",
+          "badge_sharing_favorites_001-L02",
+          "badge_sharing_favorites_001-L03",
+          "badge_sharing_favorites_001-L04",
+          "badge_sharing_favorites_001-L05",
+          "badge_sharing_favorites_001-L06",
+          "badge_sharing_favorites_001-L07",
+          "badge_sharing_favorites_001-L08",
+          "badge_sharing_favorites_001-L09",
+          "badge_sharing_favorites_001-L10",
+          "badge_sharing_favorites_001-L11"
+        ],
+        "learning_objectives": [
+          "Describe an emotional reaction using the simple present.",
+          "Use 'at the end' to point to a specific moment in a story.",
+          "Recognize basic emotion words like 'sad', 'happy', and 'touched'."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      },
+      "order": 852
+    },
+    "lesson_structure": {
+      "module_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "module_1_core_vocabulary",
+          "module_2_functional_grammar",
+          "module_3_sentence_building",
+          "module_dialogue_practice",
+          "module_sprint_exercises"
+        ]
+      },
+      "modules": {
+        "module_1_core_vocabulary": {
+          "module_id": "module_1",
+          "module_name": "Vocabulary Anchor",
+          "module_code": "VOCAB",
+          "position_in_lesson": 1,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": "Key phrases",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Vocabulary",
+          "vocabulary_items": [
+            {
+              "vocab_id": "core_12",
+              "phrase_id": 1,
+              "source_text": "I cry at the end.",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "declarative phrase",
+              "frequency_rank": 1,
+              "difficulty": 1,
+              "context": {
+                "usage_context": "feeling",
+                "formality_level": "neutral",
+                "time_of_day": "any",
+                "relationship": "friends"
+              },
+              "linguistic_info": {
+                "tooltip_source": "A simple-present statement describing an emotional reaction to a moment in a story.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_12_001",
+              "phrase_id": 2,
+              "source_text": "sad",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "adjective",
+              "frequency_rank": 2,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "Used when you feel low or unhappy about something.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_12_002",
+              "phrase_id": 3,
+              "source_text": "happy",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "adjective",
+              "frequency_rank": 3,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "Used when you feel pleased or in a good mood.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_12_003",
+              "phrase_id": 4,
+              "source_text": "touched",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "adjective",
+              "frequency_rank": 4,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "Used when a story or moment moves your feelings.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_12_004",
+              "phrase_id": 5,
+              "source_text": "ending",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "frequency_rank": 5,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "The final part of a story, movie, or song.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            }
+          ],
+          "vocabulary_anchor_listen_repeat": {
+            "prompt_source": "Listen and repeat the core phrase.",
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {
+              "audio_file": "[GENERATE]",
+              "play_on_load": true,
+              "text_to_speak_target": "I cry at the end."
+            },
+            "show_text_after_play": true
+          },
+          "vocabulary_anchor_quick_match": {
+            "prompt_source": "Connect each word to its meaning or image.",
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              {
+                "pair_id": "qm_rel_12_001",
+                "word_id": "rel_12_001",
+                "word_source": "sad",
+                "word_target": "[TRANSLATE]",
+                "match_type": "definition",
+                "match_value_source": "Used when you feel low or unhappy about something.",
+                "match_value_target": "[TRANSLATE]",
+                "correct_key": "rel_12_001_correct"
+              },
+              {
+                "pair_id": "qm_rel_12_002",
+                "word_id": "rel_12_002",
+                "word_source": "happy",
+                "word_target": "[TRANSLATE]",
+                "match_type": "definition",
+                "match_value_source": "Used when you feel pleased or in a good mood.",
+                "match_value_target": "[TRANSLATE]",
+                "correct_key": "rel_12_002_correct"
+              },
+              {
+                "pair_id": "qm_rel_12_003",
+                "word_id": "rel_12_003",
+                "word_source": "touched",
+                "word_target": "[TRANSLATE]",
+                "match_type": "definition",
+                "match_value_source": "Used when a story or moment moves your feelings.",
+                "match_value_target": "[TRANSLATE]",
+                "correct_key": "rel_12_003_correct"
+              },
+              {
+                "pair_id": "qm_rel_12_004",
+                "word_id": "rel_12_004",
+                "word_source": "ending",
+                "word_target": "[TRANSLATE]",
+                "match_type": "definition",
+                "match_value_source": "The final part of a story, movie, or song.",
+                "match_value_target": "[TRANSLATE]",
+                "correct_key": "rel_12_004_correct"
+              }
+            ],
+            "options_display": "shuffle"
+          }
+        },
+        "module_2_functional_grammar": {
+          "module_id": "module_2",
+          "module_name": "Grammar Engine",
+          "module_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": "Grammar tip",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Grammar",
+          "grammar_points": [
+            {
+              "grammar_id": "gram_12",
+              "concept_source": "Emotional reactions in the simple present",
+              "concept_target": "[TRANSLATE]",
+              "explanation_source": "To describe how a story makes you feel — every time you watch it — use the simple present. Say 'I cry', not 'I cried' or 'I am crying'. Add 'at the end' (or another time phrase) to anchor the reaction to a specific moment. The simple present here describes a habit, not just one occasion.",
+              "explanation_target": "[TRANSLATE]",
+              "focus_type": "variations",
+              "examples": [
+                {
+                  "example_id": "ex_12_001",
+                  "text_source": "It makes me sad at the end.",
+                  "text_target": "[TRANSLATE]",
+                  "register": "neutral",
+                  "usage_note_source": "Variation that puts the feeling on the story rather than on yourself.",
+                  "usage_note_target": "[TRANSLATE]",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                },
+                {
+                  "example_id": "ex_12_002",
+                  "text_source": "I always cry at the end.",
+                  "text_target": "[TRANSLATE]",
+                  "register": "neutral",
+                  "usage_note_source": "Adding 'always' makes the habit even clearer.",
+                  "usage_note_target": "[TRANSLATE]",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                }
+              ]
+            }
+          ],
+          "grammar_engine_modifiers": [
+            {
+              "modifier_id": "mod_12_001",
+              "modifier_source": "every time",
+              "modifier_target": "[TRANSLATE]",
+              "example_source": "I cry at the end every time.",
+              "example_target": "[TRANSLATE]",
+              "explanation_source": "Adds the sense that the reaction happens on every viewing.",
+              "explanation_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "modifier_id": "mod_12_002",
+              "modifier_source": "a little",
+              "modifier_target": "[TRANSLATE]",
+              "example_source": "I cry a little at the end.",
+              "example_target": "[TRANSLATE]",
+              "explanation_source": "Softens the reaction to something small.",
+              "explanation_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            }
+          ]
+        },
+        "module_3_sentence_building": {
+          "module_id": "module_3",
+          "module_name": "Sentence Building",
+          "module_code": "SENTENCE",
+          "position_in_lesson": 3,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": "Build sentences",
+          "title_target": "[TRANSLATE]",
+          "module_type": "SentenceBuilding",
+          "exercises": [
+            {
+              "exercise_id": "ex_sb_12_1",
+              "target_sentence_source": "I cry at the end.",
+              "target_sentence_target": "[TRANSLATE]",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": "I",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": "cry",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": "at",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": "the",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4
+                },
+                {
+                  "word_id": "w5",
+                  "word_source": "end",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 5
+                }
+              ],
+              "punctuation_mode": "auto_fit",
+              "hints_source": "Subject + simple-present verb + time phrase.",
+              "hints_target": "[TRANSLATE]",
+              "exercise_type": "Drag-and-Drop Sentence Builder",
+              "prompt_source": "Put the words in the correct order:",
+              "prompt_target": "[TRANSLATE]"
+            },
+            {
+              "exercise_id": "ex_sb_12_2",
+              "target_sentence_source": "It makes me happy at the end.",
+              "target_sentence_target": "[TRANSLATE]",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": "It",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": "makes",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": "me",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": "happy",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4
+                },
+                {
+                  "word_id": "w5",
+                  "word_source": "at",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 5
+                },
+                {
+                  "word_id": "w6",
+                  "word_source": "the",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 6
+                },
+                {
+                  "word_id": "w7",
+                  "word_source": "end",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 7
+                }
+              ],
+              "punctuation_mode": "auto_fit",
+              "hints_source": "Same structure with 'It makes me + adjective'.",
+              "hints_target": "[TRANSLATE]",
+              "exercise_type": "Drag-and-Drop Sentence Builder",
+              "prompt_source": "Put the words in the correct order:",
+              "prompt_target": "[TRANSLATE]"
+            }
+          ]
+        },
+        "module_dialogue_practice": {
+          "module_id": "module_dialogue_practice",
+          "module_name": "Dialogue Practice",
+          "module_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": "Conversation",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Conversations",
+          "setting_source": "In your living room after a movie",
+          "setting_target": "[TRANSLATE]",
+          "context_source": "Two friends just finished watching a film together and are sharing reactions.",
+          "context_target": "[TRANSLATE]",
+          "setting": "In your living room after a movie",
+          "context": "Two friends just finished watching a film together and are sharing reactions.",
+          "dialogue": [
+            {
+              "turn_id": "turn_001",
+              "turn_number": 1,
+              "speaker": "PARTNER",
+              "text_source": "What did you think of the ending?",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_002",
+              "turn_number": 2,
+              "speaker": "YOU",
+              "text_source": "I cry at the end.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_003",
+              "turn_number": 3,
+              "speaker": "PARTNER",
+              "text_source": "Really? Every time you watch it?",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_004",
+              "turn_number": 4,
+              "speaker": "YOU",
+              "text_source": "Yeah, the story always touches me.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_005",
+              "turn_number": 5,
+              "speaker": "PARTNER",
+              "text_source": "I felt a little sad too.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            }
+          ]
+        },
+        "module_sprint_exercises": {
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": "Quick practice",
+          "title_target": "[TRANSLATE]",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_quick_fire",
+              "exercise_type": "Listen and Respond (Quick Fire)",
+              "prompt_source": "Listen and respond out loud:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true,
+                "text_to_speak_target": "How do you feel about the ending?"
+              },
+              "prompt": "How do you feel about the ending?",
+              "prompt_text_source": "How do you feel about the ending?",
+              "prompt_text_target": "[TRANSLATE]",
+              "response": {
+                "mode": "speak",
+                "acceptable_responses": [
+                  "I cry at the end.",
+                  "It makes me sad.",
+                  "I feel touched."
+                ],
+                "acceptable_responses_source": [
+                  "I cry at the end.",
+                  "It makes me sad.",
+                  "I feel touched."
+                ],
+                "acceptable_responses_target": [
+                  "[TRANSLATE]",
+                  "[TRANSLATE]",
+                  "[TRANSLATE]"
+                ],
+                "time_limit_seconds": 8
+              },
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_v1_text_image",
+              "exercise_type": "Text-to-Image Matching",
+              "prompt_source": "Read and choose the matching image:",
+              "prompt_target": "[TRANSLATE]",
+              "text_stimulus": "sad",
+              "text_stimulus_source": "sad",
+              "text_stimulus_target": "[TRANSLATE]",
+              "image_options": [
+                {
+                  "option_id": "opt_a",
+                  "image_url": "",
+                  "correct": true
+                },
+                {
+                  "option_id": "opt_b",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_c",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_d",
+                  "image_url": "",
+                  "correct": false
+                }
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_flashcard",
+              "exercise_type": "Digital Flashcards",
+              "prompt_source": "Study the card:",
+              "prompt_target": "[TRANSLATE]",
+              "word": "touched",
+              "definition": "Used when a story or moment moves your feelings.",
+              "examples": [
+                "The story always touches me."
+              ],
+              "context": "Used to describe a soft, emotional reaction — moved without being too sad.",
+              "word_source": "touched",
+              "word_target": "[TRANSLATE]",
+              "definition_source": "Used when a story or moment moves your feelings.",
+              "definition_target": "[TRANSLATE]",
+              "examples_source": [
+                "The story always touches me."
+              ],
+              "examples_target": [
+                "[TRANSLATE]"
+              ],
+              "context_source": "Used to describe a soft, emotional reaction — moved without being too sad.",
+              "context_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 5,
+                "points_incorrect": 0
+              }
+            }
+          ],
+          "module_id": "module_sprint_exercises",
+          "module_name": "Sprint & review",
+          "module_code": "SPRINT",
+          "module_type": "Review"
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": [
+        "**_target"
+      ],
+      "audio_generation_patterns": [
+        "[GENERATE]",
+        "[GENERATE_FOR_TARGET]"
+      ]
+    }
+  },
+  "metadata": {
+    "lessonType": "malegado",
+    "uploadSchema": "modules_canonical_v1",
+    "convertedFrom": "new_structure_v4_phases",
+    "sourcePath": "/home/metuge/Dev/submissions/malegado_new_structure/Dialogues/dialogue 57/lesson_12.json",
+    "sourceLessonId": "badge_sharing_favorites_001-L12"
+  }
+}

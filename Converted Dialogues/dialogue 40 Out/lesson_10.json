@@ -1,0 +1,694 @@
+{
+  "title": "he did it when he was young",
+  "description": "Learn to talk about what someone did when they were younger.",
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "past experiences",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_correction_basics_001-L10",
+      "generation_timestamp": "2026-05-04T11:46:00Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A1",
+        "level_name": "Basic",
+        "level_description": "Simple everyday phrases and direct instructions.",
+        "cefr_equivalent": "A1",
+        "available_levels": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      "theme_config": {
+        "theme_id": "PAST_EXPERIENCES",
+        "theme_code": "PAST_EXPERIENCES",
+        "theme_name": "Past Experiences",
+        "theme_description": "Talking about how people behaved at an earlier time of life.",
+        "available_themes": [
+          {
+            "code": "ESS",
+            "name": "Essentials"
+          },
+          {
+            "code": "TRV",
+            "name": "Travel"
+          }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "1.3a",
+        "unit_number": 1,
+        "subunit_number": 3,
+        "variant": "a",
+        "unit_name": "Correcting Habits",
+        "unit_description": "Learn to give instructions, correct bad habits, and respond to excuses in everyday situations.",
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 2,
+        "estimated_completion_time_minutes": 75
+      },
+      "lesson_config": {
+        "lesson_number": 595,
+        "lesson_type": "teaching",
+        "lesson_name": "he did it when he was young",
+        "lesson_description": "Learn to talk about what someone did when they were younger.",
+        "estimated_duration_minutes": 5,
+        "difficulty_within_unit": 10,
+        "prerequisites": [
+          "badge_correction_basics_001-L01",
+          "badge_correction_basics_001-L02",
+          "badge_correction_basics_001-L03",
+          "badge_correction_basics_001-L04",
+          "badge_correction_basics_001-L05",
+          "badge_correction_basics_001-L06",
+          "badge_correction_basics_001-L07",
+          "badge_correction_basics_001-L08",
+          "badge_correction_basics_001-L09"
+        ],
+        "learning_objectives": [
+          "Use 'when he was young' to set a past time.",
+          "Use 'did' as the past form of 'do'.",
+          "Compare the past with the present."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      },
+      "order": 595
+    },
+    "lesson_structure": {
+      "module_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "module_1_core_vocabulary",
+          "module_2_functional_grammar",
+          "module_3_sentence_building",
+          "module_dialogue_practice",
+          "module_sprint_exercises"
+        ]
+      },
+      "modules": {
+        "module_1_core_vocabulary": {
+          "module_id": "module_1",
+          "module_name": "Vocabulary Anchor",
+          "module_code": "VOCAB",
+          "position_in_lesson": 1,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": "Key phrases",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Vocabulary",
+          "vocabulary_items": [
+            {
+              "vocab_id": "core_10",
+              "phrase_id": 1,
+              "source_text": "He did it when he was young.",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "verb_phrase",
+              "frequency_rank": 1,
+              "difficulty": 1,
+              "context": {
+                "usage_context": "report",
+                "formality_level": "neutral",
+                "time_of_day": "any",
+                "relationship": "family"
+              },
+              "linguistic_info": {
+                "tooltip_source": "A statement about what someone used to do at an earlier age.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_10_001",
+              "phrase_id": 2,
+              "source_text": "young",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "adjective",
+              "frequency_rank": 2,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "In an early period of life; not old.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_10_002",
+              "phrase_id": 3,
+              "source_text": "old",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "adjective",
+              "frequency_rank": 3,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "Having lived for many years; not young.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_10_003",
+              "phrase_id": 4,
+              "source_text": "child",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "frequency_rank": 4,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "A young person who is not yet an adult.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_10_004",
+              "phrase_id": 5,
+              "source_text": "age",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "frequency_rank": 5,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "How many years a person has lived.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            }
+          ],
+          "vocabulary_anchor_listen_repeat": {
+            "prompt_source": "Listen and repeat the core phrase.",
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {
+              "audio_file": "[GENERATE]",
+              "play_on_load": true,
+              "text_to_speak_target": "He did it when he was young."
+            },
+            "show_text_after_play": true
+          },
+          "vocabulary_anchor_quick_match": {
+            "prompt_source": "Connect each word to its meaning or image.",
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              {
+                "word_id": "rel_10_001",
+                "correct_key": "rel_10_001_correct"
+              },
+              {
+                "word_id": "rel_10_002",
+                "correct_key": "rel_10_002_correct"
+              },
+              {
+                "word_id": "rel_10_003",
+                "correct_key": "rel_10_003_correct"
+              },
+              {
+                "word_id": "rel_10_004",
+                "correct_key": "rel_10_004_correct"
+              }
+            ],
+            "options_display": "shuffle"
+          }
+        },
+        "module_2_functional_grammar": {
+          "module_id": "module_2",
+          "module_name": "Grammar Engine",
+          "module_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": "Grammar tip",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Grammar",
+          "grammar_points": [
+            {
+              "grammar_id": "gram_10",
+              "concept_source": "Past time clauses with 'when'",
+              "concept_target": "[TRANSLATE]",
+              "explanation_source": "Use 'when he was young' to give a past time. The main verb 'did' is also in the past, because both events happened in the past.",
+              "explanation_target": "[TRANSLATE]",
+              "focus_type": "variations",
+              "examples": [
+                {
+                  "example_id": "ex_10_001",
+                  "text_source": "He did it when he was a child.",
+                  "text_target": "[TRANSLATE]",
+                  "register": "neutral",
+                  "usage_note_source": "'A child' replaces 'young' and gives the same idea.",
+                  "usage_note_target": "[TRANSLATE]",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                },
+                {
+                  "example_id": "ex_10_002",
+                  "text_source": "He used to do it when he was young.",
+                  "text_target": "[TRANSLATE]",
+                  "register": "casual",
+                  "usage_note_source": "'Used to' shows a past habit that does not happen now.",
+                  "usage_note_target": "[TRANSLATE]",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                }
+              ]
+            }
+          ],
+          "grammar_engine_modifiers": [
+            {
+              "modifier_id": "mod_10_001",
+              "modifier_source": "also",
+              "modifier_target": "[TRANSLATE]",
+              "example_source": "He also did it when he was young.",
+              "example_target": "[TRANSLATE]",
+              "explanation_source": "'Also' shows the action is added to other things he did.",
+              "explanation_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "modifier_id": "mod_10_002",
+              "modifier_source": "too",
+              "modifier_target": "[TRANSLATE]",
+              "example_source": "He did it when he was young too.",
+              "example_target": "[TRANSLATE]",
+              "explanation_source": "'Too' at the end means the same as 'also'.",
+              "explanation_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            }
+          ]
+        },
+        "module_3_sentence_building": {
+          "module_id": "module_3",
+          "module_name": "Sentence Building",
+          "module_code": "SENTENCE",
+          "position_in_lesson": 3,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": "Build sentences",
+          "title_target": "[TRANSLATE]",
+          "module_type": "SentenceBuilding",
+          "exercises": [
+            {
+              "exercise_id": "ex_sb_10_1",
+              "target_sentence_source": "He did it when he was young.",
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": "He",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": "did",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": "it",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": "when",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4
+                },
+                {
+                  "word_id": "w5",
+                  "word_source": "he",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 5
+                },
+                {
+                  "word_id": "w6",
+                  "word_source": "was",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 6
+                },
+                {
+                  "word_id": "w7",
+                  "word_source": "young",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 7
+                }
+              ],
+              "hints": "Main clause first, then 'when' plus the past time clause.",
+              "exercise_type": "Drag-and-Drop Sentence Builder",
+              "prompt_source": "Put the words in the correct order:",
+              "prompt_target": "[TRANSLATE]",
+              "hints_source": "Main clause first, then 'when' plus the past time clause.",
+              "hints_target": "[TRANSLATE]"
+            },
+            {
+              "exercise_id": "ex_sb_10_2",
+              "target_sentence_source": "He did it when he was a child.",
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": "He",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": "did",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": "it",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": "when",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4
+                },
+                {
+                  "word_id": "w5",
+                  "word_source": "he",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 5
+                },
+                {
+                  "word_id": "w6",
+                  "word_source": "was",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 6
+                },
+                {
+                  "word_id": "w7",
+                  "word_source": "a",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 7
+                },
+                {
+                  "word_id": "w8",
+                  "word_source": "child",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 8
+                }
+              ],
+              "hints": "Same structure with 'a child' instead of 'young'.",
+              "exercise_type": "Drag-and-Drop Sentence Builder",
+              "prompt_source": "Put the words in the correct order:",
+              "prompt_target": "[TRANSLATE]",
+              "hints_source": "Same structure with 'a child' instead of 'young'.",
+              "hints_target": "[TRANSLATE]"
+            }
+          ]
+        },
+        "module_dialogue_practice": {
+          "module_id": "module_dialogue_practice",
+          "module_name": "Dialogue Practice",
+          "module_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": "Conversation",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Conversations",
+          "setting_source": "At home, child explaining family history",
+          "setting_target": "[TRANSLATE]",
+          "context_source": "A child says Dad had the same habit at a younger age.",
+          "context_target": "[TRANSLATE]",
+          "setting": "At home, child explaining family history",
+          "context": "A child says Dad had the same habit at a younger age.",
+          "dialogue": [
+            {
+              "turn_id": "turn_001",
+              "turn_number": 1,
+              "speaker": "PARTNER",
+              "text_source": "Why does Dad still do that?",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_002",
+              "turn_number": 2,
+              "speaker": "YOU",
+              "text_source": "He did it when he was young.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_003",
+              "turn_number": 3,
+              "speaker": "PARTNER",
+              "text_source": "How old was he?",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_004",
+              "turn_number": 4,
+              "speaker": "YOU",
+              "text_source": "He was a child, like me now.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_005",
+              "turn_number": 5,
+              "speaker": "PARTNER",
+              "text_source": "Then he should know better now.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            }
+          ]
+        },
+        "module_sprint_exercises": {
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": "Quick practice",
+          "title_target": "[TRANSLATE]",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_sentence_open",
+              "exercise_type": "Sentence Completion (Open)",
+              "prompt_source": "Finish in your own words:",
+              "prompt_target": "[TRANSLATE]",
+              "prompt": "He did it when he was...",
+              "prompt_text_source": "He did it when he was...",
+              "prompt_text_target": "[TRANSLATE]",
+              "expected_response": "He did it when he was young.",
+              "expected_response_source": "He did it when he was young.",
+              "expected_response_target": "[TRANSLATE]",
+              "scoring_criteria": "Accept any complete sentence ending with an age word like 'young', 'a child', or a number of years.",
+              "scoring_criteria_source": "Accept any complete sentence ending with an age word like 'young', 'a child', or a number of years.",
+              "scoring_criteria_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_v1_text_image",
+              "exercise_type": "Text-to-Image Matching",
+              "prompt_source": "Read and choose the matching image:",
+              "prompt_target": "[TRANSLATE]",
+              "text_stimulus": "child",
+              "text_stimulus_source": "child",
+              "text_stimulus_target": "[TRANSLATE]",
+              "image_options": [
+                {
+                  "option_id": "opt_a",
+                  "image_url": "",
+                  "correct": true
+                },
+                {
+                  "option_id": "opt_b",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_c",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_d",
+                  "image_url": "",
+                  "correct": false
+                }
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_fill_type",
+              "exercise_type": "Fill-in-the-Blank Typing",
+              "prompt_source": "Type the missing word:",
+              "prompt_target": "[TRANSLATE]",
+              "sentence": "He did it when he was ____.",
+              "sentence_source": "He did it when he was ____.",
+              "sentence_target": "[TRANSLATE]",
+              "blanks": [
+                7
+              ],
+              "correct_answer": "young",
+              "acceptable_answers": [
+                "young"
+              ],
+              "correct_answer_source": "young",
+              "correct_answer_target": "[TRANSLATE]",
+              "acceptable_answers_source": [
+                "young"
+              ],
+              "acceptable_answers_target": [
+                "[TRANSLATE]"
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_audio_text",
+              "exercise_type": "Audio-to-Text Matching",
+              "prompt_source": "Select the phrase you hear:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": false
+              },
+              "text_options": [
+                "He did it when he was young.",
+                "He is doing it now.",
+                "He did it yesterday."
+              ],
+              "text_options_source": [
+                "He did it when he was young.",
+                "He is doing it now.",
+                "He did it yesterday."
+              ],
+              "text_options_target": [
+                "[TRANSLATE]",
+                "[TRANSLATE]",
+                "[TRANSLATE]"
+              ],
+              "correct_answer": "He did it when he was young.",
+              "correct_answer_source": "He did it when he was young.",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            }
+          ],
+          "module_id": "module_sprint_exercises",
+          "module_name": "Sprint & review",
+          "module_code": "SPRINT",
+          "module_type": "Review"
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": [
+        "**_target"
+      ],
+      "audio_generation_patterns": [
+        "[GENERATE]",
+        "[GENERATE_FOR_TARGET]"
+      ]
+    }
+  },
+  "metadata": {
+    "lessonType": "malegado",
+    "uploadSchema": "modules_canonical_v1",
+    "convertedFrom": "new_structure_v4_phases",
+    "sourcePath": "/home/metuge/Dev/submissions/malegado_new_structure/Dialogues/dialogue 40/lesson_10.json",
+    "sourceLessonId": "badge_correction_basics_001-L10"
+  }
+}

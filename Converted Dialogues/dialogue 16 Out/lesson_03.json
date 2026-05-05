@@ -1,0 +1,698 @@
+{
+  "title": "what's the topic?",
+  "description": "Ask what the subject of someone's conversation is using a wh-question.",
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "science",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_animals_talk-L03",
+      "generation_timestamp": "2026-05-03T11:32:24Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A1",
+        "level_name": "Beginner",
+        "level_description": "Simple, everyday phrases for handling basic questions and answers.",
+        "cefr_equivalent": "A1",
+        "available_levels": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      "theme_config": {
+        "theme_id": "SCIENCE",
+        "theme_code": "SCIENCE",
+        "theme_name": "Science",
+        "theme_description": "Curious questions about how the natural world works.",
+        "available_themes": [
+          {
+            "code": "ESS",
+            "name": "Essentials"
+          },
+          {
+            "code": "TRV",
+            "name": "Travel"
+          }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "1.1a",
+        "unit_number": 1,
+        "subunit_number": 1,
+        "variant": "a",
+        "unit_name": "Do animals talk?",
+        "unit_description": "Ask and answer simple questions about what animals notice, say, and do.",
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 2,
+        "estimated_completion_time_minutes": 75
+      },
+      "lesson_config": {
+        "lesson_number": 228,
+        "lesson_type": "teaching",
+        "lesson_name": "what's the topic?",
+        "lesson_description": "Ask what the subject of someone's conversation is using a wh-question.",
+        "estimated_duration_minutes": 5,
+        "difficulty_within_unit": 3,
+        "prerequisites": [
+          "badge_animals_talk-L01",
+          "badge_animals_talk-L02"
+        ],
+        "learning_objectives": [
+          "Form a wh-question about a topic using 'what do…'.",
+          "Recognize 'topic' and 'subject' as related nouns.",
+          "Use 'ask' as a verb for seeking information.",
+          "Practice asking about other animals' conversations."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      },
+      "order": 228
+    },
+    "lesson_structure": {
+      "module_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "module_1_core_vocabulary",
+          "module_2_functional_grammar",
+          "module_3_sentence_building",
+          "module_dialogue_practice",
+          "module_sprint_exercises"
+        ]
+      },
+      "modules": {
+        "module_1_core_vocabulary": {
+          "module_id": "module_1",
+          "module_name": "Vocabulary Anchor",
+          "module_code": "VOCAB",
+          "position_in_lesson": 1,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": "Key phrases",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Vocabulary",
+          "vocabulary_items": [
+            {
+              "vocab_id": "core_3",
+              "phrase_id": 1,
+              "source_text": "What do they talk about?",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "phrase",
+              "frequency_rank": 1,
+              "difficulty": 1,
+              "context": {
+                "usage_context": "question",
+                "formality_level": "neutral",
+                "time_of_day": "any",
+                "relationship": "any"
+              },
+              "linguistic_info": {
+                "tooltip_source": "A wh-question asking what subject is being discussed.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_3_001",
+              "phrase_id": 2,
+              "source_text": "what",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "pronoun",
+              "frequency_rank": 2,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "A word used to ask for information about something.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_3_002",
+              "phrase_id": 3,
+              "source_text": "topic",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "frequency_rank": 3,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "The thing that someone is talking or writing about.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_3_003",
+              "phrase_id": 4,
+              "source_text": "ask",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "verb",
+              "frequency_rank": 4,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "To say something to get an answer or information.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_3_004",
+              "phrase_id": 5,
+              "source_text": "subject",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "frequency_rank": 5,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "The thing being talked about; another word for 'topic'.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            }
+          ],
+          "vocabulary_anchor_listen_repeat": {
+            "prompt_source": "Listen and repeat the core phrase.",
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {
+              "audio_file": "[GENERATE]",
+              "play_on_load": true,
+              "text_to_speak_target": "What do they talk about?"
+            },
+            "show_text_after_play": true
+          },
+          "vocabulary_anchor_quick_match": {
+            "prompt_source": "Connect each word to its meaning or image.",
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              {
+                "word_id": "rel_3_001",
+                "correct_key": "rel_3_001_correct"
+              },
+              {
+                "word_id": "rel_3_002",
+                "correct_key": "rel_3_002_correct"
+              },
+              {
+                "word_id": "rel_3_003",
+                "correct_key": "rel_3_003_correct"
+              },
+              {
+                "word_id": "rel_3_004",
+                "correct_key": "rel_3_004_correct"
+              }
+            ],
+            "options_display": "shuffle"
+          }
+        },
+        "module_2_functional_grammar": {
+          "module_id": "module_2",
+          "module_name": "Grammar Engine",
+          "module_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": "Grammar tip",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Grammar",
+          "grammar_points": [
+            {
+              "grammar_id": "gram_3",
+              "concept_source": "Wh-questions with 'what'",
+              "concept_target": "[TRANSLATE]",
+              "explanation_source": "Start with 'What', then add 'do' (or 'does'), then the subject and the base verb. This asks for information about a thing or topic.",
+              "explanation_target": "[TRANSLATE]",
+              "focus_type": "variations",
+              "examples": [
+                {
+                  "example_id": "ex_3_001",
+                  "text_source": "What are they discussing?",
+                  "text_target": "[TRANSLATE]",
+                  "register": "formal",
+                  "usage_note_source": "A more formal phrasing using 'discussing' instead of 'talking about'.",
+                  "usage_note_target": "[TRANSLATE]",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                },
+                {
+                  "example_id": "ex_3_002",
+                  "text_source": "What's their topic?",
+                  "text_target": "[TRANSLATE]",
+                  "register": "informal",
+                  "usage_note_source": "A short, casual question using 'topic'.",
+                  "usage_note_target": "[TRANSLATE]",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                }
+              ]
+            }
+          ],
+          "grammar_engine_modifiers": [
+            {
+              "modifier_id": "mod_3_001",
+              "modifier_source": "exactly",
+              "modifier_target": "[TRANSLATE]",
+              "example_source": "What exactly do they talk about?",
+              "example_target": "[TRANSLATE]",
+              "explanation_source": "Add 'exactly' when you want a precise answer.",
+              "explanation_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "modifier_id": "mod_3_002",
+              "modifier_source": "usually",
+              "modifier_target": "[TRANSLATE]",
+              "example_source": "What do they usually talk about?",
+              "example_target": "[TRANSLATE]",
+              "explanation_source": "Add 'usually' to ask about a general habit.",
+              "explanation_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            }
+          ]
+        },
+        "module_3_sentence_building": {
+          "module_id": "module_3",
+          "module_name": "Sentence Building",
+          "module_code": "SENTENCE",
+          "position_in_lesson": 3,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": "Build sentences",
+          "title_target": "[TRANSLATE]",
+          "module_type": "SentenceBuilding",
+          "exercises": [
+            {
+              "exercise_id": "ex_sb_3_1",
+              "target_sentence_source": "What do they talk about?",
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": "What",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": "do",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": "they",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": "talk",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4
+                },
+                {
+                  "word_id": "w5",
+                  "word_source": "about",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 5
+                }
+              ],
+              "hints_source": "Start with 'What' to ask about the topic.",
+              "hints_target": "[TRANSLATE]",
+              "exercise_type": "Drag-and-Drop Sentence Builder",
+              "prompt_source": "Put the words in the correct order:",
+              "prompt_target": "[TRANSLATE]"
+            },
+            {
+              "exercise_id": "ex_sb_3_2",
+              "target_sentence_source": "What do they ask?",
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": "What",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": "do",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": "they",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": "ask",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4
+                }
+              ],
+              "hints_source": "A shorter wh-question using a related verb.",
+              "hints_target": "[TRANSLATE]",
+              "exercise_type": "Drag-and-Drop Sentence Builder",
+              "prompt_source": "Put the words in the correct order:",
+              "prompt_target": "[TRANSLATE]"
+            }
+          ]
+        },
+        "module_dialogue_practice": {
+          "module_id": "module_dialogue_practice",
+          "module_name": "Dialogue Practice",
+          "module_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": "Conversation",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Conversations",
+          "setting_source": "By a kitchen window with a bird feeder hanging outside.",
+          "setting_target": "[TRANSLATE]",
+          "context_source": "Two friends sip coffee and watch a flock of finches gather at the feeder, chattering nonstop.",
+          "context_target": "[TRANSLATE]",
+          "setting": "By a kitchen window with a bird feeder hanging outside.",
+          "context": "Two friends sip coffee and watch a flock of finches gather at the feeder, chattering nonstop.",
+          "dialogue": [
+            {
+              "turn_id": "turn_001",
+              "turn_number": 1,
+              "speaker": "PARTNER",
+              "text_source": "Listen to those finches chattering!",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_002",
+              "turn_number": 2,
+              "speaker": "YOU",
+              "text_source": "What do they talk about?",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_003",
+              "turn_number": 3,
+              "speaker": "PARTNER",
+              "text_source": "Maybe food, or who gets the best seeds.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_004",
+              "turn_number": 4,
+              "speaker": "YOU",
+              "text_source": "I'd love to understand bird talk.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_005",
+              "turn_number": 5,
+              "speaker": "PARTNER",
+              "text_source": "It's like their own little language.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            }
+          ]
+        },
+        "module_sprint_exercises": {
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": "Quick practice",
+          "title_target": "[TRANSLATE]",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_flashcard",
+              "exercise_type": "Digital Flashcards",
+              "prompt_source": "Study the card:",
+              "prompt_target": "[TRANSLATE]",
+              "word": "topic",
+              "definition": "The thing that someone is talking or writing about.",
+              "examples": [
+                "Animals topic.",
+                "We topic with words and gestures."
+              ],
+              "context": "From this lesson's vocabulary: topic.",
+              "word_source": "topic",
+              "word_target": "[TRANSLATE]",
+              "definition_source": "The thing that someone is talking or writing about.",
+              "definition_target": "[TRANSLATE]",
+              "examples_source": [
+                "Animals topic.",
+                "We topic with words and gestures."
+              ],
+              "examples_target": [
+                "[TRANSLATE]",
+                "[TRANSLATE]"
+              ],
+              "context_source": "From this lesson's vocabulary: topic.",
+              "context_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 5,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_v1_audio_image",
+              "exercise_type": "Audio-to-Image Matching",
+              "prompt_source": "Tap the image that matches what you hear:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true,
+                "text_to_speak_target": "ask"
+              },
+              "image_options": [
+                {
+                  "option_id": "opt_01",
+                  "image_url": "",
+                  "correct": true
+                },
+                {
+                  "option_id": "opt_02",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_03",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_04",
+                  "image_url": "",
+                  "correct": false
+                }
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_fill_dialogue",
+              "exercise_type": "Fill-in-the-Dialogue (Speaking)",
+              "prompt_source": "Speak your line:",
+              "prompt_target": "[TRANSLATE]",
+              "dialogue_context": "A friend hears birds chirping near the window.",
+              "dialogue_context_source": "A friend hears birds chirping near the window.",
+              "dialogue_context_target": "[TRANSLATE]",
+              "turns": [
+                {
+                  "turn_number": 1,
+                  "speaker": "PARTNER",
+                  "text_source": "Those birds keep tweeting at each other!",
+                  "text_target": "[TRANSLATE]",
+                  "audio_file": "[GENERATE]",
+                  "text_to_speak_target": "Those birds keep tweeting at each other!"
+                },
+                {
+                  "turn_number": 2,
+                  "speaker": "YOU",
+                  "text_source": "What do they talk about?",
+                  "expected_response": "What do they talk about?",
+                  "expected_response_source": "What do they talk about?",
+                  "expected_response_target": "[TRANSLATE]",
+                  "acceptable_responses": [
+                    "What do they talk about?",
+                    "What do they say?"
+                  ],
+                  "acceptable_responses_source": [
+                    "What do they talk about?",
+                    "What do they say?"
+                  ],
+                  "acceptable_responses_target": [
+                    "[TRANSLATE]",
+                    "[TRANSLATE]"
+                  ]
+                }
+              ],
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_sentence_open",
+              "exercise_type": "Sentence Completion (Open)",
+              "prompt_source": "Finish in your own words:",
+              "prompt_target": "[TRANSLATE]",
+              "prompt": "They talk about...",
+              "prompt_text_source": "They talk about...",
+              "prompt_text_target": "[TRANSLATE]",
+              "expected_response": "They talk about food and the weather.",
+              "expected_response_source": "They talk about food and the weather.",
+              "expected_response_target": "[TRANSLATE]",
+              "scoring_criteria": "Any complete sentence using vocabulary from this lesson.",
+              "scoring_criteria_source": "Any complete sentence using vocabulary from this lesson.",
+              "scoring_criteria_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_audio_text",
+              "exercise_type": "Audio-to-Text Matching",
+              "prompt_source": "Select the phrase you hear:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": false
+              },
+              "text_options": [
+                "What do they talk about?",
+                "What do they say?",
+                "What do they want?"
+              ],
+              "text_options_source": [
+                "What do they talk about?",
+                "What do they say?",
+                "What do they want?"
+              ],
+              "text_options_target": [
+                "[TRANSLATE]",
+                "[TRANSLATE]",
+                "[TRANSLATE]"
+              ],
+              "correct_answer": "What do they talk about?",
+              "correct_answer_source": "What do they talk about?",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            }
+          ],
+          "module_id": "module_sprint_exercises",
+          "module_name": "Sprint & review",
+          "module_code": "SPRINT",
+          "module_type": "Review"
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": [
+        "**_target"
+      ],
+      "audio_generation_patterns": [
+        "[GENERATE]",
+        "[GENERATE_FOR_TARGET]"
+      ]
+    }
+  },
+  "metadata": {
+    "lessonType": "malegado",
+    "uploadSchema": "modules_canonical_v1",
+    "convertedFrom": "new_structure_v4_phases",
+    "sourcePath": "/home/metuge/Dev/submissions/malegado_new_structure/Dialogues/dialogue 16/lesson_03.json",
+    "sourceLessonId": "badge_animals_talk-L03"
+  }
+}

@@ -1,0 +1,672 @@
+{
+  "title": "checking the day",
+  "description": "Learn how to confirm which day someone is talking about.",
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 6,
+  "status": "DRAFT",
+  "category": "numbers & time",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_giftgiving_future_001-L04",
+      "generation_timestamp": "2026-05-04T11:51:22Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A2",
+        "level_name": "Elementary",
+        "level_description": "Learners can handle short everyday exchanges and talk about familiar topics.",
+        "cefr_equivalent": "A2",
+        "available_levels": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      "theme_config": {
+        "theme_id": "NUMBERS_TIME",
+        "theme_code": "NUMBERS_TIME",
+        "theme_name": "Numbers & Time",
+        "theme_description": "Words and phrases for talking about days, weeks, and timing.",
+        "available_themes": [
+          {
+            "code": "ESS",
+            "name": "Essentials"
+          },
+          {
+            "code": "TRV",
+            "name": "Travel"
+          }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "1.1b",
+        "unit_number": 1,
+        "subunit_number": 1,
+        "variant": "b",
+        "unit_name": "Gift Giving",
+        "unit_description": "Talk about gifts you will give for holidays, birthdays, and special occasions.",
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 3,
+        "estimated_completion_time_minutes": 90
+      },
+      "lesson_config": {
+        "lesson_number": 619,
+        "lesson_type": "teaching",
+        "lesson_name": "checking the day",
+        "lesson_description": "Practice using a short question to confirm which day is meant.",
+        "estimated_duration_minutes": 6,
+        "difficulty_within_unit": 4,
+        "prerequisites": [
+          "badge_giftgiving_future_001-L01",
+          "badge_giftgiving_future_001-L02",
+          "badge_giftgiving_future_001-L03"
+        ],
+        "learning_objectives": [
+          "Confirm a day with a short question.",
+          "Use 'this' to point to the nearest occurrence of a day.",
+          "Recognize the difference between 'this' and 'next'."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      },
+      "order": 619
+    },
+    "lesson_structure": {
+      "module_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "module_1_core_vocabulary",
+          "module_2_functional_grammar",
+          "module_3_sentence_building",
+          "module_dialogue_practice",
+          "module_sprint_exercises"
+        ]
+      },
+      "modules": {
+        "module_1_core_vocabulary": {
+          "module_id": "module_1",
+          "module_name": "Vocabulary Anchor",
+          "module_code": "VOCAB",
+          "position_in_lesson": 1,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": "Key phrases",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Vocabulary",
+          "vocabulary_items": [
+            {
+              "vocab_id": "core_4",
+              "phrase_id": 1,
+              "source_text": "This Sunday?",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "interrogative",
+              "frequency_rank": 1,
+              "difficulty": 1,
+              "context": {
+                "usage_context": "confirmation",
+                "formality_level": "neutral",
+                "time_of_day": "any",
+                "relationship": "any"
+              },
+              "linguistic_info": {
+                "tooltip_source": "A short question used to confirm the speaker means the nearest Sunday.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_4_001",
+              "phrase_id": 2,
+              "source_text": "this",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "determiner",
+              "frequency_rank": 2,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "Used to point to the closest one in time or place.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_4_002",
+              "phrase_id": 3,
+              "source_text": "weekend",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "frequency_rank": 3,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "Saturday and Sunday together.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_4_003",
+              "phrase_id": 4,
+              "source_text": "week",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "frequency_rank": 4,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "A period of seven days.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_4_004",
+              "phrase_id": 5,
+              "source_text": "soon",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "adverb",
+              "frequency_rank": 5,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "In a short time from now.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            }
+          ],
+          "vocabulary_anchor_listen_repeat": {
+            "prompt_source": "Listen and repeat the core phrase.",
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {
+              "audio_file": "[GENERATE]",
+              "play_on_load": true,
+              "text_to_speak_target": "This Sunday?"
+            },
+            "show_text_after_play": true
+          },
+          "vocabulary_anchor_quick_match": {
+            "prompt_source": "Connect each word to its meaning or image.",
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              {
+                "word_id": "rel_4_001",
+                "correct_key": "rel_4_001_correct"
+              },
+              {
+                "word_id": "rel_4_002",
+                "correct_key": "rel_4_002_correct"
+              },
+              {
+                "word_id": "rel_4_003",
+                "correct_key": "rel_4_003_correct"
+              },
+              {
+                "word_id": "rel_4_004",
+                "correct_key": "rel_4_004_correct"
+              }
+            ],
+            "options_display": "shuffle"
+          }
+        },
+        "module_2_functional_grammar": {
+          "module_id": "module_2",
+          "module_name": "Grammar Engine",
+          "module_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": "Grammar tip",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Grammar",
+          "grammar_points": [
+            {
+              "grammar_id": "gram_4",
+              "concept_source": "'this' vs 'next' for days",
+              "concept_target": "[TRANSLATE]",
+              "explanation_source": "Use 'this' for the nearest day in the current week. Use 'next' for the same day one week later.",
+              "explanation_target": "[TRANSLATE]",
+              "focus_type": "variations",
+              "examples": [
+                {
+                  "example_id": "ex_4_001",
+                  "text_source": "This weekend?",
+                  "text_target": "[TRANSLATE]",
+                  "register": "informal",
+                  "usage_note_source": "Use 'this weekend' for the upcoming Saturday and Sunday.",
+                  "usage_note_target": "[TRANSLATE]",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                },
+                {
+                  "example_id": "ex_4_002",
+                  "text_source": "Next Sunday?",
+                  "text_target": "[TRANSLATE]",
+                  "register": "informal",
+                  "usage_note_source": "Use 'next Sunday' for the Sunday after this one.",
+                  "usage_note_target": "[TRANSLATE]",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                }
+              ]
+            }
+          ],
+          "grammar_engine_modifiers": [
+            {
+              "modifier_id": "mod_4_001",
+              "modifier_source": "really",
+              "modifier_target": "[TRANSLATE]",
+              "example_source": "This Sunday, really?",
+              "example_target": "[TRANSLATE]",
+              "explanation_source": "Add 'really' to show surprise.",
+              "explanation_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "modifier_id": "mod_4_002",
+              "modifier_source": "coming",
+              "modifier_target": "[TRANSLATE]",
+              "example_source": "This coming Sunday?",
+              "example_target": "[TRANSLATE]",
+              "explanation_source": "Add 'coming' to make it clear you mean the very next Sunday.",
+              "explanation_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            }
+          ]
+        },
+        "module_3_sentence_building": {
+          "module_id": "module_3",
+          "module_name": "Sentence Building",
+          "module_code": "SENTENCE",
+          "position_in_lesson": 3,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": "Build sentences",
+          "title_target": "[TRANSLATE]",
+          "module_type": "SentenceBuilding",
+          "exercises": [
+            {
+              "exercise_id": "ex_sb_4_1",
+              "target_sentence_source": "This Sunday?",
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": "This",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": "Sunday",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                }
+              ],
+              "hints": "Just two words.",
+              "exercise_type": "Drag-and-Drop Sentence Builder",
+              "prompt_source": "Put the words in the correct order:",
+              "prompt_target": "[TRANSLATE]",
+              "hints_source": "Just two words.",
+              "hints_target": "[TRANSLATE]"
+            },
+            {
+              "exercise_id": "ex_sb_4_2",
+              "target_sentence_source": "This weekend?",
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": "This",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": "weekend",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                }
+              ],
+              "hints": "Same pattern with a different time word.",
+              "exercise_type": "Drag-and-Drop Sentence Builder",
+              "prompt_source": "Put the words in the correct order:",
+              "prompt_target": "[TRANSLATE]",
+              "hints_source": "Same pattern with a different time word.",
+              "hints_target": "[TRANSLATE]"
+            }
+          ]
+        },
+        "module_dialogue_practice": {
+          "module_id": "module_dialogue_practice",
+          "module_name": "Dialogue Practice",
+          "module_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": "Conversation",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Conversations",
+          "setting_source": "Two people checking a date in the kitchen",
+          "setting_target": "[TRANSLATE]",
+          "context_source": "One person mentions a holiday and the other confirms which day.",
+          "context_target": "[TRANSLATE]",
+          "setting": "Two people checking a date in the kitchen",
+          "context": "One person mentions a holiday and the other confirms which day.",
+          "dialogue": [
+            {
+              "turn_id": "turn_001",
+              "turn_number": 1,
+              "speaker": "PARTNER",
+              "text_source": "The holiday is on Sunday.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_002",
+              "turn_number": 2,
+              "speaker": "YOU",
+              "text_source": "This Sunday?",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_003",
+              "turn_number": 3,
+              "speaker": "PARTNER",
+              "text_source": "Yes, this weekend.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_004",
+              "turn_number": 4,
+              "speaker": "YOU",
+              "text_source": "That is so soon.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_005",
+              "turn_number": 5,
+              "speaker": "PARTNER",
+              "text_source": "We have time.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            }
+          ]
+        },
+        "module_sprint_exercises": {
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": "Quick practice",
+          "title_target": "[TRANSLATE]",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_l2_l1",
+              "exercise_type": "Translation Typing (L2→L1)",
+              "prompt_source": "Translate into English:",
+              "prompt_target": "[TRANSLATE]",
+              "source_text": "This Sunday?",
+              "source_text_source": "This Sunday?",
+              "source_text_target": "[TRANSLATE]",
+              "target_language": "es",
+              "acceptable_answers": [
+                "This Sunday?",
+                "This coming Sunday?"
+              ],
+              "acceptable_answers_source": [
+                "This Sunday?",
+                "This coming Sunday?"
+              ],
+              "acceptable_answers_target": [
+                "[TRANSLATE]",
+                "[TRANSLATE]"
+              ],
+              "hints": "A short confirmation question.",
+              "hints_source": "A short confirmation question.",
+              "hints_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_audio_blank",
+              "exercise_type": "Audio Fill-in-the-Blank",
+              "prompt_source": "Listen and complete:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true
+              },
+              "sentence": "___ Sunday?",
+              "sentence_source": "___ Sunday?",
+              "sentence_target": "[TRANSLATE]",
+              "blanks": [
+                1
+              ],
+              "correct_answer": "This",
+              "correct_answer_source": "This",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_quick_fire",
+              "exercise_type": "Listen and Respond (Quick Fire)",
+              "prompt_source": "Listen and respond out loud:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true,
+                "text_to_speak_target": "The holiday is on Sunday."
+              },
+              "prompt": "The holiday is on Sunday.",
+              "prompt_text_source": "The holiday is on Sunday.",
+              "prompt_text_target": "[TRANSLATE]",
+              "response": {
+                "mode": "speak",
+                "acceptable_responses": [
+                  "This Sunday?",
+                  "This weekend?"
+                ],
+                "acceptable_responses_source": [
+                  "This Sunday?",
+                  "This weekend?"
+                ],
+                "acceptable_responses_target": [
+                  "[TRANSLATE]",
+                  "[TRANSLATE]"
+                ],
+                "time_limit_seconds": 8
+              },
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_v1_text_image",
+              "exercise_type": "Text-to-Image Matching",
+              "prompt_source": "Read and choose the matching image:",
+              "prompt_target": "[TRANSLATE]",
+              "text_stimulus": "This Sunday?",
+              "text_stimulus_source": "This Sunday?",
+              "text_stimulus_target": "[TRANSLATE]",
+              "image_options": [
+                {
+                  "option_id": "opt_a",
+                  "image_url": "",
+                  "correct": true
+                },
+                {
+                  "option_id": "opt_b",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_c",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_d",
+                  "image_url": "",
+                  "correct": false
+                }
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_fill_dialogue",
+              "exercise_type": "Fill-in-the-Dialogue (Speaking)",
+              "prompt_source": "Speak your line:",
+              "prompt_target": "[TRANSLATE]",
+              "dialogue_context": "A friend mentions a holiday is coming up.",
+              "dialogue_context_source": "A friend mentions a holiday is coming up.",
+              "dialogue_context_target": "[TRANSLATE]",
+              "turns": [
+                {
+                  "turn_number": 1,
+                  "speaker": "PARTNER",
+                  "text_source": "Mother's Day is soon.",
+                  "text_target": "[TRANSLATE]",
+                  "audio_file": "[GENERATE]",
+                  "text_to_speak_target": "Mother's Day is soon."
+                },
+                {
+                  "turn_number": 2,
+                  "speaker": "YOU",
+                  "text_source": "___",
+                  "expected_response": "This Sunday?",
+                  "expected_response_source": "This Sunday?",
+                  "expected_response_target": "[TRANSLATE]",
+                  "acceptable_responses": [
+                    "This Sunday?",
+                    "This weekend?"
+                  ],
+                  "acceptable_responses_source": [
+                    "This Sunday?",
+                    "This weekend?"
+                  ],
+                  "acceptable_responses_target": [
+                    "[TRANSLATE]",
+                    "[TRANSLATE]"
+                  ]
+                }
+              ],
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              }
+            }
+          ],
+          "module_id": "module_sprint_exercises",
+          "module_name": "Sprint & review",
+          "module_code": "SPRINT",
+          "module_type": "Review"
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": [
+        "**_target"
+      ],
+      "audio_generation_patterns": [
+        "[GENERATE]",
+        "[GENERATE_FOR_TARGET]"
+      ]
+    }
+  },
+  "metadata": {
+    "lessonType": "malegado",
+    "uploadSchema": "modules_canonical_v1",
+    "convertedFrom": "new_structure_v4_phases",
+    "sourcePath": "/home/metuge/Dev/submissions/malegado_new_structure/Dialogues/dialogue 42/lesson_04.json",
+    "sourceLessonId": "badge_giftgiving_future_001-L04"
+  }
+}

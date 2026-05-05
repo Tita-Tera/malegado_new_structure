@@ -1,0 +1,660 @@
+{
+  "title": {
+    "value": "rushing while studying",
+    "translatable": true
+  },
+  "description": {
+    "value": "Apply the badge's hurry-and-fault patterns to a study session conversation.",
+    "translatable": true
+  },
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "education",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_rushing_advice_001-CTX2",
+      "generation_timestamp": "2026-05-05T04:57:10Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A2",
+        "level_name": {
+          "value": "Elementary",
+          "translatable": true
+        },
+        "level_description": {
+          "value": "Build practical conversation skills using simple past, modals, and everyday vocabulary.",
+          "translatable": true
+        },
+        "cefr_equivalent": "A2",
+        "available_levels": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      "theme_config": {
+        "theme_id": "EDUCATION",
+        "theme_code": "EDUCATION",
+        "theme_name": {
+          "value": "Education Systems",
+          "translatable": true
+        },
+        "theme_description": {
+          "value": "Talk about studying, schools, and learning.",
+          "translatable": true
+        },
+        "available_themes": [
+          {
+            "code": {
+              "value": "ESS",
+              "translatable": true
+            },
+            "name": {
+              "value": "Essentials",
+              "translatable": true
+            }
+          },
+          {
+            "code": {
+              "value": "TRV",
+              "translatable": true
+            },
+            "name": {
+              "value": "Travel",
+              "translatable": true
+            }
+          }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "2.2b",
+        "unit_number": 2,
+        "subunit_number": 2,
+        "variant": "b",
+        "unit_name": {
+          "value": "Slow Down",
+          "translatable": true
+        },
+        "unit_description": {
+          "value": "Practice giving and receiving advice about hurrying, with vocabulary for driving, daily routines, and accidents.",
+          "translatable": true
+        },
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 3,
+        "estimated_completion_time_minutes": 75
+      },
+      "lesson_config": {
+        "lesson_number": 15,
+        "lesson_type": "review",
+        "lesson_name": {
+          "value": "rushing while studying",
+          "translatable": true
+        },
+        "lesson_description": {
+          "value": "Apply the badge's hurry-and-fault patterns to a study session conversation.",
+          "translatable": true
+        },
+        "estimated_duration_minutes": 5,
+        "difficulty_within_unit": 15,
+        "prerequisites": [
+          "badge_rushing_advice_001-L01",
+          "badge_rushing_advice_001-L02",
+          "badge_rushing_advice_001-L03",
+          "badge_rushing_advice_001-L04",
+          "badge_rushing_advice_001-L05",
+          "badge_rushing_advice_001-L06",
+          "badge_rushing_advice_001-L07",
+          "badge_rushing_advice_001-L08",
+          "badge_rushing_advice_001-L09",
+          "badge_rushing_advice_001-L10",
+          "badge_rushing_advice_001-L11",
+          "badge_rushing_advice_001-L12",
+          "badge_rushing_advice_001-REVIEW",
+          "badge_rushing_advice_001-CTX1"
+        ],
+        "learning_objectives": [
+          "Apply the badge's 'do not hurry' patterns to a study setting.",
+          "Recognize how 'rush', 'understand', and 'stress' map to driving language.",
+          "Practice giving and receiving advice about pacing your studies."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      }
+    },
+    "lesson_structure": {
+      "phase_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "phase_1_vocabulary_anchor",
+          "phase_2_grammar_engine",
+          "phase_3_dialogue",
+          "phase_4_sprint_exercises"
+        ]
+      },
+      "phases": {
+        "phase_1_vocabulary_anchor": {
+          "phase_id": "phase_1",
+          "phase_name": {
+            "value": "Vocabulary Anchor",
+            "translatable": true
+          },
+          "phase_code": "VOCAB_ANCHOR",
+          "position_in_lesson": 1,
+          "enabled": false,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": {
+            "value": "Key phrases",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "VocabularyAnchor",
+          "core_phrase": {
+            "phrase_id": "core_15",
+            "source_text": {
+              "value": "",
+              "translatable": true
+            },
+            "target_text": "[TRANSLATE]",
+            "part_of_speech": "",
+            "linguistic_info": {
+              "tooltip_source": {
+                "value": "",
+                "translatable": true
+              },
+              "tooltip_target": "[TRANSLATE]",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+            },
+            "media": {
+              "image_url": "",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            "context": {
+              "usage_context": "",
+              "formality_level": "",
+              "time_of_day": "",
+              "relationship": ""
+            }
+          },
+          "related_words": [],
+          "listen_repeat": {
+            "prompt_source": {
+              "value": "Listen and repeat the core phrase.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {
+              "audio_file": "[GENERATE]",
+              "play_on_load": true
+            },
+            "show_text_after_play": true
+          },
+          "quick_match": {
+            "prompt_source": {
+              "value": "Connect each word to its meaning or image.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [],
+            "options_display": "shuffle"
+          }
+        },
+        "phase_2_grammar_engine": {
+          "phase_id": "phase_2",
+          "phase_name": {
+            "value": "Grammar Engine",
+            "translatable": true
+          },
+          "phase_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": false,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": {
+            "value": "Grammar tip",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "GrammarEngine",
+          "pro_tip": {
+            "tip_id": "gram_15",
+            "concept_source": {
+              "value": "",
+              "translatable": true
+            },
+            "concept_target": "[TRANSLATE]",
+            "explanation_source": {
+              "value": "",
+              "translatable": true
+            },
+            "explanation_target": "[TRANSLATE]",
+            "focus_type": "variations",
+            "examples": []
+          },
+          "modifiers": [],
+          "sentence_building": []
+        },
+        "phase_3_dialogue": {
+          "phase_id": "phase_3",
+          "phase_name": {
+            "value": "Dialogue Practice",
+            "translatable": true
+          },
+          "phase_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": {
+            "value": "Conversation",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "Dialogue",
+          "setting": {
+            "value": "Two students discussing studying too quickly",
+            "translatable": true
+          },
+          "context": {
+            "value": "Rushing While Studying",
+            "translatable": true
+          },
+          "dialogue": [
+            {
+              "turn_id": "turn_001",
+              "turn_number": 1,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "You are studying too fast.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_002",
+              "turn_number": 2,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "I am in a hurry.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_003",
+              "turn_number": 3,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "Do not rush.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_004",
+              "turn_number": 4,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "It is not my fault.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_005",
+              "turn_number": 5,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "I started late.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_006",
+              "turn_number": 6,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "That is not my fault.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_007",
+              "turn_number": 7,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "You should start early.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_008",
+              "turn_number": 8,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "I meant to.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_009",
+              "turn_number": 9,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "Do not rush your studies.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_010",
+              "turn_number": 10,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "Why not?",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_011",
+              "turn_number": 11,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "You will not understand.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_012",
+              "turn_number": 12,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "Many problems happen when people rush.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_013",
+              "turn_number": 13,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "How do you know?",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_014",
+              "turn_number": 14,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "I read about it.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_015",
+              "turn_number": 15,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "I thought stress caused problems.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along"
+            }
+          ]
+        },
+        "phase_4_sprint_exercises": {
+          "phase_id": "phase_4",
+          "phase_name": {
+            "value": "Sprint & review",
+            "translatable": true
+          },
+          "phase_code": "SPRINT",
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": {
+            "value": "Quick practice",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "SprintExercises",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_match_game",
+              "exercise_type": "Flashcard Matching Game",
+              "prompt_source": "Match pairs:",
+              "prompt_target": "[TRANSLATE]",
+              "pairs": [
+                {
+                  "pair_id": "pair_001",
+                  "item_a": "study",
+                  "item_b": "learn",
+                  "type": "synonym"
+                },
+                {
+                  "pair_id": "pair_002",
+                  "item_a": "rush",
+                  "item_b": "hurry",
+                  "type": "synonym"
+                },
+                {
+                  "pair_id": "pair_003",
+                  "item_a": "understand",
+                  "item_b": "confuse",
+                  "type": "antonym"
+                },
+                {
+                  "pair_id": "pair_004",
+                  "item_a": "stress",
+                  "item_b": "pressure",
+                  "type": "synonym"
+                }
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_l2_l1",
+              "exercise_type": "Translation Typing (L2→L1)",
+              "prompt_source": "Translate into English:",
+              "prompt_target": "[TRANSLATE]",
+              "source_text": "Do not rush your studies.",
+              "source_text_source": "Do not rush your studies.",
+              "source_text_target": "[TRANSLATE]",
+              "target_language": "en",
+              "acceptable_answers": [
+                "Do not rush your studies.",
+                "Don't rush your studies."
+              ],
+              "acceptable_answers_source": [
+                "Do not rush your studies.",
+                "Don't rush your studies."
+              ],
+              "acceptable_answers_target": [
+                "[TRANSLATE]",
+                "[TRANSLATE]"
+              ],
+              "hints": "Advice telling someone to slow down their studying.",
+              "hints_source": "Advice telling someone to slow down their studying.",
+              "hints_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_fill_dialogue",
+              "exercise_type": "Fill-in-the-Dialogue (Speaking)",
+              "prompt_source": "Speak your line:",
+              "prompt_target": "[TRANSLATE]",
+              "dialogue_context": "A study partner notices you working too quickly.",
+              "dialogue_context_source": "A study partner notices you working too quickly.",
+              "dialogue_context_target": "[TRANSLATE]",
+              "turns": [
+                {
+                  "turn_number": 1,
+                  "speaker": "PARTNER",
+                  "text_source": "You are studying too fast.",
+                  "text_target": "[TRANSLATE]",
+                  "audio_file": "[GENERATE]",
+                  "text_to_speak_target": "You are studying too fast."
+                },
+                {
+                  "turn_number": 2,
+                  "speaker": "YOU",
+                  "text_source": "",
+                  "expected_response": "I am in a hurry.",
+                  "expected_response_source": "I am in a hurry.",
+                  "expected_response_target": "[TRANSLATE]",
+                  "acceptable_responses": [
+                    "I am in a hurry.",
+                    "I'm in a hurry.",
+                    "I am in a rush."
+                  ],
+                  "acceptable_responses_source": [
+                    "I am in a hurry.",
+                    "I'm in a hurry.",
+                    "I am in a rush."
+                  ],
+                  "acceptable_responses_target": [
+                    "[TRANSLATE]",
+                    "[TRANSLATE]",
+                    "[TRANSLATE]"
+                  ]
+                }
+              ],
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_fill_type",
+              "exercise_type": "Fill-in-the-Blank Typing",
+              "prompt_source": "Type the missing word:",
+              "prompt_target": "[TRANSLATE]",
+              "sentence": "Many problems happen when people ___.",
+              "sentence_source": "Many problems happen when people ___.",
+              "sentence_target": "[TRANSLATE]",
+              "blanks": [
+                6
+              ],
+              "correct_answer": "rush",
+              "acceptable_answers": [
+                "rush",
+                "hurry"
+              ],
+              "correct_answer_source": "rush",
+              "correct_answer_target": "[TRANSLATE]",
+              "acceptable_answers_source": [
+                "rush",
+                "hurry"
+              ],
+              "acceptable_answers_target": [
+                "[TRANSLATE]",
+                "[TRANSLATE]"
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_text_audio",
+              "exercise_type": "Text-to-Audio Matching",
+              "prompt_source": "Tap the audio that matches:",
+              "prompt_target": "[TRANSLATE]",
+              "text_stimulus": "I thought stress caused problems.",
+              "text_stimulus_source": "I thought stress caused problems.",
+              "text_stimulus_target": "[TRANSLATE]",
+              "audio_options": [
+                {
+                  "option_id": "a1",
+                  "audio_file": "[GENERATE]",
+                  "text_to_speak_target": "I thought stress caused problems.",
+                  "correct": true
+                },
+                {
+                  "option_id": "a2",
+                  "audio_file": "[GENERATE]",
+                  "text_to_speak_target": "I thought stress caused mistakes.",
+                  "correct": false
+                }
+              ],
+              "correct_answer": "a1",
+              "correct_answer_source": "a1",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            }
+          ]
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": [
+        "**_target"
+      ],
+      "audio_generation_patterns": [
+        "[GENERATE]",
+        "[GENERATE_FOR_TARGET]"
+      ]
+    }
+  }
+}

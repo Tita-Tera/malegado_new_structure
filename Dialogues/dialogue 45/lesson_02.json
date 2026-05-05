@@ -1,0 +1,765 @@
+{
+  "title": {
+    "value": "lights on",
+    "translatable": true
+  },
+  "description": {
+    "value": "Tell someone to turn on the light using a simple instruction.",
+    "translatable": true
+  },
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "home",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_vision_help_001-L02",
+      "generation_timestamp": "2026-05-05T12:00:00Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A2",
+        "level_name": {
+          "value": "Elementary",
+          "translatable": true
+        },
+        "level_description": {
+          "value": "Learners can communicate in simple, routine tasks on familiar topics.",
+          "translatable": true
+        },
+        "cefr_equivalent": "A2",
+        "available_levels": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      "theme_config": {
+        "theme_id": "HOME",
+        "theme_code": "HOME",
+        "theme_name": {
+          "value": "Home",
+          "translatable": true
+        },
+        "theme_description": {
+          "value": "Talking about the home and everyday tasks like lighting and rooms.",
+          "translatable": true
+        },
+        "available_themes": [
+          {
+            "code": {
+              "value": "ESS",
+              "translatable": true
+            },
+            "name": {
+              "value": "Essentials",
+              "translatable": true
+            }
+          },
+          {
+            "code": {
+              "value": "TRV",
+              "translatable": true
+            },
+            "name": {
+              "value": "Travel",
+              "translatable": true
+            }
+          }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "1.3a",
+        "unit_number": 1,
+        "subunit_number": 3,
+        "variant": "a",
+        "unit_name": {
+          "value": "Time for Glasses",
+          "translatable": true
+        },
+        "unit_description": {
+          "value": "Practice describing vision problems and making an appointment with an eye doctor.",
+          "translatable": true
+        },
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 3,
+        "estimated_completion_time_minutes": 75
+      },
+      "lesson_config": {
+        "lesson_number": 2,
+        "lesson_type": "teaching",
+        "lesson_name": {
+          "value": "lights on",
+          "translatable": true
+        },
+        "lesson_description": {
+          "value": "Tell someone to turn on the light using a simple instruction.",
+          "translatable": true
+        },
+        "estimated_duration_minutes": 5,
+        "difficulty_within_unit": 2,
+        "prerequisites": [
+          "badge_vision_help_001-L01"
+        ],
+        "learning_objectives": [
+          "Give a simple instruction using an imperative verb.",
+          "Use the phrasal verb 'turn on' for devices and lights.",
+          "Recognize related words for lighting at home."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      }
+    },
+    "lesson_structure": {
+      "phase_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "phase_1_vocabulary_anchor",
+          "phase_2_grammar_engine",
+          "phase_3_dialogue",
+          "phase_4_sprint_exercises"
+        ]
+      },
+      "phases": {
+        "phase_1_vocabulary_anchor": {
+          "phase_id": "phase_1",
+          "phase_name": {
+            "value": "Vocabulary Anchor",
+            "translatable": true
+          },
+          "phase_code": "VOCAB_ANCHOR",
+          "position_in_lesson": 1,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": {
+            "value": "Key phrases",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "VocabularyAnchor",
+          "core_phrase": {
+            "phrase_id": "core_2",
+            "source_text": {
+              "value": "Turn on the light.",
+              "translatable": true
+            },
+            "target_text": "[TRANSLATE]",
+            "part_of_speech": "imperative",
+            "linguistic_info": {
+              "tooltip_source": {
+                "value": "A simple instruction asking someone to start the lights.",
+                "translatable": true
+              },
+              "tooltip_target": "[TRANSLATE]",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+            },
+            "media": {
+              "image_url": "",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            "context": {
+              "usage_context": "giving_an_instruction",
+              "formality_level": "neutral",
+              "time_of_day": "evening",
+              "relationship": "any"
+            }
+          },
+          "related_words": [
+            {
+              "word_id": "rel_2_001",
+              "source_text": {
+                "value": "lamp",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "meaning_source": {
+                "value": "A device that gives light, often on a table or floor.",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]",
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              }
+            },
+            {
+              "word_id": "rel_2_002",
+              "source_text": {
+                "value": "switch",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "meaning_source": {
+                "value": "A small button or lever that turns something on or off.",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]",
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              }
+            },
+            {
+              "word_id": "rel_2_003",
+              "source_text": {
+                "value": "bright",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "adjective",
+              "meaning_source": {
+                "value": "Full of light; not dark.",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]",
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              }
+            },
+            {
+              "word_id": "rel_2_004",
+              "source_text": {
+                "value": "dark",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "adjective",
+              "meaning_source": {
+                "value": "With little or no light.",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]",
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              }
+            }
+          ],
+          "listen_repeat": {
+            "prompt_source": {
+              "value": "Listen and repeat the core phrase.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {
+              "audio_file": "[GENERATE]",
+              "play_on_load": true
+            },
+            "show_text_after_play": true
+          },
+          "quick_match": {
+            "prompt_source": {
+              "value": "Connect each word to its meaning or image.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              {
+                "word_id": "rel_2_001",
+                "correct_key": "rel_2_001_correct"
+              },
+              {
+                "word_id": "rel_2_002",
+                "correct_key": "rel_2_002_correct"
+              },
+              {
+                "word_id": "rel_2_003",
+                "correct_key": "rel_2_003_correct"
+              },
+              {
+                "word_id": "rel_2_004",
+                "correct_key": "rel_2_004_correct"
+              }
+            ],
+            "options_display": "shuffle"
+          }
+        },
+        "phase_2_grammar_engine": {
+          "phase_id": "phase_2",
+          "phase_name": {
+            "value": "Grammar Engine",
+            "translatable": true
+          },
+          "phase_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": {
+            "value": "Grammar tip",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "GrammarEngine",
+          "pro_tip": {
+            "tip_id": "gram_2",
+            "concept_source": {
+              "value": "Giving simple instructions",
+              "translatable": true
+            },
+            "concept_target": "[TRANSLATE]",
+            "explanation_source": {
+              "value": "An imperative starts with the base verb and gives a direct order or request. 'Turn on' is a phrasal verb meaning to start a device.",
+              "translatable": true
+            },
+            "explanation_target": "[TRANSLATE]",
+            "focus_type": "variations",
+            "examples": [
+              {
+                "example_id": "ex_2_001",
+                "source_text": {
+                  "value": "Switch on the light.",
+                  "translatable": true
+                },
+                "target_text": "[TRANSLATE]",
+                "register": "neutral",
+                "usage_note_source": {
+                  "value": "'Switch on' means the same thing as 'turn on' for lights.",
+                  "translatable": true
+                },
+                "usage_note_target": "[TRANSLATE]",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              {
+                "example_id": "ex_2_002",
+                "source_text": {
+                  "value": "Could you turn on the light, please?",
+                  "translatable": true
+                },
+                "target_text": "[TRANSLATE]",
+                "register": "formal",
+                "usage_note_source": {
+                  "value": "Use this polite form when asking someone you don't know well.",
+                  "translatable": true
+                },
+                "usage_note_target": "[TRANSLATE]",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              }
+            ]
+          },
+          "modifiers": [
+            {
+              "modifier_id": "mod_2_001",
+              "modifier_source": {
+                "value": "please",
+                "translatable": true
+              },
+              "modifier_target": "[TRANSLATE]",
+              "example_source": {
+                "value": "Please turn on the light.",
+                "translatable": true
+              },
+              "example_target": "[TRANSLATE]",
+              "explanation_source": {
+                "value": "Add 'please' before or after the request to be polite.",
+                "translatable": true
+              },
+              "explanation_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "modifier_id": "mod_2_002",
+              "modifier_source": {
+                "value": "in the kitchen",
+                "translatable": true
+              },
+              "modifier_target": "[TRANSLATE]",
+              "example_source": {
+                "value": "Turn on the light in the kitchen.",
+                "translatable": true
+              },
+              "example_target": "[TRANSLATE]",
+              "explanation_source": {
+                "value": "Add 'in the kitchen' to say which room you mean.",
+                "translatable": true
+              },
+              "explanation_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            }
+          ],
+          "sentence_building": [
+            {
+              "exercise_id": "ex_sb_2_1",
+              "target_sentence_source": {
+                "value": "Turn on the light.",
+                "translatable": true
+              },
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": {
+                    "value": "Turn",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1,
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": {
+                    "value": "on",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2,
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": {
+                    "value": "the",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3,
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": {
+                    "value": "light",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4,
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                }
+              ],
+              "hints": {
+                "value": "Start with the verb 'Turn'; the object 'the light' goes at the end.",
+                "translatable": true
+              },
+              "hints_target": "[TRANSLATE]"
+            },
+            {
+              "exercise_id": "ex_sb_2_2",
+              "target_sentence_source": {
+                "value": "Turn on the lamp.",
+                "translatable": true
+              },
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": {
+                    "value": "Turn",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1,
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": {
+                    "value": "on",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2,
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": {
+                    "value": "the",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3,
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": {
+                    "value": "lamp",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4,
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                }
+              ],
+              "hints": {
+                "value": "Same pattern as 'the light', but with 'the lamp'.",
+                "translatable": true
+              },
+              "hints_target": "[TRANSLATE]"
+            }
+          ]
+        },
+        "phase_3_dialogue": {
+          "phase_id": "phase_3",
+          "phase_name": {
+            "value": "Dialogue Practice",
+            "translatable": true
+          },
+          "phase_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": {
+            "value": "Conversation",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "Dialogue",
+          "setting": {
+            "value": "A dim room in the evening",
+            "translatable": true
+          },
+          "context": {
+            "value": "Two people enter a dark room and one asks the other to turn on the light.",
+            "translatable": true
+          },
+          "dialogue": [
+            {
+              "turn_id": "turn_001",
+              "turn_number": 1,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "It is so dark in here.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_002",
+              "turn_number": 2,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "Turn on the light.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_003",
+              "turn_number": 3,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "Where is the switch?",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_004",
+              "turn_number": 4,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "It is by the lamp.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_005",
+              "turn_number": 5,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "Now the room is bright.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            }
+          ]
+        },
+        "phase_4_sprint_exercises": {
+          "phase_id": "phase_4",
+          "phase_name": {
+            "value": "Sprint & review",
+            "translatable": true
+          },
+          "phase_code": "SPRINT",
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": {
+            "value": "Quick practice",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "SprintExercises",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_v1_text_image",
+              "exercise_type": "Text-to-Image Matching",
+              "prompt_source": "Read and choose the matching image:",
+              "prompt_target": "[TRANSLATE]",
+              "text_stimulus": "Turn on the light.",
+              "text_stimulus_source": "Turn on the light.",
+              "text_stimulus_target": "[TRANSLATE]",
+              "image_options": [
+                {
+                  "option_id": "opt_a",
+                  "image_url": "",
+                  "correct": true
+                },
+                {
+                  "option_id": "opt_b",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_c",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_d",
+                  "image_url": "",
+                  "correct": false
+                }
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_sentence_open",
+              "exercise_type": "Sentence Completion (Open)",
+              "prompt_source": "Finish in your own words:",
+              "prompt_target": "[TRANSLATE]",
+              "prompt": "It is dark. Tell your friend to turn on the light.",
+              "prompt_text_source": "It is dark. Tell your friend to turn on the light.",
+              "prompt_text_target": "[TRANSLATE]",
+              "expected_response": "Turn on the light.",
+              "expected_response_source": "Turn on the light.",
+              "expected_response_target": "[TRANSLATE]",
+              "scoring_criteria": "Response is an imperative containing 'turn on' and 'light' or 'lamp'.",
+              "scoring_criteria_source": "Response is an imperative containing 'turn on' and 'light' or 'lamp'.",
+              "scoring_criteria_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_l2_l1",
+              "exercise_type": "Translation Typing (L2→L1)",
+              "prompt_source": "Translate into English:",
+              "prompt_target": "[TRANSLATE]",
+              "source_text": "Turn on the light.",
+              "source_text_source": "Turn on the light.",
+              "source_text_target": "[TRANSLATE]",
+              "target_language": "sw",
+              "acceptable_answers": [
+                "Turn on the light.",
+                "Switch on the light."
+              ],
+              "acceptable_answers_source": [
+                "Turn on the light.",
+                "Switch on the light."
+              ],
+              "acceptable_answers_target": [
+                "[TRANSLATE]",
+                "[TRANSLATE]"
+              ],
+              "hints": "Start with the verb. Use the imperative form.",
+              "hints_source": "Start with the verb. Use the imperative form.",
+              "hints_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_audio_text",
+              "exercise_type": "Audio-to-Text Matching",
+              "prompt_source": "Select the phrase you hear:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": false,
+                "text_to_speak_target": "Turn on the light."
+              },
+              "text_options": [
+                "Turn on the light.",
+                "Turn off the lamp.",
+                "The room is bright."
+              ],
+              "text_options_source": [
+                "Turn on the light.",
+                "Turn off the lamp.",
+                "The room is bright."
+              ],
+              "text_options_target": [
+                "[TRANSLATE]",
+                "[TRANSLATE]",
+                "[TRANSLATE]"
+              ],
+              "correct_answer": "Turn on the light.",
+              "correct_answer_source": "Turn on the light.",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            }
+          ]
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": [
+        "**_target"
+      ],
+      "audio_generation_patterns": [
+        "[GENERATE]",
+        "[GENERATE_FOR_TARGET]"
+      ]
+    }
+  }
+}

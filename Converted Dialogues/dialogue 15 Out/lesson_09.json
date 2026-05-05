@@ -1,0 +1,732 @@
+{
+  "title": "finding out the truth",
+  "description": "Learn to share a surprising discovery you made about someone close to you.",
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "past experiences",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_2_1a-L09",
+      "generation_timestamp": "2026-05-03T10:58:55.202201+00:00",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A2",
+        "level_name": "Pre-Intermediate",
+        "level_description": "Learners can handle simple, direct exchanges on familiar topics about themselves and others.",
+        "cefr_equivalent": "A2",
+        "available_levels": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      "theme_config": {
+        "theme_id": "PAST_EXPERIENCES",
+        "theme_code": "PAST_EXPERIENCES",
+        "theme_name": "Past Experiences",
+        "theme_description": "Telling a story from the past about discovering something you did not know before.",
+        "available_themes": [
+          {
+            "code": "ESS",
+            "name": "Essentials"
+          },
+          {
+            "code": "TRV",
+            "name": "Travel"
+          }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "2.1a",
+        "unit_number": 2,
+        "subunit_number": 1,
+        "variant": "a",
+        "unit_name": "Relationships & the Past",
+        "unit_description": "Talk about people in your life and share past experiences using simple narratives.",
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 3,
+        "estimated_completion_time_minutes": 75
+      },
+      "lesson_config": {
+        "lesson_number": 219,
+        "lesson_type": "teaching",
+        "lesson_name": "finding out the truth",
+        "lesson_description": "Learn to share a surprising discovery you made about someone close to you.",
+        "estimated_duration_minutes": 5,
+        "difficulty_within_unit": 9,
+        "prerequisites": [
+          "badge_2_1a-L01",
+          "badge_2_1a-L02",
+          "badge_2_1a-L03",
+          "badge_2_1a-L04",
+          "badge_2_1a-L05",
+          "badge_2_1a-L06",
+          "badge_2_1a-L07",
+          "badge_2_1a-L08"
+        ],
+        "learning_objectives": [
+          "Use 'found out' to introduce a surprising discovery you made.",
+          "Add 'that' before a clause, or drop it in casual speech.",
+          "Recognize related verbs of awareness (discover, realize, notice, secret)."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      },
+      "order": 219
+    },
+    "lesson_structure": {
+      "module_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "module_1_core_vocabulary",
+          "module_2_functional_grammar",
+          "module_3_sentence_building",
+          "module_dialogue_practice",
+          "module_sprint_exercises"
+        ]
+      },
+      "modules": {
+        "module_1_core_vocabulary": {
+          "module_id": "module_1",
+          "module_name": "Vocabulary Anchor",
+          "module_code": "VOCAB",
+          "position_in_lesson": 1,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": "Key phrases",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Vocabulary",
+          "vocabulary_items": [
+            {
+              "vocab_id": "core_9",
+              "phrase_id": 1,
+              "source_text": "I found out that she gave it to her boyfriend.",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "past simple verb phrase with reported clause",
+              "frequency_rank": 1,
+              "difficulty": 1,
+              "context": {
+                "usage_context": "past narrative",
+                "formality_level": "neutral",
+                "time_of_day": "any",
+                "relationship": "family"
+              },
+              "linguistic_info": {
+                "tooltip_source": "A way to say in the past tense that you discovered surprising news about someone.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_9_001",
+              "phrase_id": 2,
+              "source_text": "discover",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "verb",
+              "frequency_rank": 2,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "to find out about something for the first time.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_9_002",
+              "phrase_id": 3,
+              "source_text": "realize",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "verb",
+              "frequency_rank": 3,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "to come to understand something clearly.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_9_003",
+              "phrase_id": 4,
+              "source_text": "notice",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "verb",
+              "frequency_rank": 4,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "to become aware of something through your senses.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_9_004",
+              "phrase_id": 5,
+              "source_text": "secret",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "frequency_rank": 5,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "a piece of information that is kept hidden from others.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            }
+          ],
+          "vocabulary_anchor_listen_repeat": {
+            "prompt_source": "Listen and repeat the core phrase.",
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {
+              "audio_file": "[GENERATE]",
+              "play_on_load": true,
+              "text_to_speak_target": "I found out that she gave it to her boyfriend."
+            },
+            "show_text_after_play": true
+          },
+          "vocabulary_anchor_quick_match": {
+            "prompt_source": "Connect each word to its meaning or image.",
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              {
+                "word_id": "rel_9_001",
+                "correct_key": "rel_9_001_correct"
+              },
+              {
+                "word_id": "rel_9_002",
+                "correct_key": "rel_9_002_correct"
+              },
+              {
+                "word_id": "rel_9_003",
+                "correct_key": "rel_9_003_correct"
+              },
+              {
+                "word_id": "rel_9_004",
+                "correct_key": "rel_9_004_correct"
+              }
+            ],
+            "options_display": "shuffle"
+          }
+        },
+        "module_2_functional_grammar": {
+          "module_id": "module_2",
+          "module_name": "Grammar Engine",
+          "module_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": "Grammar tip",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Grammar",
+          "grammar_points": [
+            {
+              "grammar_id": "gram_9",
+              "concept_source": "found out + (that) + clause",
+              "concept_target": "[TRANSLATE]",
+              "explanation_source": "Use the phrasal verb 'found out' to mean 'discovered'. Add 'that' before the clause for a fuller sentence; you can also drop 'that' in casual speech.",
+              "explanation_target": "[TRANSLATE]",
+              "focus_type": "variations",
+              "examples": [
+                {
+                  "example_id": "ex_9_001",
+                  "text_source": "I found out she gave it to her boyfriend.",
+                  "text_target": "[TRANSLATE]",
+                  "register": "informal",
+                  "usage_note_source": "Casual speakers often drop 'that' before the clause.",
+                  "usage_note_target": "[TRANSLATE]",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                },
+                {
+                  "example_id": "ex_9_002",
+                  "text_source": "I learned that she gave it to her boyfriend.",
+                  "text_target": "[TRANSLATE]",
+                  "register": "formal",
+                  "usage_note_source": "Use 'learned that' for a slightly more formal or written tone.",
+                  "usage_note_target": "[TRANSLATE]",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                }
+              ]
+            }
+          ],
+          "grammar_engine_modifiers": [
+            {
+              "modifier_id": "mod_9_001",
+              "modifier_source": "later",
+              "modifier_target": "[TRANSLATE]",
+              "example_source": "I found out later that she gave it to her boyfriend.",
+              "example_target": "[TRANSLATE]",
+              "explanation_source": "Add 'later' after 'found out' to show the discovery came after the event.",
+              "explanation_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "modifier_id": "mod_9_002",
+              "modifier_source": "by accident",
+              "modifier_target": "[TRANSLATE]",
+              "example_source": "I found out by accident that she gave it to her boyfriend.",
+              "example_target": "[TRANSLATE]",
+              "explanation_source": "Add 'by accident' to show the discovery was unintentional.",
+              "explanation_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            }
+          ]
+        },
+        "module_3_sentence_building": {
+          "module_id": "module_3",
+          "module_name": "Sentence Building",
+          "module_code": "SENTENCE",
+          "position_in_lesson": 3,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": "Build sentences",
+          "title_target": "[TRANSLATE]",
+          "module_type": "SentenceBuilding",
+          "exercises": [
+            {
+              "exercise_id": "ex_sb_9_1",
+              "target_sentence_source": "I found out that she gave it to her boyfriend.",
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": "I",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": "found",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": "out",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": "that",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4
+                },
+                {
+                  "word_id": "w5",
+                  "word_source": "she",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 5
+                },
+                {
+                  "word_id": "w6",
+                  "word_source": "gave",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 6
+                },
+                {
+                  "word_id": "w7",
+                  "word_source": "it",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 7
+                },
+                {
+                  "word_id": "w8",
+                  "word_source": "to",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 8
+                },
+                {
+                  "word_id": "w9",
+                  "word_source": "her",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 9
+                },
+                {
+                  "word_id": "w10",
+                  "word_source": "boyfriend",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 10
+                }
+              ],
+              "hints": "Subject, 'found out', 'that', then a full clause.",
+              "exercise_type": "Drag-and-Drop Sentence Builder",
+              "prompt_source": "Put the words in the correct order:",
+              "prompt_target": "[TRANSLATE]",
+              "hints_source": "Subject, 'found out', 'that', then a full clause.",
+              "hints_target": "[TRANSLATE]"
+            },
+            {
+              "exercise_id": "ex_sb_9_2",
+              "target_sentence_source": "I found out the truth.",
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": "I",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": "found",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": "out",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": "the",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4
+                },
+                {
+                  "word_id": "w5",
+                  "word_source": "truth",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 5
+                }
+              ],
+              "hints": "Same opening with a short noun phrase instead of a clause.",
+              "exercise_type": "Drag-and-Drop Sentence Builder",
+              "prompt_source": "Put the words in the correct order:",
+              "prompt_target": "[TRANSLATE]",
+              "hints_source": "Same opening with a short noun phrase instead of a clause.",
+              "hints_target": "[TRANSLATE]"
+            }
+          ]
+        },
+        "module_dialogue_practice": {
+          "module_id": "module_dialogue_practice",
+          "module_name": "Dialogue Practice",
+          "module_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": "Conversation",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Conversations",
+          "setting_source": "A quiet phone call between two close friends.",
+          "setting_target": "[TRANSLATE]",
+          "context_source": "One friend shares a painful discovery about a recent gift.",
+          "context_target": "[TRANSLATE]",
+          "setting": "A quiet phone call between two close friends.",
+          "context": "One friend shares a painful discovery about a recent gift.",
+          "dialogue": [
+            {
+              "turn_id": "turn_001",
+              "turn_number": 1,
+              "speaker": "PARTNER",
+              "text_source": "Did your mom keep the money you gave her?",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_002",
+              "turn_number": 2,
+              "speaker": "YOU",
+              "text_source": "I found out that she gave it to her boyfriend.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_003",
+              "turn_number": 3,
+              "speaker": "PARTNER",
+              "text_source": "Oh no. When did you learn that?",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_004",
+              "turn_number": 4,
+              "speaker": "YOU",
+              "text_source": "Just last week. I was very surprised.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_005",
+              "turn_number": 5,
+              "speaker": "PARTNER",
+              "text_source": "I am so sorry. That must hurt.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            }
+          ]
+        },
+        "module_sprint_exercises": {
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": "Quick practice",
+          "title_target": "[TRANSLATE]",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_audio_blank",
+              "exercise_type": "Audio Fill-in-the-Blank",
+              "prompt_source": "Listen and complete:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true,
+                "text_to_speak_target": "I found out that she gave it to her boyfriend."
+              },
+              "sentence": "I _____ out that she gave it to her boyfriend.",
+              "sentence_source": "I _____ out that she gave it to her boyfriend.",
+              "sentence_target": "[TRANSLATE]",
+              "blanks": [
+                2
+              ],
+              "correct_answer": "found",
+              "correct_answer_source": "found",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_v1_audio_image",
+              "exercise_type": "Audio-to-Image Matching",
+              "prompt_source": "Tap the image that matches what you hear:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true,
+                "text_to_speak_target": "I found out that she gave it to her boyfriend."
+              },
+              "image_options": [
+                {
+                  "option_id": "opt_01",
+                  "image_url": "",
+                  "correct": true
+                },
+                {
+                  "option_id": "opt_02",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_03",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_04",
+                  "image_url": "",
+                  "correct": false
+                }
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_flashcard",
+              "exercise_type": "Digital Flashcards",
+              "prompt_source": "Study the card:",
+              "prompt_target": "[TRANSLATE]",
+              "word": "found out",
+              "definition": "discovered something that was not known before.",
+              "examples": [
+                "I found out that she gave it to her boyfriend."
+              ],
+              "context": "Telling a friend about a surprising piece of news you learned.",
+              "word_source": "found out",
+              "word_target": "[TRANSLATE]",
+              "definition_source": "discovered something that was not known before.",
+              "definition_target": "[TRANSLATE]",
+              "examples_source": [
+                "I found out that she gave it to her boyfriend."
+              ],
+              "examples_target": [
+                "[TRANSLATE]"
+              ],
+              "context_source": "Telling a friend about a surprising piece of news you learned.",
+              "context_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 5,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_text_audio",
+              "exercise_type": "Text-to-Audio Matching",
+              "prompt_source": "Tap the audio that matches:",
+              "prompt_target": "[TRANSLATE]",
+              "text_stimulus": "I found out that she gave it to her boyfriend.",
+              "text_stimulus_source": "I found out that she gave it to her boyfriend.",
+              "text_stimulus_target": "[TRANSLATE]",
+              "audio_options": [
+                {
+                  "option_id": "a1",
+                  "audio_file": "[GENERATE]",
+                  "text_to_speak_target": "I found out that she gave it to her boyfriend.",
+                  "correct": true
+                },
+                {
+                  "option_id": "a2",
+                  "audio_file": "[GENERATE]",
+                  "text_to_speak_target": "I figured out that she gave it to her boyfriend.",
+                  "correct": false
+                }
+              ],
+              "correct_answer": "I found out that she gave it to her boyfriend.",
+              "correct_answer_source": "I found out that she gave it to her boyfriend.",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_quick_fire",
+              "exercise_type": "Listen and Respond (Quick Fire)",
+              "prompt_source": "Listen and respond out loud:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true,
+                "text_to_speak_target": "Where did the money go?"
+              },
+              "prompt": "Where did the money go?",
+              "prompt_text_source": "Where did the money go?",
+              "prompt_text_target": "[TRANSLATE]",
+              "response": {
+                "mode": "speech",
+                "acceptable_responses": [
+                  "I found out that she gave it to her boyfriend.",
+                  "I found out she gave it to her boyfriend."
+                ],
+                "acceptable_responses_source": [
+                  "I found out that she gave it to her boyfriend.",
+                  "I found out she gave it to her boyfriend."
+                ],
+                "acceptable_responses_target": [
+                  "[TRANSLATE]",
+                  "[TRANSLATE]"
+                ],
+                "time_limit_seconds": 8
+              },
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            }
+          ],
+          "module_id": "module_sprint_exercises",
+          "module_name": "Sprint & review",
+          "module_code": "SPRINT",
+          "module_type": "Review"
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": [
+        "**_target"
+      ],
+      "audio_generation_patterns": [
+        "[GENERATE]",
+        "[GENERATE_FOR_TARGET]"
+      ]
+    }
+  },
+  "metadata": {
+    "lessonType": "malegado",
+    "uploadSchema": "modules_canonical_v1",
+    "convertedFrom": "new_structure_v4_phases",
+    "sourcePath": "/home/metuge/Dev/submissions/malegado_new_structure/Dialogues/dialogue 15/lesson_09.json",
+    "sourceLessonId": "badge_2_1a-L09"
+  }
+}

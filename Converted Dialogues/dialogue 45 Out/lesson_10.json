@@ -1,0 +1,673 @@
+{
+  "title": "finding a phone number",
+  "description": "Say that you will look up a phone number for a place you need to call.",
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "services",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_vision_help_001-L10",
+      "generation_timestamp": "2026-05-05T12:00:00Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A2",
+        "level_name": "Elementary",
+        "level_description": "Learners can communicate in simple, routine tasks on familiar topics.",
+        "cefr_equivalent": "A2",
+        "available_levels": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      "theme_config": {
+        "theme_id": "SERVICES",
+        "theme_code": "SERVICES",
+        "theme_name": "Services",
+        "theme_description": "Talking about everyday services like clinics, offices, and phone calls.",
+        "available_themes": [
+          {
+            "code": "ESS",
+            "name": "Essentials"
+          },
+          {
+            "code": "TRV",
+            "name": "Travel"
+          }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "1.3a",
+        "unit_number": 1,
+        "subunit_number": 3,
+        "variant": "a",
+        "unit_name": "Time for Glasses",
+        "unit_description": "Practice describing vision problems and making an appointment with an eye doctor.",
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 3,
+        "estimated_completion_time_minutes": 75
+      },
+      "lesson_config": {
+        "lesson_number": 670,
+        "lesson_type": "teaching",
+        "lesson_name": "finding a phone number",
+        "lesson_description": "Say that you will look up a phone number for a place you need to call.",
+        "estimated_duration_minutes": 5,
+        "difficulty_within_unit": 10,
+        "prerequisites": [
+          "badge_vision_help_001-L01",
+          "badge_vision_help_001-L02",
+          "badge_vision_help_001-L03",
+          "badge_vision_help_001-L04",
+          "badge_vision_help_001-L05",
+          "badge_vision_help_001-L06",
+          "badge_vision_help_001-L07",
+          "badge_vision_help_001-L08",
+          "badge_vision_help_001-L09"
+        ],
+        "learning_objectives": [
+          "Use 'I will find' to talk about a future search.",
+          "Use 'a' before singular nouns that start with a consonant sound.",
+          "Recognize related words for contacting a service."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      },
+      "order": 670
+    },
+    "lesson_structure": {
+      "module_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "module_1_core_vocabulary",
+          "module_2_functional_grammar",
+          "module_3_sentence_building",
+          "module_dialogue_practice",
+          "module_sprint_exercises"
+        ]
+      },
+      "modules": {
+        "module_1_core_vocabulary": {
+          "module_id": "module_1",
+          "module_name": "Vocabulary Anchor",
+          "module_code": "VOCAB",
+          "position_in_lesson": 1,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": "Key phrases",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Vocabulary",
+          "vocabulary_items": [
+            {
+              "vocab_id": "core_10",
+              "phrase_id": 1,
+              "source_text": "I will find a phone number.",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "declarative",
+              "frequency_rank": 1,
+              "difficulty": 1,
+              "context": {
+                "usage_context": "stating_intention",
+                "formality_level": "neutral",
+                "time_of_day": "any",
+                "relationship": "any"
+              },
+              "linguistic_info": {
+                "tooltip_source": "A future statement saying that the speaker will look up a phone number to call a place.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_10_001",
+              "phrase_id": 2,
+              "source_text": "call",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "verb",
+              "frequency_rank": 2,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "To use the phone to talk to someone.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_10_002",
+              "phrase_id": 3,
+              "source_text": "directory",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "frequency_rank": 3,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "A book or list of names and phone numbers.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_10_003",
+              "phrase_id": 4,
+              "source_text": "office",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "frequency_rank": 4,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "A place where people work.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_10_004",
+              "phrase_id": 5,
+              "source_text": "contact",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "frequency_rank": 5,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "Information used to reach someone.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            }
+          ],
+          "vocabulary_anchor_listen_repeat": {
+            "prompt_source": "Listen and repeat the core phrase.",
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {
+              "audio_file": "[GENERATE]",
+              "play_on_load": true,
+              "text_to_speak_target": "I will find a phone number."
+            },
+            "show_text_after_play": true
+          },
+          "vocabulary_anchor_quick_match": {
+            "prompt_source": "Connect each word to its meaning or image.",
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              {
+                "word_id": "rel_10_001",
+                "correct_key": "rel_10_001_correct"
+              },
+              {
+                "word_id": "rel_10_002",
+                "correct_key": "rel_10_002_correct"
+              },
+              {
+                "word_id": "rel_10_003",
+                "correct_key": "rel_10_003_correct"
+              },
+              {
+                "word_id": "rel_10_004",
+                "correct_key": "rel_10_004_correct"
+              }
+            ],
+            "options_display": "shuffle"
+          }
+        },
+        "module_2_functional_grammar": {
+          "module_id": "module_2",
+          "module_name": "Grammar Engine",
+          "module_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": "Grammar tip",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Grammar",
+          "grammar_points": [
+            {
+              "grammar_id": "gram_10",
+              "concept_source": "Saying you will find something",
+              "concept_target": "[TRANSLATE]",
+              "explanation_source": "Use 'I will find' to say you plan to look for and get something. Use 'a' before a singular noun starting with a consonant sound, like 'phone'.",
+              "explanation_target": "[TRANSLATE]",
+              "focus_type": "variations",
+              "examples": [
+                {
+                  "example_id": "ex_10_001",
+                  "text_source": "I'll find a phone number.",
+                  "text_target": "[TRANSLATE]",
+                  "register": "informal",
+                  "usage_note_source": "Use 'I'll' (the contraction of 'I will') in everyday speech.",
+                  "usage_note_target": "[TRANSLATE]",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                },
+                {
+                  "example_id": "ex_10_002",
+                  "text_source": "I am going to find a phone number.",
+                  "text_target": "[TRANSLATE]",
+                  "register": "neutral",
+                  "usage_note_source": "Use 'am going to' instead of 'will' for a planned future action.",
+                  "usage_note_target": "[TRANSLATE]",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                }
+              ]
+            }
+          ],
+          "grammar_engine_modifiers": [
+            {
+              "modifier_id": "mod_10_001",
+              "modifier_source": "online",
+              "modifier_target": "[TRANSLATE]",
+              "example_source": "I will find a phone number online.",
+              "example_target": "[TRANSLATE]",
+              "explanation_source": "Add 'online' to say where you will look.",
+              "explanation_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "modifier_id": "mod_10_002",
+              "modifier_source": "for the clinic",
+              "modifier_target": "[TRANSLATE]",
+              "example_source": "I will find a phone number for the clinic.",
+              "example_target": "[TRANSLATE]",
+              "explanation_source": "Add 'for the clinic' to say which place the number is for.",
+              "explanation_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            }
+          ]
+        },
+        "module_3_sentence_building": {
+          "module_id": "module_3",
+          "module_name": "Sentence Building",
+          "module_code": "SENTENCE",
+          "position_in_lesson": 3,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": "Build sentences",
+          "title_target": "[TRANSLATE]",
+          "module_type": "SentenceBuilding",
+          "exercises": [
+            {
+              "exercise_id": "ex_sb_10_1",
+              "target_sentence_source": "I will find a phone number.",
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": "I",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1,
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": "will",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2,
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": "find",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3,
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": "a",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4,
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                },
+                {
+                  "word_id": "w5",
+                  "word_source": "phone",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 5,
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                },
+                {
+                  "word_id": "w6",
+                  "word_source": "number",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 6,
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                }
+              ],
+              "hints": "Start with 'I will' for the future; then 'find' and the object 'a phone number'.",
+              "hints_target": "[TRANSLATE]",
+              "exercise_type": "Drag-and-Drop Sentence Builder",
+              "prompt_source": "Put the words in the correct order:",
+              "prompt_target": "[TRANSLATE]",
+              "hints_source": "Start with 'I will' for the future; then 'find' and the object 'a phone number'."
+            },
+            {
+              "exercise_id": "ex_sb_10_2",
+              "target_sentence_source": "I will find an address.",
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": "I",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1,
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": "will",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2,
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": "find",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3,
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": "an",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4,
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                },
+                {
+                  "word_id": "w5",
+                  "word_source": "address",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 5,
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                }
+              ],
+              "hints": "Same pattern, but the object becomes 'an address' (with 'an' before a vowel sound).",
+              "hints_target": "[TRANSLATE]",
+              "exercise_type": "Drag-and-Drop Sentence Builder",
+              "prompt_source": "Put the words in the correct order:",
+              "prompt_target": "[TRANSLATE]",
+              "hints_source": "Same pattern, but the object becomes 'an address' (with 'an' before a vowel sound)."
+            }
+          ]
+        },
+        "module_dialogue_practice": {
+          "module_id": "module_dialogue_practice",
+          "module_name": "Dialogue Practice",
+          "module_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": "Conversation",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Conversations",
+          "setting_source": "Two friends preparing to call the clinic",
+          "setting_target": "[TRANSLATE]",
+          "context_source": "One person needs the clinic's phone number; the other points to where to look.",
+          "context_target": "[TRANSLATE]",
+          "setting": "Two friends preparing to call the clinic",
+          "context": "One person needs the clinic's phone number; the other points to where to look.",
+          "dialogue": [
+            {
+              "turn_id": "turn_001",
+              "turn_number": 1,
+              "speaker": "PARTNER",
+              "text_source": "Do you know how to call the clinic?",
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_002",
+              "turn_number": 2,
+              "speaker": "YOU",
+              "text_source": "I will find a phone number.",
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_003",
+              "turn_number": 3,
+              "speaker": "PARTNER",
+              "text_source": "Try the office directory.",
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_004",
+              "turn_number": 4,
+              "speaker": "YOU",
+              "text_source": "Thanks, I will check my contacts too.",
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_005",
+              "turn_number": 5,
+              "speaker": "PARTNER",
+              "text_source": "Good idea, then call them right away.",
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            }
+          ]
+        },
+        "module_sprint_exercises": {
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": "Quick practice",
+          "title_target": "[TRANSLATE]",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_fill_dialogue",
+              "exercise_type": "Fill-in-the-Dialogue (Speaking)",
+              "prompt_source": "Speak your line:",
+              "prompt_target": "[TRANSLATE]",
+              "dialogue_context": "Your friend asks how you will reach the clinic.",
+              "dialogue_context_source": "Your friend asks how you will reach the clinic.",
+              "dialogue_context_target": "[TRANSLATE]",
+              "turns": [
+                {
+                  "turn_number": 1,
+                  "speaker": "PARTNER",
+                  "text_source": "How will you call the clinic?",
+                  "text_target": "[TRANSLATE]",
+                  "audio_file": "[GENERATE]",
+                  "text_to_speak_target": "How will you call the clinic?"
+                },
+                {
+                  "turn_number": 2,
+                  "speaker": "YOU",
+                  "text_source": "Tell them you will find a phone number.",
+                  "expected_response": "I will find a phone number.",
+                  "expected_response_source": "I will find a phone number.",
+                  "expected_response_target": "[TRANSLATE]",
+                  "acceptable_responses": [
+                    "I will find a phone number.",
+                    "I'll find a phone number."
+                  ],
+                  "acceptable_responses_source": [
+                    "I will find a phone number.",
+                    "I'll find a phone number."
+                  ],
+                  "acceptable_responses_target": [
+                    "[TRANSLATE]",
+                    "[TRANSLATE]"
+                  ]
+                }
+              ],
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_audio_blank",
+              "exercise_type": "Audio Fill-in-the-Blank",
+              "prompt_source": "Listen and complete:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true,
+                "text_to_speak_target": "I will find a phone number."
+              },
+              "sentence": "I will find a phone ___.",
+              "sentence_source": "I will find a phone ___.",
+              "sentence_target": "[TRANSLATE]",
+              "blanks": [
+                6
+              ],
+              "correct_answer": "number",
+              "correct_answer_source": "number",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_audio_text",
+              "exercise_type": "Audio-to-Text Matching",
+              "prompt_source": "Select the phrase you hear:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": false,
+                "text_to_speak_target": "I will find a phone number."
+              },
+              "text_options": [
+                "I will find a phone number.",
+                "I will call the office.",
+                "I will check the directory."
+              ],
+              "text_options_source": [
+                "I will find a phone number.",
+                "I will call the office.",
+                "I will check the directory."
+              ],
+              "text_options_target": [
+                "[TRANSLATE]",
+                "[TRANSLATE]",
+                "[TRANSLATE]"
+              ],
+              "correct_answer": "I will find a phone number.",
+              "correct_answer_source": "I will find a phone number.",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            }
+          ],
+          "module_id": "module_sprint_exercises",
+          "module_name": "Sprint & review",
+          "module_code": "SPRINT",
+          "module_type": "Review"
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": [
+        "**_target"
+      ],
+      "audio_generation_patterns": [
+        "[GENERATE]",
+        "[GENERATE_FOR_TARGET]"
+      ]
+    }
+  },
+  "metadata": {
+    "lessonType": "malegado",
+    "uploadSchema": "modules_canonical_v1",
+    "convertedFrom": "new_structure_v4_phases",
+    "sourcePath": "/home/metuge/Dev/submissions/malegado_new_structure/Dialogues/dialogue 45/lesson_10.json",
+    "sourceLessonId": "badge_vision_help_001-L10"
+  }
+}

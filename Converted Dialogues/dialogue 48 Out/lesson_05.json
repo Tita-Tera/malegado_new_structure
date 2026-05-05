@@ -1,0 +1,599 @@
+{
+  "title": "needing help",
+  "description": "Practice saying directly that you need help.",
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "basic descriptions",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_asking_help_001-L05",
+      "generation_timestamp": "2026-05-05T03:55:14Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A2",
+        "level_name": "Elementary",
+        "level_description": "Builds on basic phrases for everyday situations.",
+        "cefr_equivalent": "A2",
+        "available_levels": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      "theme_config": {
+        "theme_id": "BASIC_DESCRIPTIONS",
+        "theme_code": "BASIC_DESCRIPTIONS",
+        "theme_name": "Basic Descriptions",
+        "theme_description": "Short, direct statements about what you need or feel.",
+        "available_themes": [
+          {
+            "code": "ESS",
+            "name": "Essentials"
+          },
+          {
+            "code": "TRV",
+            "name": "Travel"
+          }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "2.1a",
+        "unit_number": 2,
+        "subunit_number": 1,
+        "variant": "a",
+        "unit_name": "Asking for Help",
+        "unit_description": "Learn how to ask for help and respond to advice in everyday conversations.",
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 3,
+        "estimated_completion_time_minutes": 75
+      },
+      "lesson_config": {
+        "lesson_number": 710,
+        "lesson_type": "teaching",
+        "lesson_name": "needing help",
+        "lesson_description": "Practice saying directly that you need help.",
+        "estimated_duration_minutes": 5,
+        "difficulty_within_unit": 5,
+        "prerequisites": [
+          "badge_asking_help_001-L01",
+          "badge_asking_help_001-L02",
+          "badge_asking_help_001-L03",
+          "badge_asking_help_001-L04"
+        ],
+        "learning_objectives": [
+          "Use 'I need...' to make a direct request.",
+          "Recognize vocabulary for support and assistance.",
+          "Tell another person clearly that you need help."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      },
+      "order": 710
+    },
+    "lesson_structure": {
+      "module_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "module_1_core_vocabulary",
+          "module_2_functional_grammar",
+          "module_3_sentence_building",
+          "module_dialogue_practice",
+          "module_sprint_exercises"
+        ]
+      },
+      "modules": {
+        "module_1_core_vocabulary": {
+          "module_id": "module_1",
+          "module_name": "Vocabulary Anchor",
+          "module_code": "VOCAB",
+          "position_in_lesson": 1,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": "Key phrases",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Vocabulary",
+          "vocabulary_items": [
+            {
+              "vocab_id": "core_5",
+              "phrase_id": 1,
+              "source_text": "I need help.",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "verb phrase",
+              "frequency_rank": 1,
+              "difficulty": 1,
+              "context": {
+                "usage_context": "request",
+                "formality_level": "neutral",
+                "time_of_day": "any",
+                "relationship": "any"
+              },
+              "linguistic_info": {
+                "tooltip_source": "A direct way to ask another person for support.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_5_001",
+              "phrase_id": 2,
+              "source_text": "support",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "frequency_rank": 2,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "Help that someone gives you when things are hard.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_5_002",
+              "phrase_id": 3,
+              "source_text": "assistance",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "frequency_rank": 3,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "A formal word for help.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_5_003",
+              "phrase_id": 4,
+              "source_text": "advice",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "frequency_rank": 4,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "An idea someone gives you about what to do.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_5_004",
+              "phrase_id": 5,
+              "source_text": "guidance",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "frequency_rank": 5,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "Help that shows you the right way to go.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            }
+          ],
+          "vocabulary_anchor_listen_repeat": {
+            "prompt_source": "Listen and repeat the core phrase.",
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {
+              "audio_file": "[GENERATE]",
+              "play_on_load": true,
+              "text_to_speak_target": "I need help."
+            },
+            "show_text_after_play": true
+          },
+          "vocabulary_anchor_quick_match": {
+            "prompt_source": "Connect each word to its meaning or image.",
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              {
+                "word_id": "rel_5_001",
+                "correct_key": "rel_5_001_correct"
+              },
+              {
+                "word_id": "rel_5_002",
+                "correct_key": "rel_5_002_correct"
+              },
+              {
+                "word_id": "rel_5_003",
+                "correct_key": "rel_5_003_correct"
+              },
+              {
+                "word_id": "rel_5_004",
+                "correct_key": "rel_5_004_correct"
+              }
+            ],
+            "options_display": "shuffle"
+          }
+        },
+        "module_2_functional_grammar": {
+          "module_id": "module_2",
+          "module_name": "Grammar Engine",
+          "module_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": "Grammar tip",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Grammar",
+          "grammar_points": [
+            {
+              "grammar_id": "gram_5",
+              "concept_source": "Direct requests with 'I need + noun'",
+              "concept_target": "[TRANSLATE]",
+              "explanation_source": "Use 'I need' plus a noun to make a clear, direct request. It is short and easy for the listener to act on.",
+              "explanation_target": "[TRANSLATE]",
+              "focus_type": "variations",
+              "examples": [
+                {
+                  "example_id": "ex_5_001",
+                  "text_source": "I need a hand.",
+                  "text_target": "[TRANSLATE]",
+                  "register": "informal",
+                  "usage_note_source": "An informal way to ask for quick, practical help.",
+                  "usage_note_target": "[TRANSLATE]",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                },
+                {
+                  "example_id": "ex_5_002",
+                  "text_source": "I need some help.",
+                  "text_target": "[TRANSLATE]",
+                  "register": "casual",
+                  "usage_note_source": "A softer version that sounds slightly less urgent.",
+                  "usage_note_target": "[TRANSLATE]",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                }
+              ]
+            }
+          ],
+          "grammar_engine_modifiers": [
+            {
+              "modifier_id": "mod_5_001",
+              "modifier_source": "really",
+              "modifier_target": "[TRANSLATE]",
+              "example_source": "I really need help.",
+              "example_target": "[TRANSLATE]",
+              "explanation_source": "Add 'really' to show that the request is important.",
+              "explanation_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "modifier_id": "mod_5_002",
+              "modifier_source": "urgently",
+              "modifier_target": "[TRANSLATE]",
+              "example_source": "I urgently need help.",
+              "example_target": "[TRANSLATE]",
+              "explanation_source": "Add 'urgently' when the situation cannot wait.",
+              "explanation_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            }
+          ]
+        },
+        "module_3_sentence_building": {
+          "module_id": "module_3",
+          "module_name": "Sentence Building",
+          "module_code": "SENTENCE",
+          "position_in_lesson": 3,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": "Build sentences",
+          "title_target": "[TRANSLATE]",
+          "module_type": "SentenceBuilding",
+          "exercises": [
+            {
+              "exercise_id": "ex_sb_5_1",
+              "target_sentence_source": "I need help.",
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": "I",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": "need",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": "help",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                }
+              ],
+              "hints": "Three short words: speaker, verb, noun.",
+              "exercise_type": "Drag-and-Drop Sentence Builder",
+              "prompt_source": "Put the words in the correct order:",
+              "prompt_target": "[TRANSLATE]",
+              "hints_source": "Three short words: speaker, verb, noun.",
+              "hints_target": "[TRANSLATE]"
+            },
+            {
+              "exercise_id": "ex_sb_5_2",
+              "target_sentence_source": "I need some help.",
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": "I",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": "need",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": "some",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": "help",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4
+                }
+              ],
+              "hints": "Add 'some' for a softer-sounding request.",
+              "exercise_type": "Drag-and-Drop Sentence Builder",
+              "prompt_source": "Put the words in the correct order:",
+              "prompt_target": "[TRANSLATE]",
+              "hints_source": "Add 'some' for a softer-sounding request.",
+              "hints_target": "[TRANSLATE]"
+            }
+          ]
+        },
+        "module_dialogue_practice": {
+          "module_id": "module_dialogue_practice",
+          "module_name": "Dialogue Practice",
+          "module_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": "Conversation",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Conversations",
+          "setting_source": "In a study lounge",
+          "setting_target": "[TRANSLATE]",
+          "context_source": "A person reaches out to a friend for support.",
+          "context_target": "[TRANSLATE]",
+          "setting": "In a study lounge",
+          "context": "A person reaches out to a friend for support.",
+          "dialogue": [
+            {
+              "turn_id": "turn_001",
+              "turn_number": 1,
+              "speaker": "PARTNER",
+              "text_source": "You look stressed today.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_002",
+              "turn_number": 2,
+              "speaker": "YOU",
+              "text_source": "I need help.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_003",
+              "turn_number": 3,
+              "speaker": "PARTNER",
+              "text_source": "What is wrong?",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_004",
+              "turn_number": 4,
+              "speaker": "YOU",
+              "text_source": "I have too much work.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_005",
+              "turn_number": 5,
+              "speaker": "PARTNER",
+              "text_source": "I can take some of it.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            }
+          ]
+        },
+        "module_sprint_exercises": {
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": "Quick practice",
+          "title_target": "[TRANSLATE]",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_audio_blank",
+              "exercise_type": "Audio Fill-in-the-Blank",
+              "prompt_source": "Listen and complete:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true
+              },
+              "sentence": "I need ___.",
+              "sentence_source": "I need ___.",
+              "sentence_target": "[TRANSLATE]",
+              "blanks": [
+                3
+              ],
+              "correct_answer": "help",
+              "correct_answer_source": "help",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_text_audio",
+              "exercise_type": "Text-to-Audio Matching",
+              "prompt_source": "Tap the audio that matches:",
+              "prompt_target": "[TRANSLATE]",
+              "text_stimulus": "I need help.",
+              "text_stimulus_source": "I need help.",
+              "text_stimulus_target": "[TRANSLATE]",
+              "audio_options": [
+                {
+                  "option_id": "a1",
+                  "audio_file": "[GENERATE]",
+                  "text_to_speak_target": "I need help.",
+                  "correct": true
+                },
+                {
+                  "option_id": "a2",
+                  "audio_file": "[GENERATE]",
+                  "text_to_speak_target": "I need a hand.",
+                  "correct": false
+                }
+              ],
+              "correct_answer": "I need help.",
+              "correct_answer_source": "I need help.",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_sentence_open",
+              "exercise_type": "Sentence Completion (Open)",
+              "prompt_source": "Finish in your own words:",
+              "prompt_target": "[TRANSLATE]",
+              "prompt": "I need ___.",
+              "prompt_text_source": "I need ___.",
+              "prompt_text_target": "[TRANSLATE]",
+              "expected_response": "help",
+              "expected_response_source": "help",
+              "expected_response_target": "[TRANSLATE]",
+              "scoring_criteria": "Accept any noun for support such as 'help', 'advice', 'support', or 'guidance'.",
+              "scoring_criteria_source": "Accept any noun for support such as 'help', 'advice', 'support', or 'guidance'.",
+              "scoring_criteria_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            }
+          ],
+          "module_id": "module_sprint_exercises",
+          "module_name": "Sprint & review",
+          "module_code": "SPRINT",
+          "module_type": "Review"
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": [
+        "**_target"
+      ],
+      "audio_generation_patterns": [
+        "[GENERATE]",
+        "[GENERATE_FOR_TARGET]"
+      ]
+    }
+  },
+  "metadata": {
+    "lessonType": "malegado",
+    "uploadSchema": "modules_canonical_v1",
+    "convertedFrom": "new_structure_v4_phases",
+    "sourcePath": "/home/metuge/Dev/submissions/malegado_new_structure/Dialogues/dialogue 48/lesson_05.json",
+    "sourceLessonId": "badge_asking_help_001-L05"
+  }
+}

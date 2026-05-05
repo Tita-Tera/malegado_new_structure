@@ -1,0 +1,697 @@
+{
+  "title": "talking about a holiday",
+  "description": "Learn how to say when a special day falls and name the occasion.",
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 6,
+  "status": "DRAFT",
+  "category": "culture",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_giftgiving_future_001-L03",
+      "generation_timestamp": "2026-05-04T11:51:22Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A2",
+        "level_name": "Elementary",
+        "level_description": "Learners can handle short everyday exchanges and talk about familiar topics.",
+        "cefr_equivalent": "A2",
+        "available_levels": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      "theme_config": {
+        "theme_id": "CULTURE",
+        "theme_code": "CULTURE",
+        "theme_name": "Culture",
+        "theme_description": "Holidays and special days that people celebrate.",
+        "available_themes": [
+          {
+            "code": "ESS",
+            "name": "Essentials"
+          },
+          {
+            "code": "TRV",
+            "name": "Travel"
+          }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "1.1b",
+        "unit_number": 1,
+        "subunit_number": 1,
+        "variant": "b",
+        "unit_name": "Gift Giving",
+        "unit_description": "Talk about gifts you will give for holidays, birthdays, and special occasions.",
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 3,
+        "estimated_completion_time_minutes": 90
+      },
+      "lesson_config": {
+        "lesson_number": 618,
+        "lesson_type": "teaching",
+        "lesson_name": "talking about a holiday",
+        "lesson_description": "Practice naming a holiday and saying when it happens.",
+        "estimated_duration_minutes": 6,
+        "difficulty_within_unit": 3,
+        "prerequisites": [
+          "badge_giftgiving_future_001-L01",
+          "badge_giftgiving_future_001-L02"
+        ],
+        "learning_objectives": [
+          "Name a holiday in English.",
+          "Use 'is' to link a day with an occasion.",
+          "Say the day of the week when a holiday falls."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      },
+      "order": 618
+    },
+    "lesson_structure": {
+      "module_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "module_1_core_vocabulary",
+          "module_2_functional_grammar",
+          "module_3_sentence_building",
+          "module_dialogue_practice",
+          "module_sprint_exercises"
+        ]
+      },
+      "modules": {
+        "module_1_core_vocabulary": {
+          "module_id": "module_1",
+          "module_name": "Vocabulary Anchor",
+          "module_code": "VOCAB",
+          "position_in_lesson": 1,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": "Key phrases",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Vocabulary",
+          "vocabulary_items": [
+            {
+              "vocab_id": "core_3",
+              "phrase_id": 1,
+              "source_text": "Sunday is Mother's Day.",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "declarative",
+              "frequency_rank": 1,
+              "difficulty": 1,
+              "context": {
+                "usage_context": "statement",
+                "formality_level": "neutral",
+                "time_of_day": "any",
+                "relationship": "any"
+              },
+              "linguistic_info": {
+                "tooltip_source": "A statement that names a day and identifies it as a holiday.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_3_001",
+              "phrase_id": 2,
+              "source_text": "Sunday",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "frequency_rank": 2,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "The first day of the week in many countries.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_3_002",
+              "phrase_id": 3,
+              "source_text": "is",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "verb",
+              "frequency_rank": 3,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "The third-person singular form of 'to be'.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_3_003",
+              "phrase_id": 4,
+              "source_text": "Mother's",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "frequency_rank": 4,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "Belonging to the mother; possessive form.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_3_004",
+              "phrase_id": 5,
+              "source_text": "Day",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "frequency_rank": 5,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "A 24-hour period or a special date on the calendar.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            }
+          ],
+          "vocabulary_anchor_listen_repeat": {
+            "prompt_source": "Listen and repeat the core phrase.",
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {
+              "audio_file": "[GENERATE]",
+              "play_on_load": true,
+              "text_to_speak_target": "Sunday is Mother's Day."
+            },
+            "show_text_after_play": true
+          },
+          "vocabulary_anchor_quick_match": {
+            "prompt_source": "Connect each word to its meaning or image.",
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              {
+                "word_id": "rel_3_001",
+                "correct_key": "rel_3_001_correct"
+              },
+              {
+                "word_id": "rel_3_002",
+                "correct_key": "rel_3_002_correct"
+              },
+              {
+                "word_id": "rel_3_003",
+                "correct_key": "rel_3_003_correct"
+              },
+              {
+                "word_id": "rel_3_004",
+                "correct_key": "rel_3_004_correct"
+              }
+            ],
+            "options_display": "shuffle"
+          }
+        },
+        "module_2_functional_grammar": {
+          "module_id": "module_2",
+          "module_name": "Grammar Engine",
+          "module_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": "Grammar tip",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Grammar",
+          "grammar_points": [
+            {
+              "grammar_id": "gram_3",
+              "concept_source": "Linking a day to a holiday with 'is'",
+              "concept_target": "[TRANSLATE]",
+              "explanation_source": "Use 'is' to connect a day with the holiday name. The pattern is: day + is + holiday.",
+              "explanation_target": "[TRANSLATE]",
+              "focus_type": "variations",
+              "examples": [
+                {
+                  "example_id": "ex_3_001",
+                  "text_source": "Today is Mother's Day.",
+                  "text_target": "[TRANSLATE]",
+                  "register": "informal",
+                  "usage_note_source": "Use 'today' when the holiday is happening now.",
+                  "usage_note_target": "[TRANSLATE]",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                },
+                {
+                  "example_id": "ex_3_002",
+                  "text_source": "Sunday is Father's Day.",
+                  "text_target": "[TRANSLATE]",
+                  "register": "informal",
+                  "usage_note_source": "Swap the holiday name to talk about a different occasion.",
+                  "usage_note_target": "[TRANSLATE]",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                }
+              ]
+            }
+          ],
+          "grammar_engine_modifiers": [
+            {
+              "modifier_id": "mod_3_001",
+              "modifier_source": "this",
+              "modifier_target": "[TRANSLATE]",
+              "example_source": "This Sunday is Mother's Day.",
+              "example_target": "[TRANSLATE]",
+              "explanation_source": "Add 'this' to point to the upcoming Sunday.",
+              "explanation_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "modifier_id": "mod_3_002",
+              "modifier_source": "next",
+              "modifier_target": "[TRANSLATE]",
+              "example_source": "Next Sunday is Mother's Day.",
+              "example_target": "[TRANSLATE]",
+              "explanation_source": "Add 'next' to talk about a Sunday after this week.",
+              "explanation_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            }
+          ]
+        },
+        "module_3_sentence_building": {
+          "module_id": "module_3",
+          "module_name": "Sentence Building",
+          "module_code": "SENTENCE",
+          "position_in_lesson": 3,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": "Build sentences",
+          "title_target": "[TRANSLATE]",
+          "module_type": "SentenceBuilding",
+          "exercises": [
+            {
+              "exercise_id": "ex_sb_3_1",
+              "target_sentence_source": "Sunday is Mother's Day.",
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": "Sunday",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": "is",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": "Mother's",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": "Day",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4
+                }
+              ],
+              "hints": "Start with the day.",
+              "exercise_type": "Drag-and-Drop Sentence Builder",
+              "prompt_source": "Put the words in the correct order:",
+              "prompt_target": "[TRANSLATE]",
+              "hints_source": "Start with the day.",
+              "hints_target": "[TRANSLATE]"
+            },
+            {
+              "exercise_id": "ex_sb_3_2",
+              "target_sentence_source": "Today is Mother's Day.",
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": "Today",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": "is",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": "Mother's",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": "Day",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4
+                }
+              ],
+              "hints": "Use 'today' when the holiday is now.",
+              "exercise_type": "Drag-and-Drop Sentence Builder",
+              "prompt_source": "Put the words in the correct order:",
+              "prompt_target": "[TRANSLATE]",
+              "hints_source": "Use 'today' when the holiday is now.",
+              "hints_target": "[TRANSLATE]"
+            }
+          ]
+        },
+        "module_dialogue_practice": {
+          "module_id": "module_dialogue_practice",
+          "module_name": "Dialogue Practice",
+          "module_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": "Conversation",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Conversations",
+          "setting_source": "Two people checking the calendar at home",
+          "setting_target": "[TRANSLATE]",
+          "context_source": "One person reminds the other that a holiday is coming this weekend.",
+          "context_target": "[TRANSLATE]",
+          "setting": "Two people checking the calendar at home",
+          "context": "One person reminds the other that a holiday is coming this weekend.",
+          "dialogue": [
+            {
+              "turn_id": "turn_001",
+              "turn_number": 1,
+              "speaker": "PARTNER",
+              "text_source": "What is the date today?",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_002",
+              "turn_number": 2,
+              "speaker": "YOU",
+              "text_source": "Sunday is Mother's Day.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_003",
+              "turn_number": 3,
+              "speaker": "PARTNER",
+              "text_source": "Oh, that is soon.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_004",
+              "turn_number": 4,
+              "speaker": "YOU",
+              "text_source": "Yes, in two days.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_005",
+              "turn_number": 5,
+              "speaker": "PARTNER",
+              "text_source": "We should plan something.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            }
+          ]
+        },
+        "module_sprint_exercises": {
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": "Quick practice",
+          "title_target": "[TRANSLATE]",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_match_game",
+              "exercise_type": "Flashcard Matching Game",
+              "prompt_source": "Match pairs:",
+              "prompt_target": "[TRANSLATE]",
+              "pairs": [
+                {
+                  "pair_id": "pair_1",
+                  "item_a": "Sunday",
+                  "item_b": "first day of the week",
+                  "type": "word_meaning"
+                },
+                {
+                  "pair_id": "pair_2",
+                  "item_a": "is",
+                  "item_b": "to be (he/she/it)",
+                  "type": "word_meaning"
+                },
+                {
+                  "pair_id": "pair_3",
+                  "item_a": "Mother's",
+                  "item_b": "belonging to mother",
+                  "type": "word_meaning"
+                },
+                {
+                  "pair_id": "pair_4",
+                  "item_a": "Day",
+                  "item_b": "a special date",
+                  "type": "word_meaning"
+                }
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_flashcard",
+              "exercise_type": "Digital Flashcards",
+              "prompt_source": "Study the card:",
+              "prompt_target": "[TRANSLATE]",
+              "word": "Sunday is Mother's Day.",
+              "definition": "A statement that names a day and identifies it as a holiday.",
+              "examples": [
+                "Sunday is Mother's Day.",
+                "Today is Mother's Day."
+              ],
+              "context": "Used to remind someone of an upcoming family holiday.",
+              "word_source": "Sunday is Mother's Day.",
+              "word_target": "[TRANSLATE]",
+              "definition_source": "A statement that names a day and identifies it as a holiday.",
+              "definition_target": "[TRANSLATE]",
+              "examples_source": [
+                "Sunday is Mother's Day.",
+                "Today is Mother's Day."
+              ],
+              "examples_target": [
+                "[TRANSLATE]",
+                "[TRANSLATE]"
+              ],
+              "context_source": "Used to remind someone of an upcoming family holiday.",
+              "context_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 5,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_v1_audio_image",
+              "exercise_type": "Audio-to-Image Matching",
+              "prompt_source": "Tap the image that matches what you hear:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true,
+                "text_to_speak_target": "Sunday is Mother's Day."
+              },
+              "image_options": [
+                {
+                  "option_id": "opt_01",
+                  "image_url": "",
+                  "correct": true
+                },
+                {
+                  "option_id": "opt_02",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_03",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_04",
+                  "image_url": "",
+                  "correct": false
+                }
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_sentence_open",
+              "exercise_type": "Sentence Completion (Open)",
+              "prompt_source": "Finish in your own words:",
+              "prompt_target": "[TRANSLATE]",
+              "prompt": "Sunday is ___.",
+              "prompt_text_source": "Sunday is ___.",
+              "prompt_text_target": "[TRANSLATE]",
+              "expected_response": "A holiday or special day, e.g. Mother's Day.",
+              "expected_response_source": "A holiday or special day, e.g. Mother's Day.",
+              "expected_response_target": "[TRANSLATE]",
+              "scoring_criteria": "Accept any noun naming a day or holiday.",
+              "scoring_criteria_source": "Accept any noun naming a day or holiday.",
+              "scoring_criteria_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_fill_dialogue",
+              "exercise_type": "Fill-in-the-Dialogue (Speaking)",
+              "prompt_source": "Speak your line:",
+              "prompt_target": "[TRANSLATE]",
+              "dialogue_context": "A friend asks what day it is.",
+              "dialogue_context_source": "A friend asks what day it is.",
+              "dialogue_context_target": "[TRANSLATE]",
+              "turns": [
+                {
+                  "turn_number": 1,
+                  "speaker": "PARTNER",
+                  "text_source": "What day is it?",
+                  "text_target": "[TRANSLATE]",
+                  "audio_file": "[GENERATE]",
+                  "text_to_speak_target": "What day is it?"
+                },
+                {
+                  "turn_number": 2,
+                  "speaker": "YOU",
+                  "text_source": "___",
+                  "expected_response": "Sunday is Mother's Day.",
+                  "expected_response_source": "Sunday is Mother's Day.",
+                  "expected_response_target": "[TRANSLATE]",
+                  "acceptable_responses": [
+                    "Sunday is Mother's Day.",
+                    "It is Mother's Day."
+                  ],
+                  "acceptable_responses_source": [
+                    "Sunday is Mother's Day.",
+                    "It is Mother's Day."
+                  ],
+                  "acceptable_responses_target": [
+                    "[TRANSLATE]",
+                    "[TRANSLATE]"
+                  ]
+                }
+              ],
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              }
+            }
+          ],
+          "module_id": "module_sprint_exercises",
+          "module_name": "Sprint & review",
+          "module_code": "SPRINT",
+          "module_type": "Review"
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": [
+        "**_target"
+      ],
+      "audio_generation_patterns": [
+        "[GENERATE]",
+        "[GENERATE_FOR_TARGET]"
+      ]
+    }
+  },
+  "metadata": {
+    "lessonType": "malegado",
+    "uploadSchema": "modules_canonical_v1",
+    "convertedFrom": "new_structure_v4_phases",
+    "sourcePath": "/home/metuge/Dev/submissions/malegado_new_structure/Dialogues/dialogue 42/lesson_03.json",
+    "sourceLessonId": "badge_giftgiving_future_001-L03"
+  }
+}

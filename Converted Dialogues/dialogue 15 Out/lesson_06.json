@@ -1,0 +1,748 @@
+{
+  "title": "a birthday gift",
+  "description": "Learn to describe a gift of money you gave to someone for a special occasion.",
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "past experiences",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_2_1a-L06",
+      "generation_timestamp": "2026-05-03T10:54:07.362277+00:00",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A2",
+        "level_name": "Pre-Intermediate",
+        "level_description": "Learners can handle simple, direct exchanges on familiar topics about themselves and others.",
+        "cefr_equivalent": "A2",
+        "available_levels": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      "theme_config": {
+        "theme_id": "PAST_EXPERIENCES",
+        "theme_code": "PAST_EXPERIENCES",
+        "theme_name": "Past Experiences",
+        "theme_description": "Telling a story from the past about a gift you gave on a special occasion.",
+        "available_themes": [
+          {
+            "code": "ESS",
+            "name": "Essentials"
+          },
+          {
+            "code": "TRV",
+            "name": "Travel"
+          }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "2.1a",
+        "unit_number": 2,
+        "subunit_number": 1,
+        "variant": "a",
+        "unit_name": "Relationships & the Past",
+        "unit_description": "Talk about people in your life and share past experiences using simple narratives.",
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 3,
+        "estimated_completion_time_minutes": 75
+      },
+      "lesson_config": {
+        "lesson_number": 216,
+        "lesson_type": "teaching",
+        "lesson_name": "a birthday gift",
+        "lesson_description": "Learn to describe a gift of money you gave to someone for a special occasion.",
+        "estimated_duration_minutes": 5,
+        "difficulty_within_unit": 6,
+        "prerequisites": [
+          "badge_2_1a-L01",
+          "badge_2_1a-L02",
+          "badge_2_1a-L03",
+          "badge_2_1a-L04",
+          "badge_2_1a-L05"
+        ],
+        "learning_objectives": [
+          "Use past simple 'gave' with two objects (person + thing) to describe a gift.",
+          "Recognize related words for gifts and special occasions (money, gift, celebrate, buy).",
+          "Use 'for + occasion' to explain why you gave something."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      },
+      "order": 216
+    },
+    "lesson_structure": {
+      "module_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "module_1_core_vocabulary",
+          "module_2_functional_grammar",
+          "module_3_sentence_building",
+          "module_dialogue_practice",
+          "module_sprint_exercises"
+        ]
+      },
+      "modules": {
+        "module_1_core_vocabulary": {
+          "module_id": "module_1",
+          "module_name": "Vocabulary Anchor",
+          "module_code": "VOCAB",
+          "position_in_lesson": 1,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": "Key phrases",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Vocabulary",
+          "vocabulary_items": [
+            {
+              "vocab_id": "core_6",
+              "phrase_id": 1,
+              "source_text": "I gave her one thousand dollars for her birthday.",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "past simple verb phrase",
+              "frequency_rank": 1,
+              "difficulty": 1,
+              "context": {
+                "usage_context": "past narrative",
+                "formality_level": "neutral",
+                "time_of_day": "any",
+                "relationship": "family"
+              },
+              "linguistic_info": {
+                "tooltip_source": "A way to say in the past tense that you handed money or a gift to someone for a special occasion.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_6_001",
+              "phrase_id": 2,
+              "source_text": "money",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "frequency_rank": 2,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "the cash or coins you use to buy things.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_6_002",
+              "phrase_id": 3,
+              "source_text": "gift",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "frequency_rank": 3,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "something you give to someone, often for a special day.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_6_003",
+              "phrase_id": 4,
+              "source_text": "celebrate",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "verb",
+              "frequency_rank": 4,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "to do something special to mark an important day.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_6_004",
+              "phrase_id": 5,
+              "source_text": "buy",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "verb",
+              "frequency_rank": 5,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "to get something by paying money for it.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            }
+          ],
+          "vocabulary_anchor_listen_repeat": {
+            "prompt_source": "Listen and repeat the core phrase.",
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {
+              "audio_file": "[GENERATE]",
+              "play_on_load": true,
+              "text_to_speak_target": "I gave her one thousand dollars for her birthday."
+            },
+            "show_text_after_play": true
+          },
+          "vocabulary_anchor_quick_match": {
+            "prompt_source": "Connect each word to its meaning or image.",
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              {
+                "word_id": "rel_6_001",
+                "correct_key": "rel_6_001_correct"
+              },
+              {
+                "word_id": "rel_6_002",
+                "correct_key": "rel_6_002_correct"
+              },
+              {
+                "word_id": "rel_6_003",
+                "correct_key": "rel_6_003_correct"
+              },
+              {
+                "word_id": "rel_6_004",
+                "correct_key": "rel_6_004_correct"
+              }
+            ],
+            "options_display": "shuffle"
+          }
+        },
+        "module_2_functional_grammar": {
+          "module_id": "module_2",
+          "module_name": "Grammar Engine",
+          "module_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": "Grammar tip",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Grammar",
+          "grammar_points": [
+            {
+              "grammar_id": "gram_6",
+              "concept_source": "past simple double-object: gave + person + thing",
+              "concept_target": "[TRANSLATE]",
+              "explanation_source": "With 'gave', you can put the person right after the verb, then the thing you gave. The order is: gave + indirect object (person) + direct object (thing).",
+              "explanation_target": "[TRANSLATE]",
+              "focus_type": "variations",
+              "examples": [
+                {
+                  "example_id": "ex_6_001",
+                  "text_source": "I gave her some money.",
+                  "text_target": "[TRANSLATE]",
+                  "register": "informal",
+                  "usage_note_source": "A simple, casual version. 'Some money' is vague on purpose.",
+                  "usage_note_target": "[TRANSLATE]",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                },
+                {
+                  "example_id": "ex_6_002",
+                  "text_source": "I gave my mom a thousand dollars on her birthday.",
+                  "text_target": "[TRANSLATE]",
+                  "register": "formal",
+                  "usage_note_source": "Use 'on her birthday' for a slightly more formal feel; 'for her birthday' also works.",
+                  "usage_note_target": "[TRANSLATE]",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                }
+              ]
+            }
+          ],
+          "grammar_engine_modifiers": [
+            {
+              "modifier_id": "mod_6_001",
+              "modifier_source": "last year",
+              "modifier_target": "[TRANSLATE]",
+              "example_source": "I gave her one thousand dollars for her birthday last year.",
+              "example_target": "[TRANSLATE]",
+              "explanation_source": "Add 'last year' at the end to place the action in a past year.",
+              "explanation_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "modifier_id": "mod_6_002",
+              "modifier_source": "happily",
+              "modifier_target": "[TRANSLATE]",
+              "example_source": "I happily gave her one thousand dollars for her birthday.",
+              "example_target": "[TRANSLATE]",
+              "explanation_source": "Add 'happily' before the verb to show your feeling about giving.",
+              "explanation_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            }
+          ]
+        },
+        "module_3_sentence_building": {
+          "module_id": "module_3",
+          "module_name": "Sentence Building",
+          "module_code": "SENTENCE",
+          "position_in_lesson": 3,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": "Build sentences",
+          "title_target": "[TRANSLATE]",
+          "module_type": "SentenceBuilding",
+          "exercises": [
+            {
+              "exercise_id": "ex_sb_6_1",
+              "target_sentence_source": "I gave her one thousand dollars for her birthday.",
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": "I",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": "gave",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": "her",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": "one",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4
+                },
+                {
+                  "word_id": "w5",
+                  "word_source": "thousand",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 5
+                },
+                {
+                  "word_id": "w6",
+                  "word_source": "dollars",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 6
+                },
+                {
+                  "word_id": "w7",
+                  "word_source": "for",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 7
+                },
+                {
+                  "word_id": "w8",
+                  "word_source": "her",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 8
+                },
+                {
+                  "word_id": "w9",
+                  "word_source": "birthday",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 9
+                }
+              ],
+              "hints": "Subject, past verb, person, amount, then 'for' and the occasion.",
+              "exercise_type": "Drag-and-Drop Sentence Builder",
+              "prompt_source": "Put the words in the correct order:",
+              "prompt_target": "[TRANSLATE]",
+              "hints_source": "Subject, past verb, person, amount, then 'for' and the occasion.",
+              "hints_target": "[TRANSLATE]"
+            },
+            {
+              "exercise_id": "ex_sb_6_2",
+              "target_sentence_source": "I gave him a gift for his birthday.",
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": "I",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": "gave",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": "him",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": "a",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4
+                },
+                {
+                  "word_id": "w5",
+                  "word_source": "gift",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 5
+                },
+                {
+                  "word_id": "w6",
+                  "word_source": "for",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 6
+                },
+                {
+                  "word_id": "w7",
+                  "word_source": "his",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 7
+                },
+                {
+                  "word_id": "w8",
+                  "word_source": "birthday",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 8
+                }
+              ],
+              "hints": "Same pattern with a different person and a different thing.",
+              "exercise_type": "Drag-and-Drop Sentence Builder",
+              "prompt_source": "Put the words in the correct order:",
+              "prompt_target": "[TRANSLATE]",
+              "hints_source": "Same pattern with a different person and a different thing.",
+              "hints_target": "[TRANSLATE]"
+            }
+          ]
+        },
+        "module_dialogue_practice": {
+          "module_id": "module_dialogue_practice",
+          "module_name": "Dialogue Practice",
+          "module_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": "Conversation",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Conversations",
+          "setting_source": "A friendly afternoon chat between two close friends.",
+          "setting_target": "[TRANSLATE]",
+          "context_source": "One friend asks the other about a recent birthday celebration; the other shares what they gave.",
+          "context_target": "[TRANSLATE]",
+          "setting": "A friendly afternoon chat between two close friends.",
+          "context": "One friend asks the other about a recent birthday celebration; the other shares what they gave.",
+          "dialogue": [
+            {
+              "turn_id": "turn_001",
+              "turn_number": 1,
+              "speaker": "PARTNER",
+              "text_source": "What did you do for your mom's birthday?",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_002",
+              "turn_number": 2,
+              "speaker": "YOU",
+              "text_source": "I gave her one thousand dollars for her birthday.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_003",
+              "turn_number": 3,
+              "speaker": "PARTNER",
+              "text_source": "Wow, that is so generous. Did she like it?",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_004",
+              "turn_number": 4,
+              "speaker": "YOU",
+              "text_source": "She seemed very happy at first.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_005",
+              "turn_number": 5,
+              "speaker": "PARTNER",
+              "text_source": "I am sure she felt very loved.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            }
+          ]
+        },
+        "module_sprint_exercises": {
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": "Quick practice",
+          "title_target": "[TRANSLATE]",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_match_game",
+              "exercise_type": "Flashcard Matching Game",
+              "prompt_source": "Match pairs:",
+              "prompt_target": "[TRANSLATE]",
+              "pairs": [
+                {
+                  "pair_id": "pair_6_001",
+                  "item_a": "gave",
+                  "item_b": "past form of 'give'",
+                  "type": "word_meaning"
+                },
+                {
+                  "pair_id": "pair_6_002",
+                  "item_a": "money",
+                  "item_b": "the cash you use to buy things",
+                  "type": "word_meaning"
+                },
+                {
+                  "pair_id": "pair_6_003",
+                  "item_a": "gift",
+                  "item_b": "something you give for a special day",
+                  "type": "word_meaning"
+                },
+                {
+                  "pair_id": "pair_6_004",
+                  "item_a": "celebrate",
+                  "item_b": "to mark an important day with something special",
+                  "type": "word_meaning"
+                }
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_audio_text",
+              "exercise_type": "Audio-to-Text Matching",
+              "prompt_source": "Select the phrase you hear:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": false,
+                "text_to_speak_target": "I gave her one thousand dollars for her birthday."
+              },
+              "text_options": [
+                "I gave her one thousand dollars for her birthday.",
+                "I gave her one thousand dollars on her birthday.",
+                "I gave her one hundred dollars for her birthday."
+              ],
+              "text_options_source": [
+                "I gave her one thousand dollars for her birthday.",
+                "I gave her one thousand dollars on her birthday.",
+                "I gave her one hundred dollars for her birthday."
+              ],
+              "text_options_target": [
+                "[TRANSLATE]",
+                "[TRANSLATE]",
+                "[TRANSLATE]"
+              ],
+              "correct_answer": "I gave her one thousand dollars for her birthday.",
+              "correct_answer_source": "I gave her one thousand dollars for her birthday.",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_flashcard",
+              "exercise_type": "Digital Flashcards",
+              "prompt_source": "Study the card:",
+              "prompt_target": "[TRANSLATE]",
+              "word": "gave",
+              "definition": "past simple of 'give'; you offered something to someone in the past.",
+              "examples": [
+                "I gave her one thousand dollars for her birthday."
+              ],
+              "context": "Talking about a gift you gave on a special day.",
+              "word_source": "gave",
+              "word_target": "[TRANSLATE]",
+              "definition_source": "past simple of 'give'; you offered something to someone in the past.",
+              "definition_target": "[TRANSLATE]",
+              "examples_source": [
+                "I gave her one thousand dollars for her birthday."
+              ],
+              "examples_target": [
+                "[TRANSLATE]"
+              ],
+              "context_source": "Talking about a gift you gave on a special day.",
+              "context_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 5,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_quick_fire",
+              "exercise_type": "Listen and Respond (Quick Fire)",
+              "prompt_source": "Listen and respond out loud:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true,
+                "text_to_speak_target": "What did you give your mom for her birthday?"
+              },
+              "prompt": "What did you give your mom for her birthday?",
+              "prompt_text_source": "What did you give your mom for her birthday?",
+              "prompt_text_target": "[TRANSLATE]",
+              "response": {
+                "mode": "speech",
+                "acceptable_responses": [
+                  "I gave her one thousand dollars for her birthday.",
+                  "I gave her a gift for her birthday."
+                ],
+                "acceptable_responses_source": [
+                  "I gave her one thousand dollars for her birthday.",
+                  "I gave her a gift for her birthday."
+                ],
+                "acceptable_responses_target": [
+                  "[TRANSLATE]",
+                  "[TRANSLATE]"
+                ],
+                "time_limit_seconds": 8
+              },
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_l2_l1",
+              "exercise_type": "Translation Typing (L2→L1)",
+              "prompt_source": "Translate into English:",
+              "prompt_target": "[TRANSLATE]",
+              "source_text": "I gave her one thousand dollars for her birthday.",
+              "source_text_source": "I gave her one thousand dollars for her birthday.",
+              "source_text_target": "[TRANSLATE]",
+              "target_language": "Spanish",
+              "acceptable_answers": [
+                "I gave her one thousand dollars for her birthday.",
+                "I gave her $1000 for her birthday."
+              ],
+              "acceptable_answers_source": [
+                "I gave her one thousand dollars for her birthday.",
+                "I gave her $1000 for her birthday."
+              ],
+              "acceptable_answers_target": [
+                "[TRANSLATE]",
+                "[TRANSLATE]"
+              ],
+              "hints": "Use past simple 'gave', then the person, then the amount.",
+              "hints_source": "Use past simple 'gave', then the person, then the amount.",
+              "hints_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              }
+            }
+          ],
+          "module_id": "module_sprint_exercises",
+          "module_name": "Sprint & review",
+          "module_code": "SPRINT",
+          "module_type": "Review"
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": [
+        "**_target"
+      ],
+      "audio_generation_patterns": [
+        "[GENERATE]",
+        "[GENERATE_FOR_TARGET]"
+      ]
+    }
+  },
+  "metadata": {
+    "lessonType": "malegado",
+    "uploadSchema": "modules_canonical_v1",
+    "convertedFrom": "new_structure_v4_phases",
+    "sourcePath": "/home/metuge/Dev/submissions/malegado_new_structure/Dialogues/dialogue 15/lesson_06.json",
+    "sourceLessonId": "badge_2_1a-L06"
+  }
+}

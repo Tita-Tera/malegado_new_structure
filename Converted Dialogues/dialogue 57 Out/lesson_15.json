@@ -1,0 +1,505 @@
+{
+  "title": "talking about a song",
+  "description": "Apply the same patterns to a conversation about a song you both love.",
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "arts & media",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_sharing_favorites_001-CTX2",
+      "generation_timestamp": "2026-05-04T10:52:45.035815+00:00",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A2",
+        "level_name": "Pre-Intermediate",
+        "level_description": "Learners can handle short past-tense conversations and simple plans about familiar topics.",
+        "cefr_equivalent": "A2",
+        "available_levels": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      "theme_config": {
+        "theme_id": "ARTSMEDIA",
+        "theme_code": "ARTSMEDIA",
+        "theme_name": "Arts & Media",
+        "theme_description": "Talking about arts & media as part of sharing favorites with a friend.",
+        "available_themes": [
+          {
+            "code": "ESS",
+            "name": "Essentials"
+          },
+          {
+            "code": "TRV",
+            "name": "Travel"
+          }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "2.1a",
+        "unit_number": 2,
+        "subunit_number": 1,
+        "variant": "a",
+        "unit_name": "Sharing Favorites",
+        "unit_description": "Talk about movies, shows, and songs you love, and make plans to enjoy them with a friend.",
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 3,
+        "estimated_completion_time_minutes": 60
+      },
+      "lesson_config": {
+        "lesson_number": 855,
+        "lesson_type": "review",
+        "lesson_name": "talking about a song",
+        "lesson_description": "Use the badge's patterns in a third context — sharing a song with a friend, from first listen to emotional reaction.",
+        "estimated_duration_minutes": 5,
+        "difficulty_within_unit": 15,
+        "prerequisites": [
+          "badge_sharing_favorites_001-L01",
+          "badge_sharing_favorites_001-L02",
+          "badge_sharing_favorites_001-L03",
+          "badge_sharing_favorites_001-L04",
+          "badge_sharing_favorites_001-L05",
+          "badge_sharing_favorites_001-L06",
+          "badge_sharing_favorites_001-L07",
+          "badge_sharing_favorites_001-L08",
+          "badge_sharing_favorites_001-L09",
+          "badge_sharing_favorites_001-L10",
+          "badge_sharing_favorites_001-L11",
+          "badge_sharing_favorites_001-L12",
+          "badge_sharing_favorites_001-REVIEW",
+          "badge_sharing_favorites_001-CTX1"
+        ],
+        "learning_objectives": [
+          "Adapt the badge's question and statement patterns to a music context.",
+          "Recognize music-specific vocabulary like 'listen', 'song', and 'beautiful'.",
+          "Practice a complete conversation about sharing a favorite song."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      },
+      "order": 855
+    },
+    "lesson_structure": {
+      "module_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "module_1_core_vocabulary",
+          "module_2_functional_grammar",
+          "module_3_sentence_building",
+          "module_dialogue_practice",
+          "module_sprint_exercises"
+        ]
+      },
+      "modules": {
+        "module_1_core_vocabulary": {
+          "module_id": "module_1",
+          "module_name": "Vocabulary Anchor",
+          "module_code": "VOCAB",
+          "position_in_lesson": 1,
+          "enabled": false,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": "Key phrases",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Vocabulary",
+          "vocabulary_items": [
+            {
+              "vocab_id": "core_001",
+              "phrase_id": 1,
+              "source_text": "",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "",
+              "frequency_rank": 1,
+              "difficulty": 1,
+              "context": {
+                "usage_context": "",
+                "formality_level": "",
+                "time_of_day": "",
+                "relationship": ""
+              },
+              "linguistic_info": {
+                "tooltip_source": "",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            }
+          ],
+          "vocabulary_anchor_listen_repeat": {
+            "prompt_source": "Listen and repeat the core phrase.",
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {
+              "audio_file": "[GENERATE]",
+              "play_on_load": true
+            },
+            "show_text_after_play": true
+          },
+          "vocabulary_anchor_quick_match": {
+            "prompt_source": "Connect each word to its meaning or image.",
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [],
+            "options_display": "shuffle"
+          }
+        },
+        "module_2_functional_grammar": {
+          "module_id": "module_2",
+          "module_name": "Grammar Engine",
+          "module_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": false,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": "Grammar tip",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Grammar",
+          "grammar_points": [
+            {
+              "grammar_id": "",
+              "concept_source": "",
+              "concept_target": "[TRANSLATE]",
+              "explanation_source": "",
+              "explanation_target": "[TRANSLATE]",
+              "focus_type": "variations",
+              "examples": []
+            }
+          ],
+          "grammar_engine_modifiers": []
+        },
+        "module_3_sentence_building": {
+          "module_id": "module_3",
+          "module_name": "Sentence Building",
+          "module_code": "SENTENCE",
+          "position_in_lesson": 3,
+          "enabled": false,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": "Build sentences",
+          "title_target": "[TRANSLATE]",
+          "module_type": "SentenceBuilding",
+          "exercises": []
+        },
+        "module_dialogue_practice": {
+          "module_id": "module_dialogue_practice",
+          "module_name": "Dialogue Practice",
+          "module_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": "Conversation",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Conversations",
+          "setting_source": "Two friends discussing music",
+          "setting_target": "[TRANSLATE]",
+          "context_source": "Talking About a Song",
+          "context_target": "[TRANSLATE]",
+          "setting": "Two friends discussing music",
+          "context": "Talking About a Song",
+          "dialogue": [
+            {
+              "turn_id": "turn_001",
+              "turn_number": 1,
+              "speaker": "PARTNER",
+              "text_source": "Did you hear that song?",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_002",
+              "turn_number": 2,
+              "speaker": "YOU",
+              "text_source": "Yes.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_003",
+              "turn_number": 3,
+              "speaker": "YOU",
+              "text_source": "It is beautiful.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_004",
+              "turn_number": 4,
+              "speaker": "PARTNER",
+              "text_source": "I listened to it many times.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_005",
+              "turn_number": 5,
+              "speaker": "YOU",
+              "text_source": "Me too.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_006",
+              "turn_number": 6,
+              "speaker": "PARTNER",
+              "text_source": "I have it on my phone.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_007",
+              "turn_number": 7,
+              "speaker": "YOU",
+              "text_source": "I have it too.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_008",
+              "turn_number": 8,
+              "speaker": "PARTNER",
+              "text_source": "Let us listen together.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_009",
+              "turn_number": 9,
+              "speaker": "YOU",
+              "text_source": "We can play it here.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_010",
+              "turn_number": 10,
+              "speaker": "PARTNER",
+              "text_source": "Then we go outside.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_011",
+              "turn_number": 11,
+              "speaker": "YOU",
+              "text_source": "We can listen again.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_012",
+              "turn_number": 12,
+              "speaker": "PARTNER",
+              "text_source": "It makes me emotional.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_013",
+              "turn_number": 13,
+              "speaker": "YOU",
+              "text_source": "It is very moving.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            }
+          ]
+        },
+        "module_sprint_exercises": {
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": "Quick practice",
+          "title_target": "[TRANSLATE]",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_fill_dialogue",
+              "exercise_type": "Fill-in-the-Dialogue (Speaking)",
+              "prompt_source": "Speak your line:",
+              "prompt_target": "[TRANSLATE]",
+              "dialogue_context": "A friend wants to listen to music with you.",
+              "dialogue_context_source": "A friend wants to listen to music with you.",
+              "dialogue_context_target": "[TRANSLATE]",
+              "turns": [
+                {
+                  "turn_number": 1,
+                  "speaker": "PARTNER",
+                  "text_source": "Let us listen together.",
+                  "text_target": "[TRANSLATE]",
+                  "audio_file": "[GENERATE]",
+                  "text_to_speak_target": "Let us listen together."
+                },
+                {
+                  "turn_number": 2,
+                  "speaker": "YOU",
+                  "text_source": "(agree and propose where to play it)",
+                  "expected_response": "We can play it here.",
+                  "expected_response_source": "We can play it here.",
+                  "expected_response_target": "[TRANSLATE]",
+                  "acceptable_responses": [
+                    "We can play it here.",
+                    "Yes. We can play it here.",
+                    "We can listen again.",
+                    "Sure, let's play it here."
+                  ],
+                  "acceptable_responses_source": [
+                    "We can play it here.",
+                    "Yes. We can play it here.",
+                    "We can listen again.",
+                    "Sure, let's play it here."
+                  ],
+                  "acceptable_responses_target": [
+                    "[TRANSLATE]",
+                    "[TRANSLATE]",
+                    "[TRANSLATE]",
+                    "[TRANSLATE]"
+                  ]
+                }
+              ],
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_flashcard",
+              "exercise_type": "Digital Flashcards",
+              "prompt_source": "Study the card:",
+              "prompt_target": "[TRANSLATE]",
+              "word": "beautiful",
+              "definition": "Used to describe something that pleases your senses or feelings.",
+              "examples": [
+                "It is beautiful."
+              ],
+              "context": "A common opinion word for music, art, or anything that moves you.",
+              "word_source": "beautiful",
+              "word_target": "[TRANSLATE]",
+              "definition_source": "Used to describe something that pleases your senses or feelings.",
+              "definition_target": "[TRANSLATE]",
+              "examples_source": [
+                "It is beautiful."
+              ],
+              "examples_target": [
+                "[TRANSLATE]"
+              ],
+              "context_source": "A common opinion word for music, art, or anything that moves you.",
+              "context_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 5,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_audio_text",
+              "exercise_type": "Audio-to-Text Matching",
+              "prompt_source": "Select the phrase you hear:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": false
+              },
+              "text_options": [
+                "It is beautiful.",
+                "It is very moving.",
+                "I listened to it many times."
+              ],
+              "text_options_source": [
+                "It is beautiful.",
+                "It is very moving.",
+                "I listened to it many times."
+              ],
+              "text_options_target": [
+                "[TRANSLATE]",
+                "[TRANSLATE]",
+                "[TRANSLATE]"
+              ],
+              "correct_answer": "It is beautiful.",
+              "correct_answer_source": "It is beautiful.",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            }
+          ],
+          "module_id": "module_sprint_exercises",
+          "module_name": "Sprint & review",
+          "module_code": "SPRINT",
+          "module_type": "Review"
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": [
+        "**_target"
+      ],
+      "audio_generation_patterns": [
+        "[GENERATE]",
+        "[GENERATE_FOR_TARGET]"
+      ]
+    }
+  },
+  "metadata": {
+    "lessonType": "malegado",
+    "uploadSchema": "modules_canonical_v1",
+    "convertedFrom": "new_structure_v4_phases",
+    "sourcePath": "/home/metuge/Dev/submissions/malegado_new_structure/Dialogues/dialogue 57/lesson_15.json",
+    "sourceLessonId": "badge_sharing_favorites_001-CTX2"
+  }
+}

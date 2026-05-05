@@ -1,0 +1,570 @@
+{
+  "title": "watching a favorite movie",
+  "description": "Review the full conversation about sharing a favorite movie with a friend.",
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "arts & media",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_sharing_favorites_001-REVIEW",
+      "generation_timestamp": "2026-05-04T10:47:55.137731+00:00",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A2",
+        "level_name": "Pre-Intermediate",
+        "level_description": "Learners can handle short past-tense conversations and simple plans about familiar topics.",
+        "cefr_equivalent": "A2",
+        "available_levels": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      "theme_config": {
+        "theme_id": "ARTSMEDIA",
+        "theme_code": "ARTSMEDIA",
+        "theme_name": "Arts & Media",
+        "theme_description": "Talking about arts & media as part of sharing favorites with a friend.",
+        "available_themes": [
+          {
+            "code": "ESS",
+            "name": "Essentials"
+          },
+          {
+            "code": "TRV",
+            "name": "Travel"
+          }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "2.1a",
+        "unit_number": 2,
+        "subunit_number": 1,
+        "variant": "a",
+        "unit_name": "Sharing Favorites",
+        "unit_description": "Talk about movies, shows, and songs you love, and make plans to enjoy them with a friend.",
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 3,
+        "estimated_completion_time_minutes": 60
+      },
+      "lesson_config": {
+        "lesson_number": 853,
+        "lesson_type": "review",
+        "lesson_name": "watching a favorite movie",
+        "lesson_description": "Run through the complete anchor conversation that ties this badge together — from asking about the movie to reacting to the ending.",
+        "estimated_duration_minutes": 5,
+        "difficulty_within_unit": 13,
+        "prerequisites": [
+          "badge_sharing_favorites_001-L01",
+          "badge_sharing_favorites_001-L02",
+          "badge_sharing_favorites_001-L03",
+          "badge_sharing_favorites_001-L04",
+          "badge_sharing_favorites_001-L05",
+          "badge_sharing_favorites_001-L06",
+          "badge_sharing_favorites_001-L07",
+          "badge_sharing_favorites_001-L08",
+          "badge_sharing_favorites_001-L09",
+          "badge_sharing_favorites_001-L10",
+          "badge_sharing_favorites_001-L11",
+          "badge_sharing_favorites_001-L12"
+        ],
+        "learning_objectives": [
+          "Recognize the full conversational arc of sharing a favorite movie.",
+          "Practice the complete anchor dialogue end-to-end.",
+          "Reuse vocabulary and patterns from all 12 teaching lessons in context."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      },
+      "order": 853
+    },
+    "lesson_structure": {
+      "module_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "module_1_core_vocabulary",
+          "module_2_functional_grammar",
+          "module_3_sentence_building",
+          "module_dialogue_practice",
+          "module_sprint_exercises"
+        ]
+      },
+      "modules": {
+        "module_1_core_vocabulary": {
+          "module_id": "module_1",
+          "module_name": "Vocabulary Anchor",
+          "module_code": "VOCAB",
+          "position_in_lesson": 1,
+          "enabled": false,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": "Key phrases",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Vocabulary",
+          "vocabulary_items": [
+            {
+              "vocab_id": "core_001",
+              "phrase_id": 1,
+              "source_text": "",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "",
+              "frequency_rank": 1,
+              "difficulty": 1,
+              "context": {
+                "usage_context": "",
+                "formality_level": "",
+                "time_of_day": "",
+                "relationship": ""
+              },
+              "linguistic_info": {
+                "tooltip_source": "",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            }
+          ],
+          "vocabulary_anchor_listen_repeat": {
+            "prompt_source": "Listen and repeat the core phrase.",
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {
+              "audio_file": "[GENERATE]",
+              "play_on_load": true
+            },
+            "show_text_after_play": true
+          },
+          "vocabulary_anchor_quick_match": {
+            "prompt_source": "Connect each word to its meaning or image.",
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [],
+            "options_display": "shuffle"
+          }
+        },
+        "module_2_functional_grammar": {
+          "module_id": "module_2",
+          "module_name": "Grammar Engine",
+          "module_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": false,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": "Grammar tip",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Grammar",
+          "grammar_points": [
+            {
+              "grammar_id": "",
+              "concept_source": "",
+              "concept_target": "[TRANSLATE]",
+              "explanation_source": "",
+              "explanation_target": "[TRANSLATE]",
+              "focus_type": "variations",
+              "examples": []
+            }
+          ],
+          "grammar_engine_modifiers": []
+        },
+        "module_3_sentence_building": {
+          "module_id": "module_3",
+          "module_name": "Sentence Building",
+          "module_code": "SENTENCE",
+          "position_in_lesson": 3,
+          "enabled": false,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": "Build sentences",
+          "title_target": "[TRANSLATE]",
+          "module_type": "SentenceBuilding",
+          "exercises": []
+        },
+        "module_dialogue_practice": {
+          "module_id": "module_dialogue_practice",
+          "module_name": "Dialogue Practice",
+          "module_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": "Conversation",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Conversations",
+          "setting_source": "Two friends talking about a movie they both love",
+          "setting_target": "[TRANSLATE]",
+          "context_source": "A complete catch-up conversation that runs from the first question about the movie through making a plan to watch it together and reacting to the ending.",
+          "context_target": "[TRANSLATE]",
+          "setting": "Two friends talking about a movie they both love",
+          "context": "A complete catch-up conversation that runs from the first question about the movie through making a plan to watch it together and reacting to the ending.",
+          "dialogue": [
+            {
+              "turn_id": "turn_001",
+              "turn_number": 1,
+              "speaker": "PARTNER",
+              "text_source": "Did you see the movie?",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_002",
+              "turn_number": 2,
+              "speaker": "YOU",
+              "text_source": "Yes.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_003",
+              "turn_number": 3,
+              "speaker": "YOU",
+              "text_source": "It is a great movie.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_004",
+              "turn_number": 4,
+              "speaker": "PARTNER",
+              "text_source": "I saw it many times.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_005",
+              "turn_number": 5,
+              "speaker": "YOU",
+              "text_source": "I saw it many times too.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_006",
+              "turn_number": 6,
+              "speaker": "PARTNER",
+              "text_source": "I have the DVD.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_007",
+              "turn_number": 7,
+              "speaker": "YOU",
+              "text_source": "I have it too.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_008",
+              "turn_number": 8,
+              "speaker": "PARTNER",
+              "text_source": "Let us go to your home.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_009",
+              "turn_number": 9,
+              "speaker": "YOU",
+              "text_source": "We can watch my DVD.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_010",
+              "turn_number": 10,
+              "speaker": "PARTNER",
+              "text_source": "Then we go to my home.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_011",
+              "turn_number": 11,
+              "speaker": "YOU",
+              "text_source": "We can watch your DVD.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_012",
+              "turn_number": 12,
+              "speaker": "PARTNER",
+              "text_source": "I cry at the end.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_013",
+              "turn_number": 13,
+              "speaker": "YOU",
+              "text_source": "It is very sad.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            }
+          ]
+        },
+        "module_sprint_exercises": {
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": "Quick practice",
+          "title_target": "[TRANSLATE]",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_quick_fire",
+              "exercise_type": "Listen and Respond (Quick Fire)",
+              "prompt_source": "Listen and respond out loud:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true,
+                "text_to_speak_target": "Did you see the movie?"
+              },
+              "prompt": "Did you see the movie?",
+              "prompt_text_source": "Did you see the movie?",
+              "prompt_text_target": "[TRANSLATE]",
+              "response": {
+                "mode": "speak",
+                "acceptable_responses": [
+                  "Yes.",
+                  "It is a great movie.",
+                  "I saw it many times."
+                ],
+                "acceptable_responses_source": [
+                  "Yes.",
+                  "It is a great movie.",
+                  "I saw it many times."
+                ],
+                "acceptable_responses_target": [
+                  "[TRANSLATE]",
+                  "[TRANSLATE]",
+                  "[TRANSLATE]"
+                ],
+                "time_limit_seconds": 8
+              },
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_v1_text_image",
+              "exercise_type": "Text-to-Image Matching",
+              "prompt_source": "Read and choose the matching image:",
+              "prompt_target": "[TRANSLATE]",
+              "text_stimulus": "movie",
+              "text_stimulus_source": "movie",
+              "text_stimulus_target": "[TRANSLATE]",
+              "image_options": [
+                {
+                  "option_id": "opt_a",
+                  "image_url": "",
+                  "correct": true
+                },
+                {
+                  "option_id": "opt_b",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_c",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_d",
+                  "image_url": "",
+                  "correct": false
+                }
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_audio_blank",
+              "exercise_type": "Audio Fill-in-the-Blank",
+              "prompt_source": "Listen and complete:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true
+              },
+              "sentence": "I cry at the ___.",
+              "sentence_source": "I cry at the ___.",
+              "sentence_target": "[TRANSLATE]",
+              "blanks": [
+                5
+              ],
+              "correct_answer": "end",
+              "correct_answer_source": "end",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_fill_dialogue",
+              "exercise_type": "Fill-in-the-Dialogue (Speaking)",
+              "prompt_source": "Speak your line:",
+              "prompt_target": "[TRANSLATE]",
+              "dialogue_context": "A friend wants to plan a movie night.",
+              "dialogue_context_source": "A friend wants to plan a movie night.",
+              "dialogue_context_target": "[TRANSLATE]",
+              "turns": [
+                {
+                  "turn_number": 1,
+                  "speaker": "PARTNER",
+                  "text_source": "Let us go to your home and watch a movie.",
+                  "text_target": "[TRANSLATE]",
+                  "audio_file": "[GENERATE]",
+                  "text_to_speak_target": "Let us go to your home and watch a movie."
+                },
+                {
+                  "turn_number": 2,
+                  "speaker": "YOU",
+                  "text_source": "(agree and offer your DVD)",
+                  "expected_response": "Yes. We can watch my DVD.",
+                  "expected_response_source": "Yes. We can watch my DVD.",
+                  "expected_response_target": "[TRANSLATE]",
+                  "acceptable_responses": [
+                    "Yes. We can watch my DVD.",
+                    "Sure. We can watch my DVD.",
+                    "We can watch your DVD instead.",
+                    "Let's watch my DVD."
+                  ],
+                  "acceptable_responses_source": [
+                    "Yes. We can watch my DVD.",
+                    "Sure. We can watch my DVD.",
+                    "We can watch your DVD instead.",
+                    "Let's watch my DVD."
+                  ],
+                  "acceptable_responses_target": [
+                    "[TRANSLATE]",
+                    "[TRANSLATE]",
+                    "[TRANSLATE]",
+                    "[TRANSLATE]"
+                  ]
+                }
+              ],
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_audio_text",
+              "exercise_type": "Audio-to-Text Matching",
+              "prompt_source": "Select the phrase you hear:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": false
+              },
+              "text_options": [
+                "I have the DVD.",
+                "I saw it many times.",
+                "It is a great movie."
+              ],
+              "text_options_source": [
+                "I have the DVD.",
+                "I saw it many times.",
+                "It is a great movie."
+              ],
+              "text_options_target": [
+                "[TRANSLATE]",
+                "[TRANSLATE]",
+                "[TRANSLATE]"
+              ],
+              "correct_answer": "I have the DVD.",
+              "correct_answer_source": "I have the DVD.",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            }
+          ],
+          "module_id": "module_sprint_exercises",
+          "module_name": "Sprint & review",
+          "module_code": "SPRINT",
+          "module_type": "Review"
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": [
+        "**_target"
+      ],
+      "audio_generation_patterns": [
+        "[GENERATE]",
+        "[GENERATE_FOR_TARGET]"
+      ]
+    }
+  },
+  "metadata": {
+    "lessonType": "malegado",
+    "uploadSchema": "modules_canonical_v1",
+    "convertedFrom": "new_structure_v4_phases",
+    "sourcePath": "/home/metuge/Dev/submissions/malegado_new_structure/Dialogues/dialogue 57/lesson_13.json",
+    "sourceLessonId": "badge_sharing_favorites_001-REVIEW"
+  }
+}

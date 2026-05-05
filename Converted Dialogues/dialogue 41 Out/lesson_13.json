@@ -1,0 +1,519 @@
+{
+  "title": "fixing the pocket",
+  "description": "Review the full conversation about a pocket hole and the simple ways to repair it.",
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "clothing",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_clothing_repair_001-REVIEW",
+      "generation_timestamp": "2026-05-04T00:00:00Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A2",
+        "level_name": "Elementary",
+        "level_description": "You can handle simple, routine exchanges on familiar everyday topics.",
+        "cefr_equivalent": "A2",
+        "available_levels": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      "theme_config": {
+        "theme_id": "CLOTHING",
+        "theme_code": "CLOTHING",
+        "theme_name": "Clothing",
+        "theme_description": "A full review of the conversation about damaged clothes and how to fix them.",
+        "available_themes": [
+          {
+            "code": "ESS",
+            "name": "Essentials"
+          },
+          {
+            "code": "TRV",
+            "name": "Travel"
+          }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "1.2b",
+        "unit_number": 1,
+        "subunit_number": 2,
+        "variant": "b",
+        "unit_name": "Clothing Repair",
+        "unit_description": "Talk about damaged clothing and the simple ways to fix it.",
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 3,
+        "estimated_completion_time_minutes": 75
+      },
+      "lesson_config": {
+        "lesson_number": 613,
+        "lesson_type": "review",
+        "lesson_name": "fixing the pocket",
+        "lesson_description": "Review the full conversation about a pocket hole and the simple ways to repair it.",
+        "estimated_duration_minutes": 5,
+        "difficulty_within_unit": 13,
+        "prerequisites": [
+          "badge_clothing_repair_001-L01",
+          "badge_clothing_repair_001-L02",
+          "badge_clothing_repair_001-L03",
+          "badge_clothing_repair_001-L04",
+          "badge_clothing_repair_001-L05",
+          "badge_clothing_repair_001-L06",
+          "badge_clothing_repair_001-L07",
+          "badge_clothing_repair_001-L08",
+          "badge_clothing_repair_001-L09",
+          "badge_clothing_repair_001-L10",
+          "badge_clothing_repair_001-L11",
+          "badge_clothing_repair_001-L12"
+        ],
+        "learning_objectives": [
+          "Recognize and produce the full anchor conversation about a pocket hole.",
+          "Recall the key vocabulary from all 12 teaching lessons in context.",
+          "Choose between sewing and using a patch as repair options.",
+          "Confirm understanding of how a patch sticks to fabric."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      },
+      "order": 613
+    },
+    "lesson_structure": {
+      "module_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "module_1_core_vocabulary",
+          "module_2_functional_grammar",
+          "module_3_sentence_building",
+          "module_dialogue_practice",
+          "module_sprint_exercises"
+        ]
+      },
+      "modules": {
+        "module_1_core_vocabulary": {
+          "module_id": "module_1",
+          "module_name": "Vocabulary Anchor",
+          "module_code": "VOCAB",
+          "position_in_lesson": 1,
+          "enabled": false,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": "Key phrases",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Vocabulary",
+          "vocabulary_items": [
+            {
+              "vocab_id": "core_review",
+              "phrase_id": 1,
+              "source_text": "",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "",
+              "frequency_rank": 1,
+              "difficulty": 1,
+              "context": {
+                "usage_context": "any",
+                "formality_level": "neutral",
+                "time_of_day": "any",
+                "relationship": "any"
+              },
+              "linguistic_info": {
+                "tooltip_source": "",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            }
+          ],
+          "vocabulary_anchor_listen_repeat": {
+            "prompt_source": "Listen and repeat the core phrase.",
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {
+              "audio_file": "[GENERATE]",
+              "play_on_load": true
+            },
+            "show_text_after_play": true
+          },
+          "vocabulary_anchor_quick_match": {
+            "prompt_source": "Connect each word to its meaning or image.",
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [],
+            "options_display": "shuffle"
+          }
+        },
+        "module_2_functional_grammar": {
+          "module_id": "module_2",
+          "module_name": "Grammar Engine",
+          "module_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": false,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": "Grammar tip",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Grammar",
+          "grammar_points": [
+            {
+              "grammar_id": "gram_review",
+              "concept_source": "",
+              "concept_target": "[TRANSLATE]",
+              "explanation_source": "",
+              "explanation_target": "[TRANSLATE]",
+              "focus_type": "variations",
+              "examples": []
+            }
+          ],
+          "grammar_engine_modifiers": []
+        },
+        "module_3_sentence_building": {
+          "module_id": "module_3",
+          "module_name": "Sentence Building",
+          "module_code": "SENTENCE",
+          "position_in_lesson": 3,
+          "enabled": false,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": "Build sentences",
+          "title_target": "[TRANSLATE]",
+          "module_type": "SentenceBuilding",
+          "exercises": []
+        },
+        "module_dialogue_practice": {
+          "module_id": "module_dialogue_practice",
+          "module_name": "Dialogue Practice",
+          "module_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": "Conversation",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Conversations",
+          "setting_source": "At home, talking with a friend",
+          "setting_target": "[TRANSLATE]",
+          "context_source": "A full conversation about a pocket hole and the simple ways to fix it.",
+          "context_target": "[TRANSLATE]",
+          "setting": "At home, talking with a friend",
+          "context": "A full conversation about a pocket hole and the simple ways to fix it.",
+          "dialogue": [
+            {
+              "turn_id": "turn_001",
+              "turn_number": 1,
+              "speaker": "PARTNER",
+              "text_source": "My pants have a hole in the front pocket.",
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_002",
+              "turn_number": 2,
+              "speaker": "YOU",
+              "text_source": "You should not carry pens in your pocket.",
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_003",
+              "turn_number": 3,
+              "speaker": "PARTNER",
+              "text_source": "A pen fell through my pocket yesterday.",
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_004",
+              "turn_number": 4,
+              "speaker": "PARTNER",
+              "text_source": "It fell onto my shoe.",
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_005",
+              "turn_number": 5,
+              "speaker": "YOU",
+              "text_source": "You are lucky it was not a knife.",
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_006",
+              "turn_number": 6,
+              "speaker": "PARTNER",
+              "text_source": "Who carries a knife in a pocket?",
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_007",
+              "turn_number": 7,
+              "speaker": "YOU",
+              "text_source": "Some people do.",
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_008",
+              "turn_number": 8,
+              "speaker": "PARTNER",
+              "text_source": "I need to fix the hole.",
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_009",
+              "turn_number": 9,
+              "speaker": "YOU",
+              "text_source": "You can sew it.",
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_010",
+              "turn_number": 10,
+              "speaker": "YOU",
+              "text_source": "You can use a patch.",
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_011",
+              "turn_number": 11,
+              "speaker": "PARTNER",
+              "text_source": "Tell me about the patch.",
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_012",
+              "turn_number": 12,
+              "speaker": "YOU",
+              "text_source": "The patch has glue.",
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_013",
+              "turn_number": 13,
+              "speaker": "YOU",
+              "text_source": "Heat makes the glue stick.",
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_014",
+              "turn_number": 14,
+              "speaker": "PARTNER",
+              "text_source": "That is easier than sewing.",
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_015",
+              "turn_number": 15,
+              "speaker": "YOU",
+              "text_source": "The glue comes off after many washes.",
+              "text_target": "[TRANSLATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            }
+          ]
+        },
+        "module_sprint_exercises": {
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": "Quick practice",
+          "title_target": "[TRANSLATE]",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_v1_text_image",
+              "exercise_type": "Text-to-Image Matching",
+              "prompt_source": "Read and choose the matching image:",
+              "prompt_target": "[TRANSLATE]",
+              "text_stimulus": "I need to fix the hole.",
+              "text_stimulus_source": "I need to fix the hole.",
+              "text_stimulus_target": "[TRANSLATE]",
+              "image_options": [
+                {
+                  "option_id": "opt_a",
+                  "image_url": "",
+                  "correct": true
+                },
+                {
+                  "option_id": "opt_b",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_c",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_d",
+                  "image_url": "",
+                  "correct": false
+                }
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_flashcard",
+              "exercise_type": "Digital Flashcards",
+              "prompt_source": "Study the card:",
+              "prompt_target": "[TRANSLATE]",
+              "word": "patch",
+              "definition": "A small piece of cloth used to cover a hole or tear.",
+              "examples": [
+                "You can use a patch.",
+                "The patch has glue."
+              ],
+              "context": "Used as an alternative to sewing for repairing damaged clothing.",
+              "word_source": "patch",
+              "word_target": "[TRANSLATE]",
+              "definition_source": "A small piece of cloth used to cover a hole or tear.",
+              "definition_target": "[TRANSLATE]",
+              "examples_source": [
+                "You can use a patch.",
+                "The patch has glue."
+              ],
+              "examples_target": [
+                "[TRANSLATE]",
+                "[TRANSLATE]"
+              ],
+              "context_source": "Used as an alternative to sewing for repairing damaged clothing.",
+              "context_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 5,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_audio_text",
+              "exercise_type": "Audio-to-Text Matching",
+              "prompt_source": "Select the phrase you hear:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": false
+              },
+              "text_options": [
+                "You can sew it.",
+                "You can use a patch.",
+                "You should fix it."
+              ],
+              "text_options_source": [
+                "You can sew it.",
+                "You can use a patch.",
+                "You should fix it."
+              ],
+              "text_options_target": [
+                "[TRANSLATE]",
+                "[TRANSLATE]",
+                "[TRANSLATE]"
+              ],
+              "correct_answer": "You can sew it.",
+              "correct_answer_source": "You can sew it.",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_sentence_open",
+              "exercise_type": "Sentence Completion (Open)",
+              "prompt_source": "Finish in your own words:",
+              "prompt_target": "[TRANSLATE]",
+              "prompt": "I need to fix...",
+              "prompt_text_source": "I need to fix...",
+              "prompt_text_target": "[TRANSLATE]",
+              "expected_response": "the hole",
+              "expected_response_source": "the hole",
+              "expected_response_target": "[TRANSLATE]",
+              "scoring_criteria": "Accept any reasonable object that can be fixed; the model answer is 'the hole'.",
+              "scoring_criteria_source": "Accept any reasonable object that can be fixed; the model answer is 'the hole'.",
+              "scoring_criteria_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            }
+          ],
+          "module_id": "module_sprint_exercises",
+          "module_name": "Sprint & review",
+          "module_code": "SPRINT",
+          "module_type": "Review"
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": [
+        "**_target"
+      ],
+      "audio_generation_patterns": [
+        "[GENERATE]",
+        "[GENERATE_FOR_TARGET]"
+      ]
+    }
+  },
+  "metadata": {
+    "lessonType": "malegado",
+    "uploadSchema": "modules_canonical_v1",
+    "convertedFrom": "new_structure_v4_phases",
+    "sourcePath": "/home/metuge/Dev/submissions/malegado_new_structure/Dialogues/dialogue 41/lesson_13.json",
+    "sourceLessonId": "badge_clothing_repair_001-REVIEW"
+  }
+}

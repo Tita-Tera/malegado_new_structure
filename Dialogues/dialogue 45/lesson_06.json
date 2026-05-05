@@ -1,0 +1,763 @@
+{
+  "title": {
+    "value": "see an eye doctor",
+    "translatable": true
+  },
+  "description": {
+    "value": "Tell someone to see an eye doctor when they have vision trouble.",
+    "translatable": true
+  },
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "health",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_vision_help_001-L06",
+      "generation_timestamp": "2026-05-05T12:00:00Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A2",
+        "level_name": {
+          "value": "Elementary",
+          "translatable": true
+        },
+        "level_description": {
+          "value": "Learners can communicate in simple, routine tasks on familiar topics.",
+          "translatable": true
+        },
+        "cefr_equivalent": "A2",
+        "available_levels": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      "theme_config": {
+        "theme_id": "HEALTH",
+        "theme_code": "HEALTH",
+        "theme_name": {
+          "value": "Health",
+          "translatable": true
+        },
+        "theme_description": {
+          "value": "Talking about everyday health concerns, like trouble seeing or reading.",
+          "translatable": true
+        },
+        "available_themes": [
+          {
+            "code": {
+              "value": "ESS",
+              "translatable": true
+            },
+            "name": {
+              "value": "Essentials",
+              "translatable": true
+            }
+          },
+          {
+            "code": {
+              "value": "TRV",
+              "translatable": true
+            },
+            "name": {
+              "value": "Travel",
+              "translatable": true
+            }
+          }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "1.3a",
+        "unit_number": 1,
+        "subunit_number": 3,
+        "variant": "a",
+        "unit_name": {
+          "value": "Time for Glasses",
+          "translatable": true
+        },
+        "unit_description": {
+          "value": "Practice describing vision problems and making an appointment with an eye doctor.",
+          "translatable": true
+        },
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 3,
+        "estimated_completion_time_minutes": 75
+      },
+      "lesson_config": {
+        "lesson_number": 6,
+        "lesson_type": "teaching",
+        "lesson_name": {
+          "value": "see an eye doctor",
+          "translatable": true
+        },
+        "lesson_description": {
+          "value": "Tell someone to see an eye doctor when they have vision trouble.",
+          "translatable": true
+        },
+        "estimated_duration_minutes": 5,
+        "difficulty_within_unit": 6,
+        "prerequisites": [
+          "badge_vision_help_001-L01",
+          "badge_vision_help_001-L02",
+          "badge_vision_help_001-L03",
+          "badge_vision_help_001-L04",
+          "badge_vision_help_001-L05"
+        ],
+        "learning_objectives": [
+          "Suggest an action using an imperative verb.",
+          "Use 'an' with singular nouns starting with a vowel sound.",
+          "Recognize related words for medical visits."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      }
+    },
+    "lesson_structure": {
+      "phase_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "phase_1_vocabulary_anchor",
+          "phase_2_grammar_engine",
+          "phase_3_dialogue",
+          "phase_4_sprint_exercises"
+        ]
+      },
+      "phases": {
+        "phase_1_vocabulary_anchor": {
+          "phase_id": "phase_1",
+          "phase_name": {
+            "value": "Vocabulary Anchor",
+            "translatable": true
+          },
+          "phase_code": "VOCAB_ANCHOR",
+          "position_in_lesson": 1,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": {
+            "value": "Key phrases",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "VocabularyAnchor",
+          "core_phrase": {
+            "phrase_id": "core_6",
+            "source_text": {
+              "value": "See an eye doctor.",
+              "translatable": true
+            },
+            "target_text": "[TRANSLATE]",
+            "part_of_speech": "imperative",
+            "linguistic_info": {
+              "tooltip_source": {
+                "value": "A piece of advice telling someone to visit a doctor who treats eyes.",
+                "translatable": true
+              },
+              "tooltip_target": "[TRANSLATE]",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+            },
+            "media": {
+              "image_url": "",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            "context": {
+              "usage_context": "giving_advice",
+              "formality_level": "neutral",
+              "time_of_day": "any",
+              "relationship": "any"
+            }
+          },
+          "related_words": [
+            {
+              "word_id": "rel_6_001",
+              "source_text": {
+                "value": "eye",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "meaning_source": {
+                "value": "The body part you use to see.",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]",
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              }
+            },
+            {
+              "word_id": "rel_6_002",
+              "source_text": {
+                "value": "doctor",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "meaning_source": {
+                "value": "A person who helps with health problems.",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]",
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              }
+            },
+            {
+              "word_id": "rel_6_003",
+              "source_text": {
+                "value": "checkup",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "meaning_source": {
+                "value": "A regular visit to a doctor for a health review.",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]",
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              }
+            },
+            {
+              "word_id": "rel_6_004",
+              "source_text": {
+                "value": "clinic",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "meaning_source": {
+                "value": "A small medical place where doctors help patients.",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]",
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              }
+            }
+          ],
+          "listen_repeat": {
+            "prompt_source": {
+              "value": "Listen and repeat the core phrase.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {
+              "audio_file": "[GENERATE]",
+              "play_on_load": true
+            },
+            "show_text_after_play": true
+          },
+          "quick_match": {
+            "prompt_source": {
+              "value": "Connect each word to its meaning or image.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              {
+                "word_id": "rel_6_001",
+                "correct_key": "rel_6_001_correct"
+              },
+              {
+                "word_id": "rel_6_002",
+                "correct_key": "rel_6_002_correct"
+              },
+              {
+                "word_id": "rel_6_003",
+                "correct_key": "rel_6_003_correct"
+              },
+              {
+                "word_id": "rel_6_004",
+                "correct_key": "rel_6_004_correct"
+              }
+            ],
+            "options_display": "shuffle"
+          }
+        },
+        "phase_2_grammar_engine": {
+          "phase_id": "phase_2",
+          "phase_name": {
+            "value": "Grammar Engine",
+            "translatable": true
+          },
+          "phase_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": {
+            "value": "Grammar tip",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "GrammarEngine",
+          "pro_tip": {
+            "tip_id": "gram_6",
+            "concept_source": {
+              "value": "Suggesting an action",
+              "translatable": true
+            },
+            "concept_target": "[TRANSLATE]",
+            "explanation_source": {
+              "value": "Use the imperative form 'See' to suggest an action. Add 'an' before a singular noun starting with a vowel sound, like 'eye'.",
+              "translatable": true
+            },
+            "explanation_target": "[TRANSLATE]",
+            "focus_type": "variations",
+            "examples": [
+              {
+                "example_id": "ex_6_001",
+                "source_text": {
+                  "value": "You should see an eye doctor.",
+                  "translatable": true
+                },
+                "target_text": "[TRANSLATE]",
+                "register": "formal",
+                "usage_note_source": {
+                  "value": "Add 'You should' to make the suggestion softer and more polite.",
+                  "translatable": true
+                },
+                "usage_note_target": "[TRANSLATE]",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              {
+                "example_id": "ex_6_002",
+                "source_text": {
+                  "value": "Go see a doctor.",
+                  "translatable": true
+                },
+                "target_text": "[TRANSLATE]",
+                "register": "informal",
+                "usage_note_source": {
+                  "value": "Use 'go see' in casual speech for any kind of doctor.",
+                  "translatable": true
+                },
+                "usage_note_target": "[TRANSLATE]",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              }
+            ]
+          },
+          "modifiers": [
+            {
+              "modifier_id": "mod_6_001",
+              "modifier_source": {
+                "value": "soon",
+                "translatable": true
+              },
+              "modifier_target": "[TRANSLATE]",
+              "example_source": {
+                "value": "See an eye doctor soon.",
+                "translatable": true
+              },
+              "example_target": "[TRANSLATE]",
+              "explanation_source": {
+                "value": "Add 'soon' to show that the visit cannot wait.",
+                "translatable": true
+              },
+              "explanation_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "modifier_id": "mod_6_002",
+              "modifier_source": {
+                "value": "this week",
+                "translatable": true
+              },
+              "modifier_target": "[TRANSLATE]",
+              "example_source": {
+                "value": "See an eye doctor this week.",
+                "translatable": true
+              },
+              "example_target": "[TRANSLATE]",
+              "explanation_source": {
+                "value": "Add 'this week' to give a clear time frame.",
+                "translatable": true
+              },
+              "explanation_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            }
+          ],
+          "sentence_building": [
+            {
+              "exercise_id": "ex_sb_6_1",
+              "target_sentence_source": {
+                "value": "See an eye doctor.",
+                "translatable": true
+              },
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": {
+                    "value": "See",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1,
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": {
+                    "value": "an",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2,
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": {
+                    "value": "eye",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3,
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": {
+                    "value": "doctor",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4,
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                }
+              ],
+              "hints": {
+                "value": "Start with the verb 'See'; 'an eye doctor' goes at the end.",
+                "translatable": true
+              },
+              "hints_target": "[TRANSLATE]"
+            },
+            {
+              "exercise_id": "ex_sb_6_2",
+              "target_sentence_source": {
+                "value": "See a doctor.",
+                "translatable": true
+              },
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": {
+                    "value": "See",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1,
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": {
+                    "value": "a",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2,
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": {
+                    "value": "doctor",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3,
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                }
+              ],
+              "hints": {
+                "value": "Same pattern, but with 'a doctor' as a shorter object.",
+                "translatable": true
+              },
+              "hints_target": "[TRANSLATE]"
+            }
+          ]
+        },
+        "phase_3_dialogue": {
+          "phase_id": "phase_3",
+          "phase_name": {
+            "value": "Dialogue Practice",
+            "translatable": true
+          },
+          "phase_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": {
+            "value": "Conversation",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "Dialogue",
+          "setting": {
+            "value": "Two friends talking about a health problem",
+            "translatable": true
+          },
+          "context": {
+            "value": "One person has eye pain; the other suggests visiting an eye doctor.",
+            "translatable": true
+          },
+          "dialogue": [
+            {
+              "turn_id": "turn_001",
+              "turn_number": 1,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "My eye hurts a lot.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_002",
+              "turn_number": 2,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "See an eye doctor.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_003",
+              "turn_number": 3,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "Can I get a checkup soon?",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_004",
+              "turn_number": 4,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "Yes, the clinic is open today.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_005",
+              "turn_number": 5,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "Thank you for your advice.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            }
+          ]
+        },
+        "phase_4_sprint_exercises": {
+          "phase_id": "phase_4",
+          "phase_name": {
+            "value": "Sprint & review",
+            "translatable": true
+          },
+          "phase_code": "SPRINT",
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": {
+            "value": "Quick practice",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "SprintExercises",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_flashcard",
+              "exercise_type": "Digital Flashcards",
+              "prompt_source": "Study the card:",
+              "prompt_target": "[TRANSLATE]",
+              "word": "see an eye doctor",
+              "definition": "A piece of advice telling someone to visit a doctor who treats eyes.",
+              "examples": [
+                "See an eye doctor if your eyes hurt.",
+                "I will see an eye doctor next week."
+              ],
+              "context": "Said when a friend has a vision problem and needs help.",
+              "word_source": "see an eye doctor",
+              "word_target": "[TRANSLATE]",
+              "definition_source": "A piece of advice telling someone to visit a doctor who treats eyes.",
+              "definition_target": "[TRANSLATE]",
+              "examples_source": [
+                "See an eye doctor if your eyes hurt.",
+                "I will see an eye doctor next week."
+              ],
+              "examples_target": [
+                "[TRANSLATE]",
+                "[TRANSLATE]"
+              ],
+              "context_source": "Said when a friend has a vision problem and needs help.",
+              "context_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 5,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_v1_text_image",
+              "exercise_type": "Text-to-Image Matching",
+              "prompt_source": "Read and choose the matching image:",
+              "prompt_target": "[TRANSLATE]",
+              "text_stimulus": "See an eye doctor.",
+              "text_stimulus_source": "See an eye doctor.",
+              "text_stimulus_target": "[TRANSLATE]",
+              "image_options": [
+                {
+                  "option_id": "opt_a",
+                  "image_url": "",
+                  "correct": true
+                },
+                {
+                  "option_id": "opt_b",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_c",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_d",
+                  "image_url": "",
+                  "correct": false
+                }
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_sentence_open",
+              "exercise_type": "Sentence Completion (Open)",
+              "prompt_source": "Finish in your own words:",
+              "prompt_target": "[TRANSLATE]",
+              "prompt": "Your friend cannot see well. What do you tell them?",
+              "prompt_text_source": "Your friend cannot see well. What do you tell them?",
+              "prompt_text_target": "[TRANSLATE]",
+              "expected_response": "See an eye doctor.",
+              "expected_response_source": "See an eye doctor.",
+              "expected_response_target": "[TRANSLATE]",
+              "scoring_criteria": "Response is an imperative containing 'see' and 'eye doctor' or 'doctor'.",
+              "scoring_criteria_source": "Response is an imperative containing 'see' and 'eye doctor' or 'doctor'.",
+              "scoring_criteria_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_match_game",
+              "exercise_type": "Flashcard Matching Game",
+              "prompt_source": "Match pairs:",
+              "prompt_target": "[TRANSLATE]",
+              "pairs": [
+                {
+                  "pair_id": "pair_01",
+                  "item_a": "eye",
+                  "item_b": "the body part you use to see",
+                  "type": "word_to_meaning"
+                },
+                {
+                  "pair_id": "pair_02",
+                  "item_a": "doctor",
+                  "item_b": "a person who helps with health",
+                  "type": "word_to_meaning"
+                },
+                {
+                  "pair_id": "pair_03",
+                  "item_a": "checkup",
+                  "item_b": "a regular visit to a doctor",
+                  "type": "word_to_meaning"
+                },
+                {
+                  "pair_id": "pair_04",
+                  "item_a": "clinic",
+                  "item_b": "a small medical place",
+                  "type": "word_to_meaning"
+                }
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            }
+          ]
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": [
+        "**_target"
+      ],
+      "audio_generation_patterns": [
+        "[GENERATE]",
+        "[GENERATE_FOR_TARGET]"
+      ]
+    }
+  }
+}

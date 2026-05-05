@@ -1,0 +1,613 @@
+{
+  "title": "saying yes",
+  "description": "Give a short affirmative answer.",
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 6,
+  "status": "DRAFT",
+  "category": "basic descriptions",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_carwash_future_001-L05",
+      "generation_timestamp": "2026-05-04T11:51:36Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A2",
+        "level_name": "Elementary",
+        "level_description": "Learners can handle simple, routine exchanges on familiar topics.",
+        "cefr_equivalent": "A2",
+        "available_levels": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      "theme_config": {
+        "theme_id": "BASIC_DESCRIPTIONS",
+        "theme_code": "BASIC_DESCRIPTIONS",
+        "theme_name": "Basic Descriptions",
+        "theme_description": "Replying to a yes/no question with a single-word answer.",
+        "available_themes": [
+          {
+            "code": "ESS",
+            "name": "Essentials"
+          },
+          {
+            "code": "TRV",
+            "name": "Travel"
+          }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "1.1a",
+        "unit_number": 1,
+        "subunit_number": 1,
+        "variant": "a",
+        "unit_name": "Cleaning Together",
+        "unit_description": "Make plans to clean things together with someone, using future-tense expressions to offer help and describe what you will do.",
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 3,
+        "estimated_completion_time_minutes": 90
+      },
+      "lesson_config": {
+        "lesson_number": 785,
+        "lesson_type": "teaching",
+        "lesson_name": "saying yes",
+        "lesson_description": "Give a short affirmative answer.",
+        "estimated_duration_minutes": 6,
+        "difficulty_within_unit": 5,
+        "prerequisites": [
+          "badge_carwash_future_001-L01",
+          "badge_carwash_future_001-L02",
+          "badge_carwash_future_001-L03",
+          "badge_carwash_future_001-L04"
+        ],
+        "learning_objectives": [
+          "Give a short, polite affirmative answer.",
+          "Recognize alternatives to 'Yes' in casual speech.",
+          "Use 'Yes' to confirm an offer or plan."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      },
+      "order": 785
+    },
+    "lesson_structure": {
+      "module_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "module_1_core_vocabulary",
+          "module_2_functional_grammar",
+          "module_3_sentence_building",
+          "module_dialogue_practice",
+          "module_sprint_exercises"
+        ]
+      },
+      "modules": {
+        "module_1_core_vocabulary": {
+          "module_id": "module_1",
+          "module_name": "Vocabulary Anchor",
+          "module_code": "VOCAB",
+          "position_in_lesson": 1,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": "Key phrases",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Vocabulary",
+          "vocabulary_items": [
+            {
+              "vocab_id": "core_5",
+              "phrase_id": 1,
+              "source_text": "Yes.",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "interjection",
+              "frequency_rank": 1,
+              "difficulty": 1,
+              "context": {
+                "usage_context": "affirmation",
+                "formality_level": "neutral",
+                "time_of_day": "any",
+                "relationship": "any"
+              },
+              "linguistic_info": {
+                "tooltip_source": "A one-word affirmative used to answer a yes/no question.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_5_001",
+              "phrase_id": 2,
+              "source_text": "sure",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "adverb",
+              "frequency_rank": 2,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "A confident way to say yes.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_5_002",
+              "phrase_id": 3,
+              "source_text": "okay",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "interjection",
+              "frequency_rank": 3,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "A casual word meaning 'yes' or 'agreed'.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_5_003",
+              "phrase_id": 4,
+              "source_text": "agree",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "verb",
+              "frequency_rank": 4,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "To say that something is true or acceptable.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_5_004",
+              "phrase_id": 5,
+              "source_text": "yeah",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "interjection",
+              "frequency_rank": 5,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "An informal version of 'yes' used in casual speech.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            }
+          ],
+          "vocabulary_anchor_listen_repeat": {
+            "prompt_source": "Listen and repeat the core phrase.",
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {
+              "audio_file": "[GENERATE]",
+              "play_on_load": true,
+              "text_to_speak_target": "Yes."
+            },
+            "show_text_after_play": true
+          },
+          "vocabulary_anchor_quick_match": {
+            "prompt_source": "Connect each word to its meaning or image.",
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              {
+                "word_id": "rel_5_001",
+                "correct_key": "rel_5_001_correct"
+              },
+              {
+                "word_id": "rel_5_002",
+                "correct_key": "rel_5_002_correct"
+              },
+              {
+                "word_id": "rel_5_003",
+                "correct_key": "rel_5_003_correct"
+              },
+              {
+                "word_id": "rel_5_004",
+                "correct_key": "rel_5_004_correct"
+              }
+            ],
+            "options_display": "shuffle"
+          }
+        },
+        "module_2_functional_grammar": {
+          "module_id": "module_2",
+          "module_name": "Grammar Engine",
+          "module_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": "Grammar tip",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Grammar",
+          "grammar_points": [
+            {
+              "grammar_id": "gram_5",
+              "concept_source": "Short answers and their alternatives",
+              "concept_target": "[TRANSLATE]",
+              "explanation_source": "A single 'Yes.' is the most common way to confirm a yes/no question. You can replace it with 'Sure.' or 'Yeah.' for a more casual feel.",
+              "explanation_target": "[TRANSLATE]",
+              "focus_type": "variations",
+              "examples": [
+                {
+                  "example_id": "ex_5_001",
+                  "text_source": "Yes, sure.",
+                  "text_target": "[TRANSLATE]",
+                  "register": "informal",
+                  "usage_note_source": "Combine 'Yes' with 'sure' to sound friendlier.",
+                  "usage_note_target": "[TRANSLATE]",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                },
+                {
+                  "example_id": "ex_5_002",
+                  "text_source": "Yes, I agree.",
+                  "text_target": "[TRANSLATE]",
+                  "register": "formal",
+                  "usage_note_source": "Add 'I agree' to confirm a suggestion or opinion.",
+                  "usage_note_target": "[TRANSLATE]",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                }
+              ]
+            }
+          ],
+          "grammar_engine_modifiers": [
+            {
+              "modifier_id": "mod_5_001",
+              "modifier_source": "of course",
+              "modifier_target": "[TRANSLATE]",
+              "example_source": "Yes, of course.",
+              "example_target": "[TRANSLATE]",
+              "explanation_source": "'Of course' adds enthusiasm to a yes answer.",
+              "explanation_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "modifier_id": "mod_5_002",
+              "modifier_source": "absolutely",
+              "modifier_target": "[TRANSLATE]",
+              "example_source": "Yes, absolutely.",
+              "example_target": "[TRANSLATE]",
+              "explanation_source": "'Absolutely' is a strong, certain way to say yes.",
+              "explanation_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            }
+          ]
+        },
+        "module_3_sentence_building": {
+          "module_id": "module_3",
+          "module_name": "Sentence Building",
+          "module_code": "SENTENCE",
+          "position_in_lesson": 3,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": "Build sentences",
+          "title_target": "[TRANSLATE]",
+          "module_type": "SentenceBuilding",
+          "exercises": [
+            {
+              "exercise_id": "ex_sb_5_1",
+              "target_sentence_source": "Yes.",
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": "Yes",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                }
+              ],
+              "hints": "A one-word affirmative answer.",
+              "exercise_type": "Drag-and-Drop Sentence Builder",
+              "prompt_source": "Put the words in the correct order:",
+              "prompt_target": "[TRANSLATE]",
+              "hints_source": "A one-word affirmative answer.",
+              "hints_target": "[TRANSLATE]"
+            },
+            {
+              "exercise_id": "ex_sb_5_2",
+              "target_sentence_source": "Yes, sure.",
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": "Yes",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": "sure",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                }
+              ],
+              "hints": "Add a confidence word after the simple yes.",
+              "exercise_type": "Drag-and-Drop Sentence Builder",
+              "prompt_source": "Put the words in the correct order:",
+              "prompt_target": "[TRANSLATE]",
+              "hints_source": "Add a confidence word after the simple yes.",
+              "hints_target": "[TRANSLATE]"
+            }
+          ]
+        },
+        "module_dialogue_practice": {
+          "module_id": "module_dialogue_practice",
+          "module_name": "Dialogue Practice",
+          "module_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": "Conversation",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Conversations",
+          "setting_source": "Outside near the dirty car",
+          "setting_target": "[TRANSLATE]",
+          "context_source": "A friend confirms a plan with a short yes.",
+          "context_target": "[TRANSLATE]",
+          "setting": "Outside near the dirty car",
+          "context": "A friend confirms a plan with a short yes.",
+          "dialogue": [
+            {
+              "turn_id": "turn_001",
+              "turn_number": 1,
+              "speaker": "PARTNER",
+              "text_source": "Will you wash the car yourself?",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_002",
+              "turn_number": 2,
+              "speaker": "YOU",
+              "text_source": "Yes.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_003",
+              "turn_number": 3,
+              "speaker": "PARTNER",
+              "text_source": "Are you sure?",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_004",
+              "turn_number": 4,
+              "speaker": "YOU",
+              "text_source": "Yes, I agree.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_005",
+              "turn_number": 5,
+              "speaker": "PARTNER",
+              "text_source": "Okay, good luck.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            }
+          ]
+        },
+        "module_sprint_exercises": {
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": "Quick practice",
+          "title_target": "[TRANSLATE]",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_match_game",
+              "exercise_type": "Flashcard Matching Game",
+              "prompt_source": "Match pairs:",
+              "prompt_target": "[TRANSLATE]",
+              "pairs": [
+                {
+                  "pair_id": "p1",
+                  "item_a": "sure",
+                  "item_b": "a confident yes",
+                  "type": "word_definition"
+                },
+                {
+                  "pair_id": "p2",
+                  "item_a": "okay",
+                  "item_b": "casual yes or agreed",
+                  "type": "word_definition"
+                },
+                {
+                  "pair_id": "p3",
+                  "item_a": "agree",
+                  "item_b": "say something is true",
+                  "type": "word_definition"
+                },
+                {
+                  "pair_id": "p4",
+                  "item_a": "yeah",
+                  "item_b": "informal yes",
+                  "type": "word_definition"
+                }
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_flashcard",
+              "exercise_type": "Digital Flashcards",
+              "prompt_source": "Study the card:",
+              "prompt_target": "[TRANSLATE]",
+              "word": "Yes",
+              "definition": "A one-word affirmative used to answer a yes/no question.",
+              "examples": [
+                "Yes.",
+                "Yes, I agree."
+              ],
+              "context": "Used as a short, polite confirmation in everyday conversation.",
+              "word_source": "Yes",
+              "word_target": "[TRANSLATE]",
+              "definition_source": "A one-word affirmative used to answer a yes/no question.",
+              "definition_target": "[TRANSLATE]",
+              "examples_source": [
+                "Yes.",
+                "Yes, I agree."
+              ],
+              "examples_target": [
+                "[TRANSLATE]",
+                "[TRANSLATE]"
+              ],
+              "context_source": "Used as a short, polite confirmation in everyday conversation.",
+              "context_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 5,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_fill_dialogue",
+              "exercise_type": "Fill-in-the-Dialogue (Speaking)",
+              "prompt_source": "Speak your line:",
+              "prompt_target": "[TRANSLATE]",
+              "dialogue_context": "A friend asks if you will wash the car alone. Confirm with a short yes.",
+              "dialogue_context_source": "A friend asks if you will wash the car alone. Confirm with a short yes.",
+              "dialogue_context_target": "[TRANSLATE]",
+              "turns": [
+                {
+                  "turn_number": 1,
+                  "speaker": "PARTNER",
+                  "text_source": "Will you wash it yourself?",
+                  "text_target": "[TRANSLATE]",
+                  "audio_file": "[GENERATE]",
+                  "text_to_speak_target": "[TRANSLATE]"
+                },
+                {
+                  "turn_number": 2,
+                  "speaker": "YOU",
+                  "text_source": "<<BLANK>>",
+                  "expected_response": "Yes.",
+                  "expected_response_source": "Yes.",
+                  "expected_response_target": "[TRANSLATE]",
+                  "acceptable_responses": [
+                    "Yes.",
+                    "Yes, sure."
+                  ],
+                  "acceptable_responses_source": [
+                    "Yes.",
+                    "Yes, sure."
+                  ],
+                  "acceptable_responses_target": [
+                    "[TRANSLATE]",
+                    "[TRANSLATE]"
+                  ]
+                }
+              ],
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              }
+            }
+          ],
+          "module_id": "module_sprint_exercises",
+          "module_name": "Sprint & review",
+          "module_code": "SPRINT",
+          "module_type": "Review"
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": [
+        "**_target"
+      ],
+      "audio_generation_patterns": [
+        "[GENERATE]",
+        "[GENERATE_FOR_TARGET]"
+      ]
+    }
+  },
+  "metadata": {
+    "lessonType": "malegado",
+    "uploadSchema": "modules_canonical_v1",
+    "convertedFrom": "new_structure_v4_phases",
+    "sourcePath": "/home/metuge/Dev/submissions/malegado_new_structure/Dialogues/dialogue 53/lesson_05.json",
+    "sourceLessonId": "badge_carwash_future_001-L05"
+  }
+}

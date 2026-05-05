@@ -1,0 +1,512 @@
+{
+  "title": "noise at night",
+  "description": "Apply what you learned to a parent-and-child conversation about late-night TV.",
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 4,
+  "status": "DRAFT",
+  "category": "home",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_living_together_001-CTX2",
+      "generation_timestamp": "2026-05-04T04:42:05Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A2",
+        "level_name": "Pre-Intermediate",
+        "level_description": "You can describe everyday things, share simple plans, and handle short conversations.",
+        "cefr_equivalent": "A2",
+        "available_levels": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      "theme_config": {
+        "theme_id": "HOME",
+        "theme_code": "HOME",
+        "theme_name": "Home",
+        "theme_description": "Vocabulary and phrases for everyday situations inside the home, including shared-space etiquette.",
+        "available_themes": [
+          {
+            "code": "ESS",
+            "name": "Essentials"
+          },
+          {
+            "code": "TRV",
+            "name": "Travel"
+          }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "2.1a",
+        "unit_number": 2,
+        "subunit_number": 1,
+        "variant": "a",
+        "unit_name": "Living Together",
+        "unit_description": "Talk about noise, space, and getting along with the people who share your home.",
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 3,
+        "estimated_completion_time_minutes": 72
+      },
+      "lesson_config": {
+        "lesson_number": 885,
+        "lesson_type": "review",
+        "lesson_name": "noise at night",
+        "lesson_description": "Apply what you learned to a parent-and-child conversation about late-night TV.",
+        "estimated_duration_minutes": 4,
+        "difficulty_within_unit": 15,
+        "prerequisites": [
+          "badge_living_together_001-L01",
+          "badge_living_together_001-L02",
+          "badge_living_together_001-L03",
+          "badge_living_together_001-L04",
+          "badge_living_together_001-L05",
+          "badge_living_together_001-L06",
+          "badge_living_together_001-L07",
+          "badge_living_together_001-L08",
+          "badge_living_together_001-L09",
+          "badge_living_together_001-L10",
+          "badge_living_together_001-L11",
+          "badge_living_together_001-L12",
+          "badge_living_together_001-REVIEW",
+          "badge_living_together_001-CTX1"
+        ],
+        "learning_objectives": [
+          "Follow a 12-turn parent-and-child conversation about late-night noise.",
+          "Reapply present continuous, future, and modal forms in family contexts.",
+          "Recognise badge vocabulary in a different age-and-relationship setting."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      },
+      "order": 885
+    },
+    "lesson_structure": {
+      "module_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "module_1_core_vocabulary",
+          "module_2_functional_grammar",
+          "module_3_sentence_building",
+          "module_dialogue_practice",
+          "module_sprint_exercises"
+        ]
+      },
+      "modules": {
+        "module_1_core_vocabulary": {
+          "module_id": "module_1",
+          "module_name": "Vocabulary Anchor",
+          "module_code": "VOCAB",
+          "position_in_lesson": 1,
+          "enabled": false,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": "Key phrases",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Vocabulary",
+          "vocabulary_items": [
+            {
+              "vocab_id": "core_001",
+              "phrase_id": 1,
+              "source_text": "",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "",
+              "frequency_rank": 1,
+              "difficulty": 1,
+              "context": {
+                "usage_context": "",
+                "formality_level": "",
+                "time_of_day": "",
+                "relationship": ""
+              },
+              "linguistic_info": {
+                "tooltip_source": "",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            }
+          ],
+          "vocabulary_anchor_listen_repeat": {
+            "prompt_source": "Listen and repeat the core phrase.",
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {
+              "audio_file": "[GENERATE]",
+              "play_on_load": true
+            },
+            "show_text_after_play": true
+          },
+          "vocabulary_anchor_quick_match": {
+            "prompt_source": "Connect each word to its meaning or image.",
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [],
+            "options_display": "shuffle"
+          }
+        },
+        "module_2_functional_grammar": {
+          "module_id": "module_2",
+          "module_name": "Grammar Engine",
+          "module_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": false,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": "Grammar tip",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Grammar",
+          "grammar_points": [
+            {
+              "grammar_id": "",
+              "concept_source": "",
+              "concept_target": "[TRANSLATE]",
+              "explanation_source": "",
+              "explanation_target": "[TRANSLATE]",
+              "focus_type": "variations",
+              "examples": []
+            }
+          ],
+          "grammar_engine_modifiers": []
+        },
+        "module_3_sentence_building": {
+          "module_id": "module_3",
+          "module_name": "Sentence Building",
+          "module_code": "SENTENCE",
+          "position_in_lesson": 3,
+          "enabled": false,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": "Build sentences",
+          "title_target": "[TRANSLATE]",
+          "module_type": "SentenceBuilding",
+          "exercises": []
+        },
+        "module_dialogue_practice": {
+          "module_id": "module_dialogue_practice",
+          "module_name": "Dialogue Practice",
+          "module_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": "Conversation",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Conversations",
+          "setting_source": "A parent and child discussing bedtime noise.",
+          "setting_target": "[TRANSLATE]",
+          "context_source": "Controlling Noise at Night — the child wants to keep watching TV; the parent asks for quiet.",
+          "context_target": "[TRANSLATE]",
+          "setting": "A parent and child discussing bedtime noise.",
+          "context": "Controlling Noise at Night — the child wants to keep watching TV; the parent asks for quiet.",
+          "dialogue": [
+            {
+              "turn_id": "turn_001",
+              "turn_number": 1,
+              "speaker": "PARTNER",
+              "text_source": "Turn the TV down.",
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_002",
+              "turn_number": 2,
+              "speaker": "YOU",
+              "text_source": "I am watching it.",
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_003",
+              "turn_number": 3,
+              "speaker": "PARTNER",
+              "text_source": "Watch it quietly.",
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_004",
+              "turn_number": 4,
+              "speaker": "YOU",
+              "text_source": "I want to do what I want.",
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_005",
+              "turn_number": 5,
+              "speaker": "PARTNER",
+              "text_source": "What will you do?",
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_006",
+              "turn_number": 6,
+              "speaker": "YOU",
+              "text_source": "I will watch loudly.",
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_007",
+              "turn_number": 7,
+              "speaker": "PARTNER",
+              "text_source": "That is not good.",
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_008",
+              "turn_number": 8,
+              "speaker": "YOU",
+              "text_source": "I will do it in my room.",
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_009",
+              "turn_number": 9,
+              "speaker": "PARTNER",
+              "text_source": "Do not wake others.",
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_010",
+              "turn_number": 10,
+              "speaker": "YOU",
+              "text_source": "It will be loud.",
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_011",
+              "turn_number": 11,
+              "speaker": "PARTNER",
+              "text_source": "People need rest.",
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_012",
+              "turn_number": 12,
+              "speaker": "YOU",
+              "text_source": "They can sleep somewhere else.",
+              "text_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]",
+              "practice_mode": "speak_along"
+            }
+          ]
+        },
+        "module_sprint_exercises": {
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": "Quick practice",
+          "title_target": "[TRANSLATE]",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_audio_blank",
+              "exercise_type": "Audio Fill-in-the-Blank",
+              "prompt_source": "Listen and complete:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true
+              },
+              "sentence": "I am ___ it.",
+              "sentence_source": "I am ___ it.",
+              "sentence_target": "[TRANSLATE]",
+              "blanks": [
+                3
+              ],
+              "correct_answer": "watching",
+              "correct_answer_source": "watching",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_quick_fire",
+              "exercise_type": "Listen and Respond (Quick Fire)",
+              "prompt_source": "Listen and respond out loud:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true,
+                "text_to_speak_target": "What will you do?"
+              },
+              "prompt": "What will you do?",
+              "prompt_text_source": "What will you do?",
+              "prompt_text_target": "[TRANSLATE]",
+              "response": {
+                "mode": "speak",
+                "acceptable_responses": [
+                  "I will watch loudly.",
+                  "I'll watch loudly.",
+                  "I will watch TV loudly."
+                ],
+                "acceptable_responses_source": [
+                  "I will watch loudly.",
+                  "I'll watch loudly.",
+                  "I will watch TV loudly."
+                ],
+                "acceptable_responses_target": [
+                  "[TRANSLATE]",
+                  "[TRANSLATE]",
+                  "[TRANSLATE]"
+                ],
+                "time_limit_seconds": 8
+              },
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_fill_dialogue",
+              "exercise_type": "Fill-in-the-Dialogue (Speaking)",
+              "prompt_source": "Speak your line:",
+              "prompt_target": "[TRANSLATE]",
+              "dialogue_context": "Your parent says people need rest. You suggest a solution.",
+              "dialogue_context_source": "Your parent says people need rest. You suggest a solution.",
+              "dialogue_context_target": "[TRANSLATE]",
+              "turns": [
+                {
+                  "turn_number": 1,
+                  "speaker": "PARTNER",
+                  "text_source": "People need rest.",
+                  "text_target": "[TRANSLATE]",
+                  "audio_file": "[GENERATE]",
+                  "text_to_speak_target": "People need rest."
+                },
+                {
+                  "turn_number": 2,
+                  "speaker": "YOU",
+                  "text_source": "<<BLANK>>",
+                  "expected_response": "They can sleep somewhere else.",
+                  "expected_response_source": "They can sleep somewhere else.",
+                  "expected_response_target": "[TRANSLATE]",
+                  "acceptable_responses": [
+                    "They can sleep somewhere else.",
+                    "They can go somewhere else.",
+                    "They can sleep in another room."
+                  ],
+                  "acceptable_responses_source": [
+                    "They can sleep somewhere else.",
+                    "They can go somewhere else.",
+                    "They can sleep in another room."
+                  ],
+                  "acceptable_responses_target": [
+                    "[TRANSLATE]",
+                    "[TRANSLATE]",
+                    "[TRANSLATE]"
+                  ]
+                }
+              ],
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_audio_text",
+              "exercise_type": "Audio-to-Text Matching",
+              "prompt_source": "Select the phrase you hear:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": false,
+                "text_to_speak_target": "Turn the TV down."
+              },
+              "text_options": [
+                "Turn the TV down.",
+                "Turn the TV up.",
+                "Turn the TV off."
+              ],
+              "text_options_source": [
+                "Turn the TV down.",
+                "Turn the TV up.",
+                "Turn the TV off."
+              ],
+              "text_options_target": [
+                "[TRANSLATE]",
+                "[TRANSLATE]",
+                "[TRANSLATE]"
+              ],
+              "correct_answer": "Turn the TV down.",
+              "correct_answer_source": "Turn the TV down.",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            }
+          ],
+          "module_id": "module_sprint_exercises",
+          "module_name": "Sprint & review",
+          "module_code": "SPRINT",
+          "module_type": "Review"
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": [
+        "**_target"
+      ],
+      "audio_generation_patterns": [
+        "[GENERATE]",
+        "[GENERATE_FOR_TARGET]"
+      ]
+    }
+  },
+  "metadata": {
+    "lessonType": "malegado",
+    "uploadSchema": "modules_canonical_v1",
+    "convertedFrom": "new_structure_v4_phases",
+    "sourcePath": "/home/metuge/Dev/submissions/malegado_new_structure/Dialogues/dialogue 59/lesson_15.json",
+    "sourceLessonId": "badge_living_together_001-CTX2"
+  }
+}

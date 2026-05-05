@@ -1,0 +1,750 @@
+{
+  "title": "agreeing with a past experience",
+  "description": "Show that you have shared the same experience as a friend.",
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "past experiences",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_sharing_favorites_001-L05",
+      "generation_timestamp": "2026-05-04T07:04:41.537250+00:00",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A2",
+        "level_name": "Pre-Intermediate",
+        "level_description": "Learners can handle short past-tense conversations and simple plans about familiar topics.",
+        "cefr_equivalent": "A2",
+        "available_levels": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      "theme_config": {
+        "theme_id": "PASTEXPERIENCES",
+        "theme_code": "PASTEXPERIENCES",
+        "theme_name": "Past Experiences",
+        "theme_description": "Talking about past experiences as part of sharing favorites with a friend.",
+        "available_themes": [
+          {
+            "code": "ESS",
+            "name": "Essentials"
+          },
+          {
+            "code": "TRV",
+            "name": "Travel"
+          }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "2.1a",
+        "unit_number": 2,
+        "subunit_number": 1,
+        "variant": "a",
+        "unit_name": "Sharing Favorites",
+        "unit_description": "Talk about movies, shows, and songs you love, and make plans to enjoy them with a friend.",
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 3,
+        "estimated_completion_time_minutes": 60
+      },
+      "lesson_config": {
+        "lesson_number": 845,
+        "lesson_type": "teaching",
+        "lesson_name": "agreeing with a past experience",
+        "lesson_description": "Use 'too' to echo a friend's past experience and show you have done the same thing.",
+        "estimated_duration_minutes": 5,
+        "difficulty_within_unit": 5,
+        "prerequisites": [
+          "badge_sharing_favorites_001-L01",
+          "badge_sharing_favorites_001-L02",
+          "badge_sharing_favorites_001-L03",
+          "badge_sharing_favorites_001-L04"
+        ],
+        "learning_objectives": [
+          "Echo someone else's experience using 'too' at the end of the sentence.",
+          "Recognize the difference between 'too', 'also', and 'as well'.",
+          "Confirm a shared past experience in a natural, friendly way."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      },
+      "order": 845
+    },
+    "lesson_structure": {
+      "module_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "module_1_core_vocabulary",
+          "module_2_functional_grammar",
+          "module_3_sentence_building",
+          "module_dialogue_practice",
+          "module_sprint_exercises"
+        ]
+      },
+      "modules": {
+        "module_1_core_vocabulary": {
+          "module_id": "module_1",
+          "module_name": "Vocabulary Anchor",
+          "module_code": "VOCAB",
+          "position_in_lesson": 1,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": "Key phrases",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Vocabulary",
+          "vocabulary_items": [
+            {
+              "vocab_id": "core_5",
+              "phrase_id": 1,
+              "source_text": "I saw it many times too.",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "declarative phrase",
+              "frequency_rank": 1,
+              "difficulty": 1,
+              "context": {
+                "usage_context": "agreement",
+                "formality_level": "neutral",
+                "time_of_day": "any",
+                "relationship": "friends"
+              },
+              "linguistic_info": {
+                "tooltip_source": "A simple past statement using 'too' at the end to echo someone else's experience.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_5_001",
+              "phrase_id": 2,
+              "source_text": "also",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "adverb",
+              "frequency_rank": 2,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "Used in the middle of a sentence to add something more.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_5_002",
+              "phrase_id": 3,
+              "source_text": "same",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "adjective",
+              "frequency_rank": 3,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "Used when one thing is exactly like another.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_5_003",
+              "phrase_id": 4,
+              "source_text": "agree",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "verb",
+              "frequency_rank": 4,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "To share the same opinion or feeling as someone.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            },
+            {
+              "vocab_id": "rel_5_004",
+              "phrase_id": 5,
+              "source_text": "share",
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "verb",
+              "frequency_rank": 5,
+              "difficulty": 1,
+              "context": {},
+              "linguistic_info": {
+                "tooltip_source": "To have the same experience or thing as someone else.",
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "exercises": {
+                "exercise_selection_strategy": "sequential",
+                "selected_exercises": []
+              }
+            }
+          ],
+          "vocabulary_anchor_listen_repeat": {
+            "prompt_source": "Listen and repeat the core phrase.",
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {
+              "audio_file": "[GENERATE]",
+              "play_on_load": true,
+              "text_to_speak_target": "I saw it many times too."
+            },
+            "show_text_after_play": true
+          },
+          "vocabulary_anchor_quick_match": {
+            "prompt_source": "Connect each word to its meaning or image.",
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              {
+                "pair_id": "qm_rel_5_001",
+                "word_id": "rel_5_001",
+                "word_source": "also",
+                "word_target": "[TRANSLATE]",
+                "match_type": "definition",
+                "match_value_source": "Used in the middle of a sentence to add something more.",
+                "match_value_target": "[TRANSLATE]",
+                "correct_key": "rel_5_001_correct"
+              },
+              {
+                "pair_id": "qm_rel_5_002",
+                "word_id": "rel_5_002",
+                "word_source": "same",
+                "word_target": "[TRANSLATE]",
+                "match_type": "definition",
+                "match_value_source": "Used when one thing is exactly like another.",
+                "match_value_target": "[TRANSLATE]",
+                "correct_key": "rel_5_002_correct"
+              },
+              {
+                "pair_id": "qm_rel_5_003",
+                "word_id": "rel_5_003",
+                "word_source": "agree",
+                "word_target": "[TRANSLATE]",
+                "match_type": "definition",
+                "match_value_source": "To share the same opinion or feeling as someone.",
+                "match_value_target": "[TRANSLATE]",
+                "correct_key": "rel_5_003_correct"
+              },
+              {
+                "pair_id": "qm_rel_5_004",
+                "word_id": "rel_5_004",
+                "word_source": "share",
+                "word_target": "[TRANSLATE]",
+                "match_type": "definition",
+                "match_value_source": "To have the same experience or thing as someone else.",
+                "match_value_target": "[TRANSLATE]",
+                "correct_key": "rel_5_004_correct"
+              }
+            ],
+            "options_display": "shuffle"
+          }
+        },
+        "module_2_functional_grammar": {
+          "module_id": "module_2",
+          "module_name": "Grammar Engine",
+          "module_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": "Grammar tip",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Grammar",
+          "grammar_points": [
+            {
+              "grammar_id": "gram_5",
+              "concept_source": "Echoing experiences with 'too' at the end",
+              "concept_target": "[TRANSLATE]",
+              "explanation_source": "To say you have done the same thing as someone, repeat the sentence and add 'too' at the end. 'Too' goes after the object. You can also use 'also' before the verb, or 'as well' at the end. All three mean roughly the same thing — 'too' and 'as well' are most natural in casual speech.",
+              "explanation_target": "[TRANSLATE]",
+              "focus_type": "variations",
+              "examples": [
+                {
+                  "example_id": "ex_5_001",
+                  "text_source": "I also saw it many times.",
+                  "text_target": "[TRANSLATE]",
+                  "register": "neutral",
+                  "usage_note_source": "'Also' goes before the main verb — slightly more formal than 'too'.",
+                  "usage_note_target": "[TRANSLATE]",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                },
+                {
+                  "example_id": "ex_5_002",
+                  "text_source": "I saw it many times as well.",
+                  "text_target": "[TRANSLATE]",
+                  "register": "neutral",
+                  "usage_note_source": "'As well' is interchangeable with 'too' at the end of a sentence.",
+                  "usage_note_target": "[TRANSLATE]",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                }
+              ]
+            }
+          ],
+          "grammar_engine_modifiers": [
+            {
+              "modifier_id": "mod_5_001",
+              "modifier_source": "me too",
+              "modifier_target": "[TRANSLATE]",
+              "example_source": "Me too.",
+              "example_target": "[TRANSLATE]",
+              "explanation_source": "A short way to echo someone — drops the full sentence completely.",
+              "explanation_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "modifier_id": "mod_5_002",
+              "modifier_source": "same here",
+              "modifier_target": "[TRANSLATE]",
+              "example_source": "Same here.",
+              "example_target": "[TRANSLATE]",
+              "explanation_source": "Casual echo phrase that means 'I had the same experience'.",
+              "explanation_target": "[TRANSLATE]",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            }
+          ]
+        },
+        "module_3_sentence_building": {
+          "module_id": "module_3",
+          "module_name": "Sentence Building",
+          "module_code": "SENTENCE",
+          "position_in_lesson": 3,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": "Build sentences",
+          "title_target": "[TRANSLATE]",
+          "module_type": "SentenceBuilding",
+          "exercises": [
+            {
+              "exercise_id": "ex_sb_5_1",
+              "target_sentence_source": "I saw it many times too.",
+              "target_sentence_target": "[TRANSLATE]",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": "I",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": "saw",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": "it",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": "many",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4
+                },
+                {
+                  "word_id": "w5",
+                  "word_source": "times",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 5
+                },
+                {
+                  "word_id": "w6",
+                  "word_source": "too",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 6
+                }
+              ],
+              "punctuation_mode": "auto_fit",
+              "hints_source": "Echo by repeating the sentence and adding 'too' at the end.",
+              "hints_target": "[TRANSLATE]",
+              "exercise_type": "Drag-and-Drop Sentence Builder",
+              "prompt_source": "Put the words in the correct order:",
+              "prompt_target": "[TRANSLATE]"
+            },
+            {
+              "exercise_id": "ex_sb_5_2",
+              "target_sentence_source": "I also saw it many times.",
+              "target_sentence_target": "[TRANSLATE]",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": "I",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": "also",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": "saw",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": "it",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4
+                },
+                {
+                  "word_id": "w5",
+                  "word_source": "many",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 5
+                },
+                {
+                  "word_id": "w6",
+                  "word_source": "times",
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 6
+                }
+              ],
+              "punctuation_mode": "auto_fit",
+              "hints_source": "Place 'also' before the verb for a small variation.",
+              "hints_target": "[TRANSLATE]",
+              "exercise_type": "Drag-and-Drop Sentence Builder",
+              "prompt_source": "Put the words in the correct order:",
+              "prompt_target": "[TRANSLATE]"
+            }
+          ]
+        },
+        "module_dialogue_practice": {
+          "module_id": "module_dialogue_practice",
+          "module_name": "Dialogue Practice",
+          "module_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": "Conversation",
+          "title_target": "[TRANSLATE]",
+          "module_type": "Conversations",
+          "setting_source": "Walking home together",
+          "setting_target": "[TRANSLATE]",
+          "context_source": "Two friends realize they have both watched the same film many times.",
+          "context_target": "[TRANSLATE]",
+          "setting": "Walking home together",
+          "context": "Two friends realize they have both watched the same film many times.",
+          "dialogue": [
+            {
+              "turn_id": "turn_001",
+              "turn_number": 1,
+              "speaker": "PARTNER",
+              "text_source": "I have watched this movie so many times.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_002",
+              "turn_number": 2,
+              "speaker": "YOU",
+              "text_source": "I saw it many times too.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_003",
+              "turn_number": 3,
+              "speaker": "PARTNER",
+              "text_source": "It is one of my favorites.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_004",
+              "turn_number": 4,
+              "speaker": "YOU",
+              "text_source": "Same here. I agree it is special.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            {
+              "turn_id": "turn_005",
+              "turn_number": 5,
+              "speaker": "PARTNER",
+              "text_source": "We share good taste, then.",
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            }
+          ]
+        },
+        "module_sprint_exercises": {
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": "Quick practice",
+          "title_target": "[TRANSLATE]",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_l2_l1",
+              "exercise_type": "Translation Typing (L2→L1)",
+              "prompt_source": "Translate into English:",
+              "prompt_target": "[TRANSLATE]",
+              "source_text": "I saw it many times too.",
+              "source_text_source": "I saw it many times too.",
+              "source_text_target": "[TRANSLATE]",
+              "target_language": "es",
+              "acceptable_answers": [
+                "I saw it many times too.",
+                "I have seen it many times too."
+              ],
+              "acceptable_answers_source": [
+                "I saw it many times too.",
+                "I have seen it many times too."
+              ],
+              "acceptable_answers_target": [
+                "[TRANSLATE]",
+                "[TRANSLATE]"
+              ],
+              "hints": "Echo a shared past experience with 'too' at the end.",
+              "hints_source": "Echo a shared past experience with 'too' at the end.",
+              "hints_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_fill_type",
+              "exercise_type": "Fill-in-the-Blank Typing",
+              "prompt_source": "Type the missing word:",
+              "prompt_target": "[TRANSLATE]",
+              "sentence": "I saw it many times ___.",
+              "sentence_source": "I saw it many times ___.",
+              "sentence_target": "[TRANSLATE]",
+              "blanks": [
+                5
+              ],
+              "correct_answer": "too",
+              "acceptable_answers": [
+                "too"
+              ],
+              "correct_answer_source": "too",
+              "correct_answer_target": "[TRANSLATE]",
+              "acceptable_answers_source": [
+                "too"
+              ],
+              "acceptable_answers_target": [
+                "[TRANSLATE]"
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_quick_fire",
+              "exercise_type": "Listen and Respond (Quick Fire)",
+              "prompt_source": "Listen and respond out loud:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true,
+                "text_to_speak_target": "I have seen this movie many times."
+              },
+              "prompt": "I have seen this movie many times.",
+              "prompt_text_source": "I have seen this movie many times.",
+              "prompt_text_target": "[TRANSLATE]",
+              "response": {
+                "mode": "speak",
+                "acceptable_responses": [
+                  "I saw it many times too.",
+                  "Me too.",
+                  "Same here."
+                ],
+                "acceptable_responses_source": [
+                  "I saw it many times too.",
+                  "Me too.",
+                  "Same here."
+                ],
+                "acceptable_responses_target": [
+                  "[TRANSLATE]",
+                  "[TRANSLATE]",
+                  "[TRANSLATE]"
+                ],
+                "time_limit_seconds": 8
+              },
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_fill_dialogue",
+              "exercise_type": "Fill-in-the-Dialogue (Speaking)",
+              "prompt_source": "Speak your line:",
+              "prompt_target": "[TRANSLATE]",
+              "dialogue_context": "Your friend shares a past experience and you have shared it too.",
+              "dialogue_context_source": "Your friend shares a past experience and you have shared it too.",
+              "dialogue_context_target": "[TRANSLATE]",
+              "turns": [
+                {
+                  "turn_number": 1,
+                  "speaker": "PARTNER",
+                  "text_source": "I have seen it so many times.",
+                  "text_target": "[TRANSLATE]",
+                  "audio_file": "[GENERATE]",
+                  "text_to_speak_target": "I have seen it so many times."
+                },
+                {
+                  "turn_number": 2,
+                  "speaker": "YOU",
+                  "text_source": "(echo their experience)",
+                  "expected_response": "I saw it many times too.",
+                  "expected_response_source": "I saw it many times too.",
+                  "expected_response_target": "[TRANSLATE]",
+                  "acceptable_responses": [
+                    "I saw it many times too.",
+                    "Me too.",
+                    "Same here.",
+                    "I also saw it many times."
+                  ],
+                  "acceptable_responses_source": [
+                    "I saw it many times too.",
+                    "Me too.",
+                    "Same here.",
+                    "I also saw it many times."
+                  ],
+                  "acceptable_responses_target": [
+                    "[TRANSLATE]",
+                    "[TRANSLATE]",
+                    "[TRANSLATE]",
+                    "[TRANSLATE]"
+                  ]
+                }
+              ],
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_flashcard",
+              "exercise_type": "Digital Flashcards",
+              "prompt_source": "Study the card:",
+              "prompt_target": "[TRANSLATE]",
+              "word": "agree",
+              "definition": "To share the same opinion or feeling as someone.",
+              "examples": [
+                "I agree it is a great movie."
+              ],
+              "context": "Used to confirm you and someone else share an opinion.",
+              "word_source": "agree",
+              "word_target": "[TRANSLATE]",
+              "definition_source": "To share the same opinion or feeling as someone.",
+              "definition_target": "[TRANSLATE]",
+              "examples_source": [
+                "I agree it is a great movie."
+              ],
+              "examples_target": [
+                "[TRANSLATE]"
+              ],
+              "context_source": "Used to confirm you and someone else share an opinion.",
+              "context_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 5,
+                "points_incorrect": 0
+              }
+            }
+          ],
+          "module_id": "module_sprint_exercises",
+          "module_name": "Sprint & review",
+          "module_code": "SPRINT",
+          "module_type": "Review"
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": [
+        "**_target"
+      ],
+      "audio_generation_patterns": [
+        "[GENERATE]",
+        "[GENERATE_FOR_TARGET]"
+      ]
+    }
+  },
+  "metadata": {
+    "lessonType": "malegado",
+    "uploadSchema": "modules_canonical_v1",
+    "convertedFrom": "new_structure_v4_phases",
+    "sourcePath": "/home/metuge/Dev/submissions/malegado_new_structure/Dialogues/dialogue 57/lesson_05.json",
+    "sourceLessonId": "badge_sharing_favorites_001-L05"
+  }
+}

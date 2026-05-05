@@ -1,0 +1,769 @@
+{
+  "title": {
+    "value": "fearing judgment",
+    "translatable": true
+  },
+  "description": {
+    "value": "Practice sharing a worry about what others might think.",
+    "translatable": true
+  },
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "feelings & personality",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_asking_help_001-L12",
+      "generation_timestamp": "2026-05-05T04:44:30Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A2",
+        "level_name": {
+          "value": "Elementary",
+          "translatable": true
+        },
+        "level_description": {
+          "value": "Builds on basic phrases for everyday situations.",
+          "translatable": true
+        },
+        "cefr_equivalent": "A2",
+        "available_levels": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      "theme_config": {
+        "theme_id": "FEELINGS_AND_PERSONALITY",
+        "theme_code": "FEELINGS_AND_PERSONALITY",
+        "theme_name": {
+          "value": "Feelings & Personality",
+          "translatable": true
+        },
+        "theme_description": {
+          "value": "Sharing worries about how others see you.",
+          "translatable": true
+        },
+        "available_themes": [
+          {
+            "code": {
+              "value": "ESS",
+              "translatable": true
+            },
+            "name": {
+              "value": "Essentials",
+              "translatable": true
+            }
+          },
+          {
+            "code": {
+              "value": "TRV",
+              "translatable": true
+            },
+            "name": {
+              "value": "Travel",
+              "translatable": true
+            }
+          }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "2.1a",
+        "unit_number": 2,
+        "subunit_number": 1,
+        "variant": "a",
+        "unit_name": {
+          "value": "Asking for Help",
+          "translatable": true
+        },
+        "unit_description": {
+          "value": "Learn how to ask for help and respond to advice in everyday conversations.",
+          "translatable": true
+        },
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 3,
+        "estimated_completion_time_minutes": 75
+      },
+      "lesson_config": {
+        "lesson_number": 12,
+        "lesson_type": "teaching",
+        "lesson_name": {
+          "value": "fearing judgment",
+          "translatable": true
+        },
+        "lesson_description": {
+          "value": "Practice sharing a worry about what others might think.",
+          "translatable": true
+        },
+        "estimated_duration_minutes": 5,
+        "difficulty_within_unit": 12,
+        "prerequisites": [
+          "badge_asking_help_001-L01",
+          "badge_asking_help_001-L02",
+          "badge_asking_help_001-L03",
+          "badge_asking_help_001-L04",
+          "badge_asking_help_001-L05",
+          "badge_asking_help_001-L06",
+          "badge_asking_help_001-L07",
+          "badge_asking_help_001-L08",
+          "badge_asking_help_001-L09",
+          "badge_asking_help_001-L10",
+          "badge_asking_help_001-L11"
+        ],
+        "learning_objectives": [
+          "Use 'They might think...' to share a worry about others' opinions.",
+          "Recognize vocabulary for fear of judgment.",
+          "Talk openly about social worries with a friend."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      }
+    },
+    "lesson_structure": {
+      "phase_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "phase_1_vocabulary_anchor",
+          "phase_2_grammar_engine",
+          "phase_3_dialogue",
+          "phase_4_sprint_exercises"
+        ]
+      },
+      "phases": {
+        "phase_1_vocabulary_anchor": {
+          "phase_id": "phase_1",
+          "phase_name": {
+            "value": "Vocabulary Anchor",
+            "translatable": true
+          },
+          "phase_code": "VOCAB_ANCHOR",
+          "position_in_lesson": 1,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": {
+            "value": "Key phrases",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "VocabularyAnchor",
+          "core_phrase": {
+            "phrase_id": "core_12",
+            "source_text": {
+              "value": "They might think I am not smart.",
+              "translatable": true
+            },
+            "target_text": "[TRANSLATE]",
+            "part_of_speech": "declarative phrase",
+            "linguistic_info": {
+              "tooltip_source": {
+                "value": "A statement that shares a worry about how other people may see you.",
+                "translatable": true
+              },
+              "tooltip_target": "[TRANSLATE]",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+            },
+            "media": {
+              "image_url": "",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            "context": {
+              "usage_context": "self_disclosure",
+              "formality_level": "neutral",
+              "time_of_day": "any",
+              "relationship": "friends"
+            }
+          },
+          "related_words": [
+            {
+              "word_id": "rel_12_001",
+              "source_text": {
+                "value": "judge",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "verb",
+              "meaning_source": {
+                "value": "To form an opinion about someone.",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]"
+            },
+            {
+              "word_id": "rel_12_002",
+              "source_text": {
+                "value": "afraid",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "adjective",
+              "meaning_source": {
+                "value": "Feeling fear about something.",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]"
+            },
+            {
+              "word_id": "rel_12_003",
+              "source_text": {
+                "value": "embarrassed",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "adjective",
+              "meaning_source": {
+                "value": "Feeling uncomfortable in front of others.",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]"
+            },
+            {
+              "word_id": "rel_12_004",
+              "source_text": {
+                "value": "worry",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "verb",
+              "meaning_source": {
+                "value": "To feel anxious about something that may happen.",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]"
+            }
+          ],
+          "listen_repeat": {
+            "prompt_source": {
+              "value": "Listen and repeat the core phrase.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {
+              "audio_file": "[GENERATE]",
+              "play_on_load": true
+            },
+            "show_text_after_play": true
+          },
+          "quick_match": {
+            "prompt_source": {
+              "value": "Connect each word to its meaning or image.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              {
+                "word_id": "rel_12_001",
+                "correct_key": "rel_12_001_correct"
+              },
+              {
+                "word_id": "rel_12_002",
+                "correct_key": "rel_12_002_correct"
+              },
+              {
+                "word_id": "rel_12_003",
+                "correct_key": "rel_12_003_correct"
+              },
+              {
+                "word_id": "rel_12_004",
+                "correct_key": "rel_12_004_correct"
+              }
+            ],
+            "options_display": "shuffle"
+          }
+        },
+        "phase_2_grammar_engine": {
+          "phase_id": "phase_2",
+          "phase_name": {
+            "value": "Grammar Engine",
+            "translatable": true
+          },
+          "phase_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": {
+            "value": "Grammar tip",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "GrammarEngine",
+          "pro_tip": {
+            "tip_id": "gram_12",
+            "concept_source": {
+              "value": "Modal 'might' for uncertain possibility",
+              "translatable": true
+            },
+            "concept_target": "[TRANSLATE]",
+            "explanation_source": {
+              "value": "Use 'might' before a verb to say something is possible but not sure. The verb stays in its base form. 'Might' shows you are guessing about what could happen.",
+              "translatable": true
+            },
+            "explanation_target": "[TRANSLATE]",
+            "focus_type": "variations",
+            "examples": [
+              {
+                "example_id": "ex_12_001",
+                "source_text": {
+                  "value": "They could think I am not smart.",
+                  "translatable": true
+                },
+                "target_text": "[TRANSLATE]",
+                "register": "neutral",
+                "usage_note_source": {
+                  "value": "An alternative modal with the same meaning of possibility.",
+                  "translatable": true
+                },
+                "usage_note_target": "[TRANSLATE]"
+              },
+              {
+                "example_id": "ex_12_002",
+                "source_text": {
+                  "value": "They may think I am not smart.",
+                  "translatable": true
+                },
+                "target_text": "[TRANSLATE]",
+                "register": "formal",
+                "usage_note_source": {
+                  "value": "A more formal version, common in writing.",
+                  "translatable": true
+                },
+                "usage_note_target": "[TRANSLATE]"
+              }
+            ]
+          },
+          "modifiers": [
+            {
+              "modifier_id": "mod_12_001",
+              "modifier_source": {
+                "value": "really",
+                "translatable": true
+              },
+              "modifier_target": "[TRANSLATE]",
+              "example_source": {
+                "value": "They might really think I am not smart.",
+                "translatable": true
+              },
+              "example_target": "[TRANSLATE]",
+              "explanation_source": {
+                "value": "Add 'really' to stress how serious the worry feels.",
+                "translatable": true
+              },
+              "explanation_target": "[TRANSLATE]"
+            },
+            {
+              "modifier_id": "mod_12_002",
+              "modifier_source": {
+                "value": "actually",
+                "translatable": true
+              },
+              "modifier_target": "[TRANSLATE]",
+              "example_source": {
+                "value": "They might actually think I am not smart.",
+                "translatable": true
+              },
+              "example_target": "[TRANSLATE]",
+              "explanation_source": {
+                "value": "Add 'actually' to show that this is a real possibility, not just a feeling.",
+                "translatable": true
+              },
+              "explanation_target": "[TRANSLATE]"
+            }
+          ],
+          "sentence_building": [
+            {
+              "exercise_id": "ex_sb_12_1",
+              "target_sentence_source": {
+                "value": "They might think I am not smart.",
+                "translatable": true
+              },
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": {
+                    "value": "They",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": {
+                    "value": "might",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": {
+                    "value": "think",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": {
+                    "value": "I",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4
+                },
+                {
+                  "word_id": "w5",
+                  "word_source": {
+                    "value": "am",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 5
+                },
+                {
+                  "word_id": "w6",
+                  "word_source": {
+                    "value": "not",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 6
+                },
+                {
+                  "word_id": "w7",
+                  "word_source": {
+                    "value": "smart",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 7
+                }
+              ],
+              "hints": "Subject, modal, verb, then a small clause about you."
+            },
+            {
+              "exercise_id": "ex_sb_12_2",
+              "target_sentence_source": {
+                "value": "They may judge me.",
+                "translatable": true
+              },
+              "target_sentence_target": "[TRANSLATE]",
+              "punctuation_mode": "auto_fit",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": {
+                    "value": "They",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": {
+                    "value": "may",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": {
+                    "value": "judge",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                },
+                {
+                  "word_id": "w4",
+                  "word_source": {
+                    "value": "me",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 4
+                }
+              ],
+              "hints": "A shorter version using a different modal and a single verb."
+            }
+          ]
+        },
+        "phase_3_dialogue": {
+          "phase_id": "phase_3",
+          "phase_name": {
+            "value": "Dialogue Practice",
+            "translatable": true
+          },
+          "phase_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": {
+            "value": "Conversation",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "Dialogue",
+          "setting": {
+            "value": "Walking out of school",
+            "translatable": true
+          },
+          "context": {
+            "value": "Sharing a worry about being judged in class.",
+            "translatable": true
+          },
+          "dialogue": [
+            {
+              "turn_id": "turn_001",
+              "turn_number": 1,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "Just ask the question in class.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_002",
+              "turn_number": 2,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "They might think I am not smart.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_003",
+              "turn_number": 3,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "That is not true.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_004",
+              "turn_number": 4,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "But what if they laugh?",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_005",
+              "turn_number": 5,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "Asking is how you learn.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            }
+          ]
+        },
+        "phase_4_sprint_exercises": {
+          "phase_id": "phase_4",
+          "phase_name": {
+            "value": "Sprint & review",
+            "translatable": true
+          },
+          "phase_code": "SPRINT",
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": {
+            "value": "Quick practice",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "SprintExercises",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_audio_text",
+              "exercise_type": "Audio-to-Text Matching",
+              "prompt_source": "Select the phrase you hear:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": false
+              },
+              "text_options": [
+                "They might think I am not smart.",
+                "They could think I am not smart.",
+                "They may judge me."
+              ],
+              "text_options_source": [
+                "They might think I am not smart.",
+                "They could think I am not smart.",
+                "They may judge me."
+              ],
+              "text_options_target": [
+                "[TRANSLATE]",
+                "[TRANSLATE]",
+                "[TRANSLATE]"
+              ],
+              "correct_answer": "They might think I am not smart.",
+              "correct_answer_source": "They might think I am not smart.",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_v1_audio_image",
+              "exercise_type": "Audio-to-Image Matching",
+              "prompt_source": "Tap the image that matches what you hear:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true,
+                "text_to_speak_target": "They might think I am not smart."
+              },
+              "image_options": [
+                {
+                  "option_id": "opt_01",
+                  "image_url": "",
+                  "correct": true
+                },
+                {
+                  "option_id": "opt_02",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_03",
+                  "image_url": "",
+                  "correct": false
+                },
+                {
+                  "option_id": "opt_04",
+                  "image_url": "",
+                  "correct": false
+                }
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_flashcard",
+              "exercise_type": "Digital Flashcards",
+              "prompt_source": "Study the card:",
+              "prompt_target": "[TRANSLATE]",
+              "word": "judge",
+              "definition": "To form an opinion about someone.",
+              "examples": [
+                "They might think I am not smart."
+              ],
+              "context": "Used when worrying about how others might see you.",
+              "word_source": "judge",
+              "word_target": "[TRANSLATE]",
+              "definition_source": "To form an opinion about someone.",
+              "definition_target": "[TRANSLATE]",
+              "examples_source": [
+                "They might think I am not smart."
+              ],
+              "examples_target": [
+                "[TRANSLATE]"
+              ],
+              "context_source": "Used when worrying about how others might see you.",
+              "context_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 5,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_fill_dialogue",
+              "exercise_type": "Fill-in-the-Dialogue (Speaking)",
+              "prompt_source": "Speak your line:",
+              "prompt_target": "[TRANSLATE]",
+              "dialogue_context": "A friend tells you to ask a question in class; share your worry.",
+              "dialogue_context_source": "A friend tells you to ask a question in class; share your worry.",
+              "dialogue_context_target": "[TRANSLATE]",
+              "turns": [
+                {
+                  "turn_number": 1,
+                  "speaker": "PARTNER",
+                  "text_source": "Just ask the question in class.",
+                  "text_target": "[TRANSLATE]",
+                  "audio_file": "[GENERATE]",
+                  "text_to_speak_target": "Just ask the question in class."
+                },
+                {
+                  "turn_number": 2,
+                  "speaker": "YOU",
+                  "text_source": "",
+                  "expected_response": "They might think I am not smart.",
+                  "expected_response_source": "They might think I am not smart.",
+                  "expected_response_target": "[TRANSLATE]",
+                  "acceptable_responses": [
+                    "They might think I am not smart.",
+                    "They may judge me."
+                  ],
+                  "acceptable_responses_source": [
+                    "They might think I am not smart.",
+                    "They may judge me."
+                  ],
+                  "acceptable_responses_target": [
+                    "[TRANSLATE]",
+                    "[TRANSLATE]"
+                  ]
+                }
+              ],
+              "scoring": {
+                "points_correct": 15,
+                "points_incorrect": 0
+              }
+            }
+          ]
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": [
+        "**_target"
+      ],
+      "audio_generation_patterns": [
+        "[GENERATE]",
+        "[GENERATE_FOR_TARGET]"
+      ]
+    }
+  }
+}
