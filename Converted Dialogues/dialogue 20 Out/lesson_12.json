@@ -1,10 +1,10 @@
 {
   "title": "stamping the envelope",
   "description": "Say that you finished placing a stamp on the envelope.",
-  "languageId": "",
+  "languageId": "68629d0d457e13090cb4194d",
   "difficultyLevel": "BEGINNER",
   "estimatedDuration": 5,
-  "status": "DRAFT",
+  "status": "PUBLISHED",
   "category": "services",
   "content": {
     "lesson_metadata": {

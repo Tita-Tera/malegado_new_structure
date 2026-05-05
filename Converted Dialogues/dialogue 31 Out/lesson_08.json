@@ -1,10 +1,10 @@
 {
   "title": "asking about my weight",
   "description": "Ask a friend's honest opinion about how you look.",
-  "languageId": "",
+  "languageId": "68629d0d457e13090cb4194d",
   "difficultyLevel": "BEGINNER",
   "estimatedDuration": 5,
-  "status": "DRAFT",
+  "status": "PUBLISHED",
   "category": "body",
   "content": {
     "lesson_metadata": {

@@ -1,10 +1,10 @@
 {
   "title": "borrowing a book",
   "description": "Apply polite-interaction phrases to borrow a book from a fellow student.",
-  "languageId": "",
+  "languageId": "68629d0d457e13090cb4194d",
   "difficultyLevel": "BEGINNER",
   "estimatedDuration": 4,
-  "status": "DRAFT",
+  "status": "PUBLISHED",
   "category": "society",
   "content": {
     "lesson_metadata": {

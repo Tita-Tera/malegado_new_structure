@@ -1,10 +1,10 @@
 {
   "title": "finding a phone number",
   "description": "Say that you will look up a phone number for a place you need to call.",
-  "languageId": "",
+  "languageId": "68629d0d457e13090cb4194d",
   "difficultyLevel": "BEGINNER",
   "estimatedDuration": 5,
-  "status": "DRAFT",
+  "status": "PUBLISHED",
   "category": "services",
   "content": {
     "lesson_metadata": {

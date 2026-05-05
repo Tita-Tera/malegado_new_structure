@@ -1,10 +1,10 @@
 {
   "title": "what did you do next?",
   "description": "Ask about the next action in a sequence using a past-simple wh-question.",
-  "languageId": "",
+  "languageId": "68629d0d457e13090cb4194d",
   "difficultyLevel": "BEGINNER",
   "estimatedDuration": 5,
-  "status": "DRAFT",
+  "status": "PUBLISHED",
   "category": "daily routines",
   "content": {
     "lesson_metadata": {

@@ -1,10 +1,10 @@
 {
   "title": "great weather all year",
   "description": "Practice describing year-round weather in a place.",
-  "languageId": "",
+  "languageId": "68629d0d457e13090cb4194d",
   "difficultyLevel": "BEGINNER",
   "estimatedDuration": 5,
-  "status": "DRAFT",
+  "status": "PUBLISHED",
   "category": "weather",
   "content": {
     "lesson_metadata": {

@@ -1,10 +1,10 @@
 {
   "title": "read the number",
   "description": "Ask someone to read a number aloud to you.",
-  "languageId": "",
+  "languageId": "68629d0d457e13090cb4194d",
   "difficultyLevel": "BEGINNER",
   "estimatedDuration": 5,
-  "status": "DRAFT",
+  "status": "PUBLISHED",
   "category": "basic descriptions",
   "content": {
     "lesson_metadata": {

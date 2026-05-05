@@ -1,10 +1,10 @@
 {
   "title": "there is no sugar or cream",
   "description": "Say two common additives are missing from a drink with 'no X or Y'.",
-  "languageId": "",
+  "languageId": "68629d0d457e13090cb4194d",
   "difficultyLevel": "BEGINNER",
   "estimatedDuration": 5,
-  "status": "DRAFT",
+  "status": "PUBLISHED",
   "category": "food & drinks",
   "content": {
     "lesson_metadata": {

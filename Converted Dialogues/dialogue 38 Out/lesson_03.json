@@ -1,10 +1,10 @@
 {
   "title": "getting hotter",
   "description": "Learn to predict that the temperature will rise using 'will' and a comparative adjective.",
-  "languageId": "",
+  "languageId": "68629d0d457e13090cb4194d",
   "difficultyLevel": "BEGINNER",
   "estimatedDuration": 5,
-  "status": "DRAFT",
+  "status": "PUBLISHED",
   "category": "weather",
   "content": {
     "lesson_metadata": {

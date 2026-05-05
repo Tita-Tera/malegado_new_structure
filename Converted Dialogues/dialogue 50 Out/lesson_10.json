@@ -1,10 +1,10 @@
 {
   "title": "you can get a flat",
   "description": "Warn someone about the risk of a flat tire.",
-  "languageId": "",
+  "languageId": "68629d0d457e13090cb4194d",
   "difficultyLevel": "BEGINNER",
   "estimatedDuration": 6,
-  "status": "DRAFT",
+  "status": "PUBLISHED",
   "category": "travel",
   "content": {
     "lesson_metadata": {

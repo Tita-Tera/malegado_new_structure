@@ -1,10 +1,10 @@
 {
   "title": "calling the repairman",
   "description": "Learn to ask whether someone has called a service worker, using a past-tense question.",
-  "languageId": "",
+  "languageId": "68629d0d457e13090cb4194d",
   "difficultyLevel": "BEGINNER",
   "estimatedDuration": 5,
-  "status": "DRAFT",
+  "status": "PUBLISHED",
   "category": "services",
   "content": {
     "lesson_metadata": {

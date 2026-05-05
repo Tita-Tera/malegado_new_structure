@@ -1,10 +1,10 @@
 {
   "title": "asking to sleep in",
   "description": "Ask to keep sleeping until you wake up on your own.",
-  "languageId": "",
+  "languageId": "68629d0d457e13090cb4194d",
   "difficultyLevel": "BEGINNER",
   "estimatedDuration": 5,
-  "status": "DRAFT",
+  "status": "PUBLISHED",
   "category": "daily_routines",
   "content": {
     "lesson_metadata": {

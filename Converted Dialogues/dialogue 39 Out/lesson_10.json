@@ -1,10 +1,10 @@
 {
   "title": "the machine gives money",
   "description": "Learn to describe what the ATM does for you.",
-  "languageId": "",
+  "languageId": "68629d0d457e13090cb4194d",
   "difficultyLevel": "BEGINNER",
   "estimatedDuration": 5,
-  "status": "DRAFT",
+  "status": "PUBLISHED",
   "category": "services",
   "content": {
     "lesson_metadata": {

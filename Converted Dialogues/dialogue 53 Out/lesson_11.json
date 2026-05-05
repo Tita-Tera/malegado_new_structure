@@ -1,10 +1,10 @@
 {
   "title": "drying with a towel",
   "description": "Say that you will dry something with a towel.",
-  "languageId": "",
+  "languageId": "68629d0d457e13090cb4194d",
   "difficultyLevel": "BEGINNER",
   "estimatedDuration": 6,
-  "status": "DRAFT",
+  "status": "PUBLISHED",
   "category": "services",
   "content": {
     "lesson_metadata": {

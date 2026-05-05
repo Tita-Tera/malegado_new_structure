@@ -1,10 +1,10 @@
 {
   "title": "a nice restaurant",
   "description": "Practice asking your partner to take you somewhere fancy with 'Take me to a nice restaurant.'.",
-  "languageId": "",
+  "languageId": "68629d0d457e13090cb4194d",
   "difficultyLevel": "BEGINNER",
   "estimatedDuration": 0,
-  "status": "DRAFT",
+  "status": "PUBLISHED",
   "category": "restaurants",
   "content": {
     "lesson_metadata": {

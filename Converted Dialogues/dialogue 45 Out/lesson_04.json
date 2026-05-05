@@ -1,10 +1,10 @@
 {
   "title": "open the book",
   "description": "Tell someone to open a book using a short, simple instruction.",
-  "languageId": "",
+  "languageId": "68629d0d457e13090cb4194d",
   "difficultyLevel": "BEGINNER",
   "estimatedDuration": 5,
-  "status": "DRAFT",
+  "status": "PUBLISHED",
   "category": "daily routines",
   "content": {
     "lesson_metadata": {

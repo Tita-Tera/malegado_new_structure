@@ -1,10 +1,10 @@
 {
   "title": "suggesting a visit",
   "description": "Suggest going to a friend's place to spend time together.",
-  "languageId": "",
+  "languageId": "68629d0d457e13090cb4194d",
   "difficultyLevel": "BEGINNER",
   "estimatedDuration": 5,
-  "status": "DRAFT",
+  "status": "PUBLISHED",
   "category": "social",
   "content": {
     "lesson_metadata": {

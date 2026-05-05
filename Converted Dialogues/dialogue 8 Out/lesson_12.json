@@ -1,10 +1,10 @@
 {
   "title": "let’s watch together",
   "description": "Suggest a shared plan to watch something using 'Let’s...' and time words.",
-  "languageId": "",
+  "languageId": "68629d0d457e13090cb4194d",
   "difficultyLevel": "BEGINNER",
   "estimatedDuration": 5,
-  "status": "DRAFT",
+  "status": "PUBLISHED",
   "category": "future plans",
   "content": {
     "lesson_metadata": {

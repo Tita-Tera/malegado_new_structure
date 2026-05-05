@@ -1,10 +1,10 @@
 {
   "title": "asking about the weather",
   "description": "Ask about the weather and learn simple words to describe it.",
-  "languageId": "",
+  "languageId": "68629d0d457e13090cb4194d",
   "difficultyLevel": "BEGINNER",
   "estimatedDuration": 5,
-  "status": "DRAFT",
+  "status": "PUBLISHED",
   "category": "weather",
   "content": {
     "lesson_metadata": {

@@ -1,10 +1,10 @@
 {
   "title": "did you do the laundry?",
   "description": "Ask a partner if they finished the laundry, using past-simple yes/no questions.",
-  "languageId": "",
+  "languageId": "68629d0d457e13090cb4194d",
   "difficultyLevel": "BEGINNER",
   "estimatedDuration": 5,
-  "status": "DRAFT",
+  "status": "PUBLISHED",
   "category": "home",
   "content": {
     "lesson_metadata": {

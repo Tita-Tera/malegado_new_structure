@@ -1,10 +1,10 @@
 {
   "title": "that is what i do",
   "description": "Use 'That is what I do' to confirm a habit or routine.",
-  "languageId": "",
+  "languageId": "68629d0d457e13090cb4194d",
   "difficultyLevel": "BEGINNER",
   "estimatedDuration": 5,
-  "status": "DRAFT",
+  "status": "PUBLISHED",
   "category": "daily routines",
   "content": {
     "lesson_metadata": {

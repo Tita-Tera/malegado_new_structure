@@ -1,10 +1,10 @@
 {
   "title": "using a patch",
   "description": "Suggest using a patch as an easier alternative to sewing.",
-  "languageId": "",
+  "languageId": "68629d0d457e13090cb4194d",
   "difficultyLevel": "BEGINNER",
   "estimatedDuration": 5,
-  "status": "DRAFT",
+  "status": "PUBLISHED",
   "category": "clothing",
   "content": {
     "lesson_metadata": {

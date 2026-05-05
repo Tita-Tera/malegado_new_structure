@@ -1,10 +1,10 @@
 {
   "title": "how about pizza",
   "description": "Learn to make a casual food suggestion to a friend.",
-  "languageId": "",
+  "languageId": "68629d0d457e13090cb4194d",
   "difficultyLevel": "BEGINNER",
   "estimatedDuration": 5,
-  "status": "DRAFT",
+  "status": "PUBLISHED",
   "category": "food & drinks",
   "content": {
     "lesson_metadata": {

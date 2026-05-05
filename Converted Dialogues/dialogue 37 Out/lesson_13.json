@@ -1,10 +1,10 @@
 {
   "title": "weather check review",
   "description": "Review the full weather conversation from start to finish.",
-  "languageId": "",
+  "languageId": "68629d0d457e13090cb4194d",
   "difficultyLevel": "BEGINNER",
   "estimatedDuration": 6,
-  "status": "DRAFT",
+  "status": "PUBLISHED",
   "category": "weather",
   "content": {
     "lesson_metadata": {

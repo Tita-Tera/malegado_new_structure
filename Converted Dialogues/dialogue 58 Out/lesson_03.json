@@ -1,10 +1,10 @@
 {
   "title": "offering to teach",
   "description": "Offer to teach a friend something using 'I will'.",
-  "languageId": "",
+  "languageId": "68629d0d457e13090cb4194d",
   "difficultyLevel": "BEGINNER",
   "estimatedDuration": 5,
-  "status": "DRAFT",
+  "status": "PUBLISHED",
   "category": "education systems",
   "content": {
     "lesson_metadata": {

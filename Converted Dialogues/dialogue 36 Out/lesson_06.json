@@ -1,10 +1,10 @@
 {
   "title": "not too big",
   "description": "Set a size limit for the kind of pet you want.",
-  "languageId": "",
+  "languageId": "68629d0d457e13090cb4194d",
   "difficultyLevel": "BEGINNER",
   "estimatedDuration": 5,
-  "status": "DRAFT",
+  "status": "PUBLISHED",
   "category": "basic descriptions",
   "content": {
     "lesson_metadata": {

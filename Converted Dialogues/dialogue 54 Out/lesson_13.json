@@ -1,10 +1,10 @@
 {
   "title": "windy weather review",
   "description": "Review the full anchor conversation about wind, damage, and safety advice.",
-  "languageId": "",
+  "languageId": "68629d0d457e13090cb4194d",
   "difficultyLevel": "BEGINNER",
   "estimatedDuration": 5,
-  "status": "DRAFT",
+  "status": "PUBLISHED",
   "category": "weather",
   "content": {
     "lesson_metadata": {

@@ -1,10 +1,10 @@
 {
   "title": "lights on",
   "description": "Tell someone to turn on the light using a simple instruction.",
-  "languageId": "",
+  "languageId": "68629d0d457e13090cb4194d",
   "difficultyLevel": "BEGINNER",
   "estimatedDuration": 5,
-  "status": "DRAFT",
+  "status": "PUBLISHED",
   "category": "home",
   "content": {
     "lesson_metadata": {

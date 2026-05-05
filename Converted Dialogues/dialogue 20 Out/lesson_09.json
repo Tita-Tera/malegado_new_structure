@@ -1,10 +1,10 @@
 {
   "title": "couldn't find stamps",
   "description": "Say that you tried but failed to find something at the store.",
-  "languageId": "",
+  "languageId": "68629d0d457e13090cb4194d",
   "difficultyLevel": "BEGINNER",
   "estimatedDuration": 5,
-  "status": "DRAFT",
+  "status": "PUBLISHED",
   "category": "shopping",
   "content": {
     "lesson_metadata": {

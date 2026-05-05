@@ -1,10 +1,10 @@
 {
   "title": "what did you wash?",
   "description": "Ask a wh-question in the past simple to find out which items someone washed.",
-  "languageId": "",
+  "languageId": "68629d0d457e13090cb4194d",
   "difficultyLevel": "BEGINNER",
   "estimatedDuration": 5,
-  "status": "DRAFT",
+  "status": "PUBLISHED",
   "category": "home",
   "content": {
     "lesson_metadata": {

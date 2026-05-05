@@ -1,10 +1,10 @@
 {
   "title": "asking if it is raining",
   "description": "Ask if it is raining right now and learn simple time words.",
-  "languageId": "",
+  "languageId": "68629d0d457e13090cb4194d",
   "difficultyLevel": "BEGINNER",
   "estimatedDuration": 5,
-  "status": "DRAFT",
+  "status": "PUBLISHED",
   "category": "weather",
   "content": {
     "lesson_metadata": {
