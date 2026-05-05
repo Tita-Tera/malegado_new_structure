@@ -1,0 +1,729 @@
+{
+    "title": {
+      "value": "asking for reasons",
+      "translatable": true
+    },
+    "description": {
+      "value": "Learn to ask why someone likes or prefers something.",
+      "translatable": true
+    },
+    "languageId": "",
+    "difficultyLevel": "BEGINNER",
+    "estimatedDuration": 5,
+    "status": "DRAFT",
+    "category": "basic descriptions",
+    "content": {
+      "lesson_metadata": {
+        "lesson_id": "badge_college_present_001-L08",
+        "generation_timestamp": "2026-05-04T12:35:00Z",
+        "version": "2.0.0",
+        "created_by": "pipeline",
+        "level_config": {
+          "level_code": "A2",
+          "level_name": {
+            "value": "Elementary",
+            "translatable": true
+          },
+          "level_description": {
+            "value": "Build confidence with everyday conversations and simple grammar patterns.",
+            "translatable": true
+          },
+          "cefr_equivalent": "A2",
+          "available_levels": [
+            "A0",
+            "A1",
+            "A2",
+            "B1",
+            "B2",
+            "C1",
+            "C2"
+          ]
+        },
+        "theme_config": {
+          "theme_id": "BASIC_DESCRIPTIONS",
+          "theme_code": "BASIC_DESCRIPTIONS",
+          "theme_name": {
+            "value": "Basic Descriptions",
+            "translatable": true
+          },
+          "theme_description": {
+            "value": "Ask for explanations and understand reasons behind opinions.",
+            "translatable": true
+          },
+          "available_themes": [
+            {
+              "code": {
+                "value": "ESS",
+                "translatable": true
+              },
+              "name": {
+                "value": "Essentials",
+                "translatable": true
+              }
+            },
+            {
+              "code": {
+                "value": "TRV",
+                "translatable": true
+              },
+              "name": {
+                "value": "Travel",
+                "translatable": true
+              }
+            }
+          ]
+        },
+        "unit_config": {
+          "unit_id": "1.1a",
+          "unit_number": 1,
+          "subunit_number": 1,
+          "variant": "a",
+          "unit_name": {
+            "value": "School Life",
+            "translatable": true
+          },
+          "unit_description": {
+            "value": "Learn to discuss educational experiences and preferences using present tense.",
+            "translatable": true
+          },
+          "total_lessons_in_unit": 15,
+          "unit_difficulty": 3,
+          "estimated_completion_time_minutes": 0
+        },
+        "lesson_config": {
+          "lesson_number": 8,
+          "lesson_type": "teaching",
+          "lesson_name": {
+            "value": "asking for reasons",
+            "translatable": true
+          },
+          "lesson_description": {
+            "value": "Practice asking why someone holds an opinion.",
+            "translatable": true
+          },
+          "estimated_duration_minutes": 5,
+          "difficulty_within_unit": 8,
+          "prerequisites": [
+            "badge_college_present_001-L01",
+            "badge_college_present_001-L02",
+            "badge_college_present_001-L03",
+            "badge_college_present_001-L04",
+            "badge_college_present_001-L05",
+            "badge_college_present_001-L06",
+            "badge_college_present_001-L07"
+          ],
+          "learning_objectives": [
+            "Ask 'why' questions to understand reasons",
+            "Use 'Why do you' structure correctly",
+            "Connect questions to previous statements"
+          ],
+          "target_interactions": "15-20",
+          "micro_flow_version": "2.0"
+        }
+      },
+      "lesson_structure": {
+        "phase_order_config": {
+          "ordering_strategy": "standard",
+          "selected_order": [
+            "phase_1_vocabulary_anchor",
+            "phase_2_grammar_engine",
+            "phase_3_dialogue",
+            "phase_4_sprint_exercises"
+          ]
+        },
+        "phases": {
+          "phase_1_vocabulary_anchor": {
+            "phase_id": "phase_1",
+            "phase_name": {
+              "value": "Vocabulary Anchor",
+              "translatable": true
+            },
+            "phase_code": "VOCAB_ANCHOR",
+            "position_in_lesson": 1,
+            "enabled": true,
+            "required": true,
+            "estimated_duration_seconds": 60,
+            "title_source": {
+              "value": "Key phrases",
+              "translatable": true
+            },
+            "title_target": "[TRANSLATE]",
+            "phase_type": "VocabularyAnchor",
+            "core_phrase": {
+              "phrase_id": "core_8",
+              "source_text": {
+                "value": "Why do you like it?",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "interrogative",
+              "linguistic_info": {
+                "tooltip_source": {
+                  "value": "A question asking for the reasons behind someone's positive opinion.",
+                  "translatable": true
+                },
+                "tooltip_target": "[TRANSLATE]",
+                "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+              },
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              },
+              "context": {
+                "usage_context": "inquiry",
+                "formality_level": "neutral",
+                "time_of_day": "any",
+                "relationship": "any"
+              }
+            },
+            "related_words": [
+              {
+                "word_id": "rel_8_001",
+                "source_text": {
+                  "value": "reason",
+                  "translatable": true
+                },
+                "target_text": "[TRANSLATE]",
+                "part_of_speech": "noun",
+                "meaning_source": {
+                  "value": "A cause or explanation for something.",
+                  "translatable": true
+                },
+                "meaning_target": "[TRANSLATE]",
+                "media": {
+                  "image_url": "",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                }
+              },
+              {
+                "word_id": "rel_8_002",
+                "source_text": {
+                  "value": "explanation",
+                  "translatable": true
+                },
+                "target_text": "[TRANSLATE]",
+                "part_of_speech": "noun",
+                "meaning_source": {
+                  "value": "A statement that makes something clear.",
+                  "translatable": true
+                },
+                "meaning_target": "[TRANSLATE]",
+                "media": {
+                  "image_url": "",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                }
+              },
+              {
+                "word_id": "rel_8_003",
+                "source_text": {
+                  "value": "because",
+                  "translatable": true
+                },
+                "target_text": "[TRANSLATE]",
+                "part_of_speech": "conjunction",
+                "meaning_source": {
+                  "value": "Used to introduce the reason for something.",
+                  "translatable": true
+                },
+                "meaning_target": "[TRANSLATE]",
+                "media": {
+                  "image_url": "",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                }
+              },
+              {
+                "word_id": "rel_8_004",
+                "source_text": {
+                  "value": "detail",
+                  "translatable": true
+                },
+                "target_text": "[TRANSLATE]",
+                "part_of_speech": "noun",
+                "meaning_source": {
+                  "value": "A small piece of information about something.",
+                  "translatable": true
+                },
+                "meaning_target": "[TRANSLATE]",
+                "media": {
+                  "image_url": "",
+                  "audio_normal": "[GENERATE]",
+                  "audio_slow": "[GENERATE]"
+                }
+              }
+            ],
+            "listen_repeat": {
+              "prompt_source": {
+                "value": "Listen and repeat the core phrase.",
+                "translatable": true
+              },
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true
+              },
+              "show_text_after_play": true
+            },
+            "quick_match": {
+              "prompt_source": {
+                "value": "Connect each word to its meaning or image.",
+                "translatable": true
+              },
+              "prompt_target": "[TRANSLATE]",
+              "match_pairs": [
+                {
+                  "word_id": "rel_8_001",
+                  "correct_key": "rel_8_001_correct"
+                },
+                {
+                  "word_id": "rel_8_002",
+                  "correct_key": "rel_8_002_correct"
+                },
+                {
+                  "word_id": "rel_8_003",
+                  "correct_key": "rel_8_003_correct"
+                },
+                {
+                  "word_id": "rel_8_004",
+                  "correct_key": "rel_8_004_correct"
+                }
+              ],
+              "options_display": "shuffle"
+            }
+          },
+          "phase_2_grammar_engine": {
+            "phase_id": "phase_2",
+            "phase_name": {
+              "value": "Grammar Engine",
+              "translatable": true
+            },
+            "phase_code": "GRAMMAR",
+            "position_in_lesson": 2,
+            "enabled": true,
+            "required": true,
+            "estimated_duration_seconds": 45,
+            "title_source": {
+              "value": "Grammar tip",
+              "translatable": true
+            },
+            "title_target": "[TRANSLATE]",
+            "phase_type": "GrammarEngine",
+            "pro_tip": {
+              "tip_id": "gram_8",
+              "concept_source": {
+                "value": "Asking for explanations with 'why'",
+                "translatable": true
+              },
+              "concept_target": "[TRANSLATE]",
+              "explanation_source": {
+                "value": "Use 'Why do you' to ask for the reason behind someone's feelings or actions. This shows you're interested in understanding their perspective.",
+                "translatable": true
+              },
+              "explanation_target": "[TRANSLATE]",
+              "focus_type": "variations",
+              "examples": [
+                {
+                  "example_id": "ex_8_001",
+                  "source_text": {
+                    "value": "What is your reason for liking it?",
+                    "translatable": true
+                  },
+                  "target_text": "[TRANSLATE]",
+                  "register": "formal",
+                  "usage_note_source": {
+                    "value": "More formal way to ask for reasons.",
+                    "translatable": true
+                  },
+                  "usage_note_target": "[TRANSLATE]"
+                },
+                {
+                  "example_id": "ex_8_002",
+                  "source_text": {
+                    "value": "How come you like it?",
+                    "translatable": true
+                  },
+                  "target_text": "[TRANSLATE]",
+                  "register": "casual",
+                  "usage_note_source": {
+                    "value": "Very casual alternative to 'why'.",
+                    "translatable": true
+                  },
+                  "usage_note_target": "[TRANSLATE]"
+                }
+              ]
+            },
+            "modifiers": [
+              {
+                "modifier_id": "mod_8_001",
+                "modifier_source": {
+                  "value": "exactly",
+                  "translatable": true
+                },
+                "modifier_target": "[TRANSLATE]",
+                "example_source": {
+                  "value": "Why exactly do you like it?",
+                  "translatable": true
+                },
+                "example_target": "[TRANSLATE]",
+                "explanation_source": {
+                  "value": "Asks for specific, detailed reasons.",
+                  "translatable": true
+                },
+                "explanation_target": "[TRANSLATE]"
+              },
+              {
+                "modifier_id": "mod_8_002",
+                "modifier_source": {
+                  "value": "so much",
+                  "translatable": true
+                },
+                "modifier_target": "[TRANSLATE]",
+                "example_source": {
+                  "value": "Why do you like it so much?",
+                  "translatable": true
+                },
+                "example_target": "[TRANSLATE]",
+                "explanation_source": {
+                  "value": "Asks about the intensity of the feeling.",
+                  "translatable": true
+                },
+                "explanation_target": "[TRANSLATE]"
+              }
+            ],
+            "sentence_building": [
+              {
+                "exercise_id": "ex_sb_8_1",
+                "target_sentence_source": {
+                  "value": "Why do you like it?",
+                  "translatable": true
+                },
+                "target_sentence_target": "[TRANSLATE]",
+                "word_tiles": [
+                  {
+                    "word_id": "w1",
+                    "word_source": {
+                      "value": "Why",
+                      "translatable": true
+                    },
+                    "word_target": "[TRANSLATE]",
+                    "correct_position": 1
+                  },
+                  {
+                    "word_id": "w2",
+                    "word_source": {
+                      "value": "do",
+                      "translatable": true
+                    },
+                    "word_target": "[TRANSLATE]",
+                    "correct_position": 2
+                  },
+                  {
+                    "word_id": "w3",
+                    "word_source": {
+                      "value": "you",
+                      "translatable": true
+                    },
+                    "word_target": "[TRANSLATE]",
+                    "correct_position": 3
+                  },
+                  {
+                    "word_id": "w4",
+                    "word_source": {
+                      "value": "like",
+                      "translatable": true
+                    },
+                    "word_target": "[TRANSLATE]",
+                    "correct_position": 4
+                  },
+                  {
+                    "word_id": "w5",
+                    "word_source": {
+                      "value": "it",
+                      "translatable": true
+                    },
+                    "word_target": "[TRANSLATE]",
+                    "correct_position": 5
+                  }
+                ],
+                "punctuation_mode": "auto_fit",
+                "hints": {
+                  "value": "Start with the question word for reasons",
+                  "translatable": true
+                },
+                "hints_target": "[TRANSLATE]"
+              },
+              {
+                "exercise_id": "ex_sb_8_2",
+                "target_sentence_source": {
+                  "value": "Give me a reason.",
+                  "translatable": true
+                },
+                "target_sentence_target": "[TRANSLATE]",
+                "word_tiles": [
+                  {
+                    "word_id": "w1",
+                    "word_source": {
+                      "value": "Give",
+                      "translatable": true
+                    },
+                    "word_target": "[TRANSLATE]",
+                    "correct_position": 1
+                  },
+                  {
+                    "word_id": "w2",
+                    "word_source": {
+                      "value": "me",
+                      "translatable": true
+                    },
+                    "word_target": "[TRANSLATE]",
+                    "correct_position": 2
+                  },
+                  {
+                    "word_id": "w3",
+                    "word_source": {
+                      "value": "a",
+                      "translatable": true
+                    },
+                    "word_target": "[TRANSLATE]",
+                    "correct_position": 3
+                  },
+                  {
+                    "word_id": "w4",
+                    "word_source": {
+                      "value": "reason",
+                      "translatable": true
+                    },
+                    "word_target": "[TRANSLATE]",
+                    "correct_position": 4
+                  }
+                ],
+                "punctuation_mode": "auto_fit",
+                "hints": {
+                  "value": "Ask for an explanation directly",
+                  "translatable": true
+                },
+                "hints_target": "[TRANSLATE]"
+              }
+            ]
+          },
+          "phase_3_dialogue": {
+            "phase_id": "phase_3",
+            "phase_name": {
+              "value": "Dialogue Practice",
+              "translatable": true
+            },
+            "phase_code": "DIALOGUE",
+            "position_in_lesson": 4,
+            "enabled": true,
+            "required": true,
+            "estimated_duration_seconds": 90,
+            "title_source": {
+              "value": "Conversation",
+              "translatable": true
+            },
+            "title_target": "[TRANSLATE]",
+            "phase_type": "Dialogue",
+            "setting": {
+              "value": "Discussing a restaurant choice",
+              "translatable": true
+            },
+            "context": {
+              "value": "Two friends talk about their favorite restaurant.",
+              "translatable": true
+            },
+            "dialogue": [
+              {
+                "turn_id": "turn_001",
+                "turn_number": 1,
+                "speaker": "PARTNER",
+                "text_source": {
+                  "value": "I love that new restaurant!",
+                  "translatable": true
+                },
+                "text_target": "[TRANSLATE]",
+                "audio_file": "[GENERATE]",
+                "practice_mode": "listen_and_repeat"
+              },
+              {
+                "turn_id": "turn_002",
+                "turn_number": 2,
+                "speaker": "YOU",
+                "text_source": {
+                  "value": "Why do you like it?",
+                  "translatable": true
+                },
+                "text_target": "[TRANSLATE]",
+                "audio_file": "[GENERATE]",
+                "practice_mode": "speak_along"
+              },
+              {
+                "turn_id": "turn_003",
+                "turn_number": 3,
+                "speaker": "PARTNER",
+                "text_source": {
+                  "value": "The food is amazing!",
+                  "translatable": true
+                },
+                "text_target": "[TRANSLATE]",
+                "audio_file": "[GENERATE]",
+                "practice_mode": "listen_and_repeat"
+              },
+              {
+                "turn_id": "turn_004",
+                "turn_number": 4,
+                "speaker": "YOU",
+                "text_source": {
+                  "value": "Can you give me more details?",
+                  "translatable": true
+                },
+                "text_target": "[TRANSLATE]",
+                "audio_file": "[GENERATE]",
+                "practice_mode": "speak_along"
+              },
+              {
+                "turn_id": "turn_005",
+                "turn_number": 5,
+                "speaker": "PARTNER",
+                "text_source": {
+                  "value": "Because the chef is very talented.",
+                  "translatable": true
+                },
+                "text_target": "[TRANSLATE]",
+                "audio_file": "[GENERATE]",
+                "practice_mode": "listen_and_repeat"
+              }
+            ]
+          },
+          "phase_4_sprint_exercises": {
+            "phase_id": "phase_4",
+            "phase_name": {
+              "value": "Sprint & review",
+              "translatable": true
+            },
+            "phase_code": "SPRINT",
+            "position_in_lesson": 5,
+            "enabled": true,
+            "required": true,
+            "estimated_duration_seconds": 120,
+            "title_source": {
+              "value": "Quick practice",
+              "translatable": true
+            },
+            "title_target": "[TRANSLATE]",
+            "phase_type": "SprintExercises",
+            "randomize_order": true,
+            "exercises": [
+              {
+                "exercise_id": "ex_sp_audio_text",
+                "exercise_type": "Audio-to-Text Matching",
+                "prompt_source": "Select the phrase you hear:",
+                "prompt_target": "[TRANSLATE]",
+                "audio_stimulus": {
+                  "audio_file": "[GENERATE]",
+                  "play_on_load": false
+                },
+                "text_options": [
+                  "Why do you like it?",
+                  "Why do you prefer it?",
+                  "Why do you choose it?"
+                ],
+                "text_options_source": [
+                  "Why do you like it?",
+                  "Why do you prefer it?",
+                  "Why do you choose it?"
+                ],
+                "text_options_target": [
+                  "[TRANSLATE]",
+                  "[TRANSLATE]",
+                  "[TRANSLATE]"
+                ],
+                "correct_answer": "Why do you like it?",
+                "correct_answer_source": "Why do you like it?",
+                "correct_answer_target": "[TRANSLATE]",
+                "scoring": {
+                  "points_correct": 10,
+                  "points_incorrect": 0
+                }
+              },
+              {
+                "exercise_id": "ex_sp_quick_fire",
+                "exercise_type": "Listen and Respond (Quick Fire)",
+                "prompt_source": "Listen and respond out loud:",
+                "prompt_target": "[TRANSLATE]",
+                "audio_stimulus": {
+                  "audio_file": "[GENERATE]",
+                  "play_on_load": true,
+                  "text_to_speak_target": "I love this book."
+                },
+                "prompt": "I love this book.",
+                "prompt_text_source": "I love this book.",
+                "prompt_text_target": "[TRANSLATE]",
+                "response": {
+                  "mode": "speech",
+                  "acceptable_responses": [
+                    "Why do you like it?",
+                    "What's the reason?"
+                  ],
+                  "acceptable_responses_source": [
+                    "Why do you like it?",
+                    "What's the reason?"
+                  ],
+                  "acceptable_responses_target": [
+                    "[TRANSLATE]",
+                    "[TRANSLATE]"
+                  ],
+                  "time_limit_seconds": 8
+                },
+                "scoring": {
+                  "points_correct": 10,
+                  "points_incorrect": 0
+                }
+              },
+              {
+                "exercise_id": "ex_sp_fill_type",
+                "exercise_type": "Fill-in-the-Blank Typing",
+                "prompt_source": "Type the missing word:",
+                "prompt_target": "[TRANSLATE]",
+                "sentence": "_____ do you like it?",
+                "sentence_source": "_____ do you like it?",
+                "sentence_target": "[TRANSLATE]",
+                "blanks": [
+                  1
+                ],
+                "correct_answer": "Why",
+                "acceptable_answers": [
+                  "Why"
+                ],
+                "correct_answer_source": "Why",
+                "correct_answer_target": "[TRANSLATE]",
+                "acceptable_answers_source": [
+                  "Why"
+                ],
+                "acceptable_answers_target": [
+                  "[TRANSLATE]"
+                ],
+                "scoring": {
+                  "points_correct": 10,
+                  "points_incorrect": 0
+                }
+              }
+            ]
+          }
+        }
+      },
+      "translation_metadata": {
+        "source_language": "en",
+        "target_language": "RUNTIME_SELECTED",
+        "translatable_field_patterns": [
+          "**_target"
+        ],
+        "audio_generation_patterns": [
+          "[GENERATE]",
+          "[GENERATE_FOR_TARGET]"
+        ]
+      }
+    }
+  }

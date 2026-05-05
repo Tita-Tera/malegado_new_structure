@@ -1,0 +1,451 @@
+{
+  "title": {
+    "value": "borrowing a book",
+    "translatable": true
+  },
+  "description": {
+    "value": "Apply polite-interaction phrases to borrow a book from a fellow student.",
+    "translatable": true
+  },
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 4,
+  "status": "DRAFT",
+  "category": "society",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_polite_interactions_001-CTX2",
+      "generation_timestamp": "2026-05-04T12:00:00Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A2",
+        "level_name": {
+          "value": "Elementary",
+          "translatable": true
+        },
+        "level_description": {
+          "value": "Learners can handle short social exchanges and express opinions in simple terms.",
+          "translatable": true
+        },
+        "cefr_equivalent": "A2",
+        "available_levels": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      "theme_config": {
+        "theme_id": "SOCIETY",
+        "theme_code": "SOCIETY",
+        "theme_name": {
+          "value": "Society",
+          "translatable": true
+        },
+        "theme_description": {
+          "value": "A polite exchange between students sharing a book in a library.",
+          "translatable": true
+        },
+        "available_themes": [
+          {
+            "code": {
+              "value": "ESS",
+              "translatable": true
+            },
+            "name": {
+              "value": "Essentials",
+              "translatable": true
+            }
+          },
+          {
+            "code": {
+              "value": "TRV",
+              "translatable": true
+            },
+            "name": {
+              "value": "Travel",
+              "translatable": true
+            }
+          }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "2.1b",
+        "unit_number": 2,
+        "subunit_number": 1,
+        "variant": "b",
+        "unit_name": {
+          "value": "Polite Interactions",
+          "translatable": true
+        },
+        "unit_description": {
+          "value": "Practice everyday courtesy and polite exchanges with strangers in public places.",
+          "translatable": true
+        },
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 3,
+        "estimated_completion_time_minutes": 90
+      },
+      "lesson_config": {
+        "lesson_number": 15,
+        "lesson_type": "review",
+        "lesson_name": {
+          "value": "borrowing a book",
+          "translatable": true
+        },
+        "lesson_description": {
+          "value": "Apply polite-interaction phrases to borrow a book from a fellow student.",
+          "translatable": true
+        },
+        "estimated_duration_minutes": 4,
+        "difficulty_within_unit": 15,
+        "prerequisites": [
+          "badge_polite_interactions_001-L01",
+          "badge_polite_interactions_001-L02",
+          "badge_polite_interactions_001-L03",
+          "badge_polite_interactions_001-L04",
+          "badge_polite_interactions_001-L05",
+          "badge_polite_interactions_001-L06",
+          "badge_polite_interactions_001-L07",
+          "badge_polite_interactions_001-L08",
+          "badge_polite_interactions_001-L09",
+          "badge_polite_interactions_001-L10",
+          "badge_polite_interactions_001-L11",
+          "badge_polite_interactions_001-L12",
+          "badge_polite_interactions_001-REVIEW",
+          "badge_polite_interactions_001-CTX1"
+        ],
+        "learning_objectives": [
+          "Recognize polite-interaction phrases in a library setting.",
+          "Reproduce the full contextualized dialogue with correct speaker turns.",
+          "Use 'You can take it' and 'We need more polite students' in an academic setting."
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      }
+    },
+    "lesson_structure": {
+      "phase_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "phase_1_vocabulary_anchor",
+          "phase_2_grammar_engine",
+          "phase_3_dialogue",
+          "phase_4_sprint_exercises"
+        ]
+      },
+      "phases": {
+        "phase_1_vocabulary_anchor": {
+          "phase_id": "phase_1",
+          "phase_name": {
+            "value": "Vocabulary Anchor",
+            "translatable": true
+          },
+          "phase_code": "VOCAB_ANCHOR",
+          "position_in_lesson": 1,
+          "enabled": false,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": {
+            "value": "Key phrases",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "VocabularyAnchor",
+          "core_phrase": {
+            "phrase_id": "core_ctx2",
+            "source_text": {
+              "value": "Borrowing a Book",
+              "translatable": true
+            },
+            "target_text": "[TRANSLATE]",
+            "part_of_speech": "noun",
+            "linguistic_info": {
+              "tooltip_source": {
+                "value": "This phase is disabled in the contextualized lesson.",
+                "translatable": true
+              },
+              "tooltip_target": "[TRANSLATE]",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+            },
+            "media": {
+              "image_url": "",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            "context": {
+              "usage_context": "review",
+              "formality_level": "neutral",
+              "time_of_day": "any",
+              "relationship": "any"
+            }
+          },
+          "related_words": [],
+          "listen_repeat": {
+            "prompt_source": {
+              "value": "Listen and repeat the core phrase.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {
+              "audio_file": "[GENERATE]",
+              "play_on_load": true
+            },
+            "show_text_after_play": true
+          },
+          "quick_match": {
+            "prompt_source": {
+              "value": "Connect each word to its meaning or image.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [],
+            "options_display": "shuffle"
+          }
+        },
+        "phase_2_grammar_engine": {
+          "phase_id": "phase_2",
+          "phase_name": {
+            "value": "Grammar Engine",
+            "translatable": true
+          },
+          "phase_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": false,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": {
+            "value": "Grammar tip",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "GrammarEngine",
+          "pro_tip": {
+            "tip_id": "gram_ctx2",
+            "concept_source": {
+              "value": "Review",
+              "translatable": true
+            },
+            "concept_target": "[TRANSLATE]",
+            "explanation_source": {
+              "value": "This phase is disabled in the contextualized lesson.",
+              "translatable": true
+            },
+            "explanation_target": "[TRANSLATE]",
+            "focus_type": "variations",
+            "examples": []
+          },
+          "modifiers": [],
+          "sentence_building": []
+        },
+        "phase_3_dialogue": {
+          "phase_id": "phase_3",
+          "phase_name": {
+            "value": "Dialogue Practice",
+            "translatable": true
+          },
+          "phase_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": {
+            "value": "Conversation",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "Dialogue",
+          "setting": {
+            "value": "Two students in a library",
+            "translatable": true
+          },
+          "context": {
+            "value": "Borrowing a Book",
+            "translatable": true
+          },
+          "dialogue": [
+            { "turn_id": "turn_001", "turn_number": 1, "speaker": "PARTNER", "text_source": { "value": "Excuse me.", "translatable": true }, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "listen_and_repeat" },
+            { "turn_id": "turn_002", "turn_number": 2, "speaker": "YOU", "text_source": { "value": "Yes?", "translatable": true }, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "speak_along" },
+            { "turn_id": "turn_003", "turn_number": 3, "speaker": "PARTNER", "text_source": { "value": "Are you using this book?", "translatable": true }, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "listen_and_repeat" },
+            { "turn_id": "turn_004", "turn_number": 4, "speaker": "YOU", "text_source": { "value": "No.", "translatable": true }, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "speak_along" },
+            { "turn_id": "turn_005", "turn_number": 5, "speaker": "YOU", "text_source": { "value": "You can take it.", "translatable": true }, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "speak_along" },
+            { "turn_id": "turn_006", "turn_number": 6, "speaker": "PARTNER", "text_source": { "value": "I asked because it was near you.", "translatable": true }, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "listen_and_repeat" },
+            { "turn_id": "turn_007", "turn_number": 7, "speaker": "YOU", "text_source": { "value": "Thank you.", "translatable": true }, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "speak_along" },
+            { "turn_id": "turn_008", "turn_number": 8, "speaker": "YOU", "text_source": { "value": "That is polite.", "translatable": true }, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "speak_along" },
+            { "turn_id": "turn_009", "turn_number": 9, "speaker": "PARTNER", "text_source": { "value": "Some people would just take it.", "translatable": true }, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "listen_and_repeat" },
+            { "turn_id": "turn_010", "turn_number": 10, "speaker": "YOU", "text_source": { "value": "Some people are rude.", "translatable": true }, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "speak_along" },
+            { "turn_id": "turn_011", "turn_number": 11, "speaker": "PARTNER", "text_source": { "value": "I try to be polite.", "translatable": true }, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "listen_and_repeat" },
+            { "turn_id": "turn_012", "turn_number": 12, "speaker": "YOU", "text_source": { "value": "So do I.", "translatable": true }, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "speak_along" },
+            { "turn_id": "turn_013", "turn_number": 13, "speaker": "PARTNER", "text_source": { "value": "We need more polite students.", "translatable": true }, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "listen_and_repeat" },
+            { "turn_id": "turn_014", "turn_number": 14, "speaker": "YOU", "text_source": { "value": "I agree.", "translatable": true }, "text_target": "[TRANSLATE]", "audio_file": "[GENERATE]", "practice_mode": "speak_along" }
+          ]
+        },
+        "phase_4_sprint_exercises": {
+          "phase_id": "phase_4",
+          "phase_name": {
+            "value": "Sprint & review",
+            "translatable": true
+          },
+          "phase_code": "SPRINT",
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": {
+            "value": "Quick practice",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "SprintExercises",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_audio_text",
+              "exercise_type": "Audio-to-Text Matching",
+              "prompt_source": "Select the phrase you hear:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": false,
+                "text_to_speak_target": "Are you using this book?"
+              },
+              "text_options": [
+                "Are you using this book?",
+                "Are you reading this book?",
+                "Are you holding this book?"
+              ],
+              "text_options_source": [
+                "Are you using this book?",
+                "Are you reading this book?",
+                "Are you holding this book?"
+              ],
+              "text_options_target": [
+                "[TRANSLATE]",
+                "[TRANSLATE]",
+                "[TRANSLATE]"
+              ],
+              "correct_answer": "Are you using this book?",
+              "correct_answer_source": "Are you using this book?",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": { "points_correct": 10, "points_incorrect": 0 }
+            },
+            {
+              "exercise_id": "ex_sp_l2_l1",
+              "exercise_type": "Translation Typing (L2\u2192L1)",
+              "prompt_source": "Translate into English:",
+              "prompt_target": "[TRANSLATE]",
+              "source_text": "We need more polite students.",
+              "source_text_source": "We need more polite students.",
+              "source_text_target": "[TRANSLATE]",
+              "target_language": "es",
+              "acceptable_answers": [
+                "We need more polite students.",
+                "We need more well-mannered students."
+              ],
+              "acceptable_answers_source": [
+                "We need more polite students.",
+                "We need more well-mannered students."
+              ],
+              "acceptable_answers_target": [
+                "[TRANSLATE]",
+                "[TRANSLATE]"
+              ],
+              "hints": "Subject 'we' + 'need more' + adjective + plural noun.",
+              "hints_source": "Subject 'we' + 'need more' + adjective + plural noun.",
+              "hints_target": "[TRANSLATE]",
+              "scoring": { "points_correct": 15, "points_incorrect": 0 }
+            },
+            {
+              "exercise_id": "ex_v1_text_image",
+              "exercise_type": "Text-to-Image Matching",
+              "prompt_source": "Read and choose the matching image:",
+              "prompt_target": "[TRANSLATE]",
+              "text_stimulus": "book",
+              "text_stimulus_source": "book",
+              "text_stimulus_target": "[TRANSLATE]",
+              "image_options": [
+                { "option_id": "opt_a", "image_url": "", "correct": true },
+                { "option_id": "opt_b", "image_url": "", "correct": false },
+                { "option_id": "opt_c", "image_url": "", "correct": false },
+                { "option_id": "opt_d", "image_url": "", "correct": false }
+              ],
+              "scoring": { "points_correct": 10, "points_incorrect": 0 }
+            },
+            {
+              "exercise_id": "ex_sp_flashcard",
+              "exercise_type": "Digital Flashcards",
+              "prompt_source": "Study the card:",
+              "prompt_target": "[TRANSLATE]",
+              "word": "Are you using this book?",
+              "definition": "A polite question to check if a stranger is using a shared book.",
+              "examples": ["Are you using this seat?","Are you reading this paper?"],
+              "context": "Use this in libraries or study spaces before borrowing something.",
+              "word_source": "Are you using this book?",
+              "word_target": "[TRANSLATE]",
+              "definition_source": "A polite question to check if a stranger is using a shared book.",
+              "definition_target": "[TRANSLATE]",
+              "examples_source": ["Are you using this seat?","Are you reading this paper?"],
+              "examples_target": ["[TRANSLATE]","[TRANSLATE]"],
+              "context_source": "Use this in libraries or study spaces before borrowing something.",
+              "context_target": "[TRANSLATE]",
+              "scoring": { "points_correct": 5, "points_incorrect": 0 }
+            },
+            {
+              "exercise_id": "ex_sp_fill_dialogue",
+              "exercise_type": "Fill-in-the-Dialogue (Speaking)",
+              "prompt_source": "Speak your line:",
+              "prompt_target": "[TRANSLATE]",
+              "dialogue_context": "In a library, a student asks about a book near you.",
+              "dialogue_context_source": "In a library, a student asks about a book near you.",
+              "dialogue_context_target": "[TRANSLATE]",
+              "turns": [
+                {
+                  "turn_number": 1,
+                  "speaker": "PARTNER",
+                  "text_source": "Are you using this book?",
+                  "text_target": "[TRANSLATE]",
+                  "audio_file": "[GENERATE]",
+                  "text_to_speak_target": "Are you using this book?"
+                },
+                {
+                  "turn_number": 2,
+                  "speaker": "YOU",
+                  "text_source": "___",
+                  "expected_response": "No. You can take it.",
+                  "expected_response_source": "No. You can take it.",
+                  "expected_response_target": "[TRANSLATE]",
+                  "acceptable_responses": [
+                    "No. You can take it.",
+                    "No, you can take it.",
+                    "No, please take it."
+                  ],
+                  "acceptable_responses_source": [
+                    "No. You can take it.",
+                    "No, you can take it.",
+                    "No, please take it."
+                  ],
+                  "acceptable_responses_target": [
+                    "[TRANSLATE]",
+                    "[TRANSLATE]",
+                    "[TRANSLATE]"
+                  ]
+                }
+              ],
+              "scoring": { "points_correct": 15, "points_incorrect": 0 }
+            }
+          ]
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": ["**_target"],
+      "audio_generation_patterns": ["[GENERATE]","[GENERATE_FOR_TARGET]"]
+    }
+  }
+}

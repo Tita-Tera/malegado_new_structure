@@ -1,0 +1,716 @@
+{
+  "title": {
+    "value": "saying what you need",
+    "translatable": true
+  },
+  "description": {
+    "value": "Learn to say what you need for school.",
+    "translatable": true
+  },
+  "languageId": "",
+  "difficultyLevel": "BEGINNER",
+  "estimatedDuration": 5,
+  "status": "DRAFT",
+  "category": "education systems",
+  "content": {
+    "lesson_metadata": {
+      "lesson_id": "badge_school_supplies_001-L02",
+      "generation_timestamp": "2026-05-04T12:00:00Z",
+      "version": "2.0.0",
+      "created_by": "pipeline",
+      "level_config": {
+        "level_code": "A1",
+        "level_name": {
+          "value": "Beginner",
+          "translatable": true
+        },
+        "level_description": {
+          "value": "Basic conversational skills for everyday situations.",
+          "translatable": true
+        },
+        "cefr_equivalent": "A1",
+        "available_levels": [
+          "A0",
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1",
+          "C2"
+        ]
+      },
+      "theme_config": {
+        "theme_id": "EDUCATION_SYSTEMS",
+        "theme_code": "EDUCATION_SYSTEMS",
+        "theme_name": {
+          "value": "Education Systems",
+          "translatable": true
+        },
+        "theme_description": {
+          "value": "Expressing what you need for school.",
+          "translatable": true
+        },
+        "available_themes": [
+          {
+            "code": {
+              "value": "ESS",
+              "translatable": true
+            },
+            "name": {
+              "value": "Essentials",
+              "translatable": true
+            }
+          },
+          {
+            "code": {
+              "value": "TRV",
+              "translatable": true
+            },
+            "name": {
+              "value": "Travel",
+              "translatable": true
+            }
+          }
+        ]
+      },
+      "unit_config": {
+        "unit_id": "1.2a",
+        "unit_number": 1,
+        "subunit_number": 2,
+        "variant": "a",
+        "unit_name": {
+          "value": "School Supplies",
+          "translatable": true
+        },
+        "unit_description": {
+          "value": "Learn to talk about school supplies and classroom needs.",
+          "translatable": true
+        },
+        "total_lessons_in_unit": 15,
+        "unit_difficulty": 2,
+        "estimated_completion_time_minutes": 0
+      },
+      "lesson_config": {
+        "lesson_number": 2,
+        "lesson_type": "teaching",
+        "lesson_name": {
+          "value": "saying what you need",
+          "translatable": true
+        },
+        "lesson_description": {
+          "value": "Learn to say what you need for school.",
+          "translatable": true
+        },
+        "estimated_duration_minutes": 5,
+        "difficulty_within_unit": 2,
+        "prerequisites": [
+          "badge_school_supplies_001-L01"
+        ],
+        "learning_objectives": [
+          "Express what you need using 'I need'",
+          "Name common school supplies",
+          "Use plural forms of supply items"
+        ],
+        "target_interactions": "15-20",
+        "micro_flow_version": "2.0"
+      }
+    },
+    "lesson_structure": {
+      "phase_order_config": {
+        "ordering_strategy": "standard",
+        "selected_order": [
+          "phase_1_vocabulary_anchor",
+          "phase_2_grammar_engine",
+          "phase_3_dialogue",
+          "phase_4_sprint_exercises"
+        ]
+      },
+      "phases": {
+        "phase_1_vocabulary_anchor": {
+          "phase_id": "phase_1",
+          "phase_name": {
+            "value": "Vocabulary Anchor",
+            "translatable": true
+          },
+          "phase_code": "VOCAB_ANCHOR",
+          "position_in_lesson": 1,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 60,
+          "title_source": {
+            "value": "Key phrases",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "VocabularyAnchor",
+          "core_phrase": {
+            "phrase_id": "core_2",
+            "source_text": {
+              "value": "I need pencils.",
+              "translatable": true
+            },
+            "target_text": "[TRANSLATE]",
+            "part_of_speech": "declarative sentence",
+            "linguistic_info": {
+              "tooltip_source": {
+                "value": "A statement expressing a requirement for pencils",
+                "translatable": true
+              },
+              "tooltip_target": "[TRANSLATE]",
+              "pronunciation_guide": "[GENERATE_FOR_TARGET]"
+            },
+            "media": {
+              "image_url": "",
+              "audio_normal": "[GENERATE]",
+              "audio_slow": "[GENERATE]"
+            },
+            "context": {
+              "usage_context": "request",
+              "formality_level": "neutral",
+              "time_of_day": "any",
+              "relationship": "any"
+            }
+          },
+          "related_words": [
+            {
+              "word_id": "rel_2_001",
+              "source_text": {
+                "value": "pens",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "meaning_source": {
+                "value": "Writing instruments that use ink",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]",
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              }
+            },
+            {
+              "word_id": "rel_2_002",
+              "source_text": {
+                "value": "eraser",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "meaning_source": {
+                "value": "A tool to remove pencil marks",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]",
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              }
+            },
+            {
+              "word_id": "rel_2_003",
+              "source_text": {
+                "value": "supplies",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "noun",
+              "meaning_source": {
+                "value": "Items needed for a task",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]",
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              }
+            },
+            {
+              "word_id": "rel_2_004",
+              "source_text": {
+                "value": "want",
+                "translatable": true
+              },
+              "target_text": "[TRANSLATE]",
+              "part_of_speech": "verb",
+              "meaning_source": {
+                "value": "To desire something",
+                "translatable": true
+              },
+              "meaning_target": "[TRANSLATE]",
+              "media": {
+                "image_url": "",
+                "audio_normal": "[GENERATE]",
+                "audio_slow": "[GENERATE]"
+              }
+            }
+          ],
+          "listen_repeat": {
+            "prompt_source": {
+              "value": "Listen and repeat the core phrase.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "audio_stimulus": {
+              "audio_file": "[GENERATE]",
+              "play_on_load": true
+            },
+            "show_text_after_play": true
+          },
+          "quick_match": {
+            "prompt_source": {
+              "value": "Connect each word to its meaning or image.",
+              "translatable": true
+            },
+            "prompt_target": "[TRANSLATE]",
+            "match_pairs": [
+              {
+                "word_id": "rel_2_001",
+                "correct_key": "rel_2_001_correct"
+              },
+              {
+                "word_id": "rel_2_002",
+                "correct_key": "rel_2_002_correct"
+              },
+              {
+                "word_id": "rel_2_003",
+                "correct_key": "rel_2_003_correct"
+              },
+              {
+                "word_id": "rel_2_004",
+                "correct_key": "rel_2_004_correct"
+              }
+            ],
+            "options_display": "shuffle"
+          }
+        },
+        "phase_2_grammar_engine": {
+          "phase_id": "phase_2",
+          "phase_name": {
+            "value": "Grammar Engine",
+            "translatable": true
+          },
+          "phase_code": "GRAMMAR",
+          "position_in_lesson": 2,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 45,
+          "title_source": {
+            "value": "Grammar tip",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "GrammarEngine",
+          "pro_tip": {
+            "tip_id": "gram_2",
+            "concept_source": {
+              "value": "Expressing needs",
+              "translatable": true
+            },
+            "concept_target": "[TRANSLATE]",
+            "explanation_source": {
+              "value": "Use 'I need' followed by the item to express what you require. Use plural forms when you need more than one of something.",
+              "translatable": true
+            },
+            "explanation_target": "[TRANSLATE]",
+            "focus_type": "variations",
+            "examples": [
+              {
+                "example_id": "ex_2_001",
+                "source_text": {
+                  "value": "I need pens.",
+                  "translatable": true
+                },
+                "target_text": "[TRANSLATE]",
+                "register": "neutral",
+                "usage_note_source": {
+                  "value": "Use when you need writing instruments",
+                  "translatable": true
+                },
+                "usage_note_target": "[TRANSLATE]"
+              },
+              {
+                "example_id": "ex_2_002",
+                "source_text": {
+                  "value": "I need some pencils.",
+                  "translatable": true
+                },
+                "target_text": "[TRANSLATE]",
+                "register": "neutral",
+                "usage_note_source": {
+                  "value": "Adding 'some' makes it less specific",
+                  "translatable": true
+                },
+                "usage_note_target": "[TRANSLATE]"
+              }
+            ]
+          },
+          "modifiers": [
+            {
+              "modifier_id": "mod_2_001",
+              "modifier_source": {
+                "value": "more",
+                "translatable": true
+              },
+              "modifier_target": "[TRANSLATE]",
+              "example_source": {
+                "value": "I need more pencils.",
+                "translatable": true
+              },
+              "example_target": "[TRANSLATE]",
+              "explanation_source": {
+                "value": "Indicates you need additional items",
+                "translatable": true
+              },
+              "explanation_target": "[TRANSLATE]"
+            },
+            {
+              "modifier_id": "mod_2_002",
+              "modifier_source": {
+                "value": "new",
+                "translatable": true
+              },
+              "modifier_target": "[TRANSLATE]",
+              "example_source": {
+                "value": "I need new pencils.",
+                "translatable": true
+              },
+              "example_target": "[TRANSLATE]",
+              "explanation_source": {
+                "value": "Specifies you want unused items",
+                "translatable": true
+              },
+              "explanation_target": "[TRANSLATE]"
+            }
+          ],
+          "sentence_building": [
+            {
+              "exercise_id": "ex_sb_2_1",
+              "target_sentence_source": {
+                "value": "I need pencils.",
+                "translatable": true
+              },
+              "target_sentence_target": "[TRANSLATE]",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": {
+                    "value": "I",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": {
+                    "value": "need",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": {
+                    "value": "pencils",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                }
+              ],
+              "punctuation_mode": "auto_fit",
+              "hints": "State what you need"
+            },
+            {
+              "exercise_id": "ex_sb_2_2",
+              "target_sentence_source": {
+                "value": "I need pens.",
+                "translatable": true
+              },
+              "target_sentence_target": "[TRANSLATE]",
+              "word_tiles": [
+                {
+                  "word_id": "w1",
+                  "word_source": {
+                    "value": "I",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 1
+                },
+                {
+                  "word_id": "w2",
+                  "word_source": {
+                    "value": "need",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 2
+                },
+                {
+                  "word_id": "w3",
+                  "word_source": {
+                    "value": "pens",
+                    "translatable": true
+                  },
+                  "word_target": "[TRANSLATE]",
+                  "correct_position": 3
+                }
+              ],
+              "punctuation_mode": "auto_fit",
+              "hints": "Similar pattern with a different item"
+            }
+          ]
+        },
+        "phase_3_dialogue": {
+          "phase_id": "phase_3",
+          "phase_name": {
+            "value": "Dialogue Practice",
+            "translatable": true
+          },
+          "phase_code": "DIALOGUE",
+          "position_in_lesson": 4,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 90,
+          "title_source": {
+            "value": "Conversation",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "Dialogue",
+          "setting": {
+            "value": "In a school supply store",
+            "translatable": true
+          },
+          "context": {
+            "value": "A student shopping for school supplies",
+            "translatable": true
+          },
+          "dialogue": [
+            {
+              "turn_id": "turn_001",
+              "turn_number": 1,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "How can I help you?",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_002",
+              "turn_number": 2,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "I need pencils.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_003",
+              "turn_number": 3,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "We have many kinds.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            },
+            {
+              "turn_id": "turn_004",
+              "turn_number": 4,
+              "speaker": "YOU",
+              "text_source": {
+                "value": "I will take these.",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "speak_along"
+            },
+            {
+              "turn_id": "turn_005",
+              "turn_number": 5,
+              "speaker": "PARTNER",
+              "text_source": {
+                "value": "Anything else?",
+                "translatable": true
+              },
+              "text_target": "[TRANSLATE]",
+              "audio_file": "[GENERATE]",
+              "practice_mode": "listen_and_repeat"
+            }
+          ]
+        },
+        "phase_4_sprint_exercises": {
+          "phase_id": "phase_4",
+          "phase_name": {
+            "value": "Sprint & review",
+            "translatable": true
+          },
+          "phase_code": "SPRINT",
+          "position_in_lesson": 5,
+          "enabled": true,
+          "required": true,
+          "estimated_duration_seconds": 120,
+          "title_source": {
+            "value": "Quick practice",
+            "translatable": true
+          },
+          "title_target": "[TRANSLATE]",
+          "phase_type": "SprintExercises",
+          "randomize_order": true,
+          "exercises": [
+            {
+              "exercise_id": "ex_sp_quick_fire",
+              "exercise_type": "Listen and Respond (Quick Fire)",
+              "prompt_source": "Listen and respond out loud:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": true,
+                "text_to_speak_target": "[TRANSLATE]"
+              },
+              "prompt": "What do you need?",
+              "prompt_text_source": "What do you need?",
+              "prompt_text_target": "[TRANSLATE]",
+              "response": {
+                "mode": "speech",
+                "acceptable_responses": [
+                  "I need pencils.",
+                  "I need pens."
+                ],
+                "acceptable_responses_source": [
+                  "I need pencils.",
+                  "I need pens."
+                ],
+                "acceptable_responses_target": [
+                  "[TRANSLATE]",
+                  "[TRANSLATE]"
+                ],
+                "time_limit_seconds": 8
+              },
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_fill_type",
+              "exercise_type": "Fill-in-the-Blank Typing",
+              "prompt_source": "Type the missing word:",
+              "prompt_target": "[TRANSLATE]",
+              "sentence": "I _____ pencils.",
+              "sentence_source": "I _____ pencils.",
+              "sentence_target": "[TRANSLATE]",
+              "blanks": [
+                1
+              ],
+              "correct_answer": "need",
+              "acceptable_answers": [
+                "need"
+              ],
+              "correct_answer_source": "need",
+              "correct_answer_target": "[TRANSLATE]",
+              "acceptable_answers_source": [
+                "need"
+              ],
+              "acceptable_answers_target": [
+                "[TRANSLATE]"
+              ],
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_audio_text",
+              "exercise_type": "Audio-to-Text Matching",
+              "prompt_source": "Select the phrase you hear:",
+              "prompt_target": "[TRANSLATE]",
+              "audio_stimulus": {
+                "audio_file": "[GENERATE]",
+                "play_on_load": false
+              },
+              "text_options": [
+                "I need pencils.",
+                "I need pens.",
+                "I want supplies."
+              ],
+              "text_options_source": [
+                "I need pencils.",
+                "I need pens.",
+                "I want supplies."
+              ],
+              "text_options_target": [
+                "[TRANSLATE]",
+                "[TRANSLATE]",
+                "[TRANSLATE]"
+              ],
+              "correct_answer": "I need pencils.",
+              "correct_answer_source": "I need pencils.",
+              "correct_answer_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 10,
+                "points_incorrect": 0
+              }
+            },
+            {
+              "exercise_id": "ex_sp_flashcard",
+              "exercise_type": "Digital Flashcards",
+              "prompt_source": "Study the card:",
+              "prompt_target": "[TRANSLATE]",
+              "word": "eraser",
+              "definition": "A tool to remove pencil marks",
+              "examples": [
+                "I need an eraser for my pencil."
+              ],
+              "context": "Used with pencils to fix mistakes",
+              "word_source": "eraser",
+              "word_target": "[TRANSLATE]",
+              "definition_source": "A tool to remove pencil marks",
+              "definition_target": "[TRANSLATE]",
+              "examples_source": [
+                "I need an eraser for my pencil."
+              ],
+              "examples_target": [
+                "[TRANSLATE]"
+              ],
+              "context_source": "Used with pencils to fix mistakes",
+              "context_target": "[TRANSLATE]",
+              "scoring": {
+                "points_correct": 5,
+                "points_incorrect": 0
+              }
+            }
+          ]
+        }
+      }
+    },
+    "translation_metadata": {
+      "source_language": "en",
+      "target_language": "RUNTIME_SELECTED",
+      "translatable_field_patterns": [
+        "**_target"
+      ],
+      "audio_generation_patterns": [
+        "[GENERATE]",
+        "[GENERATE_FOR_TARGET]"
+      ]
+    }
+  }
+}
